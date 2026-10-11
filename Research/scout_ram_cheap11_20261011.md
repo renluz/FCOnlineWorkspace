@@ -6,6 +6,8 @@
 * **Mục tiêu:** Tìm 3 ứng viên RAM mức thẻ **Bạch Kim +11**, giá rẻ (< 30% giá Figo UT +8), đáp ứng sơ đồ 4-1-2-3-0 Chuyền Dài và khắc phục triệt để nguy cơ bẫy thể lực (Depth 10 + Áp lực ngay khi mất bóng).
 * **Nguồn dữ liệu:** Client Garena FC Online VN, NEXON Open API Data, FIFAAddict Player Database.
 
+> ⚠️ **LƯU Ý VỀ GIÁ:** Mọi con số giá trong báo cáo này được ghi nhận ngày 2026-10-11 nhưng **chưa có bằng chứng độc lập** (không có ảnh chụp TTCN, không có dòng dữ liệu trong `vn_market_history.csv`). Coi tất cả là **UNVERIFIED** — user BẮT BUỘC tự kiểm chứng trong TTCN game trước khi mua.
+
 ---
 
 ## 1. ⚓ NEO SO SÁNH HIỆN TẠI: LUÍS FIGO UT +8
@@ -20,14 +22,14 @@
 | **Tốc độ / Tăng tốc** | **145 / 144** (Cực nhanh khi có bóng) | Đạt yêu cầu phản công chuyền dài |
 | **Dứt điểm / Sút xa** | **135 / 139** | Khá, nhưng thiếu độ bén một chạm trong box |
 | **Thể lực nền** | **144** | Rất cao, đủ chạy 90 phút |
-| **Team Color Hiện Tại** | Real Madrid 4 cấp (+4 OVR). **MẤT Special Team Color** | **ĐIỂM YẾU LỚN:** Không thuộc các thế hệ Real Madrid 21-22, 23-24, 25-26 |
+| **Team Color (chưa xác minh)** | Figo UT có thể không hưởng trọn team color Real Madrid như các thẻ mùa CLB khác do khác thế hệ mùa thẻ — cần kiểm chứng trực tiếp trong game. File `11_TEAM_COLOR_RULES.json` hiện chưa có quy tắc season-specific nên mọi con số chênh lệch OVR ở đây chỉ là giả thuyết. | Cần kiểm chứng trực tiếp in-game |
 | **Giá Thị Trường VN (+8)** | **~260,000,000 BP** (260M BP Live TTCN VN) | **Neo so sánh: Ngưỡng "rẻ" (< 30%) = < 78,000,000 BP** |
 
 ---
 
 ## 2. 📋 BẢNG SO SÁNH CHI TIẾT 3 ỨNG VIÊN RAM +11 VÀ BASELINE THAM CHIẾU
 
-> *Ghi chú tính toán:* Mức thẻ Bạch Kim +11 cộng **+26 điểm** vào toàn bộ chỉ số thành phần so với thẻ gốc +1 (chưa tính buff Team Color CLB +4 và Mạ Bạch Kim +8 OVR).
+> Mức thẻ Bạch Kim +11 cộng +26 điểm vào toàn bộ chỉ số thành phần so với thẻ gốc +1. Chưa tính buff team color (CLB +4 OVR; Bạch Kim +4 OVR nếu có 5 thẻ +11~+13, +5 OVR nếu có 8 thẻ — theo công bố Nâng Cấp 2.0). Lưu ý: 1 thẻ +11 đơn lẻ KHÔNG kích hoạt team color Bạch Kim.
 
 | Chỉ số / Tiêu chí | ỨNG VIÊN 1: Rodrygo 21UCL +11 🥇 | ỨNG VIÊN 2: M. Llorente 21UCL +11 🥈 | ỨNG VIÊN 3: Brahim Díaz 24UCL +11 🥉 | BASELINE THAM CHIẾU: M. Llorente LOL +11 | BASELINE THAM CHIẾU: M. Llorente BOE21 (E21) +11 |
 | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -44,7 +46,7 @@
 | **Rê bóng / Khéo / Thăng bằng** | **136 / 137 / 133** | **127 / 123 / 130** | **136 / 138 / 135** (Dẻo nhất) | **131 / 127 / 135** | **127 / 118 / 131** |
 | **Team Color Real Madrid** | **Có** (Ăn cả 21-22 & 23-24) | **Có** (Thuộc Real Madrid) | **Có** (Ăn cả 23-24 & 24-25) | **Có** | **Có** |
 | **Bảo vệ BP Nâng Cấp 2.0** | **HỢP LỆ (Mùa cũ OVR 105)** | **HỢP LỆ (Mùa cũ OVR 99)** | **HỢP LỆ (Mùa cũ OVR 105)** | **HỢP LỆ (Mùa LOL)** | **HỢP LỆ (Mùa BOE21)** |
-| **Giá TTCN VN (+11)** | **~58,000,000 BP** | **~45,000,000 BP** | **~55,000,000 BP** | **~46,000,000 BP** | **~38,000,000 BP** |
+| **Giá TTCN VN (+11) [UNVERIFIED]** | **~58,000,000 BP** | **~45,000,000 BP** | **~55,000,000 BP** | **~46,000,000 BP** | **~38,000,000 BP** |
 | **Tỷ lệ giá so với Figo UT**| **22.3%** (< 30% chuẩn) | **17.3%** (< 30% chuẩn) | **21.2%** (< 30% chuẩn) | **17.7%** | **14.6%** |
 
 ---
@@ -88,7 +90,7 @@
 
 ## 4. 💰 PHÂN TÍCH CHI PHÍ MUA SẴN VS. ĐẬP THẺ BẢO VỆ BP (HỆ NÂNG CẤP 2.0)
 
-| Cầu Thủ | Giá Mua Sẵn TTCN VN (+11) | Giá Phôi (+1 / +8) | Ước Tính Phí Bảo Vệ BP (+8 ➔ +11) | Tổng Chi Phí Đập Dự Kiến | Đánh Giá Khả Thi |
+| Cầu Thủ | Giá Mua Sẵn (claim, UNVERIFIED) | Giá Phôi (+1 / +8) | Ước Tính Phí Bảo Vệ BP (+8 ➔ +11) | Tổng Chi Phí Đập Dự Kiến | Đánh Giá Khả Thi |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Rodrygo 21UCL** | `~58,000,000 BP` | Phôi +1: ~1.5M / Phôi +8: ~18M | ~38,000,000 BP | `~56,000,000 BP` | **Rất khả thi**, phôi dồi dào, chợ có thanh khoản |
 | **M. Llorente 21UCL** | `~45,000,000 BP` | Phôi +1: ~800k / Phôi +8: ~12M | ~30,000,000 BP | `~42,000,000 BP` | **Cực rẻ**, bảo vệ BP tiết kiệm chi phí |
