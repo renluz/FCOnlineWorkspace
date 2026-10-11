@@ -34,20 +34,22 @@
 | Chỉ số / Tiêu chí | ỨNG VIÊN 1: Rodrygo 21UCL +11 🥇 | ỨNG VIÊN 2: M. Llorente 21UCL +11 🥈 | ỨNG VIÊN 3: Brahim Díaz 24UCL +11 🥉 | BASELINE THAM CHIẾU: M. Llorente LOL +11 | BASELINE THAM CHIẾU: M. Llorente BOE21 (E21) +11 |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Mùa & Mức thẻ** | **21UCL +11** | **21UCL +11** | **24UCL +11** | **LOL +11** | **BOE21 (E21) +11** |
-| **Base OVR (+1) / (+11)** | `105` / **131** | `99` / **125** | `105` / **131** | `104` / **130** | `97` / **123** |
+| **Base OVR (+1) / (+11)** | `105` / **131** | `99` / **125** | `105` / **131** | `104` / **125** | `97` / **118** |
 | **Lương (Salary)** | **21** (Tiết kiệm 8 lương!) | **20** (Tiết kiệm 9 lương!) | **22** (Tiết kiệm 7 lương!) | **23** (Tiết kiệm 6 lương) | **19** (Tiết kiệm 10 lương) |
 | **Vị trí sở trường** | **RW** (Chuẩn cánh) | **RM** (Chuẩn cánh) | **RW** (Chuẩn cánh) | `CM` (Lệch vị trí nhẹ) | `CM` (Lệch vị trí nhẹ) |
 | **Chân không thuận** | **4 / 5** | **5 / 5 (Hai chân 5-5)** | **5 / 5 (Hai chân 5-5)** | `4 / 5` | **5 / 5 (Hai chân 5-5)** |
 | **Thể hình & Trọng lượng**| 174cm / 64kg (Gầy / Nhỏ) | **184cm / 74kg (Trung bình / Nạc)** | 170cm / 68kg (Sức khỏe / Đầm) | 184cm / 74kg (Trung bình) | 184cm / 74kg (Trung bình) |
-| **Tốc độ / Tăng tốc** | **135 / 135** (Bứt tốc số 1) | **131 / 130** | **132 / 136** | **133 / 132** | **129 / 128** |
+| **Tốc độ / Tăng tốc** | **135 / 135** (Bứt tốc số 1) | **131 / 130** | **132 / 136** | **128 / 127** | **124 / 123** |
 | **Dứt điểm / Chọn vị trí**| **132 / 132** (Cực bén cột 2) | **120 / 126** | **125 / 128** | **123 / 124** | **117 / 122** |
 | **Sút xa / Lực sút** | **125 / 128** | **117 / 125** | **123 / 126** | **119 / 127** | **123 / 120** |
 | **Thể lực (Stamina)** | **134** (Cực trâu) | **131** (Bao sân) | **127** (Đủ dùng) | **134** (Rất trâu) | **131** (Bao sân) |
 | **Rê bóng / Khéo / Thăng bằng** | **136 / 137 / 133** | **127 / 123 / 130** | **136 / 138 / 135** (Dẻo nhất) | **131 / 127 / 135** | **127 / 118 / 131** |
 | **Team Color Real Madrid** | **Có** (Ăn cả 21-22 & 23-24) | **Có** (Thuộc Real Madrid) | **Có** (Ăn cả 23-24 & 24-25) | **Có** | **Có** |
 | **Bảo vệ BP Nâng Cấp 2.0** | **HỢP LỆ (Mùa cũ OVR 105)** | **HỢP LỆ (Mùa cũ OVR 99)** | **HỢP LỆ (Mùa cũ OVR 105)** | **HỢP LỆ (Mùa LOL)** | **HỢP LỆ (Mùa BOE21)** |
-| **Giá TTCN VN (+11) [UNVERIFIED]** | **~58,000,000 BP** | **~45,000,000 BP** | **~55,000,000 BP** | **~46,000,000 BP** | **~38,000,000 BP** |
+| **Giá TTCN VN (+11) [UNVERIFIED]** | **~58,000,000 BP** | **~45,000,000 BP** | **~55,000,000 BP** | **1.34B** [VERIFIED từ ảnh game 11/10/2026] | **1.59B** [VERIFIED từ ảnh game 11/10/2026] |
 | **Tỷ lệ giá so với Figo UT**| **22.3%** (< 30% chuẩn) | **17.3%** (< 30% chuẩn) | **21.2%** (< 30% chuẩn) | **17.7%** | **14.6%** |
+
+> Đính chính 11/10/2026: số liệu +11 của 2 baseline Llorente trước đây là ước tính theo công thức +26 điểm thành phần, đã được thay bằng số thực tế đọc từ TTCN trong game. Chênh lệch OVR (130→125) do OVR tổng được tính theo trọng số vị trí, không cộng tuyến tính theo chỉ số thành phần. Bài học: mọi dự báo +11 bắt buộc phải đối chiếu với thẻ thật trong game trước khi dùng để ra quyết định.
 
 ---
 
@@ -110,3 +112,5 @@
 
 2. **PHƯƠNG ÁN DỰ PHÒNG THIÊN VỀ THỦ / CÂN BẰNG:**
    👉 Nếu user muốn tăng cường chất thép chống phản công và thể hình nạc: chọn **`Marcos Llorente 21UCL +11`** (Chi phí siêu rẻ ~45M BP, 2 chân 5-5, vị trí RM tự nhiên).
+
+> Cập nhật 11/10/2026: giá mua sẵn LOL +11 (1.34B) và E21 +11 (1.59B) vượt xa ngưỡng moneyball và vượt cả số dư ví (1.154B) — kèo MUA SẴN +11 DỪNG. Phương án duy nhất còn lại là mua phôi +10 (113M, SL 3) tự đập lên +11 bằng bảo vệ BP (LOL thuộc diện được bảo vệ), cần kiểm tra phí bảo vệ trong game trước khi thực hiện.
