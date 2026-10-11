@@ -1,14 +1,15 @@
 {
   "_metadata": {
     "project": "FCOnlineSquadProject",
-    "updated_at": "2026-10-06",
-    "preset_name": "TACTIC_A_41410_BALANCED_WING_ZERO_ST",
-    "test_id": "TEST_005_SCREENING_50_MATCHES",
-    "formation": "4-1-4-1-0",
-    "formation_style": "Wing Zero-ST (1 CAM + 2 Wings LM/RM + 2 CMs + 1 CDM)",
-    "manager": "Dariusz Banasik",
+    "updated_at": "2026-10-11",
+    "preset_name": "TACTIC_B_41230_GAMEDAY_BASELINE",
+    "test_id": "BASELINE_20261011_SYNC",
+    "formation": "4-1-2-3-0",
+    "formation_style": "4-1-2-3-0 (1 CAM + 2 Wings LAM/RAM + 2 CMs LCM/RCM + 1 CDM)",
+    "manager": "Amund Skiri",
     "schema_standard": "GARENA_INVEN_FULL_UI_GRID",
-    "notes": "TACTIC A CHÍNH THỨC (2026-10-06): Chuyển từ batch thử nghiệm Continuous Pressure Depth 10 sang 4-1-4-1-0 Wing Zero-ST Balanced. Phòng thủ: Cân bằng (Balanced), Rộng 5, Sâu 4. Tấn công: Xây dựng Cân bằng, Tạo cơ hội Chuyền dài (Long Ball), Rộng 6, Players in Box = 5, Phạt góc 2, Đá phạt 2. Xu hướng: Cân bằng / Chung. Khắc phục hoàn toàn hiện tượng cầu thủ bó cụm, va chạm và hụt thể lực. 2 nhân sự mới: Antonio Rüdiger CU +8 đá chính LCB Stopper (thay Tchouaméni) và Marcos Llorente UT (thay Rodrygo) đá chính RM."
+    "notes": "Đồng bộ baseline thật từ 4 ảnh chụp màn hình game ngày 11/10/2026, thay thế TEST_005. Preset '2. Mặc định'. Các mục UNVERIFIED gồm: (1) Chi tiết dropdown từng chỉ thị đơn của 11 cầu thủ (giữ nguyên cấu hình cũ, đánh dấu UNVERIFIED_FROM_GAME tại LAM/RAM/CDM); (2) 3 skill HLV tập luyện của các HLV mới đổi (chỉ có tên và sao); (3) Người thực hiện các tình huống cố định penalty/phạt góc/đá phạt (chỉ xác nhận Captain Benzema BLD +8 qua badge C).",
+    "status": "PROVISIONAL_TEST"
   },
   "ui_code_group_map": {
     "LM_RM": [
@@ -53,37 +54,39 @@
   },
   "team_tactic": {
     "defense": {
-      "tactic_style": "Cân bằng / Balanced",
+      "tactic_style": "Áp lực ngay khi mất bóng",
       "width": 5,
-      "depth": 4,
-      "notes": "Phòng thủ Cân bằng, Rộng 5, Sâu 4. Mở rộng cự ly để tránh bó cụm, cự ly Depth 4 giữ cự ly an toàn chống chọc khe bổng QW."
+      "depth": 10,
+      "notes": "Ảnh 2: Cách phòng thủ = 'Áp lực ngay khi mất bóng', Rộng 5, Thấp (Depth) 10. Cảnh báo nguy cơ bẫy thể lực (Depth 10 kết hợp áp lực liên tục)."
     },
     "offense": {
-      "build_up_style": "Cân bằng / Balanced",
-      "chance_creation_style": "Chuyền dài / Long Ball",
-      "attack_width": 6,
-      "players_in_box": 5,
-      "corners": 2,
-      "free_kicks": 2,
-      "tendency": "Cân bằng / Chung",
-      "notes": "Xây dựng Cân bằng, Tạo cơ hội Chuyền dài. Rộng công 6 kéo dãn 2 cánh (Vini & Llorente bứt tốc biên). Players in Box = 5 cho phép 2 CMs và 2 Wings ập vào vòng cấm đón bóng hai. Xu hướng Cân bằng / Chung."
+      "build_up_style": "Chuyền dài",
+      "chance_creation_style": "Chuyền dài",
+      "attack_width": 5,
+      "players_in_box": 3,
+      "corners": 1,
+      "free_kicks": 1,
+      "tendency": "Tổng tấn công",
+      "notes": "Ảnh 2: Xây dựng = 'Chuyền dài', Tạo cơ hội = 'Chuyền dài', Rộng 5, Cầu thủ trong box 3, Phạt góc 1, Đá phạt 1, Xu hướng = 'Tổng tấn công' (thanh trượt cực phải)."
     }
   },
   "set_pieces_and_roles": {
-    "captain": "J. Bellingham CU +8",
-    "penalty": "Karim Benzema BLD +8",
-    "left_corner": "J. Bellingham CU +8",
-    "right_corner": "J. Bellingham CU +8",
-    "left_free_kick": "Karim Benzema BLD +8",
-    "right_free_kick": "Karim Benzema BLD +8",
-    "long_free_kick": "Federico Valverde CU +8"
+    "captain": "K. Benzema BLD +8",
+    "penalty": "K. Benzema BLD +8",
+    "left_corner": "J. Bellingham GRU +8",
+    "right_corner": "J. Bellingham GRU +8",
+    "left_free_kick": "K. Benzema BLD +8",
+    "right_free_kick": "K. Benzema BLD +8",
+    "long_free_kick": "F. Valverde CU +8",
+    "verification": "UNVERIFIED_FROM_GAME",
+    "notes": "Chỉ xác nhận Captain K. Benzema BLD +8 có badge C trong ảnh 1. Các vị trí đá phạt còn lại giữ theo baseline và cập nhật Exact Card triplet mới, đánh dấu UNVERIFIED_FROM_GAME."
   },
   "individual_tactics": {
     "CAM": {
-      "player": "Karim Benzema BLD +8",
+      "player": "K. Benzema BLD +8",
       "workrate": "Công 3 / Thủ 1",
       "code_string": "DS2 / IN / PF / SC1",
-      "role": "FALSE 9 / CENTRAL CONNECTOR / PRIMARY FINISHER",
+      "role": "FALSE 9 / CENTRAL CONNECTOR / PRIMARY FINISHER [C]",
       "settings": {
         "DS": "DS2 (Ở lại phía trên)",
         "IN": "IN (Đánh chặn thông thường)",
@@ -92,8 +95,8 @@
       },
       "tactical_logic": "Central false 9: Nhận bóng quay lưng ở Zone 14, nhả bóng mở biên cho LM/RM, giữ trục trung tâm và dứt điểm trong box. DS2 + thủ 1 giúp Benzema tiết kiệm thể lực tối đa."
     },
-    "LM": {
-      "player": "Vinícius Jr. CU +8",
+    "LAM": {
+      "player": "K. Mbappé UT +8",
       "workrate": "Công 3 / Thủ 2",
       "code_string": "CC2 / DS1 / IN2 / SC1",
       "role": "LEFT INSIDE RUNNER / LINE BREAKER",
@@ -103,10 +106,12 @@
         "IN": "IN2 (Đánh chặn thận trọng)",
         "SC": "SC1 (Xâm nhập vòng cấm)"
       },
-      "tactical_logic": "Khoan phá cánh trái, bứt tốc nhận đường chuyền dài (Long Ball), đột phá half-space dứt điểm hoặc trả ngược cutback. IN2 bảo toàn thể lực."
+      "tactical_logic": "Khoan phá cánh trái, bứt tốc nhận đường chuyền dài (Long Ball), đột phá half-space dứt điểm hoặc trả ngược cutback. IN2 bảo toàn thể lực.",
+      "verification": "UNVERIFIED_FROM_GAME",
+      "notes": "Cầu thủ mới Mbappé UT +8 thay Vinícius Jr. Chi tiết dropdown chưa xác minh từ ảnh, tạm giữ settings cũ của slot cánh trái."
     },
-    "RM": {
-      "player": "Marcos Llorente UT +9 / +10",
+    "RAM": {
+      "player": "Luís Figo UT +8",
       "workrate": "Công 3 / Thủ 3",
       "code_string": "CC1 / DS1 / IN2 / SC2",
       "role": "RIGHT DIRECT CROSSER / BOX-TO-BOX WING",
@@ -116,10 +121,12 @@
         "IN": "IN2 (Đánh chặn thận trọng)",
         "SC": "SC2 (Chờ ngoài rìa vòng cấm)"
       },
-      "tactical_logic": "TÂN BINH MỚI: Thay thế Rodrygo. Giữ cự ly biên rộng (Width 6) tạt bóng điểm rơi, hỗ trợ phòng ngự cho Carvajal với thể lực 125 và công thủ 3-3, nã đại bác rìa box."
+      "tactical_logic": "TÂN BINH MỚI: Thay thế Rodrygo. Giữ cự ly biên rộng (Width 6) tạt bóng điểm rơi, hỗ trợ phòng ngự cho Carvajal với thể lực 125 và công thủ 3-3, nã đại bác rìa box.",
+      "verification": "UNVERIFIED_FROM_GAME",
+      "notes": "Cầu thủ mới Luís Figo UT +8 thay Marcos Llorente. Chi tiết dropdown chưa xác minh từ ảnh, tạm giữ settings cũ của slot cánh phải."
     },
     "LCM": {
-      "player": "J. Bellingham CU +8",
+      "player": "J. Bellingham GRU +8",
       "workrate": "Công 2 / Thủ 3",
       "code_string": "AS / DP1 / IN2 / PF / SC2",
       "role": "BALANCED CONNECTOR / REGISTA [C]",
@@ -133,7 +140,7 @@
       "tactical_logic": "Nhạc trưởng giữ nhịp: Giữ cự ly trung lộ trước Casemiro, thoát pressing lớp 1, phân phối bóng dài sang 2 biên, chờ tuyến hai dứt điểm."
     },
     "RCM": {
-      "player": "Federico Valverde CU +8",
+      "player": "F. Valverde CU +8",
       "workrate": "Công 3 / Thủ 3",
       "code_string": "AS2 / DP1 / IN2 / PF / SC2",
       "role": "SECOND-WAVE RUNNER / EDGE-OF-BOX SHOOTER",
@@ -147,7 +154,7 @@
       "tactical_logic": "Cầu thủ duy nhất cài AS2 dâng cao đón bóng hai ở rìa vòng cấm (PIB 5), nã đại bác tầm xa, thu hồi bóng tuyến hai."
     },
     "CDM": {
-      "player": "Casemiro CU +8",
+      "player": "D. Alaba CU +8",
       "workrate": "Công 1 / Thủ 3",
       "code_string": "AS1 / DP1 / DB1 / IN2",
       "role": "ANCHOR CDM / ZONE-14 SHIELD",
@@ -157,10 +164,12 @@
         "DB": "DB1 (Cắt đường chuyền)",
         "IN": "IN2 (Đánh chặn thận trọng)"
       },
-      "tactical_logic": "Single pivot mỏ neo: Khóa chết khoảng trống Zone 14 trước mặt cặp CB, AS1 không dâng cao, DB1 cắt bóng, IN2 không lao dập ẩu."
+      "tactical_logic": "Single pivot mỏ neo: Khóa chết khoảng trống Zone 14 trước mặt cặp CB, AS1 không dâng cao, DB1 cắt bóng, IN2 không lao dập ẩu.",
+      "verification": "UNVERIFIED_FROM_GAME",
+      "notes": "Cầu thủ mới D. Alaba CU +8 thay Casemiro. Chi tiết dropdown chưa xác minh từ ảnh, tạm giữ settings cũ của slot CDM."
     },
     "LB": {
-      "player": "Ferland Mendy CU +8",
+      "player": "F. Mendy CU +8",
       "workrate": "Công 1 / Thủ 3",
       "code_string": "AR2 / IN / SR",
       "role": "STAY-BACK LB / RECOVERY",
@@ -172,7 +181,7 @@
       "tactical_logic": "Khóa chặt hành lang trái, ở lại phía sau, tận dụng tốc độ 120+ và 2 chân 5-5 để bọc lót sau lưng Vini Jr."
     },
     "LCB": {
-      "player": "Antonio Rüdiger CU +8",
+      "player": "A. Rüdiger CU +8",
       "workrate": "Công 1 / Thủ 3",
       "code_string": "AS / IN2",
       "defensive_role": "Stopper / Trung vệ dập",
@@ -196,7 +205,7 @@
       "tactical_logic": "Cover CB bọc lót tốc độ cao sau lưng Rüdiger, cắt các đường chọc khe sệt, IN2 kiềm chế xoạc bóng."
     },
     "RB": {
-      "player": "Dani Carvajal CU +8",
+      "player": "Carvajal CU +8",
       "workrate": "Công 1 / Thủ 3",
       "code_string": "AR2 / IN / SR",
       "role": "STAY-BACK RB",
@@ -208,7 +217,7 @@
       "tactical_logic": "Khóa chặt hành lang phải, ở lại phía sau bọc lót cùng Llorente."
     },
     "GK": {
-      "player": "Thibaut Courtois CU +8",
+      "player": "T. Courtois CU +8",
       "workrate": "Client Default",
       "role": "GIANT SHOT STOPPER (200CM)",
       "settings": {
