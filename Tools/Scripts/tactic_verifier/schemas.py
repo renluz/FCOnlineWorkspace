@@ -83,6 +83,8 @@ class IndividualTacticSlot(BaseModel):
     defensive_role: Optional[str] = None
     settings: Optional[Dict[str, Any]] = None
     tactical_logic: Optional[str] = None
+    verification: Optional[str] = None
+    notes: Optional[str] = None
 
 
 class SetPiecesAndRoles(BaseModel):
@@ -93,6 +95,8 @@ class SetPiecesAndRoles(BaseModel):
     left_free_kick: Optional[str] = None
     right_free_kick: Optional[str] = None
     long_free_kick: Optional[str] = None
+    verification: Optional[str] = None
+    notes: Optional[str] = None
 
 
 class TacticConfig(BaseModel):
