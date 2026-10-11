@@ -2,8 +2,15 @@
 Project Validator (Tier 2): Validates FCOnlineWorkspace Business & Meta Rules
 """
 
+import unicodedata
 from typing import List, Dict, Any, Optional
 from .schemas import TacticConfig, ValidationIssue, ValidationSeverity
+
+
+def _normalize_skill(s: Any) -> str:
+    if not isinstance(s, str):
+        return ""
+    return unicodedata.normalize("NFC", " ".join(s.strip().split()).lower())
 
 
 def validate_project_rules(
@@ -127,26 +134,50 @@ def validate_project_rules(
             ))
 
     # 3. PR-03: Cross-file Anti-Overlap Coach Skills
-    if configs_data and "players" in configs_data:
+    if configs_data and "players" in configs_data and isinstance(configs_data["players"], list):
         for p in configs_data["players"]:
+            if not isinstance(p, dict):
+                continue
             card_spec = p.get("card_spec", {})
-            p_name = card_spec.get("player_name", "")
-            tc = p.get("training_coach", {})
-            training_skills = [
-                tc.get("skill_1", "").strip().lower(),
-                tc.get("skill_2", "").strip().lower(),
-                tc.get("skill_3", "").strip().lower()
-            ]
-            training_skills = [s for s in training_skills if s]
+            p_name = card_spec.get("player_name", "Unknown")
+            slots = p.get("slots")
+            if not isinstance(slots, dict):
+                continue
 
-            skill_8 = p.get("skill_plus8", "").strip().lower()
-            if skill_8 and any(skill_8 == ts for ts in training_skills):
-                issues.append(ValidationIssue(
-                    rule_id="PR-03",
-                    severity=ValidationSeverity.CRITICAL,
-                    path=f"04_PLAYER_CONFIGS.players.{p_name}",
-                    message=f"Vi phạm luật Nexon Anti-Overlap tại {p_name}: Kỹ năng +8 '{skill_8}' bị trùng với kỹ năng HLV Tập Luyện."
-                ))
+            p8 = slots.get("plus8_skill_coach")
+            if not isinstance(p8, dict):
+                continue
+
+            status = str(p8.get("status", "")).upper()
+            if "PENDING" in status:
+                # Graceful skip for players awaiting coach verification (e.g. Mendy, Carvajal)
+                continue
+
+            add_skill_raw = p8.get("additional_plus8_skill")
+            if not add_skill_raw or not isinstance(add_skill_raw, str) or not add_skill_raw.strip():
+                continue
+
+            tc = p8.get("training_coach")
+            if not isinstance(tc, dict):
+                # Courtois or unassigned training coach
+                continue
+
+            training_skills_raw = tc.get("skills", [])
+            if not isinstance(training_skills_raw, list):
+                continue
+
+            norm_add_skill = _normalize_skill(add_skill_raw)
+            for skill_item in training_skills_raw:
+                if isinstance(skill_item, str) and norm_add_skill == _normalize_skill(skill_item):
+                    issues.append(ValidationIssue(
+                        rule_id="PR-03",
+                        severity=ValidationSeverity.CRITICAL,
+                        path=f"04_PLAYER_CONFIGS.players.{p_name}.slots.plus8_skill_coach",
+                        message=(
+                            f"Vi phạm luật Nexon Anti-Overlap tại {p_name}: Kỹ năng bổ sung +8 "
+                            f"'{add_skill_raw.strip()}' bị trùng lặp với kỹ năng của HLV Tập luyện ('{skill_item.strip()}')."
+                        )
+                    ))
 
     # 4. PR-04: Role & Position Conflict Guard
     for slot, indiv in config.individual_tactics.items():
