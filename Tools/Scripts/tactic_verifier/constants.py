@@ -21,7 +21,7 @@ VALID_DEFENSE_STYLES = [
     "Lùi sâu", "Drop Back",
     "Cân bằng", "Balanced",
     "Gây áp lực khi đỡ bóng hỏng", "Press After Heavy Touch",
-    "Gây áp lực sau khi mất bóng", "Press After Possession Loss",
+    "Gây áp lực sau khi mất bóng", "Áp lực ngay khi mất bóng", "Press After Possession Loss",
     "Áp lực liên tục", "Cùng nhau gây áp lực", "Constant Pressure", "Continuous Pressure"
 ]
 
@@ -42,6 +42,7 @@ VALID_CHANCE_CREATION_STYLES = [
 VALID_TENDENCIES = [
     "Cân bằng / Chung", "Cân bằng", "Balanced",
     "Tấn công", "Attacking",
+    "Tổng tấn công", "All Out Attack",
     "Phòng thủ", "Defensive"
 ]
 
@@ -59,10 +60,11 @@ STANDARD_UI_CODE_GROUP_MAP = {
 }
 
 # Mapping position slot to its group key
+# Trong sơ đồ 4-1-2-3-0, LAM và RAM là tiền vệ cánh tấn công mang chỉ thị nhóm LM_RM (CC, DS, IN, SC, SR)
 SLOT_TO_GROUP_MAP = {
     "LM": "LM_RM", "RM": "LM_RM",
     "LW": "LW_RW", "RW": "LW_RW",
-    "CAM": "CAM", "LAM": "CAM", "RAM": "CAM",
+    "CAM": "CAM", "LAM": "LM_RM", "RAM": "LM_RM",
     "CM": "CM", "LCM": "CM", "RCM": "CM",
     "CDM": "CDM", "LDM": "CDM", "RDM": "CDM",
     "LB": "LB_RB", "RB": "LB_RB",
