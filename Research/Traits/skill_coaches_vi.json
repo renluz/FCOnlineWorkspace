@@ -1,0 +1,997 @@
+{
+  "schema_version": "1.0.0",
+  "game": "EA SPORTS FC Online VN",
+  "verified_date": "2026-09-20",
+  "completeness": "41 nhãn quan sát trong giao diện; chưa tuyên bố đầy đủ toàn server vì không có danh mục Garena công khai có version.",
+  "skill_coaches": [
+    {
+      "id": "coach_01",
+      "name_vi": "Bậc thầy tốc độ",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Bậc thầy tốc độ’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_02",
+      "name_vi": "Chiến thuật chuyền Tiki-Taka",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Chiến thuật chuyền Tiki-Taka’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_03",
+      "name_vi": "Chiến thuật chuyền trực tiếp",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Chiến thuật chuyền trực tiếp’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_04",
+      "name_vi": "Chiến thuật tiền đạo áp lực",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Chiến thuật tiền đạo áp lực’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_05",
+      "name_vi": "Cải thiện chuyền chọc khe",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền chọc khe’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_06",
+      "name_vi": "Chuyền chọc khe vượt tuyến",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Chuyền chọc khe vượt tuyến’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_07",
+      "name_vi": "Cải thiện chuyền kỹ thuật",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền kỹ thuật’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_08",
+      "name_vi": "Cải thiện chuyền vượt tuyến",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền vượt tuyến’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_09",
+      "name_vi": "Cải thiện chuyền xuyên phá",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền xuyên phá’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_10",
+      "name_vi": "Cải thiện chuyền xa",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền xa’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_11",
+      "name_vi": "Cải thiện căng ngang",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện căng ngang’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_12",
+      "name_vi": "Cải thiện khả năng rê bóng khi đối mặt",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": null,
+      "description_status": "name_partly_clipped_needs_client_recapture",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_13",
+      "name_vi": "Cải thiện khả năng sút xa trung bình",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": null,
+      "description_status": "name_partly_clipped_needs_client_recapture",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_14",
+      "name_vi": "Cải thiện phòng thủ bên phải",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện phòng thủ bên phải’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_15",
+      "name_vi": "Cải thiện phòng thủ bên trái",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện phòng thủ bên trái’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_16",
+      "name_vi": "Cải thiện sút tầm thấp",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện sút tầm thấp’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_17",
+      "name_vi": "Cải thiện sút xoáy",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện sút xoáy’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_18",
+      "name_vi": "Cải thiện tạt bóng",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện tạt bóng’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_19",
+      "name_vi": "Cải thiện tạt bóng cao",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện tạt bóng cao’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_20",
+      "name_vi": "Cải thiện đá phạt",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện đá phạt’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_21",
+      "name_vi": "Cự ly đội hình ổn định",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Cự ly đội hình ổn định’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_22",
+      "name_vi": "Di chuyển ngay khi đỡ bước 1",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Di chuyển ngay khi đỡ bước 1’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_23",
+      "name_vi": "Khả năng khéo léo",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Khả năng khéo léo’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_24",
+      "name_vi": "Khả năng tắc bóng",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Khả năng tắc bóng’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_25",
+      "name_vi": "Khả năng xoạc bóng",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Khả năng xoạc bóng’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_26",
+      "name_vi": "Phản công khi đang phòng thủ",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Phản công khi đang phòng thủ’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_27",
+      "name_vi": "Xâm nhập ngay khi kêu gọi xâm nhập",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": null,
+      "description_status": "name_partly_clipped_needs_client_recapture",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_28",
+      "name_vi": "Sút cự ly gần",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Sút cự ly gần’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_29",
+      "name_vi": "Tránh tắc bóng",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Tránh tắc bóng’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_30",
+      "name_vi": "Tránh xoạc bóng",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Tránh xoạc bóng’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_31",
+      "name_vi": "Khả năng phòng thủ Pressing",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Khả năng phòng thủ Pressing’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_32",
+      "name_vi": "TD mục tiêu đặc biệt",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘TD mục tiêu đặc biệt’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_33",
+      "name_vi": "Tạo cơ hội ghi bàn",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Tạo cơ hội ghi bàn’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_34",
+      "name_vi": "Tấn công với nhịp độ nhanh",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Tấn công với nhịp độ nhanh’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_35",
+      "name_vi": "Tập trung vào bên phải",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Tập trung vào bên phải’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_36",
+      "name_vi": "Tập trung vào bên trái",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Tập trung vào bên trái’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_37",
+      "name_vi": "Tập trung đánh chặn",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Tập trung đánh chặn’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_38",
+      "name_vi": "Tổ chức",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Tổ chức’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_39",
+      "name_vi": "Xâm nhập vòng cấm",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Xâm nhập vòng cấm’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ST",
+        "CAM",
+        "CM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_40",
+      "name_vi": "Áp lực",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Áp lực’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "coach_41",
+      "name_vi": "Áp đảo toàn sân",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": null,
+      "description_vi": "Kỹ năng HLV tác động theo cơ chế ‘Áp đảo toàn sân’ hiển thị trong client; trị số chính xác phụ thuộc cấp kỹ năng.",
+      "description_status": "name_client_verified_description_not_fully_captured",
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "Đánh giá theo đúng vai trò và tổ hợp 3–4 kỹ năng; không đồng nhất với trait gốc.",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+squad_id,squad_name,formation,assigned_position,current_slot,player_name,season,grade,displayed_ovr,database_base_ovr,salary,natural_positions,role_focus,is_starter,sample_type
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,ST,ST,V. Boniface,WS,3,119,117,28,ST,"Target Man càn lướt làm tường, 5/5 hai chân, dứt điểm một chạm",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,CAM,CAM,T. Rosicky,WG,1,118,118,30,LM/CM,"Nhạc trưởng trung lộ, chọc khe kiến tạo và phân phối nhịp",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,LAM,CAM,Park Ji Sung,NO.7,1,117,118,29,CAM/LM,"Tiền vệ công lệch trái, pressing tầm cao và lui về hỗ trợ phòng ngự biên",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,RAM,LW,A. Del Piero,HOT,1,102,97,20,CF/CAM,"Tiền vệ công lệch phải / Inside Forward, xâm nhập nách trung lộ dứt điểm ZD",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,LDM,LCM,R. Gullit,HOT,1,103,98,22,CM/LW/ST,"Box-to-box cơ động, tranh chấp không chiến và hỗ trợ sút xa tuyến hai",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,RDM,RCM,Rodri,19,1,95,92,17,CDM/CM,"Mỏ neo thuần túy (Anchor), giữ vị trí trước cặp trung vệ",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,LB,LB,J. Gvardiol,25DP,1,118,118,29,LB/CB,"Hậu vệ biên phòng ngự, 5/5 hai chân, khóa chặt cánh trái",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,LCB,RB/CB,Sergio Ramos,19,1,94,94,18,CB,"Trung vệ dập, áp sát tranh chấp quyết liệt",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,RCB,CB,F. Schar,25DP,1,114,114,27,CB,"Trung vệ thòng bọc lót, chống bóng bổng và chọc khe bổng (QW)",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,RB,RB,G. Zambrotta,WG,1,119,119,30,RB/LB,"Hậu vệ biên toàn diện 5/5, tốc độ 121, thủ 122, thể lực 123",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,GK,GK,W. Hennessey,HOT,1,96,91,13,GK,"Thủ môn 1m98, khép góc và bắt bóng bổng",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,SUB,RW,Inaki Williams,HOT,1,95,90,16,ST/RW,Dự bị chiến lược tốc độ hành lang phải,False,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4231,Phương án 1: 4-2-3-1 Đóng Băng Trung Tuyến (Khuyến Nghị Cao Nhất),4-2-3-1,SUB,ST,P. Aubameyang,LH,1,96,92,18,ST/LW/RW,Dự bị tiền đạo cắm khi Boniface xuống thể lực,False,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,ST,ST,V. Boniface,WS,3,119,117,28,ST,"Dứt điểm trong vòng cấm, đón các đường căng ngang cutback",True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,LW,LW,A. Del Piero,HOT,1,102,97,20,CF/CAM,Cắt vào trong dứt điểm góc xa hoặc chọc khe nách,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,RW,RW,Inaki Williams,HOT,1,95,90,16,ST/RW,Tốc độ xé gió bên cánh phải tạt bóng vào cột xa,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,LCM,CAM,Park Ji Sung,NO.7,1,117,118,29,CAM/LM,Tiền vệ con thoi càn quét trục giữa,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,RCM,CAM,T. Rosicky,WG,1,118,118,30,LM/CM,Nhạc trưởng phân phối bóng,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,CDM,RCM,Rodri,19,1,95,92,17,CDM/CM,Đơn độc thu hồi bóng trước hàng thủ 4 người,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,LB,LB,J. Gvardiol,25DP,1,118,118,29,LB/CB,Khóa chặt hành lang cánh trái,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,LCB,RB/CB,Sergio Ramos,19,1,94,94,18,CB,Đánh chặn tiền đạo đối phương,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,RCB,CB,F. Schar,25DP,1,114,114,27,CB,Bọc lót và tranh chấp trên không,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,RB,RB,G. Zambrotta,WG,1,119,119,30,RB/LB,Chốt chặn cánh phải vững chắc,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,GK,GK,W. Hennessey,HOT,1,96,91,13,GK,Trấn giữ khung thành,True,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,SUB,LCM,R. Gullit,HOT,1,103,98,22,CM/LW/ST,Thay người tuyến giữa hiệp 2,False,OWNED_PLAYER_DATA
+VN_CURRENT_SQUAD_4123,Phương án 2: 4-1-2-3 Đột Phá Cánh (Inven Adaptation),4-1-2-3,SUB,ST,P. Aubameyang,LH,1,96,92,18,ST/LW/RW,Thay thế ST khi cần đẩy cao tốc độ,False,OWNED_PLAYER_DATA

@@ -1,0 +1,2 @@
+player_name,season,grade,sell_price,buy_price,sell_quantity,buy_quantity,market_availability,price_confidence,snapshot_timestamp,snapshot_age_minutes,is_purchase_viable,market_status_flag,note
+V. Boniface,WS,3,900000.0,,,14900.0,BUY_ORDERS_ONLY,HIGH,2026-09-19 00:56:27,0,False,BUY_ORDERS_ONLY,"Thị trường chỉ có lệnh đặt mua (14900.0 thẻ), không có ai niêm yết bán."

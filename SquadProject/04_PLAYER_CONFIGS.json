@@ -1,0 +1,951 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-10-04",
+    "preset_name": "4-1-2-3-0_WIFI_CURRENT_BASELINE — CU_CORE_REAL_MADRID_11_11",
+    "test_id": "TEST_010_WIFI_BENZEMA_BLD",
+    "formation": "4-1-2-3-0 WiFi",
+    "manager": "Dariusz Banasik",
+    "schema_standard": "GARENA_INVEN_FULL_UI_GRID (LAM/RAM/CAM: 4 lines, CM: 5 lines, CDM: 4 lines, LB/RB: 3 lines, CB: 2 lines, GK: 2 lines)",
+    "notes": "CURRENT BASELINE CHÍNH THỨC 2026-10-03: Real Madrid 11/11 (Real Madrid 4 cấp). Kepa CU +9 đá chính GK thay Casteels 23HW +9. Rodrygo CU +8 RAM, Casemiro CU +8 CDM, Tchouaméni CU +8 LCB Cover, Militão CU +8 RCB Stopper. Bổ sung Special Team Color cho 11 vị trí.",
+    "session_notes": "CHỐT TOÀN DIỆN MA TRẬN +5 / +8 VÀ PHÂN BỔ HLV TẬP LUYỆN THỰC CHIẾN 2026-10-04 (Mục tiêu thoát Tinh Anh 3, giảm GA).",
+    "patch_rule": "GARENA_PATCH_20260803: Slot +8 là kỹ năng HLV bổ sung (Kỹ năng thứ 4), TUYỆT ĐỐI KHÔNG TRÙNG với 3 kỹ năng của HLV Tập Luyện."
+  },
+  "tactical_units": {
+    "front_three": {
+      "chain": "Vinícius Jr. (LAM, 3/3) <-> Karim Benzema (CAM, 3/1) <-> Rodrygo (RAM, 3/3)",
+      "mechanism": "Benzema là central false 9 (DS2, không IN2), link node đón bóng quay lưng và phân phối cho 2 cánh hoặc dứt điểm. Vini và Rodrygo chạy inside runner/forward xâm nhập nách dứt điểm (SC1)."
+    },
+    "midfield_engine": {
+      "chain": "Luka Modrić (LCM, 2/2) <-> Federico Valverde (RCM, 3/3) <-> Casemiro (CDM, 1/3)",
+      "mechanism": "Modrić là Key Distributor/Regista thoát pressing lớp 1, luân chuyển bóng 1-2 chạm; Valverde là second-wave runner sút rìa box (AS2 + SC2); Casemiro là mỏ neo đơn độc bảo vệ Zone 14 (AS1 DP1 DB1 IN2)."
+    },
+    "defensive_backline": {
+      "chain": "Mendy (LB, 1/3) <-> Tchouaméni (LCB Cover, 1/3) <-> Militão (RCB Stopper, 1/3) <-> Carvajal (RB, 1/3) -> Kepa (GK)",
+      "mechanism": "Tchouaméni giữ line bọc sau Militão sửa sai (Cover, IN2); Militão dập áp sát quyết liệt (Stopper, IN2); Mendy và Carvajal stay-back (AR2, IN, SR); Kepa reflex 1v1."
+    }
+  },
+  "players": [
+    {
+      "card_spec": {
+        "player_name": "Vinícius Jr.",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 138,
+        "salary": 28
+      },
+      "position": "LAM",
+      "archetype": "LEFT INSIDE RUNNER / LINE BREAKER",
+      "innate_traits": [
+        "Sút xoáy",
+        "Sút và tạt má ngoài",
+        "Bấm bóng (AI)",
+        "Đánh đầu mạnh",
+        "Ma tốc độ (AI)",
+        "Qua người (AI)"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "DS",
+          "name": "Hỗ trợ thủ",
+          "selection": "DS1 (Luôn hỗ trợ phòng ngự)"
+        },
+        {
+          "row": 2,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN2 (Đánh chặn thận trọng)"
+        },
+        {
+          "row": 3,
+          "code": "PF",
+          "name": "Tự do di chuyển",
+          "selection": "PF (Giữ vị trí)"
+        },
+        {
+          "row": 4,
+          "code": "SC",
+          "name": "Hỗ trợ tạt bóng",
+          "selection": "SC1 (Xâm nhập vòng cấm)"
+        }
+      ],
+      "workrate": "Công 3 / Thủ 3",
+      "core_mission": "Line breaker cánh trái, nhận bóng từ Modrić, bứt tốc phá tuyến, cutback, IN2 giữ thể lực bứt tốc phút 70–90.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Tinh thần chiến đấu",
+          "status": "client_verified_20260921"
+        },
+        "plus8_skill_coach": {
+          "training_coach": {
+            "name": "Michelangelo ★8",
+            "skills": [
+              "Khả năng khéo léo",
+              "Phản ứng ngay khi kêu gọi xâm nhập",
+              "Xâm nhập vòng cấm"
+            ]
+          },
+          "additional_plus8_skill": "Di chuyển ngay khi đỡ bước 1",
+          "status": "locked_no_duplicate_rule",
+          "notes": "Michelangelo 8★ đã có Xâm nhập vòng cấm; Slot +8 bổ sung Di chuyển ngay khi đỡ bước 1 tạo combo hủy diệt cho LAM inside runner."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Nỗ lực đến cùng",
+        "plus8_target": "Di chuyển ngay khi đỡ bước 1",
+        "status": "recommended_target",
+        "action": "Michelangelo 8★ đã có Xâm nhập vòng cấm; Slot +8 bổ sung Di chuyển ngay khi đỡ bước 1 tạo combo hủy diệt cho LAM inside runner.",
+        "training_coach_assigned": {
+          "name": "Michelangelo ★8",
+          "skills": [
+            "Khả năng khéo léo",
+            "Phản ứng ngay khi kêu gọi xâm nhập",
+            "Xâm nhập vòng cấm"
+          ]
+        }
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "21-22 Real Madrid 1 cấp"
+    },
+    {
+      "card_spec": {
+        "player_name": "Karim Benzema",
+        "season": "BLD",
+        "grade": 8,
+        "ovr": 138,
+        "salary": 29
+      },
+      "position": "CAM",
+      "archetype": "FALSE 9 / CENTRAL CONNECTOR / PRIMARY FINISHER",
+      "innate_traits": [
+        "Sút và tạt má ngoài",
+        "Đánh đầu mạnh",
+        "Kiến tạo",
+        "Sút xoáy"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "DS",
+          "name": "Hỗ trợ thủ",
+          "selection": "DS2 (Ở lại phía trên)"
+        },
+        {
+          "row": 2,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN (Bình thường)"
+        },
+        {
+          "row": 3,
+          "code": "PF",
+          "name": "Tự do di chuyển",
+          "selection": "PF (Giữ vị trí)"
+        },
+        {
+          "row": 4,
+          "code": "SC",
+          "name": "Hỗ trợ tạt bóng",
+          "selection": "SC1 (Xâm nhập vòng cấm)"
+        }
+      ],
+      "workrate": "Công 3 / Thủ 1",
+      "core_mission": "Central False 9: Ở lại phía trên (DS2), nhận bóng quay lưng làm tường, link node nhả bóng cho 2 cánh và dứt điểm trong box. Không dùng IN2.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": null,
+          "status": "unconfirmed_pending_client_audit"
+        },
+        "plus8_skill_coach": {
+          "training_coach": {
+            "name": "Ezequiel ★7",
+            "skills": [
+              "Cải thiện chuyền chọc khe",
+              "Di chuyển ngay khi đỡ bước 1",
+              "Chiến thuật chuyền trực tiếp"
+            ]
+          },
+          "additional_plus8_skill": "Khả năng khéo léo",
+          "status": "locked_no_duplicate_rule",
+          "notes": "Ezequiel 7★ đã có Di chuyển ngay khi đỡ bước 1; Slot +8 bổ sung Khả năng khéo léo giúp False 9 tì đè trụ vững khi quay lưng làm tường."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Thánh chuyền bóng",
+        "plus8_target": "Khả năng khéo léo",
+        "status": "recommended_target",
+        "action": "Ezequiel 7★ đã có Di chuyển ngay khi đỡ bước 1; Slot +8 bổ sung Khả năng khéo léo giúp False 9 tì đè trụ vững khi quay lưng làm tường.",
+        "training_coach_assigned": {
+          "name": "Ezequiel ★7",
+          "skills": [
+            "Cải thiện chuyền chọc khe",
+            "Di chuyển ngay khi đỡ bước 1",
+            "Chiến thuật chuyền trực tiếp"
+          ]
+        }
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "19-20 Real Madrid 1 cấp"
+    },
+    {
+      "card_spec": {
+        "player_name": "Marcos Llorente",
+        "season": "UT",
+        "grade": 9,
+        "ovr": 144,
+        "salary": 28,
+        "physical": "184cm / 74kg / Thể hình Nhỏ / Chân 5-5 / Stamina nền: 119"
+      },
+      "position": "RM",
+      "archetype": "RIGHT DIRECT CROSSER / BOX-TO-BOX WING (184CM / 74KG, STAMINA 119 NỀN, CHÂN 5-5)",
+      "innate_traits": [
+        "Sút xa (AI)",
+        "Ma tốc độ (AI)"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "CC",
+          "name": "Tấn công biên",
+          "selection": "CC1 (Bám biên)"
+        },
+        {
+          "row": 2,
+          "code": "DS",
+          "name": "Hỗ trợ thủ",
+          "selection": "DS1 (Luôn hỗ trợ phòng ngự)"
+        },
+        {
+          "row": 3,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN2 (Đánh chặn thận trọng)"
+        },
+        {
+          "row": 4,
+          "code": "SC",
+          "name": "Hỗ trợ tạt bóng",
+          "selection": "SC2 (Chờ ngoài rìa vòng cấm)"
+        }
+      ],
+      "workrate": "Công 3 / Thủ 3",
+      "core_mission": "RM đá chính trong 4-1-4-1-0: bám biên tạt bóng điểm rơi (CC1, SC2), hỗ trợ Carvajal phòng ngự (DS1), IN2 giữ cự ly; stamina nền 119 được hỗ trợ bởi Nỗ lực đến cùng (cơ chế hồi một phần thể lực cuối trận / khi bị dẫn).",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Nỗ lực đến cùng",
+          "status": "provisional_test_config",
+          "notes": "Cơ chế hồi một phần thể lực cuối trận hoặc khi bị dẫn, phù hợp cho vai trò RM bao sân chạy cánh."
+        },
+        "plus8_skill_coach": {
+          "training_coach": {
+            "name": "Antero Maria (B) ★7",
+            "skills": [
+              "Khả năng khéo léo",
+              "Cải thiện chuyền chọc khe",
+              "Phản ứng ngay khi kêu gọi xâm nhập"
+            ]
+          },
+          "additional_plus8_skill": "Tổ chức",
+          "status": "candidate_provisional_test_config",
+          "notes": "Candidate thử nghiệm lâm sàng cho TEST_005. Giả thuyết chiến thuật: hỗ trợ lùi về phối hợp khối phòng ngự cùng Carvajal RB; official_effect chưa được xác minh trong game. Cần theo dõi 30-50 trận thực chiến xem có hồi line thật không."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Nỗ lực đến cùng",
+        "plus8_target": "Tổ chức (Candidate)",
+        "status": "provisional_test_config",
+        "action": "Antero Maria (B) ★7 lo khéo léo + chọc khe + bứt tốc đón Long Ball; Slot +8 Tổ chức là candidate thử nghiệm lâm sàng quan sát hành vi hồi line.",
+        "training_coach_assigned": {
+          "name": "Antero Maria (B) ★7",
+          "skills": [
+            "Khả năng khéo léo",
+            "Cải thiện chuyền chọc khe",
+            "Phản ứng ngay khi kêu gọi xâm nhập"
+          ]
+        }
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "Real Madrid Cấp 4"
+    },
+    {
+      "card_spec": {
+        "player_name": "J. Bellingham",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 138,
+        "salary": 28
+      },
+      "position": "LCM",
+      "archetype": "BALANCED CONNECTOR / REGISTA [C]",
+      "innate_traits": [
+        "Qua người (AI)",
+        "Sút xa (AI)",
+        "Đánh đầu mạnh",
+        "Kiến tạo (AI)",
+        "Tinh tế"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "AS",
+          "name": "Hỗ trợ tấn công",
+          "selection": "AS (Cân bằng / Không dâng cao bừa bãi)"
+        },
+        {
+          "row": 2,
+          "code": "DP",
+          "name": "Định hướng phòng ngự",
+          "selection": "DP1 (Tập trung trung lộ)"
+        },
+        {
+          "row": 3,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN2 (Đánh chặn thận trọng)"
+        },
+        {
+          "row": 4,
+          "code": "PF",
+          "name": "Di chuyển tự do",
+          "selection": "PF (Duy trì vị trí)"
+        },
+        {
+          "row": 5,
+          "code": "SC",
+          "name": "Cách chạy nhận bóng",
+          "selection": "SC2 (Chờ ngoài rìa vòng cấm)"
+        }
+      ],
+      "workrate": "Công 2 / Thủ 3",
+      "core_mission": "Tiền vệ cân bằng hỗ trợ phòng ngự (Công 2 / Thủ 3), Duy trì vị trí (PF) để khóa half-space trước mặt Casemiro, IN2 không lao dập ẩu.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Tinh thần chiến đấu",
+          "status": "client_verified_20260921"
+        },
+        "plus8_skill_coach": {
+          "training_coach": {
+            "name": "Lasse (bộ 1) ★8",
+            "skills": [
+              "Khả năng khéo léo",
+              "Tăng khả năng phòng thủ Pressing",
+              "Tổ chức"
+            ]
+          },
+          "additional_plus8_skill": "Chiến thuật chuyền trực tiếp",
+          "status": "locked_no_duplicate_rule",
+          "notes": "Lasse bộ 1 đã có Tổ chức; Slot +8 bổ sung Chuyền trực tiếp (#2 CM/CAM/CDM Garena) tối ưu trạm luân chuyển bóng thoát pressing."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Nỗ lực đến cùng",
+        "plus8_target": "Chiến thuật chuyền trực tiếp",
+        "status": "recommended_target",
+        "action": "Lasse bộ 1 đã có Tổ chức; Slot +8 bổ sung Chuyền trực tiếp (#2 CM/CAM/CDM Garena) tối ưu trạm luân chuyển bóng thoát pressing.",
+        "training_coach_assigned": {
+          "name": "Lasse (bộ 1) ★8",
+          "skills": [
+            "Khả năng khéo léo",
+            "Tăng khả năng phòng thủ Pressing",
+            "Tổ chức"
+          ]
+        }
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "23-24 Real Madrid 1 cấp"
+    },
+    {
+      "card_spec": {
+        "player_name": "Federico Valverde",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 137,
+        "salary": 27
+      },
+      "position": "RCM",
+      "archetype": "SECOND-WAVE RUNNER / EDGE-OF-BOX SHOOTER",
+      "innate_traits": [
+        "Sút và tạt má ngoài",
+        "Chuyền dài (AI)",
+        "Sút xa (AI)",
+        "Ma tốc độ (AI)"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "AS",
+          "name": "Hỗ trợ tấn công",
+          "selection": "AS2 (Tham gia tấn công)"
+        },
+        {
+          "row": 2,
+          "code": "DP",
+          "name": "Định hướng phòng ngự",
+          "selection": "DP1 (Tập trung trung lộ)"
+        },
+        {
+          "row": 3,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN2 (Đánh chặn thận trọng)"
+        },
+        {
+          "row": 4,
+          "code": "PF",
+          "name": "Tự do di chuyển",
+          "selection": "PF (Giữ vị trí)"
+        },
+        {
+          "row": 5,
+          "code": "SC",
+          "name": "Hỗ trợ tạt bóng",
+          "selection": "SC2 (Chờ ngoài rìa vòng cấm)"
+        }
+      ],
+      "workrate": "Công 3 / Thủ 3",
+      "core_mission": "Box-to-box runner duy nhất dâng cao đợt hai (AS2), dừng đúng rìa box nã đại bác (SC2), IN2 đánh chặn thận trọng giữ cự ly.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Tinh thần chiến đấu",
+          "status": "client_verified_20260921"
+        },
+        "plus8_skill_coach": {
+          "training_coach": {
+            "name": "Afanasy ★8",
+            "skills": [
+              "Khả năng khéo léo",
+              "Phản ứng ngay khi kêu gọi xâm nhập",
+              "Chiến thuật chuyền trực tiếp"
+            ]
+          },
+          "additional_plus8_skill": "Tổ chức",
+          "status": "locked_no_duplicate_rule",
+          "notes": "Afanasy tạm lo bứt tốc dâng cao; Slot +8 bổ sung Tổ chức giúp giữ kỷ luật vị trí rìa box SC2, không phá Zone 14."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Nỗ lực đến cùng",
+        "plus8_target": "Tổ chức",
+        "status": "recommended_target",
+        "action": "Afanasy tạm lo bứt tốc dâng cao; Slot +8 bổ sung Tổ chức giúp giữ kỷ luật vị trí rìa box SC2, không phá Zone 14.",
+        "training_coach_assigned": {
+          "name": "Afanasy ★8",
+          "skills": [
+            "Khả năng khéo léo",
+            "Phản ứng ngay khi kêu gọi xâm nhập",
+            "Chiến thuật chuyền trực tiếp"
+          ]
+        }
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "22-23 Real Madrid 1 cấp"
+    },
+    {
+      "card_spec": {
+        "player_name": "Casemiro",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 141,
+        "salary": 27
+      },
+      "position": "CDM",
+      "archetype": "ANCHOR CDM / ZONE-14 SHIELD",
+      "innate_traits": [
+        "Xoạc bóng (AI)",
+        "Chuyền dài (AI)",
+        "Sút xa (AI)",
+        "Cứng như thép"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "AS",
+          "name": "Hỗ trợ tấn công",
+          "selection": "AS1 (Ở lại phía sau khi tấn công)"
+        },
+        {
+          "row": 2,
+          "code": "DP",
+          "name": "Định hướng phòng ngự",
+          "selection": "DP1 (Tập trung trung lộ)"
+        },
+        {
+          "row": 3,
+          "code": "DB",
+          "name": "Hành vi phòng ngự",
+          "selection": "DB1 (Cắt đường chuyền)"
+        },
+        {
+          "row": 4,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN2 (Đánh chặn thận trọng)"
+        }
+      ],
+      "workrate": "Công 1 / Thủ 3",
+      "core_mission": "Mỏ neo đứng chặn cửa Zone 14. Ở lại phía sau (AS1), giữ trung lộ (DP1), cắt đường chuyền (DB1), IN2 ghìm bản năng Xoạc bóng bẩm sinh để không trượt ngã.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": null,
+          "status": "unconfirmed_pending_client_audit"
+        },
+        "plus8_skill_coach": {
+          "training_coach": {
+            "name": "Lasse ★7",
+            "skills": [
+              "Khả năng khéo léo",
+              "Cự ly đội hình ổn định",
+              "Tổ chức"
+            ]
+          },
+          "additional_plus8_skill": "Khả năng tắc bóng",
+          "status": "locked_no_duplicate_rule",
+          "notes": "Khả năng tắc bóng (bổ sung tranh chấp, không phá ý đồ Anchor)"
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Siêu cản phá",
+        "plus8_target": "Khả năng tắc bóng",
+        "status": "recommended_target",
+        "action": "Lasse 7★ đã mang Cự ly ổn định + Tổ chức; Slot +8 bổ sung Khả năng tắc bóng bổ sung công cụ tranh chấp trực tiếp mà không phá vỡ vai Anchor (tránh dùng Đánh chặn vì đã có DB1 + IN2).",
+        "training_coach_assigned": {
+          "name": "Lasse ★7",
+          "skills": [
+            "Khả năng khéo léo",
+            "Cự ly đội hình ổn định",
+            "Tổ chức"
+          ]
+        }
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "21-22 Real Madrid 1 cấp"
+    },
+    {
+      "card_spec": {
+        "player_name": "Ferland Mendy",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 136,
+        "salary": 26
+      },
+      "position": "LB",
+      "archetype": "STAY-BACK LB / RECOVERY",
+      "innate_traits": [
+        "Đánh đầu mạnh",
+        "Ma tốc độ (AI)"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "AR",
+          "name": "Cách chạy tấn công",
+          "selection": "AR2 (Ở lại phía sau khi tấn công)"
+        },
+        {
+          "row": 2,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN (Bình thường)"
+        },
+        {
+          "row": 3,
+          "code": "SR",
+          "name": "Hỗ trợ di chuyển",
+          "selection": "SR (Cân bằng / Không overlap)"
+        }
+      ],
+      "workrate": "Công 1 / Thủ 3",
+      "core_mission": "Khóa chặt hành lang cánh trái, ở lại phía sau (AR2), bọc lót sau lưng Vini Jr., không overlap.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Chuyền dài",
+          "status": "client_verified_20260921"
+        },
+        "plus8_skill_coach": {
+          "status": "PENDING_3_TRAINING_SKILLS_VERIFICATION",
+          "notes": "Chờ rà soát 3 skill của HLV Tập Luyện hiện tại trước khi khóa kỹ năng thứ 4 mốc +8 để tránh trùng."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Siêu cản phá",
+        "plus8_target": "Cải thiện phòng thủ bên trái",
+        "status": "recommended_target",
+        "action": "Stay-back LB, giữ nguyên HLV nếu đã có Cải thiện phòng thủ bên trái."
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "23-24 Real Madrid 1 cấp"
+    },
+    {
+      "card_spec": {
+        "player_name": "Antonio Rüdiger",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 139,
+        "salary": 27,
+        "physical": "190cm / 86kg / Thể hình Sức khỏe / Chân 4-5"
+      },
+      "position": "LCB",
+      "archetype": "AGGRESSIVE STOPPER CB (190CM / 86KG)",
+      "innate_traits": [
+        "Đánh đầu mạnh",
+        "Chuyền dài (AI)",
+        "Xoạc bóng (AI)"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "AS",
+          "name": "Hỗ trợ tấn công",
+          "selection": "AS (Mặc định / Ở lại phía sau)"
+        },
+        {
+          "row": 2,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN2 (Đánh chặn thận trọng)"
+        }
+      ],
+      "workrate": "Công 1 / Thủ 3",
+      "core_mission": "Stopper CB 190cm / 86kg: Dập áp sát càn quét, không chiến bóng bổng, IN2 kiềm chế bản năng xoạc bóng bẩm sinh, Siêu cản phá giải nguy trong khu vực nguy hiểm; Lasse bộ 2 + Tổ chức là cấu hình thử nghiệm lâm sàng quan sát hành vi giữ line.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Siêu cản phá",
+          "status": "provisional_test_config",
+          "notes": "Kích hoạt các động tác móc bóng/nhào lộn giải nguy trong khu vực nguy hiểm; phù hợp trung vệ dập."
+        },
+        "plus8_skill_coach": {
+          "training_coach": {
+            "name": "Lasse (bộ 2) ★8",
+            "skills": [
+              "Khả năng khéo léo",
+              "Tăng khả năng phòng thủ Pressing",
+              "Phản công khi đang phòng thủ"
+            ]
+          },
+          "additional_plus8_skill": "Tổ chức",
+          "status": "candidate_provisional_test_config",
+          "notes": "Candidate thử nghiệm lâm sàng cho TEST_005. Giả thuyết chiến thuật: Lasse bộ 2 hỗ trợ tranh chấp pressing/phản công; Tổ chức hy vọng hỗ trợ hồi vị trí giữ line phẳng. Các cơ chế official_effect chưa được xác minh, cần theo dõi 30-50 trận xem có bị dập quá mức không."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Siêu cản phá",
+        "plus8_target": "Tổ chức (Candidate)",
+        "status": "provisional_test_config",
+        "action": "Lasse (bộ 2) ★8 đáng thử nghiệm cho Stopper; Slot +8 Tổ chức là candidate thử nghiệm lâm sàng theo dõi hành vi giữ line sau 30-50 trận.",
+        "training_coach_assigned": {
+          "name": "Lasse (bộ 2) ★8",
+          "skills": [
+            "Khả năng khéo léo",
+            "Tăng khả năng phòng thủ Pressing",
+            "Phản công khi đang phòng thủ"
+          ]
+        }
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "Real Madrid Cấp 4"
+    },
+    {
+      "card_spec": {
+        "player_name": "Éder Militão",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 136,
+        "salary": 27
+      },
+      "position": "RCB",
+      "archetype": "STOPPER / RECOVERY CB",
+      "innate_traits": [
+        "Cứng như thép",
+        "Sút xa (AI)",
+        "Xoạc bóng (AI)"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "AS",
+          "name": "Hỗ trợ tấn công",
+          "selection": "AS (Mặc định / Ở lại phía sau)"
+        },
+        {
+          "row": 2,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN2 (Đánh chặn thận trọng)"
+        }
+      ],
+      "workrate": "Công 1 / Thủ 3",
+      "core_mission": "Cover tốc độ, giữ line cự ly phòng ngự, IN2 kiềm chế trait gốc Xoạc bóng bẩm sinh tránh thẻ phạt khi Depth 10.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Tập trung phòng ngự",
+          "status": "client_verified_20260921"
+        },
+        "plus8_skill_coach": {
+          "training_coach": {
+            "name": "José Enrique ★8",
+            "skills": [
+              "Khả năng khéo léo",
+              "Khả năng tắc bóng",
+              "Cự ly đội hình ổn định"
+            ]
+          },
+          "additional_plus8_skill": "Tổ chức",
+          "status": "locked_no_duplicate_rule",
+          "notes": "José Enrique 8★ đã có Tắc bóng + Cự ly ổn định; Slot +8 bổ sung Tổ chức giúp Stopper CB dập bóng mà không bao giờ bỏ line quá xa."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Siêu cản phá",
+        "plus8_target": "Tổ chức",
+        "status": "recommended_target",
+        "action": "José Enrique 8★ đã có Tắc bóng + Cự ly ổn định; Slot +8 bổ sung Tổ chức giúp Stopper CB dập bóng mà không bao giờ bỏ line quá xa.",
+        "training_coach_assigned": {
+          "name": "José Enrique ★8",
+          "skills": [
+            "Khả năng khéo léo",
+            "Khả năng tắc bóng",
+            "Cự ly đội hình ổn định"
+          ]
+        }
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "19-20 Real Madrid 1 cấp"
+    },
+    {
+      "card_spec": {
+        "player_name": "Dani Carvajal",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 136,
+        "salary": 28
+      },
+      "position": "RB",
+      "archetype": "STAY-BACK RB",
+      "innate_traits": [
+        "Tạt bóng sớm (AI)"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "AR",
+          "name": "Cách chạy tấn công",
+          "selection": "AR2 (Ở lại phía sau khi tấn công)"
+        },
+        {
+          "row": 2,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN (Bình thường)"
+        },
+        {
+          "row": 3,
+          "code": "SR",
+          "name": "Hỗ trợ di chuyển",
+          "selection": "SR (Cân bằng / Không overlap)"
+        }
+      ],
+      "workrate": "Công 1 / Thủ 3",
+      "core_mission": "Khóa chặt hành lang phải, ở lại phía sau bọc lót cho tam giác Valverde - Bellingham.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Lãnh đạo",
+          "status": "client_verified_20260921"
+        },
+        "plus8_skill_coach": {
+          "status": "PENDING_3_TRAINING_SKILLS_VERIFICATION",
+          "notes": "Chờ rà soát 3 skill của HLV Tập Luyện hiện tại trước khi khóa kỹ năng thứ 4 mốc +8 để tránh trùng."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Siêu cản phá",
+        "plus8_target": "Cải thiện phòng thủ bên phải",
+        "status": "recommended_target",
+        "action": "Stay-back RB, giữ nguyên HLV nếu đã có Cải thiện phòng thủ bên phải."
+      },
+      "status": "starter_confirmed",
+      "special_team_color": "23-24 Real Madrid 1 cấp"
+    },
+    {
+      "card_spec": {
+        "player_name": "Thibaut Courtois",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 141,
+        "salary": 24
+      },
+      "position": "GK",
+      "archetype": "GIỮ KHUNG THÀNH / CHỐNG BÓNG BỔNG (200CM)",
+      "innate_traits": [
+        "TM lưu ý tạt bóng",
+        "TM đối mặt",
+        "TM ném xa"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "GK_CROSS",
+          "name": "Xử lý tạt bóng",
+          "selection": "Cân bằng"
+        },
+        {
+          "row": 2,
+          "code": "GK_SWEEPER",
+          "name": "Thủ môn quét",
+          "selection": "Cân bằng"
+        }
+      ],
+      "workrate": "Client Default",
+      "core_mission": "Làm chủ không gian vòng cấm, sải tay 200cm bắt bài ZD góc xa và bóng bổng; TM đấm bóng giải nguy va chạm trên không; Cản phá sút tầm thấp hóa giải điểm yếu sút chìm; nhận buff Tăng tốc +3, Khéo léo +2 từ 23-24 Real Madrid.",
+      "special_team_color": "23-24 Real Madrid 1 cấp",
+      "status": "starter_confirmed",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "TM đấm bóng",
+          "status": "client_verified_20261004"
+        },
+        "plus8_skill_coach": {
+          "additional_plus8_skill": "Cản phá sút tầm thấp ( Chỉ GK)",
+          "status": "client_verified_20261004",
+          "notes": "Khóa kỹ năng thứ 4: Cản phá sút tầm thấp (Chỉ GK) hóa giải triệt để điểm yếu sút chìm của thể hình 200cm; 3 skill HLV Tập Luyện mục tiêu: Cản phá sút, Cản phá sút cự ly gần, Cản phá sút khoảng cách trung bình."
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "TM đấm bóng",
+        "plus8_target": "Cản phá sút tầm thấp ( Chỉ GK)",
+        "status": "starter_confirmed",
+        "action": "Khóa trọn vẹn bộ 4 tầng không trùng cho Courtois CU +8."
+      }
+    }
+  ],
+  "ex_players_sold": [
+    {
+      "player_name": "Kai Havertz",
+      "season": "CU",
+      "grade": 8,
+      "date_sold": "2026-10-01",
+      "reason": "Bán để nâng cấp vị trí CAM trung tâm thành Karim Benzema BLD +8; chuyển Bellingham sang RAM"
+    }
+  ],
+  "former_baseline_players": [
+    {
+      "card_spec": {
+        "player_name": "Koen Casteels",
+        "season": "23HW",
+        "grade": 9,
+        "ovr": 132,
+        "salary": 20
+      },
+      "position": "GK",
+      "archetype": "TALL_SHOT_STOPPER / CROSS_KEEPER",
+      "innate_traits": [
+        "TM ném bóng xa",
+        "TM đấm bóng"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "GK_CROSS",
+          "name": "Xử lý tạt bóng",
+          "selection": "Chủ động"
+        },
+        {
+          "row": 2,
+          "code": "GK_SWEEPER",
+          "name": "Thủ môn quét",
+          "selection": "Bình thường"
+        }
+      ],
+      "workrate": "Client Default",
+      "core_mission": "Chiều cao 197cm bắt bóng bổng và đối mặt; phản xạ chống sút xa và sút chìm.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "TM đối mặt",
+          "status": "confirmed_applied_locked"
+        },
+        "plus8_skill_coach": {
+          "name": "Cản phá cú sút chìm",
+          "status": "confirmed_applied_locked"
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "TM đối mặt",
+        "plus8_target": "Cản phá cú sút chìm",
+        "status": "confirmed_applied_locked",
+        "action": "Đã gắn locked 100% — giữ nguyên hoàn toàn"
+      },
+      "status": "bench_former_baseline",
+      "notes": "Cựu GK baseline; giữ nguyên evidence và cấu hình dự bị khi Kepa CU +9 đá chính"
+    },
+    {
+      "card_spec": {
+        "player_name": "Luka Modrić",
+        "season": "CU",
+        "grade": 8,
+        "ovr": 136,
+        "salary": 29
+      },
+      "position": "LCM",
+      "archetype": "REGISTA / KEY DISTRIBUTOR / RECYCLE",
+      "innate_traits": [
+        "Sút và tạt má ngoài",
+        "Qua người (AI)",
+        "Sút xa (AI)",
+        "Kiến tạo (AI)",
+        "Tinh tế"
+      ],
+      "individual_tactics_ui_order": [
+        {
+          "row": 1,
+          "code": "AS",
+          "name": "Hỗ trợ tấn công",
+          "selection": "AS (Tấn công cân bằng)"
+        },
+        {
+          "row": 2,
+          "code": "DP",
+          "name": "Định hướng phòng ngự",
+          "selection": "DP1 (Tập trung trung lộ)"
+        },
+        {
+          "row": 3,
+          "code": "IN",
+          "name": "Đánh chặn",
+          "selection": "IN2 (Đánh chặn thận trọng)"
+        },
+        {
+          "row": 4,
+          "code": "PF",
+          "name": "Tự do di chuyển",
+          "selection": "PF (Giữ vị trí)"
+        },
+        {
+          "row": 5,
+          "code": "SC",
+          "name": "Hỗ trợ tạt bóng",
+          "selection": "SC2 (Chờ ngoài rìa vòng cấm)"
+        }
+      ],
+      "workrate": "Công 2 / Thủ 2",
+      "core_mission": "Trạm điều phối trung tuyến. Thoát pressing lớp 1, chuyền 1-2 chạm cấp bóng cho Vini/Benzema/RAM. IN2 giữ vị trí.",
+      "slots": {
+        "plus5_ordinary_trait": {
+          "name": "Tinh thần chiến đấu",
+          "status": "client_verified_20260921"
+        },
+        "plus8_skill_coach": {
+          "name": "Nỗ lực đến cùng",
+          "status": "client_verified_20260921"
+        }
+      },
+      "target_recommendation_v2": {
+        "plus5_target": "Nỗ lực đến cùng",
+        "plus8_target": "Chiến thuật chuyền Tiki-Taka",
+        "status": "recommended_target",
+        "action": "Tối ưu hóa vai trò Key Distributor thoát pressing 1 chạm (Tiki-Taka) + bù đắp thể lực cuối trận"
+      },
+      "status": "bench_reserve",
+      "special_team_color": "20-21 Real Madrid 1 cấp"
+    }
+  ]
+}

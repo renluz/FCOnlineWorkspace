@@ -1,0 +1,72 @@
+{
+  "speed": {
+    "min": 1,
+    "max": 99,
+    "glxh_optimal_range": [
+      45,
+      60
+    ],
+    "effect": "Kiểm soát nhịp độ triển khai bóng từ sân nhà. <40 quá chậm dễ bị quây, >70 bóng đi vội dễ chuyền hỏng."
+  },
+  "passing_buildup": {
+    "min": 1,
+    "max": 99,
+    "glxh_optimal_range": [
+      35,
+      55
+    ],
+    "effect": "Cự ly cự ly chuyền bóng trong triển khai. Giá trị thấp giữ cự ly cự ly gần phối hợp 1-2."
+  },
+  "positioning_buildup": {
+    "options": [
+      "Tổ chức (Organised)",
+      "Tự do (Free Form)"
+    ],
+    "glxh_recommendation": "Tổ chức để giữ nguyên khối đội hình hình học."
+  },
+  "crossing": {
+    "min": 1,
+    "max": 99,
+    "glxh_optimal_range": [
+      40,
+      65
+    ],
+    "effect": "Tần suất và vị trí cầu thủ chờ đón bóng tạt bổng vào vòng cấm."
+  },
+  "shooting": {
+    "min": 1,
+    "max": 99,
+    "glxh_optimal_range": [
+      40,
+      65
+    ],
+    "effect": "Mức độ sẵn sàng vung chân sút xa khi có khoảng trống ở tuyến 2."
+  },
+  "pressure": {
+    "min": 1,
+    "max": 99,
+    "glxh_optimal_range": [
+      35,
+      55
+    ],
+    "effect": "Độ cao của khối đội hình phòng ngự. >65 dâng cao bắt việt vị nhưng rất dễ bị QW."
+  },
+  "aggression": {
+    "min": 1,
+    "max": 99,
+    "glxh_optimal_range": [
+      40,
+      55
+    ],
+    "effect": "Mức độ quyết liệt khi áp sát tranh cướp bóng. >60 dễ ăn thẻ phạt hoặc bị qua người."
+  },
+  "team_width": {
+    "min": 1,
+    "max": 99,
+    "glxh_optimal_range": [
+      40,
+      52
+    ],
+    "effect": "Bề ngang của hàng thủ. Giữ 45-50 để bảo vệ trung lộ và nách trung vệ."
+  }
+}

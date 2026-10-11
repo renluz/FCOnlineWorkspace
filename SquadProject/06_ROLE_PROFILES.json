@@ -1,0 +1,293 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-09-20",
+    "total_archetypes": 11,
+    "notes": "Đặc tả chi tiết nhiệm vụ, hành vi mong muốn và hành vi cấm kỵ của 11 vai trò trong sơ đồ 4-1-4-1-0"
+  },
+  "roles": {
+    "CAM_CONNECTOR / FALSE_9": {
+      "representative_player": "K. Havertz CU +8",
+      "position": "CAM",
+      "core_mission": "Đóng vai trò trạm luân chuyển bóng trung tâm, hút trung vệ đối phương và xâm nhập dứt điểm đợt 2 (Second Wave Finisher).",
+      "desired_behaviors": [
+        "Lùi sâu nhận bóng giữa các tuyến khi đội nhà phát triển bóng",
+        "Tung đường chuyền một chạm xé toang biên cho WIDE_RUNNER",
+        "Xâm nhập thẳng vào điểm mù của cặp CB đối phương khi bóng được tạt từ cánh"
+      ],
+      "forbidden_behaviors": [
+        "Rê dắt quá 3 nhịp làm chậm nhịp độ phản công",
+        "Cắm chốt quá cao như một ST truyền thống làm tắc nghẽn không gian",
+        "Bỏ vị trí lùi về quá sâu ngang hàng với CDM"
+      ],
+      "threshold_attributes": {
+        "vision": ">= 120",
+        "short_pass": ">= 125",
+        "positioning": ">= 122",
+        "finishing": ">= 120",
+        "stamina": ">= 118"
+      },
+      "ideal_traits": [
+        "Kiến tạo",
+        "Thánh chuyền bóng",
+        "Sút xoáy",
+        "Dứt điểm 1 chạm"
+      ]
+    },
+    "WIDE_RUNNER": {
+      "representative_player": "E. Dinkci 24EP +8",
+      "position": "LM",
+      "core_mission": "Khai thác tối đa tốc độ dọc biên, kéo giãn hàng thủ đối phương và thực hiện các pha băng cắt dứt điểm góc hẹp hoặc căng ngang.",
+      "desired_behaviors": [
+        "Bứt tốc đón các đường chuyền dài vượt tuyến từ CM/CDM",
+        "Cắt mặt hậu vệ biên đối phương lao vào cột hai đón bóng",
+        "Pressing nhanh hậu vệ biên đối phương khi mất bóng"
+      ],
+      "forbidden_behaviors": [
+        "Dừng bóng chậm lại để chuyền ngược về sân nhà khi đang có khoảng trống bứt tốc",
+        "Tự ý bó vào vòng tròn trung tâm làm mất chiều rộng đội hình"
+      ],
+      "threshold_attributes": {
+        "pace": ">= 130",
+        "acceleration": ">= 130",
+        "crossing": ">= 118",
+        "stamina": ">= 122"
+      },
+      "ideal_traits": [
+        "Ma tốc độ",
+        "Bậc thầy tốc độ",
+        "Sát thủ băng cắt",
+        "Tạt bóng sớm"
+      ]
+    },
+    "CM_PROGRESSOR / SECOND_WAVE": {
+      "representative_player": "S. Gerrard UT +8",
+      "position": "LCM",
+      "core_mission": "Phát động tấn công tầm xa, giữ nhịp phân phối bóng và đe dọa khung thành bằng các cú đại bác sút xa uy lực.",
+      "desired_behaviors": [
+        "Xuất hiện tại rìa vòng cấm (Zone 14) nhận bóng nhả lại từ CAM",
+        "Tung các đường chuyền đảo cánh chính xác 50-60m",
+        "Quyết đoán dứt điểm từ cự ly 20-25m"
+      ],
+      "forbidden_behaviors": [
+        "Bỏ vị trí dâng lên ngang hàng CAM làm hổng tuyến giữa",
+        "Tranh chấp liều lĩnh dẫn đến thẻ phạt ở trung tuyến"
+      ],
+      "threshold_attributes": {
+        "long_shots": ">= 128",
+        "shot_power": ">= 128",
+        "long_pass": ">= 125",
+        "stamina": ">= 120"
+      },
+      "ideal_traits": [
+        "Sút xa",
+        "Thánh chuyền bóng",
+        "Chuyền dài",
+        "Cải thiện chuyền xuyên phá"
+      ]
+    },
+    "BOX_TO_BOX_CM": {
+      "representative_player": "S. McTominay 25TS +5",
+      "position": "RCM",
+      "core_mission": "Cung cấp sức mạnh cơ bắp, tranh chấp tay đôi, hỗ trợ bọc lót cho cánh phải và áp sát đánh chặn từ xa.",
+      "desired_behaviors": [
+        "Lao vào tranh chấp bóng 50/50 ở giữa sân bằng thể hình hộ pháp",
+        "Lùi về hỗ trợ CDM Matić khi đối phương phản công trung lộ",
+        "Băng vào vòng cấm tận dụng chiều cao tranh chấp bóng bổng"
+      ],
+      "forbidden_behaviors": [
+        "Cố gắng thực hiện các pha rê dắt mạo hiểm thoát pressing",
+        "Hụt hơi ở hiệp 2 do phân phối thể lực kém"
+      ],
+      "threshold_attributes": {
+        "physical": ">= 124",
+        "stamina": ">= 122",
+        "interceptions": ">= 120",
+        "height_cm": ">= 190"
+      },
+      "ideal_traits": [
+        "Cứng như thép",
+        "Thánh chuyền bóng",
+        "Nỗ lực đến cùng",
+        "Chặn đà tấn công"
+      ]
+    },
+    "WIDE_CREATOR": {
+      "representative_player": "B. Schweinsteiger HG +9",
+      "position": "RM",
+      "core_mission": "Tiền vệ cánh kiến thiết lối chơi, điều tiết nhịp độ tấn công bên cánh phải và thực hiện các đường tạt bóng có độ xoáy cao.",
+      "desired_behaviors": [
+        "Phối hợp tam giác bóng ngắn với RCM và RB Koundé",
+        "Tung các đường chọc khe bổng (QW) hoặc tạt bóng điểm rơi vào cột xa",
+        "Bó vào trung lộ hỗ trợ kiểm soát thế trận khi cần"
+      ],
+      "forbidden_behaviors": [
+        "Đua tốc độ thuần túy với các hậu vệ cánh siêu tốc",
+        "Mất vị trí phòng ngự để đối phương khoét sâu cánh phải"
+      ],
+      "threshold_attributes": {
+        "short_pass": ">= 125",
+        "crossing": ">= 122",
+        "curve": ">= 122",
+        "vision": ">= 122"
+      },
+      "ideal_traits": [
+        "Thánh chuyền bóng",
+        "Sút xoáy",
+        "Chuyền dài",
+        "Khả năng khéo léo"
+      ]
+    },
+    "ANCHOR_CDM": {
+      "representative_player": "N. Matić VTR +12",
+      "position": "CDM",
+      "core_mission": "Chốt chặn mỏ neo duy nhất phía trước bộ tứ vệ; che chắn khoảng trống Zone 14 và giải tỏa áp lực bóng bổng trung lộ.",
+      "desired_behaviors": [
+        "Luôn giữ vị trí thấp nhất hàng tiền vệ, không dâng quá vạch giữa sân",
+        "Bay người cản phá các cú sút xa (kích hoạt Gold Trait Chủ Động Cản Phá)",
+        "Dùng chiều cao 1m94 đánh đầu phá các pha phát bóng dài của thủ môn đối phương"
+      ],
+      "forbidden_behaviors": [
+        "Ham dâng cao sút xa hoặc xâm nhập vòng cấm",
+        "Bỏ vị trí dạt biên quá xa trung lộ để lộ lỗ hổng trước mặt cặp CB"
+      ],
+      "threshold_attributes": {
+        "interceptions": ">= 130",
+        "defensive_awareness": ">= 130",
+        "strength": ">= 130",
+        "height_cm": ">= 192"
+      },
+      "ideal_traits": [
+        "Chủ Động Cản Phá (Gold)",
+        "Tập trung đánh chặn",
+        "Thánh chuyền bóng",
+        "Cứng như thép"
+      ]
+    },
+    "STAY_BACK_FULLBACK": {
+      "representative_player": "F. Mendy CU +8",
+      "position": "LB",
+      "core_mission": "Khóa chặt hành lang cánh trái, dùng tốc độ và thể lực để bóp nghẹt các tiền đạo cánh nguy hiểm nhất của đối phương.",
+      "desired_behaviors": [
+        "Luôn ở lại phía sau khi đội nhà tấn công, tạo hàng thủ 3 hoặc 4 người",
+        "Dùng tốc độ bám đuổi và ép góc tiền đạo đối phương ra đường biên",
+        "Cắt các đường chọc khe sệt xuống nách biên"
+      ],
+      "forbidden_behaviors": [
+        "Tự ý dâng cao quá nửa sân dẫn đến việc bị phản công hở cánh",
+        "Xoạc bóng liều lĩnh trong vòng cấm"
+      ],
+      "threshold_attributes": {
+        "pace": ">= 128",
+        "stamina": ">= 122",
+        "tackling": ">= 122"
+      },
+      "ideal_traits": [
+        "Ma tốc độ",
+        "Cải thiện phòng thủ bên trái",
+        "Chuyền dài",
+        "Chuyên gia đeo bám"
+      ]
+    },
+    "CB_STOPPER": {
+      "representative_player": "M. Desailly WG +5",
+      "position": "LCB",
+      "core_mission": "Trung vệ dập chủ động; bước lên phía trước để áp sát, đè bẹp tiền đạo mục tiêu đối phương ngay khi họ vừa chạm bóng.",
+      "desired_behaviors": [
+        "Quyết đoán lao lên tranh chấp bóng một chạm trước mặt vòng cấm",
+        "Dùng sức mạnh cơ bắp húc văng tiền đạo đối phương",
+        "Thực hiện các pha tắc bóng đứng uy lực chính xác"
+      ],
+      "forbidden_behaviors": [
+        "Lùi quá sâu phá vỡ bẫy việt vị",
+        "Dập hụt bóng mà không có đồng đội bọc lót phía sau"
+      ],
+      "threshold_attributes": {
+        "aggression": ">= 124",
+        "strength": ">= 124",
+        "standing_tackle": ">= 124"
+      },
+      "ideal_traits": [
+        "Đánh đầu mạnh",
+        "Cứng như thép",
+        "Khả năng tắc bóng",
+        "Chặn đà tấn công"
+      ]
+    },
+    "CB_COVER": {
+      "representative_player": "R. Ferdinand DC +9",
+      "position": "RCB",
+      "core_mission": "Trung vệ thòng bọc lót; giữ vị trí sâu, sửa sai cho trung vệ dập, phòng chống bóng bổng và đua tốc độ đuổi bắt chọc khe QW.",
+      "desired_behaviors": [
+        "Phán đoán điểm rơi, lùi bước quét khoảng trống phía sau Desailly",
+        "Nhảy tranh chấp đánh đầu phá bóng tạt cánh (Power Header)",
+        "Bay người phá bóng cứu thua ngoạn mục (Fancy Clearance / Siêu cản phá)"
+      ],
+      "forbidden_behaviors": [
+        "Lao lên cướp bóng cùng lúc với Desailly để lộ khoảng trống chết người",
+        "Tự ý xoạc bóng trượt gây thẻ phạt"
+      ],
+      "threshold_attributes": {
+        "height_cm": ">= 189",
+        "pace": ">= 130",
+        "interceptions": ">= 135",
+        "defensive_awareness": ">= 135"
+      },
+      "ideal_traits": [
+        "Siêu cản phá",
+        "Đánh đầu mạnh",
+        "Khả năng tắc bóng",
+        "Cự ly đội hình ổn định"
+      ]
+    },
+    "STAY_BACK_FULLBACK / RECOVERY": {
+      "representative_player": "J. Koundé FAC +5",
+      "position": "RB",
+      "core_mission": "Hậu vệ biên lai trung vệ lệch phải; phòng ngự kỷ luật tuyệt đối, sẵn sàng bó vào trong như một trung vệ thứ ba khi cần.",
+      "desired_behaviors": [
+        "Giữ cự ly phòng ngự chặt chẽ, không bao giờ dâng cao chồng biên",
+        "Bọc lót cho Ferdinand khi đối phương phản công chuyển cánh",
+        "Tắc bóng dứt khoát giải nguy"
+      ],
+      "forbidden_behaviors": [
+        "Bỏ vị trí chạy lên hỗ trợ tấn công làm hở nách phải",
+        "Để tiền đạo đối phương vượt qua bằng tốc độ dọc biên"
+      ],
+      "threshold_attributes": {
+        "defensive_awareness": ">= 122",
+        "jumping": ">= 122",
+        "pace": ">= 124"
+      },
+      "ideal_traits": [
+        "Siêu cản phá",
+        "Đánh đầu mạnh",
+        "Cải thiện phòng thủ bên phải"
+      ]
+    },
+    "GK": {
+      "representative_player": "K. Casteels 23HW +9",
+      "position": "GK",
+      "core_mission": "Người gác đền tin cậy; tận dụng chiều cao khủng 1m97 để hóa giải các cú sút xa ZD hiểm hóc và làm chủ bóng bổng phạt góc.",
+      "desired_behaviors": [
+        "Khép góc chuẩn xác các cú sút cứa lòng ZD ngoài vòng cấm",
+        "Lao ra đấm bóng hoặc bắt dính các pha tạt cánh",
+        "Phản xạ xuất thần cản phá đối mặt 1-on-1"
+      ],
+      "forbidden_behaviors": [
+        "Lao ra khỏi vòng cấm phá bóng hỏng",
+        "Đẩy bóng nảy vào chân tiền đạo đối phương trong vòng 5m50"
+      ],
+      "threshold_attributes": {
+        "height_cm": ">= 195",
+        "gk_reflexes": ">= 128",
+        "gk_diving": ">= 128",
+        "gk_positioning": ">= 128"
+      },
+      "ideal_traits": [
+        "Cản phá 1-on-1",
+        "Ném bóng xa",
+        "Cản phá tạt bóng"
+      ]
+    }
+  }
+}

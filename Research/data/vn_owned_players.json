@@ -1,0 +1,169 @@
+[
+  {
+    "player_name": "V. Boniface",
+    "season": "WS",
+    "grade": 3,
+    "displayed_ovr": 119,
+    "database_base_ovr": 117,
+    "salary": 28,
+    "current_slot": "ST",
+    "natural_positions": [
+      "ST"
+    ]
+  },
+  {
+    "player_name": "G. Zambrotta",
+    "season": "WG",
+    "grade": 1,
+    "displayed_ovr": 119,
+    "database_base_ovr": 119,
+    "salary": 30,
+    "current_slot": "RB",
+    "natural_positions": [
+      "RB",
+      "LB"
+    ]
+  },
+  {
+    "player_name": "J. Gvardiol",
+    "season": "25DP",
+    "grade": 1,
+    "displayed_ovr": 118,
+    "database_base_ovr": 118,
+    "salary": 29,
+    "current_slot": "LB",
+    "natural_positions": [
+      "LB",
+      "CB"
+    ]
+  },
+  {
+    "player_name": "T. Rosicky",
+    "season": "WG",
+    "grade": 1,
+    "displayed_ovr": 118,
+    "database_base_ovr": 118,
+    "salary": 30,
+    "current_slot": "CAM",
+    "natural_positions": [
+      "LM",
+      "CM"
+    ]
+  },
+  {
+    "player_name": "Park Ji Sung",
+    "season": "NO.7",
+    "grade": 1,
+    "displayed_ovr": 117,
+    "database_base_ovr": 118,
+    "salary": 29,
+    "current_slot": "CAM",
+    "natural_positions": [
+      "CAM",
+      "LM"
+    ]
+  },
+  {
+    "player_name": "F. Schar",
+    "season": "25DP",
+    "grade": 1,
+    "displayed_ovr": 114,
+    "database_base_ovr": 114,
+    "salary": 27,
+    "current_slot": "CB",
+    "natural_positions": [
+      "CB"
+    ]
+  },
+  {
+    "player_name": "A. Del Piero",
+    "season": "HOT",
+    "grade": 1,
+    "displayed_ovr": 102,
+    "database_base_ovr": 97,
+    "salary": 20,
+    "current_slot": "LW",
+    "natural_positions": [
+      "CF",
+      "CAM"
+    ]
+  },
+  {
+    "player_name": "R. Gullit",
+    "season": "HOT",
+    "grade": 1,
+    "displayed_ovr": 103,
+    "database_base_ovr": 98,
+    "salary": 22,
+    "current_slot": "LCM",
+    "natural_positions": [
+      "CM",
+      "LW",
+      "ST"
+    ]
+  },
+  {
+    "player_name": "Rodri",
+    "season": "19",
+    "grade": 1,
+    "displayed_ovr": 95,
+    "database_base_ovr": 92,
+    "salary": 17,
+    "current_slot": "RCM",
+    "natural_positions": [
+      "CDM",
+      "CM"
+    ]
+  },
+  {
+    "player_name": "Sergio Ramos",
+    "season": "19",
+    "grade": 1,
+    "displayed_ovr": 94,
+    "database_base_ovr": 94,
+    "salary": 18,
+    "current_slot": "RB/CB",
+    "natural_positions": [
+      "CB"
+    ]
+  },
+  {
+    "player_name": "W. Hennessey",
+    "season": "HOT",
+    "grade": 1,
+    "displayed_ovr": 96,
+    "database_base_ovr": 91,
+    "salary": 13,
+    "current_slot": "GK",
+    "natural_positions": [
+      "GK"
+    ]
+  },
+  {
+    "player_name": "Inaki Williams",
+    "season": "HOT",
+    "grade": 1,
+    "displayed_ovr": 95,
+    "database_base_ovr": 90,
+    "salary": 16,
+    "current_slot": "RW",
+    "natural_positions": [
+      "ST",
+      "RW"
+    ]
+  },
+  {
+    "player_name": "P. Aubameyang",
+    "season": "LH",
+    "grade": 1,
+    "displayed_ovr": 96,
+    "database_base_ovr": 92,
+    "salary": 18,
+    "current_slot": "ST",
+    "natural_positions": [
+      "ST",
+      "LW",
+      "RW"
+    ]
+  }
+]

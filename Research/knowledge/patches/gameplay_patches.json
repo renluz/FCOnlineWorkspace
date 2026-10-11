@@ -1,0 +1,73 @@
+{
+  "GAMEPLAY_12TH_2026": {
+    "patch_id": "GAMEPLAY_12TH_2026",
+    "release_date": "2026-01-15",
+    "server_status": {
+      "VN_GARENA": "ACTIVE",
+      "KR_NEXON": "ACTIVE"
+    },
+    "official_verified_changes": [
+      {
+        "change": "Điều chỉnh hành vi và độ nhạy can thiệp cắt bóng của tiền vệ phòng ngự khi cầu thủ sở hữu chỉ số Cắt bóng & Quyết đoán cao.",
+        "source": "OFFICIAL_GARENA_PATCH_NOTES",
+        "evidence_tier": "A"
+      },
+      {
+        "change": "Điều chỉnh quỹ đạo bóng và độ ổn định của các đường chuyền dài xuyên tuyến khi cầu thủ chịu áp lực pressing trực diện.",
+        "source": "OFFICIAL_GARENA_PATCH_NOTES",
+        "evidence_tier": "A"
+      },
+      {
+        "change": "Tối ưu hóa phản xạ khép góc của thủ môn đối với các cú dứt điểm từ ngoài vòng cấm 16m50.",
+        "source": "OFFICIAL_GARENA_PATCH_NOTES",
+        "evidence_tier": "A"
+      },
+      {
+        "change": "Cân bằng mức độ hao mòn thể lực khi áp dụng các thiết lập áp lực phòng ngự cường độ cao liên tục.",
+        "source": "OFFICIAL_GARENA_PATCH_NOTES",
+        "evidence_tier": "A"
+      }
+    ],
+    "community_hypotheses_and_implications": [
+      {
+        "claim": "Sơ đồ 4-2-3-1 với cặp Double Pivot vận hành ổn định vượt trội nhờ giảm thiểu rủi ro phản công trung lộ.",
+        "source": "INVEN_GLXH_ANALYSIS",
+        "status": "COMMUNITY_OBSERVATION",
+        "evidence_tier": "B"
+      },
+      {
+        "claim": "Tốc độ triển khai 45-55 giúp giảm tỷ lệ chuyền hỏng do áp lực pressing.",
+        "source": "COMMUNITY_VN_EXPERIMENT",
+        "status": "COMMUNITY_HYPOTHESIS",
+        "evidence_tier": "C"
+      }
+    ]
+  },
+  "GAMEPLAY_11TH_2025": {
+    "patch_id": "GAMEPLAY_11TH_2025",
+    "release_date": "2025-08-20",
+    "server_status": {
+      "VN_GARENA": "SUPERSEDED",
+      "KR_NEXON": "SUPERSEDED"
+    },
+    "key_changes": [
+      "Tối ưu AI bọc lót của cặp trung vệ khi đối phương phản công nhanh.",
+      "Tăng tính hiệu quả của các quả tạt bóng sớm (Early Cross) từ hành lang cánh.",
+      "Sửa lỗi Fullback bó vào trung lộ quá sâu khi đối thủ khoét nách biên."
+    ],
+    "tactical_implication": "Các tiền đạo mục tiêu (Target Man) có khả năng không chiến (Boniface, Haaland) bắt đầu thịnh hành trở lại."
+  },
+  "GAMEPLAY_10TH_2025": {
+    "patch_id": "GAMEPLAY_10TH_2025",
+    "release_date": "2025-03-10",
+    "server_status": {
+      "VN_GARENA": "SUPERSEDED",
+      "KR_NEXON": "SUPERSEDED"
+    },
+    "key_changes": [
+      "Cân bằng sức mạnh tranh chấp (Physical Collision): Cầu thủ có thể hình Đậm (Stocky) tì đè giữ bóng tốt hơn hẳn.",
+      "Giảm hiệu ứng trượt quán tính của hậu vệ sau khi vào bóng hụt."
+    ],
+    "tactical_implication": "Tiền vệ thể hình nhỏ (nhỏ con) bị lép vế hoàn toàn trước các máy quét cơ bắp tuyến giữa."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-09-20",
+    "server": "Garena FC Online VN",
+    "audit_status": "GARENA_OFFICIAL_CONSISTENCY_AUDITED",
+    "source_registry_ids": [
+      "SRC_01",
+      "SRC_02",
+      "SRC_05"
+    ]
+  },
+  "team_color_types": {
+    "national_team_color": {
+      "description": "Kích hoạt khi có đủ số lượng cầu thủ cùng quốc tịch trên sân theo quy chuẩn Garena FC Online VN.",
+      "tiers": {
+        "tier_1_3_to_5_players": "+1 OVR",
+        "tier_2_6_to_7_players": "+2 OVR",
+        "tier_3_8_to_9_players": "+3 OVR",
+        "tier_4_10_to_11_players": "+3 OVR + các chỉ số thành phần tùy Team Color"
+      },
+      "squad_clusters": {
+        "germany": [
+          "K. Havertz",
+          "E. Dinkci",
+          "B. Schweinsteiger"
+        ],
+        "france": [
+          "F. Mendy",
+          "M. Desailly",
+          "J. Koundé"
+        ],
+        "england": [
+          "S. Gerrard",
+          "R. Ferdinand"
+        ],
+        "scotland": [
+          "S. McTominay"
+        ],
+        "serbia": [
+          "N. Matić"
+        ],
+        "belgium": [
+          "K. Casteels"
+        ]
+      }
+    },
+    "club_team_color": {
+      "description": "Kích hoạt dựa trên lịch sử thi đấu chính thức được FC Online công nhận (không suy luận từ đời thực).",
+      "tiers": {
+        "tier_1_3_to_5_players": "+1 OVR",
+        "tier_2_6_to_7_players": "+2 OVR",
+        "tier_3_8_to_9_players": "+3 OVR",
+        "tier_4_10_to_11_players": "+3 OVR + các chỉ số thành phần tùy Team Color"
+      },
+      "key_club_clusters": {
+        "chelsea": [
+          "K. Havertz",
+          "N. Matić",
+          "M. Desailly"
+        ],
+        "manchester_united": [
+          "S. McTominay",
+          "B. Schweinsteiger",
+          "N. Matić",
+          "R. Ferdinand"
+        ],
+        "liverpool": [
+          "S. Gerrard"
+        ],
+        "arsenal": [
+          "K. Havertz"
+        ],
+        "wolfsburg": [
+          "K. Casteels"
+        ],
+        "barcelona": [
+          "J. Koundé"
+        ],
+        "bayern_munchen": [
+          "B. Schweinsteiger"
+        ],
+        "real_madrid": [
+          "F. Mendy"
+        ]
+      }
+    },
+    "enhancement_grade_team_color": {
+      "description": "Cộng chỉ số OVR theo số lượng cầu thủ đạt các mốc thẻ nâng cấp theo chuẩn Garena Official.",
+      "rules": [
+        "Cầu thủ mức cộng cao hơn được tính gộp xuống các mốc nâng cấp thấp hơn (ví dụ: thẻ +12 được tính là >= +11, >= +8 và >= +5; thẻ +8, +9 được tính là >= +8 và >= +5).",
+        "Không cộng dồn/chồng tier +5 và +8 trên cùng một cầu thủ; sử dụng hiệu ứng Team Color nâng cấp cao nhất mà cầu thủ đó đủ điều kiện."
+      ],
+      "milestones": {
+        "silver_gold_tier_plus5_to_plus7": {
+          "name": "Mốc Thẻ Bạc / Thẻ Vàng (+5 ~ +7)",
+          "thresholds": {
+            "tier_1_3_to_5_players": "+1 OVR",
+            "tier_2_6_to_11_players": "+2 OVR"
+          },
+          "current_squad_qualification": "QUALIFIED (11/11 cầu thủ đạt >= +5; đạt mốc 6-11 cầu thủ)"
+        },
+        "golden_tier_plus8_to_plus10": {
+          "name": "Mốc Mạ Vàng (+8 ~ +10)",
+          "thresholds": {
+            "tier_1_3_to_5_players": "+2 OVR",
+            "tier_2_6_to_11_players": "+3 OVR"
+          },
+          "current_squad_qualification": "ACTIVE (8/11 cầu thủ đạt >= +8 -> Kích hoạt mốc 6-11 cầu thủ = +3 OVR; 3 cầu thủ mốc +5 nhận +2 OVR từ tier +5~+7; không cộng chồng)"
+        },
+        "platinum_tier_plus11_to_plus13": {
+          "name": "Mốc Bạch Kim (+11 ~ +13)",
+          "thresholds": {
+            "tier_1_5_players": "+4 OVR",
+            "tier_2_8_players": "+5 OVR"
+          },
+          "current_squad_qualification": "INACTIVE (1/5 cầu thủ đạt >= +11: N. Matić VTR +12; chưa đủ điều kiện tối thiểu 5 cầu thủ)"
+        }
+      },
+      "current_squad_status": {
+        "players_count_ge_plus5": 11,
+        "players_count_ge_plus8": 8,
+        "players_count_ge_plus11": 1,
+        "tier_plus5_to_plus7": "QUALIFIED",
+        "tier_plus8_to_plus10": "ACTIVE_PLUS_3_OVR",
+        "tier_platinum_plus11": "INACTIVE_1_OF_5",
+        "summary": "+5 tier qualified; +8 tier ACTIVE = +3 OVR; Platinum INACTIVE = 1/5"
+      }
+    }
+  }
+}

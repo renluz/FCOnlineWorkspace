@@ -1,0 +1,379 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-10-02",
+    "preset_name": "DREAM_TEAM_STAGE_2_ENDGAME_REAL_MADRID_305_WIFI",
+    "formation": "4-1-2-3-0 WiFi",
+    "total_salary": 305,
+    "salary_cap": 305,
+    "team_color": "Real Madrid (11/11) + Mạ Vàng (+8/+9)",
+    "architecture_concept": "High-Intensity Asymmetric Pressing & Transition Engine with Moneyball GK Salary Sacrifice",
+    "salary_breakdown": {
+      "outfield_salary": 292,
+      "gk_salary": 13,
+      "sum_total": 305,
+      "salary_cap_utilization": "100.0%"
+    }
+  },
+  "tactical_system_baseline": {
+    "team_tactics": {
+      "defense": {
+        "style": "Cùng nhau gây áp lực (Continuous Pressure)",
+        "width": 5,
+        "depth": 10
+      },
+      "offense": {
+        "build_up": "Chuyền dài (Long Ball)",
+        "chance_creation": "Chuyền dài (Long Ball)",
+        "width": 7,
+        "players_in_box": 1,
+        "corners": 1,
+        "free_kicks": 1
+      },
+      "mentality": "Tổng tấn công"
+    },
+    "shape_dynamics": {
+      "in_possession": "Vini WS (LAM) - Benzema DCB (CAM) - Llorente WS (RAM) | Bellingham SPT (LCM) - Valverde WS (RCM, AS2 dâng) | Alaba WS (CDM) | Mendy WS (LB) - Tchouaméni 25UCL (LCB) - Rüdiger FAC (RCB) - Carvajal CU (RB)",
+      "out_of_possession": "Khối 4-1-2-3 pressing đồng bộ: Vini và Llorente lùi ép biên, Bellingham và Valverde thu hẹp trung tuyến, Alaba tạo chốt chặn trước cặp CB Cover/Stopper"
+    }
+  },
+  "dream_team_starting_xi": [
+    {
+      "slot": "LAM",
+      "player_name": "Vinícius Jr.",
+      "season": "WS",
+      "grade": 8,
+      "salary": 30,
+      "role": "Left Inside Runner / Line Breaker",
+      "role_description": "Mũi xuyên phá số 1, bứt tốc phá bẫy việt vị, cutback và lui về pressing biên",
+      "height_cm": 176,
+      "weight_kg": 73,
+      "preferred_foot": "Phải",
+      "weak_foot": 4,
+      "skill_stars": 5,
+      "work_rate": "Công 3 / Thủ 3",
+      "innate_traits": [
+        "Bậc thầy chạy chỗ",
+        "Ma tốc độ",
+        "Tinh tế",
+        "Qua người",
+        "Kiến tạo",
+        "Sút xoáy"
+      ],
+      "individual_tactics": {
+        "code": "DS1 / IN2 / PF / SC1",
+        "instructions": "Bám biên, Đánh chặn thận trọng (IN2 giữ thể lực), Tự do, Xâm nhập vòng cấm (Cột xa)"
+      },
+      "target_trait_plus5": "Nỗ lực đến cùng",
+      "target_hlv_plus8": "Khả năng khéo léo",
+      "status_in_user_squad": "Đang dùng Vini Jr. CU +8 (Roadmap: Nâng cấp cuối cùng)"
+    },
+    {
+      "slot": "CAM",
+      "player_name": "Karim Benzema",
+      "season": "DCB",
+      "grade": 8,
+      "salary": 31,
+      "role": "Central False 9 / Primary Box Finisher",
+      "role_description": "Trung tâm hệ thống, làm tường 1-2 chạm cho 2 cánh và dứt điểm kết liễu trong 16m50",
+      "height_cm": 185,
+      "weight_kg": 81,
+      "preferred_foot": "Phải",
+      "weak_foot": 5,
+      "skill_stars": 5,
+      "work_rate": "Công 3 / Thủ 1",
+      "innate_traits": [
+        "Sát thủ băng cắt",
+        "Kiến tạo",
+        "Sút xoáy",
+        "Đánh đầu mạnh",
+        "Tinh tế",
+        "Bấm bóng"
+      ],
+      "individual_tactics": {
+        "code": "DS2 / IN / PF / SC1",
+        "instructions": "Ở lại phía trên (DS2 miễn phòng ngự), Đánh chặn bình thường, Tự do, Xâm nhập vòng cấm"
+      },
+      "target_trait_plus5": "Thánh chuyền bóng",
+      "target_hlv_plus8": "Tạo cơ hội ghi bàn",
+      "status_in_user_squad": "Đang dùng Karim Benzema BLD +8 (Roadmap: Nâng cấp cuối cùng)"
+    },
+    {
+      "slot": "RAM",
+      "player_name": "Marcos Llorente",
+      "season": "WS",
+      "grade": 8,
+      "salary": 31,
+      "role": "Pressing Wing-CAM / High-Octane Runner",
+      "role_description": "Máy chạy thể lực 125, hai chân 5-5, duy trì cường độ pressing liên tục và xâm nhập cột 2",
+      "height_cm": 184,
+      "weight_kg": 74,
+      "preferred_foot": "Phải",
+      "weak_foot": 5,
+      "skill_stars": 5,
+      "work_rate": "Công 3 / Thủ 3",
+      "innate_traits": [
+        "Cứng như thép",
+        "Ma tốc độ",
+        "Sút xa",
+        "Chuyền dài"
+      ],
+      "individual_tactics": {
+        "code": "DS1 / IN2 / PF / SC1",
+        "instructions": "Bám biên, Đánh chặn thận trọng (IN2), Tự do, Xâm nhập vòng cấm (Cột xa)"
+      },
+      "target_trait_plus5": "Nỗ lực đến cùng",
+      "target_hlv_plus8": "Khả năng khéo léo",
+      "status_in_user_squad": "Stage 1 dùng Rodrygo CU +8 / Bellingham tạm (Roadmap: RAM Endgame tối thượng)"
+    },
+    {
+      "slot": "LCM",
+      "player_name": "Jude Bellingham",
+      "season": "SPT",
+      "grade": 8,
+      "salary": 30,
+      "role": "Balanced Connector / Transition Hub",
+      "role_description": "Cầu nối hai chiều, giữ cự ly trung tuyến, KHÔNG cài AS2 để tránh giẫm chân RCM",
+      "height_cm": 186,
+      "weight_kg": 75,
+      "preferred_foot": "Phải",
+      "weak_foot": 5,
+      "skill_stars": 5,
+      "work_rate": "Công 2 / Thủ 2",
+      "innate_traits": [
+        "Sút xoáy",
+        "Sút xa",
+        "Kiến tạo",
+        "Qua người",
+        "Đánh đầu mạnh"
+      ],
+      "individual_tactics": {
+        "code": "AS / DP1 / IN2 / PF / SC2",
+        "instructions": "Hỗ trợ công thủ bình thường (KHÔNG AS2), Tập trung trung lộ, Đánh chặn thận trọng (IN2), Tự do, Rình rập rìa vòng cấm (SC2)"
+      },
+      "target_trait_plus5": "Nỗ lực đến cùng",
+      "target_hlv_plus8": "Chiến thuật chuyền trực tiếp",
+      "status_in_user_squad": "Đang dùng Bellingham CU +8 (Roadmap: Chuyển vị trí từ RAM về LCM khi có card)"
+    },
+    {
+      "slot": "RCM",
+      "player_name": "Federico Valverde",
+      "season": "WS",
+      "grade": 8,
+      "salary": 30,
+      "role": "Second-Wave Box-to-Box Runner",
+      "role_description": "Tiền vệ con thoi duy nhất được phép dâng cao đón bóng 2 và nã đại bác rìa box",
+      "height_cm": 182,
+      "weight_kg": 78,
+      "preferred_foot": "Phải",
+      "weak_foot": 4,
+      "skill_stars": 5,
+      "work_rate": "Công 3 / Thủ 3",
+      "innate_traits": [
+        "Người không phổi",
+        "Thánh chuyền bóng",
+        "Kiến tạo",
+        "Sút xa",
+        "Chuyền dài",
+        "Cứng như thép",
+        "Ma tốc độ"
+      ],
+      "individual_tactics": {
+        "code": "AS2 / DP1 / IN / PF / SC2",
+        "instructions": "Luôn tham gia tấn công (AS2 runner duy nhất), Tập trung trung lộ, Đánh chặn bình thường, Tự do, Chờ đợi ở rìa vòng cấm (SC2)"
+      },
+      "target_trait_plus5": "Nỗ lực đến cùng",
+      "target_hlv_plus8": "Tổ chức",
+      "status_in_user_squad": "Đang dùng Valverde CU +8 (Roadmap: Nâng cấp trực tiếp lên WS)"
+    },
+    {
+      "slot": "CDM",
+      "player_name": "David Alaba",
+      "season": "WS",
+      "grade": 8,
+      "salary": 29,
+      "role": "Deep Distributor / Disciplined Anchor",
+      "role_description": "Trạm điều phối bóng từ đáy sân, thoát pressing tầng thấp, giữ vị trí kỷ luật trước cặp CB",
+      "height_cm": 180,
+      "weight_kg": 76,
+      "preferred_foot": "Trái",
+      "weak_foot": 4,
+      "skill_stars": 5,
+      "work_rate": "Công 1 / Thủ 3",
+      "innate_traits": [
+        "Chuyền dài",
+        "Ma tốc độ",
+        "Sút xa",
+        "Tạt bóng sớm",
+        "Sút xoáy"
+      ],
+      "individual_tactics": {
+        "code": "AS1 / DP1 / DB1 / IN2",
+        "instructions": "Luôn ở phía sau khi tấn công (AS1), Giữ trung lộ (DP1), Cắt đường chuyền (DB1), Đánh chặn thận trọng (IN2)"
+      },
+      "target_trait_plus5": "Siêu cản phá",
+      "target_hlv_plus8": "Tổ chức",
+      "status_in_user_squad": "Stage 1 dùng Tchouaméni CU +8 CDM (Roadmap: Triển khai hoán đổi vị trí cùng Tchouaméni 25UCL)",
+      "watchpoints": "Thực chiến cần A/B test bóng bổng/QW Zone 14 xem có bị ST to cao đè bóng hay không"
+    },
+    {
+      "slot": "LB",
+      "player_name": "Ferland Mendy",
+      "season": "WS",
+      "grade": 8,
+      "salary": 28,
+      "role": "Recovery Left Back / Flank Lockdown",
+      "role_description": "Hậu vệ biên tốc độ 120, hai chân 5-5, phong tỏa tuyệt đối hành lang trái",
+      "height_cm": 180,
+      "weight_kg": 73,
+      "preferred_foot": "Trái",
+      "weak_foot": 5,
+      "skill_stars": 5,
+      "work_rate": "Công 1 / Thủ 3",
+      "innate_traits": [
+        "Cao thủ tắc bóng",
+        "Ma tốc độ"
+      ],
+      "individual_tactics": {
+        "code": "AR2 / IN / SR",
+        "instructions": "Ở lại phía sau khi tấn công (AR2), Đánh chặn bình thường, Chạy giữ vị trí (SR không overlap)"
+      },
+      "target_trait_plus5": "Siêu cản phá",
+      "target_hlv_plus8": "Cải thiện phòng thủ bên trái",
+      "status_in_user_squad": "Đang dùng Ferland Mendy CU +8 (Roadmap: Nâng cấp trực tiếp lên WS)"
+    },
+    {
+      "slot": "LCB",
+      "player_name": "Aurélien Tchouaméni",
+      "season": "25UCL",
+      "grade": 8,
+      "salary": 28,
+      "role": "Ball-Playing Cover CB",
+      "role_description": "Trung vệ chỉ huy bọc lót, 188cm/82kg, Chủ Động Cản Phá, thoát pressing đưa bóng cho Alaba/Bellingham",
+      "height_cm": 188,
+      "weight_kg": 82,
+      "preferred_foot": "Phải",
+      "weak_foot": 4,
+      "skill_stars": 5,
+      "work_rate": "Công 1 / Thủ 3",
+      "innate_traits": [
+        "Chủ Động Cản Phá",
+        "Kiến tạo",
+        "Sút xa",
+        "Đánh đầu mạnh"
+      ],
+      "individual_tactics": {
+        "code": "AS / IN",
+        "instructions": "Giữ vị trí bọc lót (Cover CB, tuân thủ Rule cấm Double Stopper), Đánh chặn bình thường"
+      },
+      "target_trait_plus5": "Siêu cản phá",
+      "target_hlv_plus8": "Tổ chức",
+      "status_in_user_squad": "Stage 1 dùng Ferdinand DC +9 / Tchouaméni CU +8 CDM (Roadmap: Triển khai hoán đổi chức năng)"
+    },
+    {
+      "slot": "RCB",
+      "player_name": "Antonio Rüdiger",
+      "season": "FAC",
+      "grade": 8,
+      "salary": 27,
+      "role": "Stopper / Recovery Aggressor CB",
+      "role_description": "Trung vệ dập áp sát, 190cm/85kg, Chuyên gia đeo bám, đè bẹp các tiền đạo mục tiêu và sửa sai tốc độ",
+      "height_cm": 190,
+      "weight_kg": 85,
+      "preferred_foot": "Phải",
+      "weak_foot": 3,
+      "skill_stars": 5,
+      "work_rate": "Công 1 / Thủ 3",
+      "innate_traits": [
+        "Chuyên gia đeo bám",
+        "Đánh đầu mạnh",
+        "Chuyền dài",
+        "Xoạc bóng"
+      ],
+      "individual_tactics": {
+        "code": "AS / IN2",
+        "instructions": "Stopper dập chủ động, Đánh chặn thận trọng (IN2 kiềm chế lỗi xoạc bóng), Đeo bám quyết liệt"
+      },
+      "target_trait_plus5": "Siêu cản phá",
+      "target_hlv_plus8": "Khả năng tắc bóng",
+      "status_in_user_squad": "Stage 1 dùng Militão CU +8 (Roadmap: Thay thế trực tiếp Ferdinand/Militão)"
+    },
+    {
+      "slot": "RB",
+      "player_name": "Dani Carvajal",
+      "season": "CU",
+      "grade": 8,
+      "salary": 28,
+      "role": "Stay-Back RB / Flank Lock",
+      "role_description": "Hậu vệ biên thủ giữ cấu trúc, không overlap, làm chốt chặn bảo vệ hành lang phải",
+      "height_cm": 173,
+      "weight_kg": 73,
+      "preferred_foot": "Phải",
+      "weak_foot": 3,
+      "skill_stars": 5,
+      "work_rate": "Công 1 / Thủ 3",
+      "innate_traits": [
+        "Sút và tạt má ngoài"
+      ],
+      "individual_tactics": {
+        "code": "AR2 / IN / SR",
+        "instructions": "Ở lại phía sau khi tấn công (AR2), Đánh chặn bình thường, Chạy giữ vị trí (SR không overlap)"
+      },
+      "target_trait_plus5": "Siêu cản phá",
+      "target_hlv_plus8": "Cải thiện phòng thủ bên phải",
+      "status_in_user_squad": "ĐÃ SỞ HỮU (Dani Carvajal CU +8 - Giữ nguyên không cần thay)"
+    },
+    {
+      "slot": "GK",
+      "player_name": "Thibaut Courtois",
+      "season": "TC",
+      "grade": 8,
+      "salary": 13,
+      "role": "Salary-Sacrifice Giant Goalkeeper (Moneyball Enabler)",
+      "role_description": "Thủ môn cao 199cm, hy sinh lương (Lương 13) để giải phóng toàn bộ trần lương cho 10 cầu thủ outfield",
+      "height_cm": 199,
+      "weight_kg": 96,
+      "preferred_foot": "Trái",
+      "weak_foot": 3,
+      "skill_stars": 1,
+      "innate_traits": [
+        "TM ném xa"
+      ],
+      "individual_tactics": {
+        "code": "Cản tạt chủ động / Quét bình thường",
+        "instructions": "Bảo vệ không gian vòng cấm, tận dụng sải tay 199cm cản phá bóng bổng"
+      },
+      "target_trait_plus5": "TM đối mặt",
+      "target_hlv_plus8": "Cản phá cú sút chìm",
+      "status_in_user_squad": "Stage 1 dùng Casteels 23HW +9 (Roadmap: Mua Courtois TC mức cộng cao +8/+9)",
+      "watchpoints": "Bắt buộc dùng mức cộng cao (+8 hoặc +9) để bù đắp chỉ số gốc và đạt phản xạ tối thiểu 125+"
+    }
+  ],
+  "roadmap_implementation_stages": [
+    {
+      "step": 1,
+      "name": "Current Baseline (Stage 1 Value)",
+      "actions": "Giữ nguyên bộ khung 4-1-2-3-0 WiFi với Benzema BLD +8, Modrić CU +8, Bellingham CU +8 tạm, Ferdinand DC +9, Casteels GK. Mua Rodrygo CU +8 (~82.9M) làm RAM bridge upgrade."
+    },
+    {
+      "step": 2,
+      "name": "Full Real Core & Team Color Optimization",
+      "actions": "Mua Courtois TC +8/+9 (Lương 13) để đưa GK về Real Madrid hoàn chỉnh, giải phóng quỹ lương và loại bỏ card lệch Team Color."
+    },
+    {
+      "step": 3,
+      "name": "Defensive Engine Overhaul",
+      "actions": "Mua Antonio Rüdiger FAC +8 (Lương 27). Sau đó triển khai bộ đôi hoán đổi: David Alaba WS (Lương 29) làm CDM + Aurélien Tchouaméni 25UCL (Lương 28) làm LCB Cover."
+    },
+    {
+      "step": 4,
+      "name": "Midfield Engine Upgrades",
+      "actions": "Nâng cấp Federico Valverde WS (Lương 30), Jude Bellingham SPT (Lương 30) kéo về LCM, và Ferland Mendy WS (Lương 28)."
+    },
+    {
+      "step": 5,
+      "name": "Luxury Attack Finalization",
+      "actions": "Nâng cấp 3 mũi nhọn xa xỉ cuối cùng: Vinícius Jr. WS (Lương 30), Karim Benzema DCB (Lương 31), và Marcos Llorente WS (Lương 31) làm RAM tối thượng."
+    }
+  ]
+}

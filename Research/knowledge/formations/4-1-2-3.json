@@ -1,0 +1,16 @@
+{
+  "formation_code": "4-1-2-3",
+  "name": "4-1-2-3 Pressing Tầm Cao (High Press Control)",
+  "structure": "4 Hậu vệ, 1 Tiền vệ mỏ neo (CDM), 2 Tiền vệ trung tâm (LCM-RCM), 3 Tiền đạo (LW-ST-RW)",
+  "strengths": [
+    "Áp đặt thế trận cực mạnh trên phần sân đối phương",
+    "Sức sát thương 3 mũi công biên và trung lộ"
+  ],
+  "weaknesses": [
+    "Rủi ro cao nhất: Single CDM bị quá tải nếu đối thủ thoát pressing phản công nhanh"
+  ],
+  "patch": "GAMEPLAY_12TH_2026",
+  "server": "KR_NEXON",
+  "required_profiles": "CDM phải là quái vật thể hình và đánh chặn (Rodri, Vieira, Rijkaard).",
+  "meta_status": "CANDIDATE"
+}

@@ -1,0 +1,16 @@
+{
+  "formation_code": "4-2-2-1-1",
+  "name": "4-2-2-1-1 Chuyển Trạng Thái Siêu Tốc (Transition Master)",
+  "structure": "4 Hậu vệ, 2 Tiền vệ trụ (LDM-RDM), 2 Tiền vệ cánh (LM-RM), 1 Hộ công (CF/CAM), 1 Tiền đạo cắm (ST)",
+  "strengths": [
+    "Khả năng bung tốc độ phản công biên cực nhanh",
+    "Hộ công lùi sâu kết nối tuyến giữa rất mượt"
+  ],
+  "weaknesses": [
+    "Khoảng cách giữa LM/RM và trung lộ đôi khi bị loãng"
+  ],
+  "patch": "GAMEPLAY_12TH_2026",
+  "server": "GLOBAL_GENERIC",
+  "required_profiles": "LM/RM có tốc độ xé gió, CF có nhãn quan và dứt điểm ZD.",
+  "meta_status": "HIGH_RANK_OBSERVED"
+}

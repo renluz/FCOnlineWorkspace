@@ -1,0 +1,23 @@
+player_name,season,upgrade,position,ovr,salary,height_cm,weight_kg,body_type,preferred_foot,weak_foot,skill_stars,innate_traits,status
+Karim Benzema,BLD,8,CAM,138,29,185,81,TB,Phải,5,5,"Sút và tạt má ngoài,Đánh đầu mạnh,Kiến tạo,Sút xoáy",STARTER_XI
+Vinícius Jr.,CU,8,LAM,138,28,176,73,Nhỏ,Phải,4,5,"Sút xoáy,Sút và tạt má ngoài,Bấm bóng (AI),Đánh đầu mạnh,Ma tốc độ (AI),Qua người (AI)",STARTER_XI
+Rodrygo,CU,8,RAM,139,27,174,64,Nhỏ,Phải,4,5,"Tinh tế,Sút xoáy (AI),Ma tốc độ (AI),Qua người (AI)",STARTER_XI
+J. Bellingham,CU,8,RAM,138,28,186,75,Nhỏ(Special),Phải,5,5,"Qua người (AI),Sút xa (AI),Đánh đầu mạnh,Kiến tạo (AI),Tinh tế",BENCH_RESERVE
+L. Modrić,CU,8,LCM,136,29,172,66,Nhỏ,Phải,5,5,"Sút và tạt má ngoài,Qua người (AI),Sút xa (AI),Kiến tạo (AI),Tinh tế",STARTER_XI
+F. Valverde,CU,8,RCM,137,27,182,78,Nhỏ(Special),Phải,4,5,"Sút và tạt má ngoài,Chuyền dài (AI),Sút xa (AI),Ma tốc độ (AI)",STARTER_XI
+Casemiro,CU,8,CDM,141,27,185,84,TB(Special),Phải,3,5,"Xoạc bóng (AI),Chuyền dài (AI),Sút xa (AI),Cứng như thép",STARTER_XI
+A. Tchouaméni,CU,8,LCB,137,26,188,82,Trung bình,Phải,4,4,"Đánh đầu mạnh,Xoạc bóng (AI),Thánh chuyền bóng,Sút xa (AI)",STARTER_XI
+F. Mendy,CU,8,LB,136,26,180,73,TB(Special),Trái,5,5,"Đánh đầu mạnh,Ma tốc độ (AI)",STARTER_XI
+R. Ferdinand,DC,9,LCB,137,27,189,87,TB(Special),Phải,3,5,"Đánh đầu mạnh,Cứng như thép",BENCH_RESERVE
+Éder Militão,CU,8,RCB,136,27,186,78,Nhỏ(Special),Phải,3,5,"Cứng như thép,Sút xa (AI),Xoạc bóng (AI)",STARTER_XI
+Carvajal,CU,8,RB,136,28,173,73,To(Special),Phải,3,5,"Tạt bóng sớm (AI)",STARTER_XI
+Thibaut Courtois,CU,8,GK,141,24,200,96,Nhỏ,Trái,3,1,"TM lưu ý tạt bóng,TM đối mặt,TM ném xa",STARTER_XI
+Kepa,CU,9,GK,133,23,188,88,Nhỏ,Phải,4,1,TM ném bóng xa,BENCH_RESERVE
+K. Casteels,23HW,9,GK,132,20,197,86,TB,Trái,2,3,"TM ném bóng xa,TM đấm bóng",BENCH_RESERVE
+K. Havertz,CU,8,RM,137,27,193,82,Nhỏ(Special),Trái,4,5,"Sút và tạt má ngoài,Cứng như thép",SOLD_EX_STARTER
+N. Matić,VTR,12,CDM,131,19,194,83,Nhỏ,Trái,3,5,Cứng như thép,BENCH_RESERVE
+S. Gerrard,UT,8,LCM,134,27,183,83,TB,Phải,4,5,"Sút và tạt má ngoài,Chuyền dài (AI),Sút xa (AI),Dễ chấn thương,Tinh tế",BENCH_RESERVE
+M. Desailly,WG,5,LCB,134,31,185,81,Nhỏ,Phải,3,5,"Bậc thầy không chiến,Cứng như thép,Sút xa (AI),Đánh đầu mạnh,Xoạc bóng (AI),Cứng cỏi,Nỗ lực đến cùng",BENCH_RESERVE
+J. Koundé,FAC,5,RB,129,28,180,75,TB,Phải,3,5,"Chuyên gia đeo bám,Sút xa (AI),Xoạc bóng (AI)",BENCH_RESERVE
+M. Lacroix,25DP,5,CB,120,24,190,88,Trung bình,Phải,3,2,"Ma tốc độ (AI)",BENCH_RESERVE
+Álvaro García,24EP,8,LW,126,23,167,61,Nhỏ,Trái,3,4,"Ma tốc độ (AI)",BENCH_RESERVE

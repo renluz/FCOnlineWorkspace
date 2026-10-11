@@ -1,0 +1,65 @@
+{
+  "SRC_GARENA_OFFICIAL": {
+    "source_id": "SRC_GARENA_OFFICIAL",
+    "name": "Garena FC Online Vietnam Official Announcements & Patch Notes",
+    "url": "https://fconline.garena.vn",
+    "type": "OFFICIAL_GARENA",
+    "server": "VN_GARENA",
+    "reliability_tier": "A",
+    "description": "Thông báo bản cập nhật, gameplay patch notes, cơ chế tính năng và thông số chính thức từ Garena VN."
+  },
+  "SRC_NEXON_OFFICIAL": {
+    "source_id": "SRC_NEXON_OFFICIAL",
+    "name": "Nexon FC Online Korea Official Data Center & Open API",
+    "url": "https://open.api.nexon.com",
+    "type": "OFFICIAL_NEXON",
+    "server": "KR_NEXON",
+    "reliability_tier": "A",
+    "description": "Metadata API chuẩn, cấu trúc match-detail, ranker stats và định nghĩa hệ thống từ Nexon."
+  },
+  "SRC_INVEN_GLXH": {
+    "source_id": "SRC_INVEN_GLXH",
+    "name": "Inven FC Online Korea - Manager Mode Community (감독모드)",
+    "url": "https://fconline.inven.co.kr",
+    "type": "COMMUNITY_HIGH_RANK",
+    "server": "KR_NEXON",
+    "reliability_tier": "B",
+    "description": "Chiến thuật, sơ đồ, phân tích AI cầu thủ và thống kê từ các Ranker Super Champions / Champions."
+  },
+  "SRC_FCVN": {
+    "source_id": "SRC_FCVN",
+    "name": "FCVN - Cộng Đồng FC Online Việt Nam",
+    "url": "https://fcvn.net",
+    "type": "COMMUNITY_VERIFIED",
+    "server": "VN_GARENA",
+    "reliability_tier": "C",
+    "description": "Phân tích meta Việt Nam, đánh giá mùa thẻ, kinh nghiệm build team color và vận hành giải đấu."
+  },
+  "SRC_FB_GLXH_VN": {
+    "source_id": "SRC_FB_GLXH_VN",
+    "name": "Cộng Đồng Giả Lập Xếp Hạng FC Online Việt Nam (Facebook)",
+    "url": "https://www.facebook.com/groups/glxhfconlinevn",
+    "type": "COMMUNITY_OBSERVED",
+    "server": "VN_GARENA",
+    "reliability_tier": "C",
+    "description": "Dữ liệu người dùng Việt Nam chia sẻ thực tế về leo rank Thách Đấu / Siêu Sao GLXH."
+  },
+  "SRC_FIFAADDICT": {
+    "source_id": "SRC_FIFAADDICT",
+    "name": "FIFAAddict Global Database",
+    "url": "https://fifaaddict.com",
+    "type": "DATABASE_PUBLIC",
+    "server": "GLOBAL_GENERIC",
+    "reliability_tier": "B",
+    "description": "Cơ sở dữ liệu thẻ, natural positions, body type, work rate và traits cầu thủ toàn cầu."
+  },
+  "SRC_YOUTUBE_VN": {
+    "source_id": "SRC_YOUTUBE_VN",
+    "name": "Kênh Chuyên Sâu GLXH / Review Chiến Thuật VN",
+    "url": "https://youtube.com",
+    "type": "COMMUNITY_MEDIA",
+    "server": "VN_GARENA",
+    "reliability_tier": "C",
+    "description": "Video thực chiến, phân tích góc nhìn trận đấu và kiểm chứng phôi chiến thuật trong GLXH."
+  }
+}

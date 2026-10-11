@@ -1,0 +1,14 @@
+{
+  "source": "GARENA_VN_TOP_TEAM_COLORS",
+  "sample_type": "VN_GLXH",
+  "extracted_at": "2026-09-19T00:06:07.656462",
+  "team_colors": [
+    "첼시",
+    "레알 마드리드",
+    "바이에른 뮌헨",
+    "맨체스터 시티",
+    "네덜란드",
+    "프랑스"
+  ],
+  "provenance_notice": "Top team color GLXH candidates for Chelsea, Real Madrid, Bayern, Man City, Netherlands, France."
+}

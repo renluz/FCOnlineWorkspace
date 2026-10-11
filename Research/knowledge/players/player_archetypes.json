@@ -1,0 +1,173 @@
+{
+  "_meta": {
+    "taxonomy_type": "ANALYTICAL_ARCHETYPE",
+    "disclaimer": "These archetypes are analytical abstractions developed for squad analysis and tactical modeling, NOT internal AI classes confirmed by EA Sports or Nexon.",
+    "season_isolation_rule": "Player performance and attributes are isolated strictly to their specific card season and enhancement grade. Do NOT extrapolate traits or AI behaviors across different seasons."
+  },
+  "RUN_BEHIND_ST": {
+    "name": "Tiền đạo chạy chỗ phá bẫy việt vị",
+    "core_attributes": [
+      "Tốc độ",
+      "Tăng tốc",
+      "Chọn vị trí",
+      "Phản xạ",
+      "Khéo léo"
+    ],
+    "key_traits": [
+      "Ma tốc độ",
+      "Phá bẫy việt vị"
+    ],
+    "ideal_instructions": "AR1 (Xẻ nách), DP2 (Luôn ở trên) hoặc DP Mặc định",
+    "examples": [
+      "Son Heung Min",
+      "Aubameyang",
+      "Mbappe",
+      "Shevchenko"
+    ]
+  },
+  "TARGET_MAN_ST": {
+    "name": "Tiền đạo mục tiêu làm tường / Không chiến",
+    "core_attributes": [
+      "Sức mạnh",
+      "Chiều cao (>=188cm)",
+      "Đánh đầu",
+      "Nhảy",
+      "Giữ bóng",
+      "Dứt điểm"
+    ],
+    "key_traits": [
+      "Đánh đầu mạnh",
+      "Cứng như thép"
+    ],
+    "ideal_instructions": "AR2 (Mục tiêu), DP2 (Luôn ở trên) hoặc DP Mặc định",
+    "examples": [
+      "V. Boniface",
+      "E. Haaland",
+      "D. Drogba",
+      "R. van Nistelrooy"
+    ]
+  },
+  "BOX_TO_BOX_CM": {
+    "name": "Tiền vệ con thoi toàn diện",
+    "core_attributes": [
+      "Thể lực (>=115)",
+      "Chuyền ngắn",
+      "Sút xa",
+      "Cắt bóng",
+      "Tốc độ đều"
+    ],
+    "key_traits": [
+      "Sút xa",
+      "Thánh chuyền bóng"
+    ],
+    "ideal_instructions": "AS2 hoặc AS Mặc định, DP1 (Tập trung trung lộ)",
+    "examples": [
+      "F. Lampard",
+      "W. Zaïre-Emery",
+      "R. Gullit",
+      "M. Ballack"
+    ]
+  },
+  "ANCHOR_CDM": {
+    "name": "Tiền vệ mỏ neo thuần túy",
+    "core_attributes": [
+      "Cắt bóng (>=115)",
+      "Quyết đoán (>=110)",
+      "Kèm người",
+      "Thể hình Đậm/Chuẩn",
+      "Bình tĩnh"
+    ],
+    "key_traits": [
+      "Cứng như thép",
+      "Chuyền dài"
+    ],
+    "ideal_instructions": "AS1 (Ở lại phía sau), DB1 (Cắt đường chuyền), DP1 (Tập trung trung lộ)",
+    "examples": [
+      "Rodri",
+      "P. Vieira",
+      "F. Rijkaard",
+      "Casemiro"
+    ]
+  },
+  "STOPPER_CB": {
+    "name": "Trung vệ dập áp sát quyết liệt",
+    "core_attributes": [
+      "Sức mạnh",
+      "Quyết đoán",
+      "Tắc bóng",
+      "Xoạc bóng",
+      "Thể hình Đậm"
+    ],
+    "key_traits": [
+      "Cứng như thép",
+      "Đánh đầu mạnh"
+    ],
+    "ideal_instructions": "IN1 (Đánh chặn chủ động)",
+    "examples": [
+      "M. Desailly",
+      "Sergio Ramos",
+      "Jaap Stam",
+      "Vidic"
+    ]
+  },
+  "COVER_SWEEPER_CB": {
+    "name": "Trung vệ thòng bọc lót / Phân phối bóng",
+    "core_attributes": [
+      "Tốc độ",
+      "Phản xạ",
+      "Chọn vị trí phòng ngự",
+      "Bình tĩnh",
+      "Chuyền dài"
+    ],
+    "key_traits": [
+      "Chuyền dài"
+    ],
+    "ideal_instructions": "IN2 (Đánh chặn thận trọng)",
+    "examples": [
+      "F. Schär",
+      "V. van Dijk",
+      "F. Maldini",
+      "F. Cannavaro"
+    ]
+  },
+  "COMPLETE_FULLBACK": {
+    "name": "Hậu vệ biên toàn diện 2 chân",
+    "core_attributes": [
+      "Tốc độ (>=120)",
+      "Thể lực (>=120)",
+      "Tắc bóng",
+      "Tạt bóng",
+      "Chân không thuận >=4"
+    ],
+    "key_traits": [
+      "Ma tốc độ",
+      "Tạt bóng sớm"
+    ],
+    "ideal_instructions": "AR2 (Ở lại phía sau) để thủ chắc, hoặc AR1 (Chồng biên) khi cần bàn",
+    "examples": [
+      "G. Zambrotta",
+      "J. Gvardiol",
+      "A. Cole",
+      "Cafu"
+    ]
+  },
+  "GIANT_SHOT_STOPPER_GK": {
+    "name": "Thủ môn hộ pháp phản xạ",
+    "core_attributes": [
+      "Chiều cao (>=195cm)",
+      "Phản xạ GK",
+      "Đổ người GK",
+      "Bắt bóng GK"
+    ],
+    "key_traits": [
+      "Ném bóng xa",
+      "Cản phá 1-on-1"
+    ],
+    "examples": [
+      "Mailson",
+      "W. Hennessey",
+      "T. Courtois",
+      "E. van der Sar"
+    ]
+  }
+}

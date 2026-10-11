@@ -1,0 +1,134 @@
+{
+  "schema_version": "2.0.0",
+  "verified_date": "2026-09-20",
+  "server": "Garena FC Online Việt Nam",
+  "effective_from": "2026-08-03",
+  "current_rules": [
+    {
+      "card_group": "regular",
+      "classes_note": "Các mùa còn lại, gồm các ví dụ VTR, CU, 24EP, UT, GRU, WG, 25DP.",
+      "milestones": [
+        {
+          "enhancement": "+5",
+          "tier_name_vi": "Mạ Bạc",
+          "tier_name_status": "community/marketing convention; patch 03/08 does not explicitly name this tier",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 0,
+            "gold_hidden_trait_slots": 0
+          }
+        },
+        {
+          "enhancement": "+8",
+          "tier_name_vi": "Mạ Vàng",
+          "tier_name_status": "Garena verified",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 1,
+            "gold_hidden_trait_slots": 0
+          }
+        },
+        {
+          "enhancement": "+11 đến +13",
+          "tier_name_vi": "Bạch Kim",
+          "tier_name_status": "Garena verified",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 1,
+            "gold_hidden_trait_slots": 1
+          }
+        }
+      ],
+      "sources": [
+        {
+          "type": "Garena FC Online VN patch note",
+          "url": "https://fconline.garena.vn/ban-tin-cap-nhat-3-8-2026/",
+          "verified_date": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "card_group": "special",
+      "classes": [
+        "26TOTY winner",
+        "PRIME",
+        "Infinite Prime",
+        "ICON TM"
+      ],
+      "milestones": [
+        {
+          "enhancement": "+5",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 0,
+            "gold_hidden_trait_slots": 0
+          }
+        },
+        {
+          "enhancement": "+7",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 0,
+            "gold_hidden_trait_slots": 1
+          }
+        },
+        {
+          "enhancement": "+8 trở lên",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 1,
+            "gold_hidden_trait_slots": 1
+          }
+        }
+      ],
+      "sources": [
+        {
+          "type": "Garena FC Online VN patch note",
+          "url": "https://fconline.garena.vn/ban-tin-cap-nhat-3-8-2026/",
+          "verified_date": "2026-09-20"
+        }
+      ]
+    }
+  ],
+  "superseded_rules": [
+    {
+      "period": "2026-06-12 đến trước 2026-08-03",
+      "rule": "+8 trở lên được chọn 1 Chỉ số ẩn Vàng; +11 đến +13 mở thêm 1 ô HLV kỹ năng.",
+      "sources": [
+        {
+          "type": "Garena FC Online VN patch note",
+          "url": "https://fconline.garena.vn/ban-tin-cap-nhat-12-06-2026/",
+          "verified_date": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "period": "NEXON/KR 2025-08 đến 2026-05 reference",
+      "rule": "+5 đặc tính thường; +8 đặc tính mới; +11 tập trung huấn luyện và sau đó thêm kỹ năng HLV.",
+      "scope": "Không dùng làm cơ chế hiện hành cho Garena VN sau 03/08/2026.",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?bid=20250909215050265df0cbcef945e5873137_n&n4ArticleSN=5550",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "NEXON official notice",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=6006",
+          "verified_date": "2026-09-20"
+        }
+      ]
+    }
+  ],
+  "classification": {
+    "original_trait": "Có sẵn trên exact card.",
+    "ordinary_hidden_trait": "Chỉ Số Ẩn Thường; ô tùy chọn mở ở +5.",
+    "coach_skill": "HLV Kỹ năng; ô tùy chọn theo mức thẻ mở ở +8.",
+    "gold_hidden_trait": "Chỉ số ẩn Vàng; mùa thường mở ở +11, nhóm mùa đặc biệt mở ở +7."
+  },
+  "ui_selected_rule": {
+    "label": "(Đã chọn)",
+    "meaning": "Trong các trường hợp đã xác minh trên client tài khoản này: trait là đặc điểm gốc đã có và không thể chọn lại.",
+    "status": "account-client verified; recheck after patch if behavior changes"
+  }
+}

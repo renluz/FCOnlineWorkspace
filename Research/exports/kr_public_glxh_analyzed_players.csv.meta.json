@@ -1,0 +1,8 @@
+{
+  "source": "KR_PUBLIC_DATA_CENTER_AND_COMMUNITY",
+  "sample_type": "KR_PUBLIC_GLXH",
+  "retrieved_at": "2026-09-19T00:00:00",
+  "is_live_data": false,
+  "region_status": "UNAVAILABLE_FROM_VIETNAM",
+  "provenance_notice": "Public Korean FC Online Manager Mode dataset cross-referenced with 41,289 player DB."
+}

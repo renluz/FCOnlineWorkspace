@@ -1,0 +1,1499 @@
+{
+  "schema_version": "1.0.0",
+  "game": "EA SPORTS FC Online VN",
+  "game_version": "live service; verified through 2026-09-20",
+  "verified_date": "2026-09-20",
+  "scope_note": "Danh mục hợp nhất 32 trait gốc/Chỉ số ẩn Thường và 17 đặc tính thế hệ mới được quản lý trong nhóm Chỉ số ẩn Vàng theo cơ chế Garena VN từ 03/08/2026. Tên VN null nghĩa là chưa thấy nhãn client/Garena, không phải thiếu bản dịch.",
+  "ui_rule": {
+    "label": "(Đã chọn)",
+    "meaning": "Trong các trường hợp đã xác minh trên client tài khoản này: trait là đặc điểm gốc đã có và không thể chọn lại.",
+    "status": "account-client verified; recheck after patch if behavior changes"
+  },
+  "traits": [
+    {
+      "id": "preferred_position",
+      "name_vi": "Vị trí yêu thích",
+      "aliases": [],
+      "name_ko": "선호포지션 고집",
+      "name_en": "Preferred position",
+      "description_vi": "Ưu tiên hoạt động ở vị trí sở trường.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "long_throw_in",
+      "name_vi": "Ném biên xa",
+      "aliases": [],
+      "name_ko": "장거리 스로잉",
+      "name_en": "Long throw-in",
+      "description_vi": "Ném biên xa hơn thông thường.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "LB",
+        "RB"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "dives",
+      "name_vi": "Ăn vạ",
+      "aliases": [],
+      "name_ko": "파울 유도 선호",
+      "name_en": "Tries to beat defensive line / draws fouls",
+      "description_vi": "Có xu hướng tìm tình huống phạm lỗi có lợi.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "CAM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "injury_prone",
+      "name_vi": "Dễ chấn thương",
+      "aliases": [
+        "Chấn thương"
+      ],
+      "name_ko": "유리몸",
+      "name_en": "Injury prone",
+      "description_vi": "Nguy cơ chấn thương cao hơn.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "solid_player",
+      "name_vi": "Cứng như thép",
+      "aliases": [],
+      "name_ko": "강철몸",
+      "name_en": "Solid player",
+      "description_vi": "Khó chấn thương hơn.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "avoid_weak_foot",
+      "name_vi": "Tránh sai chân thuận",
+      "aliases": [],
+      "name_ko": "주발 선호",
+      "name_en": "Avoids weaker foot",
+      "description_vi": "Ưu tiên dùng chân thuận.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "slide_tackle",
+      "name_vi": "Xoạc bóng",
+      "aliases": [
+        "Xoạc bóng ( AI )"
+      ],
+      "name_ko": "슬라이딩 태클 선호",
+      "name_en": "Dives into tackles",
+      "description_vi": "Có xu hướng sử dụng xoạc bóng.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "selfish",
+      "name_vi": "Cá nhân",
+      "aliases": [],
+      "name_ko": "개인 플레이 선호",
+      "name_en": "Selfish",
+      "description_vi": "Có xu hướng giữ và tự xử lý bóng nhiều hơn.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "argues",
+      "name_vi": "Tranh cãi",
+      "aliases": [],
+      "name_ko": "트러블 메이커",
+      "name_en": "Argues with officials",
+      "description_vi": "Có xu hướng phản ứng/tranh cãi với quyết định trọng tài.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "early_crosser",
+      "name_vi": "Tạt bóng sớm",
+      "aliases": [
+        "Tạt bóng sớm ( AI )"
+      ],
+      "name_ko": "얼리 크로스 선호",
+      "name_en": "Early crosser",
+      "description_vi": "Có xu hướng tạt sớm.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "LB",
+        "RB",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "finesse_shot",
+      "name_vi": "Sút xoáy",
+      "aliases": [],
+      "name_ko": "예리한 감아차기",
+      "name_en": "Finesse shot",
+      "description_vi": "Cải thiện hoặc ưu tiên các pha cứa lòng.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "CAM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "flair",
+      "name_vi": "Tinh tế",
+      "aliases": [],
+      "name_ko": "화려한 개인기",
+      "name_en": "Flair",
+      "description_vi": "Thực hiện các động tác và đường bóng kỹ thuật hơn.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "CAM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "long_passer",
+      "name_vi": "Chuyền dài",
+      "aliases": [
+        "Chuyền dài ( AI )"
+      ],
+      "name_ko": "긴 패스 선호",
+      "name_en": "Long passer",
+      "description_vi": "Ưu tiên hoặc cải thiện đường chuyền dài.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "long_shot_taker",
+      "name_vi": "Sút xa",
+      "aliases": [
+        "Sút xa ( AI )"
+      ],
+      "name_ko": "중거리 슛 선호",
+      "name_en": "Long shot taker",
+      "description_vi": "Có xu hướng dứt điểm từ xa.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "CM",
+        "CAM",
+        "ST"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "speed_dribbler",
+      "name_vi": "Ma tốc độ",
+      "aliases": [
+        "Ma tốc độ ( AI )"
+      ],
+      "name_ko": "스피드 드리블러",
+      "name_en": "Speed dribbler",
+      "description_vi": "Có xu hướng rê bóng ở tốc độ cao.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "playmaker",
+      "name_vi": "Kiến tạo",
+      "aliases": [
+        "Kiến tạo ( AI )"
+      ],
+      "name_ko": "플레이 메이커",
+      "name_en": "Playmaker",
+      "description_vi": "Có xu hướng làm trạm luân chuyển và kiến tạo.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "CDM",
+        "CM",
+        "CAM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_rushes_out",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 공격 가담",
+      "name_en": "GK rushes out",
+      "description_vi": "Tên tiếng Việt client chưa xác minh.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_puncher",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 능숙한 펀칭",
+      "name_en": "GK puncher",
+      "description_vi": "Tên tiếng Việt client chưa xác minh.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_long_throw",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 멀리 던지기",
+      "name_en": "GK long throw",
+      "description_vi": "Tên tiếng Việt client chưa xác minh.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "power_header",
+      "name_vi": "Đánh đầu mạnh",
+      "aliases": [],
+      "name_ko": "파워 헤더",
+      "name_en": "Power header",
+      "description_vi": "Tăng hiệu quả/uy lực đánh đầu.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "ST"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_one_on_one",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 침착한 1:1 수비",
+      "name_en": "GK one-on-one",
+      "description_vi": "Tên tiếng Việt client chưa xác minh.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "giant_throw_in",
+      "name_vi": "Ném biên rất xa",
+      "aliases": [],
+      "name_ko": "초 장거리 스로인",
+      "name_en": "Giant throw-in",
+      "description_vi": "Ném biên xa hơn Ném biên xa.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "LB",
+        "RB"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "outside_foot",
+      "name_vi": "Sút và tạt má ngoài",
+      "aliases": [],
+      "name_ko": "아웃사이드 슈팅/크로스",
+      "name_en": "Outside foot shot/cross",
+      "description_vi": "Cải thiện hoặc ưu tiên sút và tạt bằng má ngoài.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "CAM",
+        "LM",
+        "RM",
+        "LB",
+        "RB"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "pass_master",
+      "name_vi": "Thánh chuyền bóng",
+      "aliases": [],
+      "name_ko": "패스마스터",
+      "name_en": "Pass master",
+      "description_vi": "Cải thiện chất lượng các đường chuyền.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "CDM",
+        "CM",
+        "CAM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "never_give_up",
+      "name_vi": "Nỗ lực đến cùng",
+      "aliases": [],
+      "name_ko": "승부욕",
+      "name_en": "Competitive spirit",
+      "description_vi": "Duy trì tinh thần thi đấu và nỗ lực trong trận.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "fancy_clearance",
+      "name_vi": "Siêu cản phá",
+      "aliases": [],
+      "name_ko": "화려한 걷어내기",
+      "name_en": "Fancy clearance",
+      "description_vi": "Có xu hướng thực hiện pha phá/cản bóng đặc biệt.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "LB",
+        "RB"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "chip_shot",
+      "name_vi": "Bấm bóng",
+      "aliases": [],
+      "name_ko": "칩슛 선호",
+      "name_en": "Chip shot",
+      "description_vi": "Có xu hướng sử dụng dứt điểm bấm bóng.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "technical_dribbler",
+      "name_vi": "Qua người",
+      "aliases": [
+        "Qua người ( AI )"
+      ],
+      "name_ko": "테크니컬 드리블러",
+      "name_en": "Technical dribbler",
+      "description_vi": "Có xu hướng rê bóng kỹ thuật để vượt đối thủ.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "CAM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "client_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "sweeper_keeper",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "스위퍼 키퍼",
+      "name_en": "Sweeper keeper",
+      "description_vi": "Tên tiếng Việt client chưa xác minh.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_cautious_cross",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 소극적 크로스 수비",
+      "name_en": "GK cautious with crosses",
+      "description_vi": "Tên tiếng Việt client chưa xác minh.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_aggressive_cross",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 적극적 크로스 수비",
+      "name_en": "GK comes for crosses",
+      "description_vi": "Tên tiếng Việt client chưa xác minh.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": false,
+      "selectability_note": "Không xác nhận là lựa chọn tự do ở +5.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "second_wind",
+      "name_vi": "Người không phổi",
+      "aliases": [],
+      "name_ko": null,
+      "name_en": "Second wind",
+      "description_vi": "Hỗ trợ duy trì/khôi phục thể lực theo cơ chế trait.",
+      "description_status": "verified_or_conservative_summary",
+      "type": "original_trait",
+      "selectable": true,
+      "selectability_note": "Khả năng xuất hiện trong pool phải kiểm tra trên exact card/client; không suy từ tên trait.",
+      "original_trait_possible": true,
+      "positions": [
+        "ALL"
+      ],
+      "manager_mode_notes": "",
+      "name_vi_status": "vn_market_verified",
+      "sources": [
+        {
+          "type": "FC Online VN client",
+          "ref": "user screenshots and observed exact labels",
+          "verified_date": "2026-09-20"
+        },
+        {
+          "type": "Korean FC Online database export",
+          "ref": "../repos/fconline-player-search/피온탐색기V2-1.py ALL_TRAITS",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "cross_poacher",
+      "name_vi": "Sát Thủ Băng Cắt",
+      "aliases": [],
+      "name_ko": "크로스 포처",
+      "name_en": "Cross Poacher",
+      "description_vi": "Di chuyển nhanh đến điểm rơi trong tình huống tạt bóng.",
+      "description_status": "official",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "garena_verified",
+      "sources": [
+        {
+          "type": "Garena FC Online VN",
+          "url": "https://fconline.garena.vn/chi-so-an-moi-mua-prime/",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "line_breaker",
+      "name_vi": "Bậc Thầy Chạy Chỗ",
+      "aliases": [],
+      "name_ko": "라인 브레이커",
+      "name_en": "Line Breaker",
+      "description_vi": "Di chuyển không bóng để phá hàng thủ, rõ nhất khi phá bẫy việt vị.",
+      "description_status": "official",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "CAM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "garena_verified",
+      "sources": [
+        {
+          "type": "Garena FC Online VN",
+          "url": "https://fconline.garena.vn/chi-so-an-moi-mua-prime/",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "wild_tackler",
+      "name_vi": "Cao Thủ Tắc Bóng",
+      "aliases": [],
+      "name_ko": "와일드 태클러",
+      "name_en": "Wild Tackler",
+      "description_vi": "Tăng phạm vi tắc bóng đứng, kể cả từ phía sau.",
+      "description_status": "official",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "garena_verified",
+      "sources": [
+        {
+          "type": "Garena FC Online VN",
+          "url": "https://fconline.garena.vn/chi-so-an-moi-mua-prime/",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "chaser",
+      "name_vi": "Chuyên Gia Đeo Bám",
+      "aliases": [],
+      "name_ko": "체이서",
+      "name_en": "Chaser",
+      "description_vi": "Tăng tốc bám đuổi trong 10 giây sau khi đối phương phản công.",
+      "description_status": "official",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "garena_verified",
+      "sources": [
+        {
+          "type": "Garena FC Online VN",
+          "url": "https://fconline.garena.vn/chi-so-an-moi-mua-prime/",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "acrobat_finisher",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "아크로바틱 피니셔",
+      "name_en": "Acrobatic Finisher",
+      "description_vi": "Tên/mô tả tiếng Việt client chưa xác minh.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?bid=20250909215050265df0cbcef945e5873137_n&n4ArticleSN=5550",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "two_hearts",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "2개의 심장",
+      "name_en": "Two Hearts",
+      "description_vi": "Tên/mô tả tiếng Việt client chưa xác minh.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CM",
+        "CDM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?bid=20250909215050265df0cbcef945e5873137_n&n4ArticleSN=5550",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "fighter",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "파이터",
+      "name_en": "Fighter",
+      "description_vi": "Tên/mô tả tiếng Việt client chưa xác minh.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?bid=20250909215050265df0cbcef945e5873137_n&n4ArticleSN=5550",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_quick_reaction",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 빠른 반응",
+      "name_en": "GK Quick Reaction",
+      "description_vi": "Tên/mô tả tiếng Việt client chưa xác minh.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?bid=20250909215050265df0cbcef945e5873137_n&n4ArticleSN=5550",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "speedster",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "스피드스터",
+      "name_en": "Speedster",
+      "description_vi": "Sau một khoảng rê chậm, chuyển sang tăng tốc hoặc knock-on sẽ được tăng gia tốc; không kích hoạt với knock-on ở chạm đầu.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5769",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "titan",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "타이탄",
+      "name_en": "Titan",
+      "description_vi": "Tạo lợi thế thể chất trong tranh chấp bóng bổng; hai cầu thủ cùng có trait sẽ triệt tiêu hiệu ứng.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "ST"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5769",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "commander",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "커맨더",
+      "name_en": "Commander",
+      "description_vi": "Mở đường lobbed-through thấp, nhanh, có backspin khi đủ điều kiện; hạn chế theo khu vực, chân yếu và dạng chạm bóng.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "CDM",
+        "CM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5769",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "blocker",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "블로커",
+      "name_en": "Blocker",
+      "description_vi": "Đọc thời điểm/quỹ đạo sút và chủ động đổ người chắn; hiệu quả phụ thuộc chỉ số.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "CDM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5769",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_aerial_control",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 공중볼 장악",
+      "name_en": "GK Aerial Control",
+      "description_vi": "Tự chọn vị trí thuận lợi để can thiệp bóng tạt/lob thay vì đấm bóng thiếu an toàn; hiệu quả phụ thuộc chỉ số GK.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official patch note",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5769",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "trickster",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "트릭스터",
+      "name_en": "Trickster",
+      "description_vi": "Mở 4 động tác step-over mới và tăng hiệu quả 11 động tác hiện có.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "ST",
+        "CAM",
+        "LM",
+        "RM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official update preview",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5943",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "laser_shooter",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "레이저 슈터",
+      "name_en": "Laser Shooter",
+      "description_vi": "Khi bóng lăn tới từ hướng đối diện chiều tấn công, cú sút một chạm gần vạch cấm có quỹ đạo thấp và nhanh hơn.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CM",
+        "CAM",
+        "ST"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official update preview",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5943",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "predator",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "프레데터",
+      "name_en": "Predator",
+      "description_vi": "Tăng hiệu quả jockey chậm/nhanh khi ở gần người cầm bóng; hỗ trợ gia tốc khi chuyển sang sprint và giữ tư thế ổn định.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "CB",
+        "LB",
+        "RB",
+        "CDM"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official update preview",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5943",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    },
+    {
+      "id": "gk_deadeye",
+      "name_vi": null,
+      "aliases": [],
+      "name_ko": "GK 데드아이",
+      "name_en": "GK Deadeye",
+      "description_vi": "GK dự đoán quỹ đạo sút ở khoảng cách nhất định để chọn vị trí tốt hơn; tăng theo chỉ số vị trí và có lợi hơn cho GK thấp.",
+      "description_status": "official_ko_name_only",
+      "type": "gold_hidden_trait",
+      "selectable": true,
+      "selectability_note": "Thuộc pool Chỉ số ẩn Vàng. Từ 03/08/2026 tại máy chủ VN: mùa thường mở ở +11; 26TOTY winner, PRIME, Infinite Prime và ICON TM mở ở +7. Pool thực tế cần kiểm tra theo client/exact card.",
+      "original_trait_possible": true,
+      "positions": [
+        "GK"
+      ],
+      "manager_mode_notes": "Có áp dụng GLXH theo bảng NEXON; hiệu quả theo vai trò cần kiểm nghiệm.",
+      "name_vi_status": "unverified_no_translation",
+      "sources": [
+        {
+          "type": "NEXON official update preview",
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=5943",
+          "verified_date": "2026-09-20"
+        }
+      ],
+      "verified_date": "2026-09-20"
+    }
+  ]
+}

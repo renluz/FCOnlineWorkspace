@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "name_vi_exact": "Sát thủ băng cắt",
+    "name_ko": "크로스 포쳐",
+    "name_en": "Cross Poacher",
+    "description_vi": "Di chuyển nhanh đến điểm rơi trong các tình huống tạt bóng.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Tăng tốc độ băng cắt và chọn vị trí đón bóng bổng từ biên.",
+    "manager_observation": "Cực kỳ hiệu quả cho tiền đạo/tiền vệ cánh chạy chỗ đón tạt.",
+    "recommended_roles": [
+      "WIDE_RUNNER",
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "bad_roles": [
+      "CB_STOPPER",
+      "CB_COVER",
+      "ANCHOR_CDM"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882598336.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 2,
+    "name_vi_exact": "Chuyên gia vô lê",
+    "name_ko": "아크로바틱 피니셔",
+    "name_en": "Acrobatic Finisher",
+    "description_vi": "Thường xuyên tung ra các cú vô lê với tư thế ngả người móc bóng.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Tăng xác suất và uy lực dứt điểm vô lê ngả bàn đèn.",
+    "manager_observation": "Tạo siêu phẩm bất ngờ khi đón bóng bật ra từ phạt góc.",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "bad_roles": [
+      "CB_COVER",
+      "ANCHOR_CDM"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882598336.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 3,
+    "name_vi_exact": "Bậc thầy không chiến",
+    "name_ko": "공중전 지배자 / 타이탄",
+    "name_en": "Aerial Master / Titan",
+    "description_vi": "Cản trở cầu thủ đối phương trong các tình huống tranh chấp bóng bổng.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Giảm khả năng bật nhảy và thăng bằng của đối phương khi không chiến.",
+    "manager_observation": "Biến trung vệ thành hòn đá tảng bất khả xâm phạm trên không.",
+    "recommended_roles": [
+      "CB_COVER",
+      "CB_STOPPER",
+      "ANCHOR_CDM"
+    ],
+    "bad_roles": [
+      "WIDE_RUNNER"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882598336.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 4,
+    "name_vi_exact": "Dứt điểm 1 chạm",
+    "name_ko": "원터치 피니셔",
+    "name_en": "First Time Finisher",
+    "description_vi": "Thực hiện cú sút trực tiếp với quỹ đạo thấp và nhanh khi bóng đến.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Tối ưu hóa độ hiểm của cú sút một chạm không cần khống chế.",
+    "manager_observation": "Tận dụng đường căng ngang hạ gục thủ môn đối phương chớp nhoáng.",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9",
+      "WIDE_RUNNER"
+    ],
+    "bad_roles": [
+      "CB_COVER",
+      "CB_STOPPER"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882598336.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 5,
+    "name_vi_exact": "Nhạc trưởng",
+    "name_ko": "마에스트로",
+    "name_en": "Maestro / Playmaker",
+    "description_vi": "Tung đường chuyền chọc khe bổng thấp và nhanh có hiệu ứng xoáy.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Tạo đường chuyền QW sệt cuộn vượt qua tầm với trung vệ.",
+    "manager_observation": "Vũ khí phản công số 1 cho CM/CAM phát động bóng cho Winger.",
+    "recommended_roles": [
+      "CM_PROGRESSOR / SECOND_WAVE",
+      "WIDE_CREATOR",
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "bad_roles": [
+      "CB_STOPPER",
+      "CB_COVER"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882598336.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 6,
+    "name_vi_exact": "Siêu Bứt Tốc",
+    "name_ko": "초가속 / 스피드스터",
+    "name_en": "Rocket Sprint / Speedster",
+    "description_vi": "Tăng tốc và đột phá vào khoảng trống trong khi rê bóng.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Cú rướn tốc độ bùng nổ khi bắt đầu dẫn bóng.",
+    "manager_observation": "Bỏ rơi hậu vệ biên trong tích tắc khi mở tốc độ dọc biên.",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "bad_roles": [
+      "ANCHOR_CDM",
+      "CB_COVER"
+    ],
+    "risks": "Tiêu hao thể lực nếu lạm dụng.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882598336.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 7,
+    "name_vi_exact": "Ảo thuật gia",
+    "name_ko": "트릭스터",
+    "name_en": "Trickster",
+    "description_vi": "Sử dụng các kỹ năng cá nhân đa dạng để đánh lừa đối phương.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Tăng tốc độ xoay sở và qua người ảo diệu.",
+    "manager_observation": "Hữu ích trong gameplay tay, trong GLXH cần kết hợp stat chuyền cao.",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9",
+      "WIDE_CREATOR"
+    ],
+    "bad_roles": [
+      "CB_COVER",
+      "CB_STOPPER"
+    ],
+    "risks": "Bị điều chỉnh giảm tần suất spam trong patch mới.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882598336.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 8,
+    "name_vi_exact": "Chặn đà tấn công",
+    "name_ko": "공격 차단 / 파이터",
+    "name_en": "Bruiser / Fighter",
+    "description_vi": "Khi thực hiện tranh chấp sẽ làm giảm tốc độ bứt tốc và độ chính xác của đối thủ.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Áp sát làm đối phương chững lại và chuyền hỏng.",
+    "manager_observation": "Rất mạnh cho tiền vệ phòng ngự và CB dập phá nhịp tấn công đối phương.",
+    "recommended_roles": [
+      "BOX_TO_BOX_CM",
+      "CB_STOPPER",
+      "ANCHOR_CDM"
+    ],
+    "bad_roles": [
+      "WIDE_RUNNER"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882598336.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 9,
+    "name_vi_exact": "Bậc thầy chạy chỗ",
+    "name_ko": "라인 브레이커",
+    "name_en": "Line Breaker",
+    "description_vi": "Di chuyển không bóng thông minh để phá vỡ hàng phòng ngự của đối thủ.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Phá bẫy việt vị và lẩn vào lưng trung vệ đối phương.",
+    "manager_observation": "Cực phẩm cho lối chơi Zero-ST để CAM/Winger thoát xuống đối mặt.",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9",
+      "WIDE_RUNNER"
+    ],
+    "bad_roles": [
+      "CB_COVER",
+      "CB_STOPPER",
+      "ANCHOR_CDM"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882602385.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 10,
+    "name_vi_exact": "Chủ Động Cản Phá",
+    "name_ko": "능동적 블록 / 블로커",
+    "name_en": "Active Block / Blocker",
+    "description_vi": "Bay người cản phá cú sút.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Tự động bay người hoặc quăng chân chặn đường sút xa và chọc khe.",
+    "manager_observation": "ĐÃ XÁC MINH TRANG BỊ TRÊN MATIĆ VTR +12! Cứu thua vô số bàn thua sút xa trong GLXH.",
+    "recommended_roles": [
+      "ANCHOR_CDM",
+      "CB_COVER",
+      "CB_STOPPER"
+    ],
+    "bad_roles": [
+      "CAM_CONNECTOR / FALSE_9",
+      "WIDE_RUNNER"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882602385.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 11,
+    "name_vi_exact": "Siêu đánh chặn",
+    "name_ko": "인터셉트",
+    "name_en": "Super Intercept",
+    "description_vi": "Thu hẹp khoảng cách với đối thủ để chặn các tình huống đột phá bằng rê bóng.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Tăng tốc độ thu hẹp khoảng cách và thò chân đoạt bóng khi đối thủ rê qua.",
+    "manager_observation": "Khắc chế cứng các cầu thủ rê dắt khéo léo.",
+    "recommended_roles": [
+      "ANCHOR_CDM",
+      "CB_COVER",
+      "STAY_BACK_FULLBACK"
+    ],
+    "bad_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882602385.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 12,
+    "name_vi_exact": "Cao thủ tắc bóng",
+    "name_ko": "와일드 태클러",
+    "name_en": "Wild Tackler",
+    "description_vi": "Tăng phạm vi thực hiện pha tắc bóng đứng, kể cả từ phía sau đối thủ.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Sải chân tắc bóng cực rộng, cướp bóng ngay sau lưng mà không phạm lỗi.",
+    "manager_observation": "Cực kỳ bá đạo cho CB có chiều cao tốt như Ferdinand, Desailly.",
+    "recommended_roles": [
+      "CB_COVER",
+      "CB_STOPPER",
+      "STAY_BACK_FULLBACK / RECOVERY"
+    ],
+    "bad_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882602385.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 13,
+    "name_vi_exact": "Người không phổi",
+    "name_ko": "무한 체력 / 2개의 심장",
+    "name_en": "Relentless / Two Hearts",
+    "description_vi": "Khi bứt tốc, thể lực tiêu hao ít hơn và việc giảm chỉ số do cạn thể lực diễn ra chậm hơn.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Bảo toàn chỉ số tốc độ và tranh chấp suốt 90 phút.",
+    "manager_observation": "Giải quyết triệt để bài toán tụt thể lực ở hiệp 2 cho tiền vệ con thoi.",
+    "recommended_roles": [
+      "BOX_TO_BOX_CM",
+      "WIDE_RUNNER"
+    ],
+    "bad_roles": [
+      "CB_COVER",
+      "GK"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882602385.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 14,
+    "name_vi_exact": "Chuyên gia đeo bám",
+    "name_ko": "체이서",
+    "name_en": "Chaser",
+    "description_vi": "Bám đuổi cầu thủ đối phương nhanh hơn khi họ phản công.",
+    "slot_type": "GOLD_HIDDEN_TRAIT",
+    "official_effect": "Tăng tốc độ thu hồi và đuổi bắt khi đội nhà bị phản công nhanh.",
+    "manager_observation": "Cần thiết cho hậu vệ biên và tiền vệ phòng ngự khi dâng cao chống phản công.",
+    "recommended_roles": [
+      "STAY_BACK_FULLBACK",
+      "ANCHOR_CDM"
+    ],
+    "bad_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "risks": "Không có.",
+    "sources": [
+      "Client Garena VN Screenshot media_1789882602385.png"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  }
+]

@@ -1,0 +1,199 @@
+{
+  "schema_version": "3.0.0",
+  "updated_at": "2026-09-30",
+  "formation": "4-1-4-1-0 / zero-ST",
+  "status_rules": {
+    "confirmed_applied_locked": "Đã gắn thật trong client và người dùng chốt giữ nguyên 100%.",
+    "pending_change": "Đã có chỉ số hiện tại, người dùng đã chốt mục tiêu cần đổi.",
+    "client_verified_dream_team": "Đã đọc từ ảnh chụp client tab C.Số ẩn ngày 21/09.",
+    "pending_client_audit": "Chưa có ảnh chụp hoặc record xác nhận."
+  },
+  "user_decisions_audit": [
+    {
+      "player": "K. Havertz CU +8",
+      "position": "RM",
+      "current_state": {
+        "plus5": "Kiến tạo",
+        "plus8": "Khả năng khéo léo"
+      },
+      "user_target": {
+        "plus5": "Nỗ lực đến cùng",
+        "plus8": "Tấn công với nhịp độ nhanh"
+      },
+      "decision": "Nên đổi nếu còn dùng Havertz khá lâu",
+      "status": "pending_change"
+    },
+    {
+      "player": "S. Gerrard UT +8",
+      "position": "Bench (CM)",
+      "current_state": {
+        "plus5": "Thánh chuyền bóng",
+        "plus8": "Cải thiện chuyền xuyên phá"
+      },
+      "user_target": {
+        "plus5": "Thánh chuyền bóng",
+        "plus8": "Tấn công với nhịp độ nhanh"
+      },
+      "decision": "Giữ +5 Thánh chuyền bóng; đổi +8 -> Tấn công với nhịp độ nhanh",
+      "status": "pending_change"
+    },
+    {
+      "player": "N. Matić VTR +12",
+      "position": "Bench (CDM)",
+      "current_state": {
+        "plus5": "Thánh chuyền bóng",
+        "plus8": "Tập trung đánh chặn",
+        "gold_plus11": "Chủ Động Cản Phá"
+      },
+      "user_target": {
+        "plus5": "Thánh chuyền bóng",
+        "plus8": "Tập trung đánh chặn",
+        "gold_plus11": "Chủ Động Cản Phá"
+      },
+      "decision": "Giữ nguyên 100%",
+      "status": "confirmed_applied_locked"
+    },
+    {
+      "player": "F. Mendy CU +8",
+      "position": "LB",
+      "current_state": {
+        "plus5": "Chuyền dài",
+        "plus8": "Cải thiện phòng thủ bên trái"
+      },
+      "user_target": {
+        "plus5": "Siêu cản phá",
+        "plus8": "Cải thiện phòng thủ bên trái"
+      },
+      "decision": "Nên đổi +5 -> Siêu cản phá; +8 giữ nguyên",
+      "status": "pending_change"
+    },
+    {
+      "player": "M. Desailly WG +5",
+      "position": "Bench (CB)",
+      "current_state": {
+        "plus5": "Thánh chuyền bóng",
+        "plus8": null
+      },
+      "user_target": {
+        "plus5": "Thánh chuyền bóng",
+        "plus8": null
+      },
+      "decision": "Giữ nguyên",
+      "status": "confirmed_applied_locked"
+    },
+    {
+      "player": "R. Ferdinand DC +9",
+      "position": "RCB",
+      "current_state": {
+        "plus5": "Siêu cản phá",
+        "plus8": "Khả năng tắc bóng"
+      },
+      "user_target": {
+        "plus5": "Siêu cản phá",
+        "plus8": "Khả năng tắc bóng"
+      },
+      "decision": "Giữ nguyên 100%",
+      "status": "confirmed_applied_locked"
+    },
+    {
+      "player": "J. Koundé FAC +5",
+      "position": "Bench (RB/CB)",
+      "current_state": {
+        "plus5": "Siêu cản phá",
+        "plus8": null
+      },
+      "user_target": {
+        "plus5": "Siêu cản phá",
+        "plus8": null
+      },
+      "decision": "Giữ nguyên",
+      "status": "confirmed_applied_locked"
+    },
+    {
+      "player": "K. Casteels 23HW +9",
+      "position": "GK",
+      "current_state": {
+        "plus5": "TM đối mặt",
+        "plus8": "Cản phá cú sút chìm"
+      },
+      "user_target": {
+        "plus5": "TM đối mặt",
+        "plus8": "Cản phá cú sút chìm"
+      },
+      "decision": "Giữ nguyên 100% (+5 TM đối mặt, +8 Cản phá cú sút chìm)",
+      "status": "confirmed_applied_locked"
+    }
+  ],
+  "new_starting_xi_verified_traits": [
+    {
+      "player": "J. Bellingham CU +8",
+      "position": "CAM",
+      "client_screenshot": "Screenshot 2026-09-21 195708.png",
+      "verified_slots": {
+        "plus5": "Tinh thần chiến đấu",
+        "plus8": "Nỗ lực đến cùng"
+      },
+      "status": "client_verified_dream_team"
+    },
+    {
+      "player": "Vini Jr. CU +8",
+      "position": "LM",
+      "client_screenshot": "Screenshot 2026-09-21 195954.png",
+      "verified_slots": {
+        "plus5": "Tinh thần chiến đấu",
+        "plus8": "Nỗ lực đến cùng"
+      },
+      "status": "client_verified_dream_team"
+    },
+    {
+      "player": "L. Modrić CU +8",
+      "position": "LCM",
+      "client_screenshot": "Screenshot 2026-09-21 195913.png",
+      "verified_slots": {
+        "plus5": "Tinh thần chiến đấu",
+        "plus8": "Nỗ lực đến cùng"
+      },
+      "status": "client_verified_dream_team"
+    },
+    {
+      "player": "F. Valverde CU +8",
+      "position": "RCM",
+      "client_screenshot": "Screenshot 2026-09-21 195935.png",
+      "verified_slots": {
+        "plus5": "Tinh thần chiến đấu",
+        "plus8": "Nỗ lực đến cùng"
+      },
+      "status": "client_verified_dream_team"
+    },
+    {
+      "player": "Éder Militão CU +8",
+      "position": "LCB",
+      "client_screenshot": "Screenshot 2026-09-21 200059.png",
+      "verified_slots": {
+        "plus5": "Tập trung phòng ngự",
+        "plus8": "Nỗ lực đến cùng"
+      },
+      "status": "client_verified_dream_team"
+    },
+    {
+      "player": "Carvajal CU +8",
+      "position": "RB",
+      "client_screenshot": "Screenshot 2026-09-21 200129.png",
+      "verified_slots": {
+        "plus5": "Lãnh đạo",
+        "plus8": "Nỗ lực đến cùng"
+      },
+      "status": "client_verified_dream_team"
+    },
+    {
+      "player": "A. Tchouaméni CU +8",
+      "position": "CDM",
+      "client_screenshot": null,
+      "verified_slots": {
+        "plus5": null,
+        "plus8": null
+      },
+      "status": "pending_client_audit"
+    }
+  ]
+}

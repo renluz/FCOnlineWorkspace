@@ -1,0 +1,95 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-09-20",
+    "server": "Garena FC Online Việt Nam",
+    "effective_from": "2026-08-03 (Bản cập nhật mùa hè)",
+    "verification_status": "VERIFIED_CLIENT_VN"
+  },
+  "ui_slot_positions": {
+    "slot_1_left": {
+      "milestone": "+8",
+      "type": "SKILL_COACH",
+      "pool_name": "HLV kỹ năng",
+      "total_count": 41,
+      "icon_style": "Hexagon bạc có dấu [+]"
+    },
+    "slot_2_middle": {
+      "milestone": "+11",
+      "type": "GOLD_HIDDEN_TRAIT",
+      "pool_name": "Chỉ số ẩn vàng",
+      "total_count": 14,
+      "icon_style": "Hexagon viền vàng / biểu tượng Kim cương [💎]"
+    },
+    "slot_3_right": {
+      "milestone": "+5",
+      "type": "NORMAL_HIDDEN_TRAIT",
+      "pool_name": "Chỉ số ẩn thường",
+      "total_count": 23,
+      "icon_style": "Hexagon có dấu [+]"
+    }
+  },
+  "upgrade_mechanisms": {
+    "regular_cards": {
+      "description": "Áp dụng cho tất cả các mùa thẻ thông thường (VTR, CU, UT, HG, WG, DC, 24EP, 25TS, FAC, 23HW...)",
+      "milestones": {
+        "plus_5": {
+          "tier_name": "Thẻ Bạc / Thẻ Vàng",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 0,
+            "gold_hidden_trait_slots": 0
+          }
+        },
+        "plus_8": {
+          "tier_name": "Mạ Vàng (+8~+10)",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 1,
+            "gold_hidden_trait_slots": 0
+          }
+        },
+        "plus_11_to_plus_13": {
+          "tier_name": "Bạch Kim (+11~+13)",
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 1,
+            "gold_hidden_trait_slots": 1
+          }
+        }
+      }
+    },
+    "special_cards": {
+      "description": "Áp dụng cho nhóm mùa đặc biệt: 26TOTY winner, PRIME, Infinite Prime, ICON TM",
+      "milestones": {
+        "plus_5": {
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 0,
+            "gold_hidden_trait_slots": 0
+          }
+        },
+        "plus_7": {
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 0,
+            "gold_hidden_trait_slots": 1
+          }
+        },
+        "plus_8": {
+          "opens": {
+            "ordinary_hidden_trait_slots": 1,
+            "coach_skill_slots": 1,
+            "gold_hidden_trait_slots": 1
+          }
+        }
+      }
+    }
+  },
+  "ui_rules": {
+    "already_selected_tag": {
+      "raw_text": "(Đã chọn)",
+      "meaning": "Trait đó đã có sẵn trên thẻ gốc hoặc đã được HLV trang bị từ trước (ví dụ Chủ Động Cản Phá trên Matić +12). Game sẽ khóa không cho chọn trùng lặp."
+    }
+  }
+}

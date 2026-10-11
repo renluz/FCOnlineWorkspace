@@ -1,0 +1,1551 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-09-20",
+    "slot_requirement": "+8 trở lên (Mạ Vàng / enhancement >= +8)",
+    "total_pool_count": 41,
+    "audit_status": "PROVENANCE_AUDITED_STRICT",
+    "disclaimer": "Các nhãn kỹ năng được quan sát từ ảnh chụp client VN. Do giao diện không hiển thị toàn bộ mô tả chi tiết cấp độ cho tất cả kỹ năng, các trường official_effect chưa có văn bản Garena/NEXON chính thức được ghi nhận là null và UNVERIFIED."
+  },
+  "skill_coaches": [
+    {
+      "id": 1,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Bậc thầy tốc độ",
+      "display_text_observed": "Bậc thầy tốc độ",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Bậc thầy tốc độ’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 2,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Chiến thuật chuyền Tiki-Taka",
+      "display_text_observed": "Chiến thuật chuyền Tiki-Taka",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Chiến thuật chuyền Tiki-Taka’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 3,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Chiến thuật chuyền trực tiếp",
+      "display_text_observed": "Chiến thuật chuyền trực tiếp",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Chiến thuật chuyền trực tiếp’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 4,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Chiến thuật tiền đạo áp lực",
+      "display_text_observed": "Chiến thuật tiền đạo áp lực",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Chiến thuật tiền đạo áp lực’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 5,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện chuyền chọc khe",
+      "display_text_observed": "Cải thiện chuyền chọc khe",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền chọc khe’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 6,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Chuyền chọc khe vượt tuyến",
+      "display_text_observed": "Chuyền chọc khe vượt tuyến",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Chuyền chọc khe vượt tuyến’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 7,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện chuyền kỹ thuật",
+      "display_text_observed": "Cải thiện chuyền kỹ thuật",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền kỹ thuật’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 8,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện chuyền vượt tuyến",
+      "display_text_observed": "Cải thiện chuyền vượt tuyến",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền vượt tuyến’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 9,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện chuyền xuyên phá",
+      "display_text_observed": "Cải thiện chuyền xuyên phá",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện chuyền xuyên phá’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 10,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": null,
+      "display_text_observed": "Cải thiện chuyền xà / Cải thiện chuyền xa",
+      "name_vi_source": "FC Online VN client screenshot (OCR ambiguity)",
+      "name_vi_confidence": "LOW_AMBIGUOUS",
+      "status": "NEEDS_CLIENT_VERIFICATION",
+      "name_ko": "롱패스 향상 / 낮은 패스 향상",
+      "name_en": "Long Pass / Driven Ground Pass Improvement",
+      "name_mapping_confidence": "LOW_NEEDS_VERIFICATION",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Cần screenshot client rõ nét từ người dùng để chốt chữ cái cuối ('xà' hay 'xa').",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [
+        "CM_PROGRESSOR / SECOND_WAVE",
+        "ANCHOR_CDM"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": "Chưa xác minh chắc chắn tên chính xác.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 11,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện căng ngang",
+      "display_text_observed": "Cải thiện căng ngang",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện căng ngang’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 12,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": null,
+      "display_text_observed": "Cải thiện khả năng rê bóng khi…",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "TRUNCATED_IN_UI",
+      "status": "TRUNCATED_IN_UI",
+      "name_ko": "드리블 향상 (가정)",
+      "name_en": "Dribbling Improvement (Truncated)",
+      "name_mapping_confidence": "LOW_TRUNCATED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Bị cắt ngắn bởi UI game; cần ảnh chụp chi tiết khi bấm vào xem popup.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": "Tên chưa trọn vẹn.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 13,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": null,
+      "display_text_observed": "Cải thiện khả năng sút xa tru…",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "TRUNCATED_IN_UI",
+      "status": "TRUNCATED_IN_UI",
+      "name_ko": "중거리슛 향상 (가정)",
+      "name_en": "Long Shot Improvement (Truncated)",
+      "name_mapping_confidence": "LOW_TRUNCATED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Bị cắt ngắn bởi UI game; cần ảnh chụp chi tiết khi bấm vào xem popup.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [
+        "CM_PROGRESSOR / SECOND_WAVE"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": "Tên chưa trọn vẹn.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 14,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện phòng thủ bên phải",
+      "display_text_observed": "Cải thiện phòng thủ bên phải",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện phòng thủ bên phải’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 15,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện phòng thủ bên trái",
+      "display_text_observed": "Cải thiện phòng thủ bên trái",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện phòng thủ bên trái’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 16,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện sút tầm thấp",
+      "display_text_observed": "Cải thiện sút tầm thấp",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện sút tầm thấp’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 17,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện sút xoáy",
+      "display_text_observed": "Cải thiện sút xoáy",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện sút xoáy’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 18,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện tạt bóng",
+      "display_text_observed": "Cải thiện tạt bóng",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện tạt bóng’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 19,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện tạt bóng cao",
+      "display_text_observed": "Cải thiện tạt bóng cao",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện tạt bóng cao’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 20,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cải thiện đá phạt",
+      "display_text_observed": "Cải thiện đá phạt",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Cải thiện đá phạt’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 21,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Cự ly đội hình ổn định",
+      "display_text_observed": "Cự ly đội hình ổn định",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": "재정비",
+      "name_en": "Regroup / Maintain Formation",
+      "name_mapping_confidence": "HIGH",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Giúp trung vệ lùi về chiếm lĩnh không gian phòng ngự nhanh chóng khi mất bóng.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "LOW",
+      "recommended_roles": [
+        "CB_COVER",
+        "ANCHOR_CDM"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 22,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Di chuyển ngay khi đỡ bước 1",
+      "display_text_observed": "Di chuyển ngay khi đỡ bước 1",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Di chuyển ngay khi đỡ bước 1’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 23,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Khả năng khéo léo",
+      "display_text_observed": "Khả năng khéo léo",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Khả năng khéo léo’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 24,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Khả năng tắc bóng",
+      "display_text_observed": "Khả năng tắc bóng",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": "스탠딩 태클 향상",
+      "name_en": "Standing Tackle Mastery",
+      "name_mapping_confidence": "HIGH",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV được Top 10,000 ranker Hàn Quốc trang bị nhiều nhất cho trung vệ (CB).",
+      "manager_observation_source": "NEXON Data Center Trait Trainer & Inven 감독모드",
+      "manager_confidence": "LOW",
+      "recommended_roles": [
+        "CB_COVER",
+        "CB_STOPPER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 25,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Khả năng xoạc bóng",
+      "display_text_observed": "Khả năng xoạc bóng",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Khả năng xoạc bóng’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 26,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Phản công khi đang phòng thủ",
+      "display_text_observed": "Phản công khi đang phòng thủ",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Phản công khi đang phòng thủ’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 27,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Xâm nhập ngay khi kêu gọi xâm nhập",
+      "display_text_observed": "Xâm nhập ngay khi kêu gọi xâm nhập",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Xâm nhập ngay khi kêu gọi xâm nhập’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 28,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Sút cự ly gần",
+      "display_text_observed": "Sút cự ly gần",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Sút cự ly gần’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 29,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Tránh tắc bóng",
+      "display_text_observed": "Tránh tắc bóng",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Tránh tắc bóng’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 30,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Tránh xoạc bóng",
+      "display_text_observed": "Tránh xoạc bóng",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Tránh xoạc bóng’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 31,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Khả năng phòng thủ Pressing",
+      "display_text_observed": "Khả năng phòng thủ Pressing",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Khả năng phòng thủ Pressing’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 32,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "TD mục tiêu đặc biệt",
+      "display_text_observed": "TD mục tiêu đặc biệt",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘TD mục tiêu đặc biệt’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 33,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Tạo cơ hội ghi bàn",
+      "display_text_observed": "Tạo cơ hội ghi bàn",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Tạo cơ hội ghi bàn’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 34,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Tấn công với nhịp độ nhanh",
+      "display_text_observed": "Tấn công với nhịp độ nhanh",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Tấn công với nhịp độ nhanh’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 35,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Tập trung vào bên phải",
+      "display_text_observed": "Tập trung vào bên phải",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Tập trung vào bên phải’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 36,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Tập trung vào bên trái",
+      "display_text_observed": "Tập trung vào bên trái",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Tập trung vào bên trái’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 37,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Tập trung đánh chặn",
+      "display_text_observed": "Tập trung đánh chặn",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": "가로채기 집중",
+      "name_en": "Focus on Interception",
+      "name_mapping_confidence": "HIGH",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Tăng tần suất thò chân cắt chọc khe sệt của tiền vệ phòng ngự.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "LOW",
+      "recommended_roles": [
+        "ANCHOR_CDM"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 38,
+      "slot_type": "SKILL_COACH",
+      "category": "Phòng thủ",
+      "name_vi_exact": "Tổ chức",
+      "display_text_observed": "Tổ chức",
+      "name_vi_source": "FC Online VN client screenshot media_1789891894724.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "icon_observed": "Khiên đen viền bạc có hình Đồng hồ bấm giờ [⏱️]",
+      "name_ko": "재정비",
+      "name_en": "Defensive Reorganization",
+      "name_mapping_confidence": "HIGH",
+      "official_effect": "Khi mất bóng, cầu thủ nhanh chóng trở lại vị trí phòng thủ. (Không bao gồm Volta)",
+      "official_effect_source": "Client VN Tooltip Screenshot media_1789891894724.png",
+      "official_effect_confidence": "ABSOLUTE_VERIFIED_CLIENT_VN",
+      "manager_observation": "Cực kỳ quý giá cho tiền vệ trung tâm (CM/LCM), CDM và hậu vệ cánh (LB) trong GLXH. Giúp cầu thủ lập tức lui về lấp kín Zone 14 và giữ cấu trúc phòng ngự ngay khi đội nhà mất quyền kiểm soát bóng, triệt tiêu nguy cơ bị đối phương khai thác sút xa hay phản công nhanh.",
+      "manager_observation_source": "MANAGER_MODE_PRACTICAL_AUDIT",
+      "manager_confidence": "HIGH",
+      "recommended_roles": [
+        "CM_PROGRESSOR / SECOND_WAVE",
+        "ANCHOR_CDM",
+        "STAY_BACK_FULLBACK"
+      ],
+      "role_recommendation_source": "EXPERT_ANALYSIS",
+      "role_recommendation_confidence": "HIGH",
+      "risks": "Không có",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [
+        "SRC_05"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 39,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Xâm nhập vòng cấm",
+      "display_text_observed": "Xâm nhập vòng cấm",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Xâm nhập vòng cấm’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 40,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Áp lực",
+      "display_text_observed": "Áp lực",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Áp lực’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 41,
+      "slot_type": "SKILL_COACH",
+      "category": "Tactical_Or_Technical",
+      "name_vi_exact": "Áp đảo toàn sân",
+      "display_text_observed": "Áp đảo toàn sân",
+      "name_vi_source": "FC Online VN client screenshot",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "status": "VERIFIED_CLIENT_VN",
+      "name_ko": null,
+      "name_en": null,
+      "name_mapping_confidence": "UNVERIFIED",
+      "official_effect": null,
+      "official_effect_source": null,
+      "official_effect_confidence": "UNVERIFIED",
+      "manager_observation": "Kỹ năng HLV tác động theo cơ chế ‘Áp đảo toàn sân’ ghi nhận trong client; chưa có thống kê ranker riêng lẻ.",
+      "manager_observation_source": "MODEL_INFERENCE",
+      "manager_confidence": "LOW",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "LOW",
+      "risks": null,
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_10"
+      ],
+      "official_effect_source_ids": [],
+      "manager_observation_source_ids": [
+        "SRC_10"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ]
+    }
+  ]
+}

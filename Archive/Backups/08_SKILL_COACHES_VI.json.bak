@@ -1,0 +1,621 @@
+[
+  {
+    "id": 1,
+    "name_vi_exact": "Bậc thầy tốc độ",
+    "name_ko": "질주 마스터",
+    "name_en": "Sprint Master",
+    "slot_type": "SKILL_COACH",
+    "category": "Pace",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 2,
+    "name_vi_exact": "Chiến thuật chuyền Tiki-Taka",
+    "name_ko": "티키타카 전술",
+    "name_en": "Tiki-Taka Tactics",
+    "slot_type": "SKILL_COACH",
+    "category": "Passing",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 3,
+    "name_vi_exact": "Chiến thuật chuyền trực tiếp",
+    "name_ko": "다이렉트 패스",
+    "name_en": "Direct Passing",
+    "slot_type": "SKILL_COACH",
+    "category": "Passing",
+    "recommended_roles": [
+      "CM_PROGRESSOR / SECOND_WAVE"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 4,
+    "name_vi_exact": "Chiến thuật tiền đạo áp lực",
+    "name_ko": "전방 압박 전술",
+    "name_en": "Forward Pressing Tactics",
+    "slot_type": "SKILL_COACH",
+    "category": "Pressing",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 5,
+    "name_vi_exact": "Cải thiện chuyền chọc khe",
+    "name_ko": "스루 패스 향상",
+    "name_en": "Through Pass Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Passing",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 6,
+    "name_vi_exact": "Chuyền chọc khe vượt tuyến",
+    "name_ko": "로빙 스루 향상",
+    "name_en": "Over-the-Top Through Pass",
+    "slot_type": "SKILL_COACH",
+    "category": "Passing",
+    "recommended_roles": [
+      "CM_PROGRESSOR / SECOND_WAVE"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 7,
+    "name_vi_exact": "Cải thiện chuyền kỹ thuật",
+    "name_ko": "기술 패스 향상",
+    "name_en": "Technical Pass Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Passing",
+    "recommended_roles": [
+      "WIDE_CREATOR"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 8,
+    "name_vi_exact": "Cải thiện chuyền vượt tuyến",
+    "name_ko": "롱패스 향상",
+    "name_en": "Long Pass Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Passing",
+    "recommended_roles": [
+      "CB_COVER",
+      "STAY_BACK_FULLBACK"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 9,
+    "name_vi_exact": "Cải thiện chuyền xuyên phá",
+    "name_ko": "침투 패스 향상",
+    "name_en": "Penetrating Pass Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Passing",
+    "recommended_roles": [
+      "CM_PROGRESSOR / SECOND_WAVE"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 10,
+    "name_vi_exact": "Cải thiện chuyền xà",
+    "name_ko": "낮은 패스 향상",
+    "name_en": "Driven Pass Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Passing",
+    "recommended_roles": [
+      "ANCHOR_CDM"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 11,
+    "name_vi_exact": "Cải thiện căng ngang",
+    "name_ko": "컷백 크로스 향상",
+    "name_en": "Cutback Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Crossing",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 12,
+    "name_vi_exact": "Cải thiện khả năng rê bóng khi…",
+    "name_ko": "드리블 향상 (축약)",
+    "name_en": "Dribble Under Pressure (Truncated)",
+    "slot_type": "SKILL_COACH",
+    "category": "Dribbling",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 13,
+    "name_vi_exact": "Cải thiện khả năng sút xa tru…",
+    "name_ko": "중거리슛 향상 (축약)",
+    "name_en": "Long Shot Improvement (Truncated)",
+    "slot_type": "SKILL_COACH",
+    "category": "Shooting",
+    "recommended_roles": [
+      "CM_PROGRESSOR / SECOND_WAVE"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 14,
+    "name_vi_exact": "Cải thiện phòng thủ bên phải",
+    "name_ko": "우측 수비 향상",
+    "name_en": "Right Defense Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Defending",
+    "recommended_roles": [
+      "STAY_BACK_FULLBACK / RECOVERY"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 15,
+    "name_vi_exact": "Cải thiện phòng thủ bên trái",
+    "name_ko": "좌측 수비 향상",
+    "name_en": "Left Defense Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Defending",
+    "recommended_roles": [
+      "STAY_BACK_FULLBACK"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 16,
+    "name_vi_exact": "Cải thiện sút tầm thấp",
+    "name_ko": "낮은 슛 향상",
+    "name_en": "Low Shot Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Shooting",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 17,
+    "name_vi_exact": "Cải thiện sút xoáy",
+    "name_ko": "감아차기 향상",
+    "name_en": "Curled Shot Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Shooting",
+    "recommended_roles": [
+      "WIDE_CREATOR"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 18,
+    "name_vi_exact": "Cải thiện tạt bóng",
+    "name_ko": "크로스 향상",
+    "name_en": "Crossing Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Crossing",
+    "recommended_roles": [
+      "WIDE_CREATOR"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 19,
+    "name_vi_exact": "Cải thiện tạt bóng cao",
+    "name_ko": "높은 크로스 향상",
+    "name_en": "High Cross Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Crossing",
+    "recommended_roles": [
+      "WIDE_CREATOR"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 20,
+    "name_vi_exact": "Cải thiện đá phạt",
+    "name_ko": "프리킥 향상",
+    "name_en": "Free Kick Improvement",
+    "slot_type": "SKILL_COACH",
+    "category": "Set Pieces",
+    "recommended_roles": [
+      "CM_PROGRESSOR / SECOND_WAVE"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 21,
+    "name_vi_exact": "Cự ly đội hình ổn định",
+    "name_ko": "재정비",
+    "name_en": "Maintain Formation / Regroup",
+    "slot_type": "SKILL_COACH",
+    "category": "Positioning",
+    "recommended_roles": [
+      "CB_COVER",
+      "ANCHOR_CDM"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 22,
+    "name_vi_exact": "Di chuyển ngay khi đỡ bước 1",
+    "name_ko": "퍼스트 터치 후 질주",
+    "name_en": "Move Right After First Touch",
+    "slot_type": "SKILL_COACH",
+    "category": "Agility",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 23,
+    "name_vi_exact": "Khả năng khéo léo",
+    "name_ko": "유연한 움직임",
+    "name_en": "Agility / Dexterity",
+    "slot_type": "SKILL_COACH",
+    "category": "Agility",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9",
+      "WIDE_CREATOR"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 24,
+    "name_vi_exact": "Khả năng tắc bóng",
+    "name_ko": "스탠딩 태클 향상",
+    "name_en": "Standing Tackle Mastery",
+    "slot_type": "SKILL_COACH",
+    "category": "Defending",
+    "recommended_roles": [
+      "CB_COVER",
+      "CB_STOPPER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 25,
+    "name_vi_exact": "Khả năng xoạc bóng",
+    "name_ko": "슬라이딩 태클 향상",
+    "name_en": "Sliding Tackle Mastery",
+    "slot_type": "SKILL_COACH",
+    "category": "Defending",
+    "recommended_roles": [],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 26,
+    "name_vi_exact": "Phản công khi đang phòng thủ",
+    "name_ko": "수비 중 역습",
+    "name_en": "Counter-attack on Defense",
+    "slot_type": "SKILL_COACH",
+    "category": "Transition",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 27,
+    "name_vi_exact": "Xâm nhập ngay khi kêu gọi xâm nhập",
+    "name_ko": "침투 호출 시 즉각 침투",
+    "name_en": "Instant Run on Call",
+    "slot_type": "SKILL_COACH",
+    "category": "Attacking",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 28,
+    "name_vi_exact": "Sút cự ly gần",
+    "name_ko": "근거리 슛 향상",
+    "name_en": "Close Range Shooting",
+    "slot_type": "SKILL_COACH",
+    "category": "Shooting",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 29,
+    "name_vi_exact": "Tránh tắc bóng",
+    "name_ko": "태클 회피",
+    "name_en": "Avoid Tackle",
+    "slot_type": "SKILL_COACH",
+    "category": "Dribbling",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 30,
+    "name_vi_exact": "Tránh xoạc bóng",
+    "name_ko": "슬라이딩 태클 회피",
+    "name_en": "Avoid Sliding Tackle",
+    "slot_type": "SKILL_COACH",
+    "category": "Dribbling",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 31,
+    "name_vi_exact": "Khả năng phòng thủ Pressing",
+    "name_ko": "압박 수비 향상",
+    "name_en": "Pressing Defense Mastery",
+    "slot_type": "SKILL_COACH",
+    "category": "Pressing",
+    "recommended_roles": [
+      "BOX_TO_BOX_CM"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 32,
+    "name_vi_exact": "TD mục tiêu đặc biệt",
+    "name_ko": "타겟맨 특화",
+    "name_en": "Target Man Special",
+    "slot_type": "SKILL_COACH",
+    "category": "Attacking",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 33,
+    "name_vi_exact": "Tạo cơ hội ghi bàn",
+    "name_ko": "찬스 메이킹",
+    "name_en": "Chance Creation",
+    "slot_type": "SKILL_COACH",
+    "category": "Attacking",
+    "recommended_roles": [
+      "WIDE_CREATOR"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 34,
+    "name_vi_exact": "Tấn công với nhịp độ nhanh",
+    "name_ko": "빠른 템포 공격",
+    "name_en": "Fast Tempo Attack",
+    "slot_type": "SKILL_COACH",
+    "category": "Attacking",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 35,
+    "name_vi_exact": "Tập trung vào bên phải",
+    "name_ko": "우측 집중",
+    "name_en": "Focus on Right Side",
+    "slot_type": "SKILL_COACH",
+    "category": "Tactical",
+    "recommended_roles": [
+      "WIDE_CREATOR"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 36,
+    "name_vi_exact": "Tập trung vào bên trái",
+    "name_ko": "좌측 집중",
+    "name_en": "Focus on Left Side",
+    "slot_type": "SKILL_COACH",
+    "category": "Tactical",
+    "recommended_roles": [
+      "WIDE_RUNNER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 37,
+    "name_vi_exact": "Tập trung đánh chặn",
+    "name_ko": "가로채기 집중",
+    "name_en": "Focus on Interception",
+    "slot_type": "SKILL_COACH",
+    "category": "Defending",
+    "recommended_roles": [
+      "ANCHOR_CDM",
+      "CB_COVER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 38,
+    "name_vi_exact": "Tổ chức",
+    "name_ko": "조직력",
+    "name_en": "Organization",
+    "slot_type": "SKILL_COACH",
+    "category": "Tactical",
+    "recommended_roles": [
+      "CB_COVER"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 39,
+    "name_vi_exact": "Xâm nhập vòng cấm",
+    "name_ko": "박스 침투",
+    "name_en": "Box Penetration",
+    "slot_type": "SKILL_COACH",
+    "category": "Attacking",
+    "recommended_roles": [
+      "CAM_CONNECTOR / FALSE_9",
+      "BOX_TO_BOX_CM"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 40,
+    "name_vi_exact": "Áp lực",
+    "name_ko": "압박",
+    "name_en": "Pressure",
+    "slot_type": "SKILL_COACH",
+    "category": "Pressing",
+    "recommended_roles": [
+      "BOX_TO_BOX_CM"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  },
+  {
+    "id": 41,
+    "name_vi_exact": "Áp đảo toàn sân",
+    "name_ko": "전방위 지배",
+    "name_en": "All-Pitch Dominance",
+    "slot_type": "SKILL_COACH",
+    "category": "Dominance",
+    "recommended_roles": [
+      "BOX_TO_BOX_CM"
+    ],
+    "sources": [
+      "Client Garena VN Screenshot"
+    ],
+    "confidence": "VERIFIED_CLIENT_VN"
+  }
+]

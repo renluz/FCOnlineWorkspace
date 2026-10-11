@@ -1,0 +1,334 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-10-06",
+    "server": "VN_GARENA",
+    "session_handoff": "TACTIC_A_41410_BALANCED_SCREENING_50_MATCHES",
+    "manager": "Dariusz Banasik",
+    "total_salary": "298 / 305",
+    "squad_value_display": "Ground Truth Live",
+    "remaining_bp": "529.5M BP",
+    "notes": "TACTIC A CHÍNH THỨC (2026-10-06): Sơ đồ 4-1-4-1-0 Wing Zero-ST. Thử nghiệm 2 tân binh mới mua: Antonio Rüdiger CU +8 (LCB Stopper) và Marcos Llorente UT (RM). Thibaut Courtois CU +8 đá chính GK (Lương 24, Cao 200cm). Bellingham CU +8 LCM [C]. Tổng lương 298/305. Balanced 5/4, Long Ball 6/5, PIB 5. Tchouaméni CU +8 và Rodrygo CU +8 chuyển lên ghế dự bị.",
+    "training_coach_deployment": "PHÂN CÔNG HLV TẬP LUYỆN 2026-10-06: Khóa các vị trí then chốt: Militão (José Enrique 8★), Casemiro (Lasse 7★), Bellingham (Lasse 8★ bộ 1), Vini (Michelangelo 8★), Benzema (Ezequiel 7★), Courtois (+5 TM đấm bóng, +8 Cản phá sút tầm thấp)."
+  },
+  "formation": "4-1-4-1-0",
+  "formation_style": "4-1-4-1-0 Wing Zero-ST (1 CAM + 2 Wings LM/RM + 2 CMs + 1 CDM)",
+  "tier_summary": {
+    "enhancement_plus8_or_more": 11,
+    "enhancement_plus5_to_plus7": 0,
+    "enhancement_below_plus5": 0,
+    "team_color_upgrade_status": "Mạ Vàng +8~+10 ACTIVE: 11/11 cầu thủ +8; Real Madrid 4 cấp (+4 OVR, +3 Tầm nhìn, +3 Rê bóng); Tổng hiệu ứng Team Color: +8 OVR sau khi ghép."
+  },
+  "starting_xi": [
+    {
+      "slot": "LM",
+      "player_name": "Vinícius Jr.",
+      "season": "CU",
+      "grade": 8,
+      "salary": 28,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "LEFT INSIDE RUNNER / LINE BREAKER",
+      "status": "starter_confirmed",
+      "individual_tactic": "CC2, DS1, IN2, SC1, Công 3 / Thủ 2",
+      "special_team_color": "21-22 Real Madrid 1 cấp",
+      "training_coach_assigned": "Michelangelo ★8 (Khéo léo, Phản ứng xâm nhập, Xâm nhập vòng cấm)",
+      "coaching_setup_4tier": "Michelangelo ★8 (Khéo léo, Phản ứng xâm nhập, Xâm nhập box) + Slot +8: Di chuyển ngay khi đỡ bước 1"
+    },
+    {
+      "slot": "CAM",
+      "player_name": "Karim Benzema",
+      "season": "BLD",
+      "grade": 8,
+      "salary": 29,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "FALSE 9 / CENTRAL CONNECTOR / PRIMARY FINISHER",
+      "status": "starter_confirmed",
+      "individual_tactic": "DS2, IN, PF, SC1, Công 3 / Thủ 1",
+      "special_team_color": "19-20 Real Madrid 1 cấp",
+      "training_coach_assigned": "Ezequiel ★7 (Chọc khe, Di chuyển ngay khi đỡ bước 1, Chuyền trực tiếp)",
+      "coaching_setup_4tier": "Ezequiel ★7 (Chọc khe, Đỡ bước 1, Chuyền trực tiếp) + Slot +8: Khả năng khéo léo"
+    },
+    {
+      "slot": "RM",
+      "player_name": "Marcos Llorente",
+      "season": "UT",
+      "grade": 9,
+      "salary": 28,
+      "tier": "Mạ Vàng / Bạch Kim (+9)",
+      "role_archetype": "RIGHT DIRECT CROSSER / BOX-TO-BOX WING (184CM / 74KG, STAMINA 119 NỀN, CHÂN 5-5)",
+      "status": "starter_confirmed",
+      "individual_tactic": "CC1, DS1, IN2, SC2, Công 3 / Thủ 3",
+      "special_team_color": "Real Madrid Cấp 4",
+      "training_coach_assigned": "Antero Maria (B) ★7 (Khả năng khéo léo, Cải thiện chuyền chọc khe, Phản ứng ngay khi kêu gọi xâm nhập)",
+      "trait_plus5": "Nỗ lực đến cùng (Hồi thể lực cuối trận / khi bị dẫn)",
+      "skill_plus8": "Tổ chức (Candidate thử nghiệm lâm sàng)",
+      "coaching_setup_status": "provisional_test_config",
+      "coaching_setup_4tier": "Antero Maria (B) ★7 (Khéo léo, Chọc khe, Phản ứng xâm nhập) + Slot +8 Candidate: Tổ chức (PROVISIONAL TEST CONFIG)"
+    },
+    {
+      "slot": "LCM",
+      "player_name": "J. Bellingham",
+      "season": "CU",
+      "grade": 8,
+      "salary": 28,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "BALANCED CONNECTOR / REGISTA [C]",
+      "status": "starter_confirmed",
+      "individual_tactic": "AS, DP1, IN2, PF, SC2, Công 2 / Thủ 3",
+      "special_team_color": "23-24 Real Madrid 1 cấp",
+      "training_coach_assigned": "Lasse ★8 bộ 1 (Khéo léo, Phòng thủ Pressing, Tổ chức)",
+      "coaching_setup_4tier": "Lasse bộ 1 ★8 (Khéo léo, Pressing, Tổ chức) + Slot +8: Chiến thuật chuyền trực tiếp"
+    },
+    {
+      "slot": "RCM",
+      "player_name": "Federico Valverde",
+      "season": "CU",
+      "grade": 8,
+      "salary": 27,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "SECOND-WAVE RUNNER / EDGE-OF-BOX SHOOTER",
+      "status": "starter_confirmed",
+      "individual_tactic": "AS2, DP1, IN2, PF, SC2, Công 3 / Thủ 3",
+      "special_team_color": "22-23 Real Madrid 1 cấp",
+      "training_coach_assigned": "Afanasy ★8 (Khéo léo, Phản ứng xâm nhập, Chuyền trực tiếp)",
+      "coaching_setup_4tier": "Afanasy ★8 (Khéo léo, Phản ứng xâm nhập, Chuyền trực tiếp) + Slot +8: Tổ chức"
+    },
+    {
+      "slot": "CDM",
+      "player_name": "Casemiro",
+      "season": "CU",
+      "grade": 8,
+      "salary": 27,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "ANCHOR CDM / ZONE-14 SHIELD",
+      "status": "starter_confirmed",
+      "individual_tactic": "AS1, DP1, DB1, IN2, Công 1 / Thủ 3",
+      "special_team_color": "21-22 Real Madrid 1 cấp",
+      "training_coach_assigned": "Lasse ★7 (Khéo léo, Cự ly đội hình ổn định, Tổ chức)",
+      "coaching_setup_4tier": "Lasse ★7 (Khéo léo, Cự ly ổn định, Tổ chức) + Slot +8: Khả năng tắc bóng"
+    },
+    {
+      "slot": "LB",
+      "player_name": "Ferland Mendy",
+      "season": "CU",
+      "grade": 8,
+      "salary": 26,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "STAY-BACK LB / RECOVERY",
+      "status": "starter_confirmed",
+      "individual_tactic": "AR2, IN, SR, Công 1 / Thủ 3",
+      "special_team_color": "23-24 Real Madrid 1 cấp",
+      "training_coach_assigned": "HLV cũ / Cải thiện PT trái"
+    },
+    {
+      "slot": "LCB",
+      "player_name": "Antonio Rüdiger",
+      "season": "CU",
+      "grade": 8,
+      "salary": 27,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "AGGRESSIVE STOPPER CB (190CM / 86KG)",
+      "status": "starter_confirmed",
+      "individual_tactic": "Stopper, AS, IN2, Công 1 / Thủ 3",
+      "special_team_color": "Real Madrid Cấp 4",
+      "training_coach_assigned": "Lasse (bộ 2) ★8 (Khả năng khéo léo, Tăng khả năng phòng thủ Pressing, Phản công khi đang phòng thủ)",
+      "trait_plus5": "Siêu cản phá",
+      "skill_plus8": "Tổ chức (Candidate thử nghiệm lâm sàng)",
+      "coaching_setup_status": "provisional_test_config",
+      "coaching_setup_4tier": "Lasse (bộ 2) ★8 (Khéo léo, Pressing, Phản công khi thủ) + Slot +8 Candidate: Tổ chức (PROVISIONAL TEST CONFIG)"
+    },
+    {
+      "slot": "RCB",
+      "player_name": "Éder Militão",
+      "season": "CU",
+      "grade": 8,
+      "salary": 27,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "STOPPER / RECOVERY CB",
+      "status": "starter_confirmed",
+      "individual_tactic": "Stopper, AS, IN2, Công 1 / Thủ 3",
+      "special_team_color": "19-20 Real Madrid 1 cấp",
+      "training_coach_assigned": "José Enrique ★8 (Khéo léo, Khả năng tắc bóng, Cự ly đội hình ổn định)",
+      "coaching_setup_4tier": "José Enrique ★8 (Khéo léo, Tắc bóng, Cự ly ổn định) + Slot +8: Tổ chức"
+    },
+    {
+      "slot": "RB",
+      "player_name": "Dani Carvajal",
+      "season": "CU",
+      "grade": 8,
+      "salary": 28,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "STAY-BACK RB",
+      "status": "starter_confirmed",
+      "individual_tactic": "AR2, IN, SR, Công 1 / Thủ 3",
+      "special_team_color": "23-24 Real Madrid 1 cấp",
+      "training_coach_assigned": "HLV cũ / Cải thiện PT phải"
+    },
+    {
+      "slot": "GK",
+      "player_name": "Thibaut Courtois",
+      "season": "CU",
+      "grade": 8,
+      "salary": 24,
+      "tier": "Mạ Vàng (+8~+10)",
+      "role_archetype": "GIỮ KHUNG THÀNH / CHỐNG BÓNG BỔNG (200CM)",
+      "status": "starter_confirmed",
+      "individual_tactic": "Xử lý tạt bóng: Cân bằng, Thủ môn quét: Cân bằng",
+      "special_team_color": "23-24 Real Madrid 1 cấp",
+      "innate_traits": [
+        "TM lưu ý tạt bóng",
+        "TM đối mặt",
+        "TM ném xa"
+      ],
+      "plus5_ordinary_trait": "TM đấm bóng",
+      "plus8_skill_coach": "Cản phá sút tầm thấp ( Chỉ GK)",
+      "coaching_setup_4tier": "Mục tiêu HLV: Cản phá sút + Cản phá sút cự ly gần + Cản phá sút khoảng cách trung bình + Slot +8: Cản phá sút tầm thấp ( Chỉ GK)"
+    }
+  ],
+  "bench_and_reserves": [
+    {
+      "player_name": "Aurélien Tchouaméni",
+      "season": "CU",
+      "grade": 8,
+      "role": "LCB/CDM backup / rotation",
+      "note": "Mạ Vàng +8, Lương 27, dự bị chiến thuật cực mạnh cho LCB hoặc CDM"
+    },
+    {
+      "player_name": "Rodrygo",
+      "season": "CU",
+      "grade": 8,
+      "role": "RM/RW Super-Sub phút 70",
+      "note": "Mạ Vàng +8, Lương 27, siêu dự bị tốc độ quấy phá biên"
+    },
+    {
+      "player_name": "Kepa",
+      "season": "CU",
+      "grade": 9,
+      "role": "GK backup / former starter",
+      "note": "Mạ Vàng +9, Lương 23, dự bị GK phản xạ cao cấp"
+    },
+    {
+      "player_name": "Koen Casteels",
+      "season": "23HW",
+      "grade": 9,
+      "role": "GK backup / former baseline",
+      "note": "Mạ Vàng +9, cựu GK baseline, giữ nguyên evidence và cấu hình dự bị"
+    },
+    {
+      "player_name": "Luka Modrić",
+      "season": "CU",
+      "grade": 8,
+      "role": "LCM/CAM backup",
+      "note": "Mạ Vàng +8, dự bị nhạc trưởng cao cấp tuyến giữa"
+    },
+    {
+      "player_name": "R. Ferdinand",
+      "season": "DC",
+      "grade": 9,
+      "role": "CB backup / rotation",
+      "note": "Mạ Vàng +9, dự bị CB cao cấp (189cm), bọc lót chống tiền đạo hộ pháp"
+    },
+    {
+      "player_name": "N. Matić",
+      "season": "VTR",
+      "grade": 12,
+      "role": "CDM backup",
+      "note": "Bạch Kim +12, dự bị chiến thuật khi cần mỏ neo thuần thủ cao"
+    },
+    {
+      "player_name": "S. Gerrard",
+      "season": "UT",
+      "grade": 8,
+      "role": "CM backup",
+      "note": "Dự bị CM"
+    },
+    {
+      "player_name": "M. Desailly",
+      "season": "WG",
+      "grade": 5,
+      "role": "CB backup",
+      "note": "Dự bị CB"
+    },
+    {
+      "player_name": "J. Koundé",
+      "season": "FAC",
+      "grade": 5,
+      "role": "RB/CB backup",
+      "note": "Dự bị"
+    },
+    {
+      "player_name": "M. Lacroix",
+      "season": "25DP",
+      "grade": 5,
+      "role": "CB backup",
+      "note": "Dự bị"
+    },
+    {
+      "player_name": "Álvaro García",
+      "season": "24EP",
+      "grade": 8,
+      "role": "LW backup",
+      "note": "Dự bị cánh"
+    }
+  ],
+  "transfers_log": [
+    {
+      "date": "2026-10-01",
+      "action": "SOLD",
+      "player_name": "Kai Havertz",
+      "season": "CU",
+      "grade": 8,
+      "note": "Đã bán, không còn thuộc đội hình hiện tại"
+    },
+    {
+      "date": "2026-10-01",
+      "action": "BOUGHT",
+      "player_name": "Karim Benzema",
+      "season": "BLD",
+      "grade": 8,
+      "note": "Đã mua, đảm nhiệm vị trí CAM trung tâm trong 4-1-2-3-0 WiFi"
+    },
+    {
+      "date": "2026-10-02",
+      "action": "BOUGHT",
+      "player_name": "Rodrygo",
+      "season": "CU",
+      "grade": 8,
+      "note": "Đã mua (~82.9M BP), đá chính RAM, đưa Bellingham về vị trí trung tâm tự nhiên"
+    },
+    {
+      "date": "2026-10-02",
+      "action": "BOUGHT",
+      "player_name": "Casemiro",
+      "season": "CU",
+      "grade": 8,
+      "note": "Đã mua, đá chính CDM, mở khóa chuỗi chuyển đổi đẩy Tchouaméni xuống LCB và nâng lên 10/11 Real Madrid"
+    },
+    {
+      "date": "2026-10-03",
+      "action": "PROMOTED",
+      "player_name": "Kepa Arrizabalaga",
+      "season": "CU",
+      "grade": 9,
+      "note": "Đưa Kepa CU +9 (Lương 23) vào bắt chính GK thay Casteels 23HW +9, hoàn tất 11/11 Real Madrid (Real Madrid 4 cấp), tổng lương 297/305"
+    },
+    {
+      "date": "2026-10-04",
+      "action": "PROMOTED",
+      "player_name": "Thibaut Courtois",
+      "season": "CU",
+      "grade": 8,
+      "note": "Đưa Thibaut Courtois CU +8 (Lương 24, Cao 200cm, OVR 141) vào bắt chính GK thay Kepa CU +9 (chuyển về bench), đạt 11/11 Mạ Vàng +8, 11/11 Real Madrid Cấp 4, tổng lương 297/305. Đã cấu hình +5 TM đấm bóng và +8 Cản phá sút tầm thấp."
+    }
+  ],
+  "substitutes_and_reserves": [
+    {
+      "player_name": "L. Modrić",
+      "season": "CU",
+      "grade": 8,
+      "salary": 29,
+      "position": "LCM / CAM",
+      "status": "bench_reserve"
+    }
+  ]
+}

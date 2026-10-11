@@ -1,0 +1,13 @@
+source_id,tier,name,type,url_or_channel,reliability,scope,notes
+SRC_01,Tier A,Garena FC Online VN Official,Publisher Portal,https://fconline.garena.vn/,ABSOLUTE,Vietnam Server,"Chân lý tối cao về tên kỹ năng, patch note, sự kiện, quy tắc nâng cấp tại VN"
+SRC_02,Tier A,NEXON FC Online Korea Official,Developer Portal,https://fifaonline4.nexon.com/,ABSOLUTE,Korea Engine,"Gốc rễ gameplay engine, patch updates, dữ liệu gốc chỉ số và cơ chế nâng cấp 11-13"
+SRC_03,Tier B,Inven 감독모드 Board,Ranker Community,https://inven.co.kr/board/fifaonline4/,VERY_HIGH,Manager Meta,"Nơi quy tụ các bài phân tích chiến thuật, HLV kỹ năng và meta GLXH của Top Ranker Hàn"
+SRC_04,Tier B,NEXON Data Center Trait Trainer,Official Analytics,https://fifaonline4.nexon.com/datacenter/traittrainer,VERY_HIGH,Statistical Meta,"Tỷ lệ sử dụng trait, HLV kỹ năng thực tế theo từng vị trí của Top 10,000 ranker"
+SRC_05,Tier C,In-Game Client Screenshots,Primary Evidence,LOCAL_SCREENSHOTS,ABSOLUTE,Account Specific,"Ảnh chụp trực tiếp từ client người dùng (Ground Truth về trait, thẻ cộng, giá thị trường)"
+SRC_06,Tier D,FCVN Giả Lập Xếp Hạng Group,Local Community,https://www.facebook.com/groups/glxhfconlinevn,MEDIUM_HIGH,Vietnam Meta,"Kinh nghiệm thực chiến, mẹo leo rank GLXH tại máy chủ Garena Việt Nam"
+SRC_07,Tier E,FIFAAddict Database,Database Portal,https://fifaaddict.com/,HIGH,Attribute Master,"Tra cứu chỉ số chi tiết, thể hình, chân thuận, trait gốc của tất cả các mùa thẻ"
+SRC_08,Tier E,FCOPLAYERS Database,Database Portal,https://fcoplayer.com/,HIGH,Player Profiles,"Tra cứu vị trí sở trường, lịch sử Team Color CLB và quốc gia"
+SRC_09,Tier F,Reddit r/EASportsFC,International Community,https://reddit.com/r/EASportsFC,LOW_MEDIUM,Engine Reference,Tham khảo cơ chế va chạm vật lý của engine chung
+SRC_10,Tier G,AI Model Tactical Inference,Analytical Derivation,INTERNAL_ENGINE,CONDITIONAL,Tactical Pairing,Suy luận logic ghép cặp và phân tích hệ thống. CẤM phủ định Tier A/B/C
+SRC_11,Tier E,FC INFO Structured Data,NEXON Open API Portal,https://fc-info.com/,VERY_HIGH,Player/Squad/Market,"Tra cứu chuyên sâu: Work rate (참여도), filter thể hình, squad simulator, team color, market data thời gian thực"
+SRC_12,Tier D,FC INFO Manager Mode Board,Ranker Community,https://fc-info.com/posts,HIGH,Manager Mode Meta,"Cộng đồng chuyên biệt GLXH Hàn Quốc: Bài test chiến thuật volume lớn (500-1000+ trận), phân tích AI behavior, trait thực chiến"

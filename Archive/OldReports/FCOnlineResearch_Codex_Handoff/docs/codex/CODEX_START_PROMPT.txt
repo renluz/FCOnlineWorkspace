@@ -1,0 +1,17 @@
+Đọc AGENTS.md và toàn bộ docs/codex trước.
+
+Sau đó:
+1. Audit repo hiện tại và đối chiếu với CURRENT_STATE.md.
+2. Phân biệt last-confirmed XI, owned inventory và candidate XI.
+3. Tìm các tactic code sai/unsupported trong knowledge base.
+4. Tìm claim AI bị áp nhầm season.
+5. Kiểm tra VN availability assumptions.
+6. Không sửa file ngay.
+
+Trả cho tôi trước:
+- project map ngắn gọn,
+- critical inconsistencies,
+- P0/P1/P2 action plan,
+- file nào sẽ sửa và vì sao.
+
+Chỉ sau đó mới bắt đầu chỉnh project.

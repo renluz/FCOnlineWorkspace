@@ -1,0 +1,776 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-09-20",
+    "slot_requirement": "+11 trở lên (mùa thường Bạch Kim) hoặc +7 trở lên (mùa đặc biệt)",
+    "scope": "OUTFIELD_GOLD_TRAIT_POOL",
+    "database_complete": false,
+    "missing_scope": [
+      "GK_GOLD_TRAIT_POOL"
+    ],
+    "known_missing_gk_traits": [
+      {
+        "name_vi_official": "GK áp đảo không chiến",
+        "name_en": "GK Aerial Control",
+        "name_ko": "GK 공중볼 장악",
+        "official_source": "Garena FC Online VN - Chính thức nâng cấp ICON The Moment và Prime",
+        "verification_status": "OFFICIAL_NAME_VERIFIED_CLIENT_SCREENSHOT_PENDING"
+      },
+      {
+        "name_vi_official": "GK bắt bài sút xa",
+        "name_en": "GK Deadeye / Long Shot Stopper",
+        "name_ko": "GK 데드아이",
+        "official_source": "Garena FC Online VN - Gameplay Hè 2026",
+        "verification_status": "OFFICIAL_NAME_VERIFIED_CLIENT_SCREENSHOT_PENDING"
+      }
+    ],
+    "notes": "Pool 14 Chỉ số ẩn vàng trong danh sách dưới đây đại diện cho TOÀN BỘ danh mục dành riêng cho cầu thủ thi đấu trên sân (Outfield Players) trích xuất trực tiếp từ 2 ảnh chụp cuộn danh sách client VN (media_1789882598336.png và media_1789882602385.png). Danh mục này CHƯA BAO GỒM các Chỉ số ẩn vàng dành riêng cho Thủ môn (GK).",
+    "audit_status": "PROVENANCE_AUDITED_STRICT"
+  },
+  "gold_traits": [
+    {
+      "id": 1,
+      "name_vi_exact": "Sát thủ băng cắt",
+      "name_vi_source": "Client VN Screenshot media_1789882598336.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "크로스 포쳐",
+      "name_en": "Cross Poacher",
+      "client_description_vi": "Di chuyển nhanh đến điểm rơi trong các tình huống tạt bóng.",
+      "client_description_source": "Client VN Screenshot media_1789882598336.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Di chuyển nhanh tới điểm rơi khi có bóng tạt từ biên, hỗ trợ tiền đạo băng cắt đón đường bóng bổng.",
+      "official_effect_source": "Garena FC Online VN - Thông Tin Bộ Chỉ Số Ẩn Mới Áp Dụng Cho Mùa Thẻ Prime",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Tối ưu hóa khả năng chọn vị trí cắt mặt hậu vệ đối phương trong các tình huống tạt bóng.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "WIDE_RUNNER",
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_STOPPER",
+        "CB_COVER",
+        "ANCHOR_CDM"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 2,
+      "name_vi_exact": "Chuyên gia vô lê",
+      "name_vi_source": "Client VN Screenshot media_1789882598336.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "아크로바틱 피니셔",
+      "name_en": "Acrobatic Finisher",
+      "client_description_vi": "Thường xuyên tung ra các cú vô lê với tư thế ngả người móc bóng.",
+      "client_description_source": "Client VN Screenshot media_1789882598336.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Thường xuyên tung ra các cú vô lê với tư thế ngả người móc bóng khi đón bóng trên không trong vòng cấm.",
+      "official_effect_source": "NEXON Official (아크로바틱 피니셔) / Client Screenshot VN",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Tạo ra các pha dứt điểm bất ngờ từ các quả phạt góc bóng hai.",
+      "manager_observation_source": "Community GLXH",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "ANCHOR_CDM"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 3,
+      "name_vi_exact": "Bậc thầy không chiến",
+      "name_vi_source": "Client VN Screenshot media_1789882598336.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "공중전 지배자 / 타이탄",
+      "name_en": "Aerial Master / Titan",
+      "client_description_vi": "Cản trở cầu thủ đối phương trong các tình huống tranh chấp bóng bổng.",
+      "client_description_source": "Client VN Screenshot media_1789882598336.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Cản trở cầu thủ đối phương trong các tình huống tranh chấp bóng bổng, chiếm ưu thế đè bật trên không.",
+      "official_effect_source": "Garena FC Online VN - Chính thức nâng cấp ICON The Moment và Prime",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Khắc chế hoàn toàn lối chơi tạt cánh đánh đầu của đối phương trong GLXH.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CB_COVER",
+        "CB_STOPPER",
+        "ANCHOR_CDM"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "WIDE_RUNNER"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 4,
+      "name_vi_exact": "Dứt điểm 1 chạm",
+      "name_vi_source": "Client VN Screenshot media_1789882598336.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "원터치 피니셔",
+      "name_en": "First Time Finisher",
+      "client_description_vi": "Thực hiện cú sút trực tiếp với quỹ đạo thấp và nhanh khi bóng đến.",
+      "client_description_source": "Client VN Screenshot media_1789882598336.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Thực hiện cú sút trực tiếp với quỹ đạo thấp và nhanh khi bóng đến mà không cần chỉnh bóng.",
+      "official_effect_source": "Garena FC Online VN - Gameplay Hè 2026",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Cực kỳ ăn khớp với các pha căng ngang đợt hai cho CAM xâm nhập dứt điểm chìm hiểm hóc.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "WIDE_RUNNER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "CB_STOPPER"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 5,
+      "name_vi_exact": "Nhạc trưởng",
+      "name_vi_source": "Client VN Screenshot media_1789882598336.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "마에스트로",
+      "name_en": "Maestro / Playmaker",
+      "client_description_vi": "Tung đường chuyền chọc khe bổng thấp và nhanh có hiệu ứng xoáy.",
+      "client_description_source": "Client VN Screenshot media_1789882598336.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Tung ra các đường chuyền chọc khe bổng quỹ đạo thấp và nhanh có hiệu ứng xoáy cuộn vượt tầm kiểm soát của hậu vệ.",
+      "official_effect_source": "Garena FC Online VN - Chính thức nâng cấp ICON The Moment và Prime",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Vũ khí phát động phản công tầm xa đẳng cấp cho tiền vệ trung tâm trong sơ đồ 5 tiền vệ.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CM_PROGRESSOR / SECOND_WAVE",
+        "WIDE_CREATOR",
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_STOPPER",
+        "CB_COVER"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 6,
+      "name_vi_exact": "Siêu Bứt Tốc",
+      "name_vi_source": "Client VN Screenshot media_1789882598336.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "초가속 / 스피드스터",
+      "name_en": "Rocket Sprint / Speedster",
+      "client_description_vi": "Tăng tốc và đột phá vào khoảng trống trong khi rê bóng.",
+      "client_description_source": "Client VN Screenshot media_1789882598336.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Tăng tốc độ bứt phá vào khoảng trống khi đang rê dắt bóng.",
+      "official_effect_source": "Garena FC Online VN - Chính thức nâng cấp ICON The Moment và Prime",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Giúp tiền vệ cánh bỏ rơi hậu vệ đối phương trong những mét đầu tiên bứt tốc.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "WIDE_RUNNER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "ANCHOR_CDM",
+        "CB_COVER"
+      ],
+      "risks": "Tiêu hao thể lực nhanh nếu lạm dụng bứt tốc.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 7,
+      "name_vi_exact": "Ảo thuật gia",
+      "name_vi_source": "Client VN Screenshot media_1789882598336.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "트릭스터",
+      "name_en": "Trickster",
+      "client_description_vi": "Sử dụng các kỹ năng cá nhân đa dạng để đánh lừa đối phương.",
+      "client_description_source": "Client VN Screenshot media_1789882598336.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Sử dụng các kỹ năng cá nhân đa dạng để đánh lừa đối phương (đã bị điều chỉnh giảm tần suất spam kỹ thuật liên tục trong Gameplay Hè 2026).",
+      "official_effect_source": "Garena FC Online VN - Gameplay Hè 2026",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Sau cập nhật Gameplay Hè 2026, độ ảo diệu trong GLXH đã giảm nhẹ; cần cân nhắc so với trait chuyền bóng.",
+      "manager_observation_source": "Inven 감독모드 & Patch Notes Garena",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "WIDE_CREATOR"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "CB_STOPPER"
+      ],
+      "risks": "Bị nerf tần suất kích hoạt kỹ thuật trong bản cập nhật hè 2026.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 8,
+      "name_vi_exact": "Chặn đà tấn công",
+      "name_vi_source": "Client VN Screenshot media_1789882598336.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "공격 차단 / 파이터",
+      "name_en": "Bruiser / Fighter",
+      "client_description_vi": "Khi thực hiện tranh chấp sẽ làm giảm tốc độ bứt tốc và độ chính xác của đối thủ.",
+      "client_description_source": "Client VN Screenshot media_1789882598336.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Khi thực hiện tranh chấp sẽ làm giảm tốc độ bứt tốc và độ chính xác của đối thủ.",
+      "official_effect_source": "NEXON Official (파이터 / 공격 차단) / Client Screenshot VN",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Cực kỳ hữu ích cho tiền vệ trung tâm và trung vệ dập phá vỡ nhịp rê bóng của đối phương.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "BOX_TO_BOX_CM",
+        "CB_STOPPER",
+        "ANCHOR_CDM"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "WIDE_RUNNER"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 9,
+      "name_vi_exact": "Bậc thầy chạy chỗ",
+      "name_vi_source": "Client VN Screenshot media_1789882602385.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "라인 브레이커",
+      "name_en": "Line Breaker",
+      "client_description_vi": "Di chuyển không bóng thông minh để phá vỡ hàng phòng ngự của đối thủ.",
+      "client_description_source": "Client VN Screenshot media_1789882602385.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Di chuyển không bóng thông minh để phá vỡ hàng phòng ngự đối phương, đặc biệt rõ rệt trong các tình huống phá bẫy việt vị.",
+      "official_effect_source": "Garena FC Online VN - Thông Tin Bộ Chỉ Số Ẩn Mới Áp Dụng Cho Mùa Thẻ Prime",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Trait đột biến hàng đầu cho lối chơi không tiền đạo cắm (Zero-ST), giúp các tiền vệ lao vào khoảng trống sau lưng trung vệ.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "WIDE_RUNNER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "CB_STOPPER",
+        "ANCHOR_CDM"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 10,
+      "name_vi_exact": "Chủ Động Cản Phá",
+      "name_vi_source": "Client VN Screenshot media_1789882602385.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "능동적 블록 / 블로커",
+      "name_en": "Active Block / Blocker",
+      "client_description_vi": "Bay người cản phá cú sút.",
+      "client_description_source": "Client VN Screenshot media_1789882602385.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Chủ động phán đoán và chắn đường dứt điểm của đối phương, đặc biệt hiệu quả trước các cú sút tầm trung và sút xa. LƯU Ý: Không có nguồn xác nhận tự động cắt đường chọc khe.",
+      "official_effect_source": "Garena FC Online VN - Chính thức nâng cấp ICON The Moment và Prime",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "ĐÃ XÁC MINH TRANG BỊ TRÊN THẺ N. MATIĆ VTR +12 (nhãn `(Đã chọn)`). Triệt tiêu tối đa các cú sút xa ZD ngoài vòng cấm trong GLXH.",
+      "manager_observation_source": "In-game Screenshot media_1789882602385.png & Inven 감독모드",
+      "manager_confidence": "HIGH",
+      "recommended_roles": [
+        "ANCHOR_CDM",
+        "CB_COVER",
+        "CB_STOPPER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE_GROUNDED",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "WIDE_RUNNER"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_05"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 11,
+      "name_vi_exact": "Siêu đánh chặn",
+      "name_vi_source": "Client VN Screenshot media_1789882602385.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "인터셉트",
+      "name_en": "Super Intercept",
+      "client_description_vi": "Thu hẹp khoảng cách với đối thủ để chặn các tình huống đột phá bằng rê bóng.",
+      "client_description_source": "Client VN Screenshot media_1789882602385.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Thu hẹp khoảng cách với đối thủ để chặn các tình huống đột phá bằng rê bóng.",
+      "official_effect_source": "Garena FC Online VN - Gameplay Hè 2026",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Khắc chế cứng các cầu thủ rê dắt kỹ thuật của đối phương.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "ANCHOR_CDM",
+        "CB_COVER",
+        "STAY_BACK_FULLBACK"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 12,
+      "name_vi_exact": "Cao thủ tắc bóng",
+      "name_vi_source": "Client VN Screenshot media_1789882602385.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "와일드 태클러",
+      "name_en": "Wild Tackler",
+      "client_description_vi": "Tăng phạm vi thực hiện pha tắc bóng đứng, kể cả từ phía sau đối thủ.",
+      "client_description_source": "Client VN Screenshot media_1789882602385.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Tăng phạm vi thực hiện pha tắc bóng đứng, mở rộng góc can thiệp kể cả từ phía sau đối thủ. LƯU Ý: Không đảm bảo miễn nhiễm phạm lỗi.",
+      "official_effect_source": "Garena FC Online VN - Thông Tin Bộ Chỉ Số Ẩn Mới Áp Dụng Cho Mùa Thẻ Prime",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Cực kỳ bá đạo khi trang bị cho trung vệ có sải chân dài như Ferdinand DC, Desailly WG.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CB_COVER",
+        "CB_STOPPER",
+        "STAY_BACK_FULLBACK / RECOVERY"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "risks": "Tắc bóng từ phía sau vẫn có thể bị trọng tài thổi phạt nếu góc vào bóng quá nguy hiểm.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 13,
+      "name_vi_exact": "Người không phổi",
+      "name_vi_source": "Client VN Screenshot media_1789882602385.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "무한 체력 / 2개의 심장",
+      "name_en": "Relentless / Two Hearts",
+      "client_description_vi": "Khi bứt tốc, thể lực tiêu hao ít hơn và việc giảm chỉ số do cạn thể lực diễn ra chậm hơn.",
+      "client_description_source": "Client VN Screenshot media_1789882602385.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Khi bứt tốc, thể lực tiêu hao ít hơn và việc giảm chỉ số do cạn thể lực diễn ra chậm hơn.",
+      "official_effect_source": "NEXON Official (2개의 심장) / Client Screenshot VN",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Duy trì 100% cường độ áp sát và tranh chấp đến tận phút bù giờ cho tiền vệ trung tâm.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "BOX_TO_BOX_CM",
+        "WIDE_RUNNER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "GK"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 14,
+      "name_vi_exact": "Chuyên gia đeo bám",
+      "name_vi_source": "Client VN Screenshot media_1789882602385.png & Garena Official",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "체이서",
+      "name_en": "Chaser",
+      "client_description_vi": "Bám đuổi cầu thủ đối phương nhanh hơn khi họ phản công.",
+      "client_description_source": "Client VN Screenshot media_1789882602385.png",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "GOLD_HIDDEN_TRAIT",
+      "official_effect": "Khả năng tăng tốc bám đuổi cầu thủ đối phương được kích hoạt trong vòng 10 giây ngay sau khi đối phương bắt đầu tình huống phản công.",
+      "official_effect_source": "Garena FC Online VN - Thông Tin Bộ Chỉ Số Ẩn Mới Áp Dụng Cho Mùa Thẻ Prime",
+      "official_effect_confidence": "MEDIUM_HIGH",
+      "manager_observation": "Cực kỳ hiệu quả cho hậu vệ biên và tiền vệ phòng ngự khi đối phương chuyển đổi trạng thái phản công nhanh.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "STAY_BACK_FULLBACK",
+        "ANCHOR_CDM"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "risks": "Chỉ kích hoạt trong 10 giây sau khi đối phương phản công; không duy trì trong phòng ngự thế trận tĩnh.",
+      "name_vi_source_ids": [
+        "SRC_05",
+        "SRC_01"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "official_effect_source_ids": [
+        "SRC_01",
+        "SRC_02"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_01",
+        "SRC_02",
+        "SRC_03",
+        "SRC_10"
+      ]
+    }
+  ]
+}

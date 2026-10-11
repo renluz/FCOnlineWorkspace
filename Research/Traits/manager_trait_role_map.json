@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0.0",
+  "verified_date": "2026-09-20",
+  "data_class": "Manager Mode analysis, not official game data",
+  "rating_scale": [
+    "Excellent",
+    "Useful",
+    "Neutral",
+    "Poor",
+    "Avoid"
+  ],
+  "default_rating": "Neutral unless listed",
+  "roles": {
+    "GK": {
+      "excellent": [
+        "gk_quick_reaction",
+        "gk_one_on_one"
+      ],
+      "useful": [
+        "gk_long_throw",
+        "gk_aggressive_cross",
+        "sweeper_keeper"
+      ],
+      "avoid": [
+        "gk_cautious_cross"
+      ],
+      "reason": "Ưu tiên phản xạ, 1v1 và chủ động xử lý khoảng trống."
+    },
+    "CB stopper": {
+      "excellent": [
+        "wild_tackler",
+        "chaser",
+        "power_header"
+      ],
+      "useful": [
+        "solid_player",
+        "fancy_clearance",
+        "slide_tackle"
+      ],
+      "avoid": [
+        "selfish",
+        "argues"
+      ],
+      "reason": "Cần thắng va chạm và đoạt bóng sớm."
+    },
+    "CB cover": {
+      "excellent": [
+        "chaser",
+        "pass_master",
+        "long_passer"
+      ],
+      "useful": [
+        "power_header",
+        "solid_player"
+      ],
+      "avoid": [
+        "selfish",
+        "argues"
+      ],
+      "reason": "Cần bọc lót tốc độ và phát triển bóng an toàn."
+    },
+    "LB/RB stay-back": {
+      "excellent": [
+        "chaser",
+        "wild_tackler"
+      ],
+      "useful": [
+        "long_passer",
+        "early_crosser",
+        "solid_player"
+      ],
+      "avoid": [
+        "selfish"
+      ],
+      "reason": "Ưu tiên hồi vị trí, theo người và thoát pressing."
+    },
+    "CDM anchor": {
+      "excellent": [
+        "chaser",
+        "wild_tackler",
+        "pass_master"
+      ],
+      "useful": [
+        "long_passer",
+        "solid_player",
+        "fighter"
+      ],
+      "avoid": [
+        "selfish"
+      ],
+      "reason": "Che chắn trung lộ và chuyền nhịp một."
+    },
+    "CM box-to-box": {
+      "excellent": [
+        "two_hearts",
+        "pass_master"
+      ],
+      "useful": [
+        "long_passer",
+        "finesse_shot",
+        "solid_player"
+      ],
+      "avoid": [
+        "injury_prone"
+      ],
+      "reason": "Cần thể lực, chuyển trạng thái và chuyền ổn định."
+    },
+    "CM creator": {
+      "excellent": [
+        "playmaker",
+        "pass_master",
+        "long_passer"
+      ],
+      "useful": [
+        "finesse_shot",
+        "outside_foot"
+      ],
+      "avoid": [
+        "selfish"
+      ],
+      "reason": "Ưu tiên tạo đường chuyền tiến triển."
+    },
+    "CAM connector": {
+      "excellent": [
+        "playmaker",
+        "pass_master"
+      ],
+      "useful": [
+        "technical_dribbler",
+        "finesse_shot",
+        "outside_foot"
+      ],
+      "avoid": [
+        "selfish"
+      ],
+      "reason": "Làm trạm nối và trả bóng nhanh."
+    },
+    "CAM hidden-ST": {
+      "excellent": [
+        "line_breaker",
+        "finesse_shot",
+        "cross_poacher"
+      ],
+      "useful": [
+        "chip_shot",
+        "outside_foot",
+        "technical_dribbler"
+      ],
+      "avoid": [],
+      "reason": "Tối ưu chạy chỗ và dứt điểm tuyến hai."
+    },
+    "LM/RM winger": {
+      "excellent": [
+        "speed_dribbler",
+        "early_crosser"
+      ],
+      "useful": [
+        "technical_dribbler",
+        "outside_foot",
+        "line_breaker"
+      ],
+      "avoid": [
+        "selfish"
+      ],
+      "reason": "Tạo chiều rộng, bứt tốc và đưa bóng vào vùng cấm."
+    },
+    "LM/RM wide creator": {
+      "excellent": [
+        "pass_master",
+        "playmaker",
+        "early_crosser"
+      ],
+      "useful": [
+        "long_passer",
+        "outside_foot"
+      ],
+      "avoid": [
+        "selfish"
+      ],
+      "reason": "Sáng tạo từ biên thay vì chỉ đua tốc."
+    },
+    "ST target man": {
+      "excellent": [
+        "power_header",
+        "cross_poacher"
+      ],
+      "useful": [
+        "solid_player",
+        "pass_master",
+        "outside_foot"
+      ],
+      "avoid": [
+        "injury_prone"
+      ],
+      "reason": "Làm tường, chiếm điểm rơi và kết thúc bóng bổng."
+    },
+    "ST runner": {
+      "excellent": [
+        "line_breaker",
+        "chaser",
+        "finesse_shot"
+      ],
+      "useful": [
+        "speed_dribbler",
+        "chip_shot",
+        "outside_foot"
+      ],
+      "avoid": [],
+      "reason": "Phá tuyến và chuyển cơ hội thành cú sút nhanh."
+    }
+  }
+}

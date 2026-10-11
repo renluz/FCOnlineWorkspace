@@ -1,0 +1,118 @@
+{
+  "traits": {
+    "Finesse Shot": {
+      "name_vn": "Sút xoáy",
+      "code": "FINESSE_SHOT",
+      "effect_glxh": "AI ưu tiên chọn phương án dứt điểm cứa lòng ZD khi nhận bóng ở góc chếch 16m50; tăng độ xoáy và tỷ lệ bóng găm vào góc chết.",
+      "best_positions": [
+        "ST",
+        "CAM",
+        "LW",
+        "RW"
+      ],
+      "importance": "TIER_S"
+    },
+    "Power Header": {
+      "name_vn": "Đánh đầu mạnh",
+      "code": "POWER_HEADER",
+      "effect_glxh": "Tăng uy lực đập bóng bằng đầu trong các pha tạt cánh và phạt góc; bóng đi căng, khó cản phá.",
+      "best_positions": [
+        "ST",
+        "CB"
+      ],
+      "importance": "TIER_S"
+    },
+    "Playmaker": {
+      "name_vn": "Thánh chuyền bóng / Kiến tạo",
+      "code": "PLAYMAKER",
+      "effect_glxh": "Tăng nhãn quan AI; các đường chọc khe QW hoặc xẻ nách có quỹ đạo chuẩn xác hơn và giảm độ trễ ra chân.",
+      "best_positions": [
+        "CAM",
+        "CM",
+        "CDM"
+      ],
+      "importance": "TIER_A"
+    },
+    "Long Passer": {
+      "name_vn": "Chuyền dài",
+      "code": "LONG_PASSER",
+      "effect_glxh": "Tự động kích hoạt các pha mở bóng đảo cánh chính xác khi phát hiện khoảng trống ở biên đối diện.",
+      "best_positions": [
+        "CDM",
+        "CM",
+        "CB"
+      ],
+      "importance": "TIER_A"
+    },
+    "Speed Dribbler": {
+      "name_vn": "Ma tốc độ",
+      "code": "SPEED_DRIBBLER",
+      "effect_glxh": "Cầu thủ đẩy bóng dài nhanh hơn khi dốc biên phản công; tận dụng tối đa chỉ số Tốc độ.",
+      "best_positions": [
+        "LW",
+        "RW",
+        "ST",
+        "LB",
+        "RB"
+      ],
+      "importance": "TIER_B"
+    },
+    "Solid Player": {
+      "name_vn": "Cứng như thép",
+      "code": "SOLID_PLAYER",
+      "effect_glxh": "Khó bị chấn thương khi va chạm mạnh; duy trì thể lực và độ ổn định xuyên suốt 90 phút.",
+      "best_positions": [
+        "CDM",
+        "CB",
+        "ST"
+      ],
+      "importance": "TIER_B"
+    },
+    "GK Long Throw": {
+      "name_vn": "Ném bóng xa (GK)",
+      "code": "GK_LONG_THROW",
+      "effect_glxh": "Thủ môn ném bóng phản công nhanh qua nửa sân với độ chính xác cao ngay sau khi bắt gọn bóng.",
+      "best_positions": [
+        "GK"
+      ],
+      "importance": "TIER_S"
+    },
+    "GK 1-on-1": {
+      "name_vn": "Đối mặt (GK)",
+      "code": "GK_ONE_ON_ONE",
+      "effect_glxh": "AI thủ môn thu hẹp góc sút và đổ người cản phá cực nhanh trong các tình huống tiền đạo đối phương thoát xuống.",
+      "best_positions": [
+        "GK"
+      ],
+      "importance": "TIER_S"
+    }
+  },
+  "body_types": {
+    "Lean": {
+      "name_vn": "Nhỏ / Gầy",
+      "characteristics": "Xoay sở cực nhanh, thoát pressing mượt, rê bóng dính chân nhưng yếu trong tì đè tay đôi.",
+      "ideal_roles": [
+        "Winger",
+        "Agile CAM"
+      ]
+    },
+    "Average": {
+      "name_vn": "Chuẩn / Trung bình",
+      "characteristics": "Cân bằng tối ưu giữa sức càn lướt và độ linh hoạt khi đổi hướng di chuyển.",
+      "ideal_roles": [
+        "Box-to-Box CM",
+        "Complete Fullback",
+        "Versatile ST"
+      ]
+    },
+    "Stocky": {
+      "name_vn": "Đậm / To con",
+      "characteristics": "Trọng tâm thấp hoặc bề ngang dày; cản phá bóng cực gắt, tì đè húc văng đối thủ, cực kỳ bá đạo trong tranh chấp GLXH.",
+      "ideal_roles": [
+        "Anchor CDM",
+        "Stopper CB",
+        "Target Man ST"
+      ]
+    }
+  }
+}

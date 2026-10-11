@@ -1,0 +1,1372 @@
+{
+  "_metadata": {
+    "project": "FCOnlineSquadProject",
+    "updated_at": "2026-09-20",
+    "slot_requirement": "+5 trở lên (Thẻ Bạc / Thẻ Vàng)",
+    "total_pool_count": 23,
+    "audit_status": "PROVENANCE_AUDITED_STRICT",
+    "disclaimer": "Tất cả các trường HIGH bắt buộc gắn source_ids đối soát SRC_05 từ ảnh chụp client. Các trường chưa có deep-link URL cụ thể được hạ xuống MEDIUM theo quy tắc kiểm toán."
+  },
+  "traits": [
+    {
+      "id": 1,
+      "name_vi_exact": "Sút xoáy",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "예리한 감아차기",
+      "name_en": "Finesse Shot",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng độ cong và độ hiểm hóc cho các pha dứt điểm cứa lòng ZD.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MECHANICAL_BALL_TRAJECTORY",
+      "official_effect": "Tăng độ xoáy của quỹ đạo bóng khi thực hiện dứt điểm cứa lòng Finesse Shot (ZD).",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Tối ưu hóa tỷ lệ ghi bàn từ các góc sút chéo cánh rìa vòng cấm.",
+      "manager_observation_source": "Inven 감독모드 & Community GLXH",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "WIDE_CREATOR"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_STOPPER",
+        "CB_COVER",
+        "ANCHOR_CDM"
+      ],
+      "risks": "Lãng phí slot nếu trang bị cho vị trí phòng ngự không có cơ hội dứt điểm.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 2,
+      "name_vi_exact": "Sút và tạt má ngoài",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "아웃사이드 슈팅/크로스",
+      "name_en": "Outside Foot Shot / Cross",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tự động sử dụng má ngoài chân thuận khi góc sút hoặc góc tạt không thuận lợi.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MECHANICAL_ANIMATION_TRIGGER",
+      "official_effect": "Cho phép cầu thủ thực hiện dứt điểm hoặc tạt bóng bằng má ngoài chân thuận trong các tình huống hướng bóng không thuận lợi cho chân nghịch.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Hữu ích cho cầu thủ chân không thuận kém (WF <= 3) để tránh bị gãy đợt tấn công.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "WIDE_RUNNER",
+        "WIDE_CREATOR"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "GK"
+      ],
+      "risks": "Quỹ đạo má ngoài đôi khi có lực bóng nhẹ hơn sút mu chính diện.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 3,
+      "name_vi_exact": "Đánh đầu mạnh",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "파워 헤더",
+      "name_en": "Power Header",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng uy lực đập bóng bằng đầu trong các pha không chiến và phạt góc.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MECHANICAL_POWER_BOOST",
+      "official_effect": "Gia tăng tốc độ bay và uy lực của quả bóng khi dứt điểm hoặc phá bóng bằng đầu; tăng cự ly phá bóng trên không.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Yếu tố sống còn của trung vệ và tiền đạo trong GLXH để chống tạt cánh và tận dụng phạt góc.",
+      "manager_observation_source": "Inven 감독모드 / NEXON Ranker Data",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CB_STOPPER",
+        "CB_COVER",
+        "STAY_BACK_FULLBACK / RECOVERY",
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE_GROUNDED",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "WIDE_RUNNER"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 4,
+      "name_vi_exact": "Sút xa",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "중거리 슛 선호",
+      "name_en": "Long Shot Taker (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng xu hướng và độ chính xác của các cú nã đại bác từ cự ly ngoài vòng cấm.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "AI_BEHAVIORAL_TENDENCY",
+      "official_effect": "Gia tăng tần suất và xu hướng của cầu thủ do AI điều khiển tự động tung ra cú dứt điểm tầm xa khi có khoảng trống ngoài vòng cấm. LƯU Ý: Đây là xu hướng hành vi của AI, KHÔNG tăng chỉ số Sút xa hay Lực sút.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Cốt lõi cho các tiền vệ trung tâm trong GLXH; giúp đội bóng không bị bế tắc trước các hàng thủ lùi sâu.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CM_PROGRESSOR / SECOND_WAVE",
+        "BOX_TO_BOX_CM"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_STOPPER",
+        "CB_COVER",
+        "STAY_BACK_FULLBACK"
+      ],
+      "risks": "Cầu thủ có thể sút vội khi chưa có góc sút thuận lợi nếu chỉ số dứt điểm gốc thấp.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 5,
+      "name_vi_exact": "Bấm bóng",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "칩슛 선호",
+      "name_en": "Chip Shot (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Có xu hướng thực hiện cú tâng bóng qua đầu thủ môn khi đối mặt.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "AI_BEHAVIORAL_TENDENCY",
+      "official_effect": "Gia tăng xu hướng của cầu thủ AI thực hiện cú tâng bóng lốp qua đầu thủ môn trong các tình huống đối mặt.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Hiếm khi tối ưu trong GLXH so với dứt điểm căng chìm hiểm hóc.",
+      "manager_observation_source": "Community GLXH Evidence",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_STOPPER",
+        "ANCHOR_CDM"
+      ],
+      "risks": "Dễ bị thủ môn cao to bắt bài nếu quỹ đạo bóng đi chậm.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 6,
+      "name_vi_exact": "Ném biên rất xa",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "거대 스로인",
+      "name_en": "Giant Throw-in",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng cự ly ném biên lên mức tối đa như một quả đá phạt góc.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MECHANICAL_RANGE_BOOST",
+      "official_effect": "Gia tăng tối đa cự ly và lực ném biên của cầu thủ, cho phép ném thẳng bóng vào vòng cấm đối phương.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Tạo ra các pha bóng hỗn loạn trong vòng cấm nếu đội có các tiền đạo đánh đầu tốt.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "STAY_BACK_FULLBACK"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "GK"
+      ],
+      "risks": "Nguy cơ mất bóng phản công nếu quả ném biên bị đánh đầu phá ra tuyến hai.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 7,
+      "name_vi_exact": "Ném biên xa",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "긴 스로인",
+      "name_en": "Long Throw-in",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng tầm xa của các quả ném biên tiêu chuẩn.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MECHANICAL_RANGE_BOOST",
+      "official_effect": "Gia tăng cự ly ném biên tiêu chuẩn của cầu thủ.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Hiệu quả chiến thuật kém hơn Ném biên rất xa.",
+      "manager_observation_source": "Community GLXH",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "STAY_BACK_FULLBACK"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "GK"
+      ],
+      "risks": "Chiếm slot trait quý giá của hậu vệ biên.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 8,
+      "name_vi_exact": "Thánh chuyền bóng",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "플레이 메이커",
+      "name_en": "Playmaker",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Hút bóng về chân và tối ưu hóa nhãn quan, quỹ đạo phân phối bóng trên toàn sân.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "TEAM_AI_INTERACTION",
+      "official_effect": "Đồng đội AI có xu hướng ưu tiên chuyền bóng cho cầu thủ này khi phát triển bóng; mở rộng phạm vi và góc quan sát của AI chuyền bóng.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Trait nền tảng cho nhạc trưởng tuyến giữa và các trung vệ phát động tấn công trong sơ đồ không tiền đạo.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "CM_PROGRESSOR / SECOND_WAVE",
+        "WIDE_CREATOR",
+        "CB_STOPPER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE_GROUNDED",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "GK"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 9,
+      "name_vi_exact": "Chuyền dài",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "긴 패스 선호",
+      "name_en": "Long Passer (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng xu hướng và độ chính xác của các đường chuyền bổng vượt tuyến và đảo cánh.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "AI_BEHAVIORAL_TENDENCY",
+      "official_effect": "Gia tăng xu hướng của cầu thủ do AI điều khiển tự động thực hiện đường chuyền dài vượt tuyến hoặc đảo cánh khi phát hiện đồng đội di chuyển. LƯU Ý: Đây là xu hướng hành vi AI, KHÔNG tự động tăng chỉ số Chuyền dài.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Chìa khóa kích hoạt bài đánh Chuyền dài phản công nhanh trong sơ đồ 4-1-4-1-0.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CM_PROGRESSOR / SECOND_WAVE",
+        "CB_COVER",
+        "STAY_BACK_FULLBACK"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "WIDE_RUNNER"
+      ],
+      "risks": "Cầu thủ có thể phất bóng dài vội nếu chỉ số Chuyền dài gốc quá thấp.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 10,
+      "name_vi_exact": "Tạt bóng sớm",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "얼리 크로스 선호",
+      "name_en": "Early Crosser (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tự động thực hiện các đường tạt bóng điểm rơi từ cự ly xa trước khi đến đáy biên.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "AI_BEHAVIORAL_TENDENCY",
+      "official_effect": "Gia tăng xu hướng của cầu thủ AI thực hiện đường tạt bóng sớm từ cự ly xa trước khi chạy xuống đáy biên. LƯU Ý: Không tự động tăng chỉ số Tạt bóng.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Tạo ra các pha bóng bất ngờ khi phối hợp cùng cầu thủ có trait Sát thủ băng cắt.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "WIDE_RUNNER",
+        "WIDE_CREATOR"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_STOPPER",
+        "CB_COVER",
+        "ANCHOR_CDM"
+      ],
+      "risks": "Không phù hợp với lối chơi cầm bóng xuống sát đáy biên rồi nhả ngược tuyến 2.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 11,
+      "name_vi_exact": "Tinh tế",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "화려한 개인기",
+      "name_en": "Flair",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Thực hiện các động tác khống chế bước một và chuyền bóng điệu nghệ, bất ngờ.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MECHANICAL_ANIMATION_TRIGGER",
+      "official_effect": "Kích hoạt các động tác xử lý bóng ngẫu hứng, chuyền giật gót và khống chế bóng mềm mại trong không gian hẹp.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Giúp cầu thủ tấn công giữ bóng nhịp một tốt hơn trước khi chuyền.",
+      "manager_observation_source": "Community GLXH",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "WIDE_RUNNER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_STOPPER",
+        "CB_COVER"
+      ],
+      "risks": "Đôi khi làm rườm rà nhịp xử lý bóng nếu bị đối phương áp sát nhanh.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 12,
+      "name_vi_exact": "Ma tốc độ",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "스피드 드리블러",
+      "name_en": "Speed Dribbler (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Đẩy bóng dài và tăng tốc tối đa khi đang rê bóng dọc hành lang.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "AI_BEHAVIORAL_TENDENCY",
+      "official_effect": "Cầu thủ do AI điều khiển có xu hướng đẩy dài bóng về phía trước để bứt tốc tối đa khi có khoảng trống dẫn bóng.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Trait tối thượng cho cầu thủ chạy cánh bám biên trong các bài phản công chớp nhoáng.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "WIDE_RUNNER",
+        "STAY_BACK_FULLBACK"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "ANCHOR_CDM",
+        "CB_STOPPER"
+      ],
+      "risks": "Có thể đẩy bóng quá dài vào chân hậu vệ nếu rê bóng vào khu vực trung lộ đông người.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 13,
+      "name_vi_exact": "Qua người",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "화려한 드리블",
+      "name_en": "Technical Dribbler (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng sự mượt mà và khả năng luồn lách qua các hậu vệ đối phương.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "AI_BEHAVIORAL_TENDENCY",
+      "official_effect": "Cầu thủ do AI điều khiển có xu hướng thực hiện các pha lắc người và chuyển hướng rê dắt khi đối đầu trực diện hậu vệ.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Trong GLXH, rê bóng quá nhiều dễ bị mất bóng hơn là chuyền nhanh một chạm.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "ANCHOR_CDM"
+      ],
+      "risks": "Làm chậm nhịp độ phản công của đội.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 14,
+      "name_vi_exact": "Cá nhân",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "개인 플레이 선호",
+      "name_en": "Selfish (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Ưu tiên tự dứt điểm thay vì chuyền bóng cho đồng đội ở vị trí thuận lợi.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "NEGATIVE_AI_BEHAVIOR",
+      "official_effect": "Gia tăng xu hướng tự mình dứt điểm hoặc dẫn bóng thay vì phối hợp chuyền bóng với đồng đội ở vị trí thuận lợi hơn.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Trait cực kỳ tai hại trong GLXH; phá vỡ cấu trúc phối hợp nhóm của sơ đồ Zero-ST.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE_GROUNDED",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "TẤT CẢ VỊ TRÍ TRONG SƠ ĐỒ 4-1-4-1-0"
+      ],
+      "risks": "GÂY LÃNG PHÍ CƠ HỘI VÀ PHÁ VỠ TÍNH KẾT NỐI ĐỒNG ĐỘI. TUYỆT ĐỐI KHÔNG CHỌN.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 15,
+      "name_vi_exact": "Siêu cản phá",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "화려한 걷어내기",
+      "name_en": "Fancy Clearance",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Kích hoạt các pha bay người, ngả bàn đèn hoặc móc bóng giải nguy xuất thần trên vạch vôi.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MECHANICAL_CLEARANCE_ANIMATION",
+      "official_effect": "Kích hoạt các động tác phá bóng nhào lộn đặc biệt (bay người, móc bóng, ngả bàn đèn) khi giải nguy trong khu vực cấm địa nguy hiểm.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Trait phòng ngự số 1 cho trung vệ và hậu vệ biên; cứu thua vô số bàn thua cận thành trong GLXH.",
+      "manager_observation_source": "Inven 감독모드 / NEXON Ranker Trait Trainer",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CB_COVER",
+        "CB_STOPPER",
+        "STAY_BACK_FULLBACK / RECOVERY"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE_GROUNDED",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "WIDE_RUNNER"
+      ],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 16,
+      "name_vi_exact": "Xoạc bóng",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "슬라이딩 태클 선호",
+      "name_en": "Dives Into Tackles (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng xu hướng thực hiện các pha trượt xoạc cản phá bóng.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "AI_BEHAVIORAL_TENDENCY",
+      "official_effect": "Gia tăng xu hướng tự động thực hiện pha trượt xoạc bóng của AI phòng ngự khi đối phương có bóng.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Cực kỳ rủi ro trong GLXH; tỷ lệ bị phạt penalty và thẻ đỏ trong vòng cấm rất cao.",
+      "manager_observation_source": "Inven 감독모드 / Community GLXH",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE_GROUNDED",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "CB_STOPPER",
+        "ANCHOR_CDM"
+      ],
+      "risks": "DẪN ĐẾN THẺ PHẠT VÀ PENALTY OAN UỔNG TRONG GLXH.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 17,
+      "name_vi_exact": "Ăn vạ",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "다이빙 선호",
+      "name_en": "Diver",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Có xu hướng ngã vờ kiếm phạt đền hoặc đá phạt khi có va chạm nhẹ.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "NEGATIVE_AI_BEHAVIOR",
+      "official_effect": "Gia tăng xu hướng ngã vờ khi có tiếp xúc cơ thể để cố gắng đánh lừa trọng tài.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Hoàn toàn vô dụng và gây mất quyền kiểm soát bóng trong GLXH.",
+      "manager_observation_source": "Community GLXH",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "TẤT CẢ VỊ TRÍ"
+      ],
+      "risks": "Bị trọng tài phạt thẻ vàng và mất bóng.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 18,
+      "name_vi_exact": "Cứng như thép",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "강철몸",
+      "name_en": "Solid Player",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng độ lì đòn, giảm chấn thương và giữ trụ vững vàng trong tranh chấp tay đôi.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "INJURY_RESISTANCE",
+      "official_effect": "Giảm thiểu đáng kể nguy cơ cầu thủ bị dính chấn thương khi va chạm mạnh trên sân (Injury Resistance). LƯU Ý: KHÔNG tăng chỉ số Sức mạnh hay Thăng bằng.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Giữ cho cầu thủ không bị chấn thương làm giảm chỉ số trong trận đấu GLXH.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "BOX_TO_BOX_CM",
+        "CB_STOPPER",
+        "ANCHOR_CDM"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [],
+      "risks": "Không có.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 19,
+      "name_vi_exact": "Nỗ lực đến cùng",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "승부욕",
+      "name_en": "Second Wind / Resolute",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Hồi phục lại một phần thể lực khi bước vào những phút cuối trận hoặc khi đang bị dẫn bàn.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "STAMINA_RECOVERY_TRIGGER",
+      "official_effect": "Tự động hồi phục một lượng thể lực nhất định ở giai đoạn cuối trận đấu (từ phút 75 trở đi) hoặc khi đội nhà đang ở thế bị dẫn bàn. LƯU Ý: Đây là cơ chế hồi phục thể lực, KHÔNG tăng chỉ số trần.",
+      "official_effect_source": "NEXON / EA Sports Official Trait Guide",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Cứu cánh thể lực hiệp 2 cho các tiền vệ con thoi và tiền vệ cánh di chuyển nhiều.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "BOX_TO_BOX_CM",
+        "WIDE_RUNNER"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "GK",
+        "CB_COVER"
+      ],
+      "risks": "Không có tác dụng trong 70 phút đầu nếu đang dẫn bàn.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 20,
+      "name_vi_exact": "Tranh cãi",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "다혈질",
+      "name_en": "Argues With Ref",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Có xu hướng lao vào phản ứng với trọng tài khi bị thổi còi.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "NEGATIVE_AI_BEHAVIOR",
+      "official_effect": "Gia tăng xu hướng phản ứng và tranh cãi với trọng tài khi cầu thủ hoặc đồng đội bị thổi phạt.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Trait tiêu cực, làm chậm nhịp tổ chức lại đội hình phòng ngự.",
+      "manager_observation_source": "Community GLXH",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "TẤT CẢ VỊ TRÍ"
+      ],
+      "risks": "Dễ bị ăn thêm thẻ phạt ngu ngốc.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 21,
+      "name_vi_exact": "Kiến tạo",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "킬패스 선호",
+      "name_en": "Through Ball Passer (AI)",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tối ưu hóa các đường chọc khe sệt xuyên tuyến đặt tiền đạo vào thế đối mặt.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "AI_BEHAVIORAL_TENDENCY",
+      "official_effect": "Gia tăng xu hướng của cầu thủ AI thực hiện các đường chuyền chọc khe sệt xuyên qua khe hở giữa các hậu vệ đối phương.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Cực kỳ ăn khớp với Havertz CU +8 trong sơ đồ Zero-ST khi chọc khe cho Dinkci băng lên.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "CAM_CONNECTOR / FALSE_9",
+        "WIDE_CREATOR"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "CB_COVER",
+        "CB_STOPPER"
+      ],
+      "risks": "Cần đồng đội có tốc độ đón bóng để tránh bị trung vệ đối phương cắt bóng.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 22,
+      "name_vi_exact": "Tránh sai chân thuận",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "약발 기피",
+      "name_en": "Avoids Using Weaker Foot",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Luôn ưu tiên điều chỉnh tư thế để sử dụng chân thuận trong mọi pha bóng.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MECHANICAL_ANIMATION_CONSTRAINT",
+      "official_effect": "Hạn chế tối đa việc cầu thủ sử dụng chân không thuận, luôn cố gắng xoay sở để dứt điểm hoặc chuyền bằng chân thuận.",
+      "official_effect_source": "EA Sports FIFA / FC Online Official Trait System Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Chỉ dùng cho cầu thủ một kèo (Weak Foot <= 2); cầu thủ hai chân 5-5 tuyệt đối không chọn.",
+      "manager_observation_source": "Inven 감독모드",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "Cầu thủ Weak Foot <= 2"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [
+        "Cầu thủ Weak Foot 4-5"
+      ],
+      "risks": "Làm mất thời gian chỉnh bóng nếu góc bóng hoàn toàn thuộc về chân nghịch.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    },
+    {
+      "id": 23,
+      "name_vi_exact": "Vị trí yêu thích",
+      "name_vi_source": "FC Online VN client screenshot media_1789746723594.png",
+      "name_vi_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "name_ko": "포지션 선호",
+      "name_en": "Favorite Position",
+      "name_mapping_confidence": "MEDIUM",
+      "client_description_vi": "Tăng cường độ tập trung và tinh thần thi đấu khi được xếp đúng vị trí sở trường.",
+      "client_description_source": "Client VN UI Screenshot",
+      "client_description_confidence": "HIGH_VERIFIED_CLIENT_VN",
+      "slot_type": "NORMAL_HIDDEN_TRAIT",
+      "trait_nature": "MORALE_CONSISTENCY",
+      "official_effect": "Giúp cầu thủ duy trì sự ổn định về mặt phong độ và cường độ thi đấu khi được bố trí thi đấu đúng tại vị trí sở trường tự nhiên trên thẻ. LƯU Ý: KHÔNG cộng chỉ số OVR ẩn.",
+      "official_effect_source": "EA Sports / NEXON Official Trait Documentation",
+      "official_effect_confidence": "MEDIUM",
+      "manager_observation": "Lựa chọn an toàn khi không có trait kỹ năng nào phù hợp hơn.",
+      "manager_observation_source": "Community GLXH",
+      "manager_confidence": "MEDIUM",
+      "recommended_roles": [
+        "TẤT CẢ VỊ TRÍ"
+      ],
+      "role_recommendation_source": "MODEL_INFERENCE",
+      "role_recommendation_confidence": "MEDIUM",
+      "bad_roles": [],
+      "risks": "Hiệu quả thực tế không tạo đột biến mạnh mẽ bằng các trait kỹ thuật chuyên sâu.",
+      "name_vi_source_ids": [
+        "SRC_05"
+      ],
+      "client_description_source_ids": [
+        "SRC_05"
+      ],
+      "name_mapping_source_ids": [
+        "SRC_07",
+        "SRC_02"
+      ],
+      "official_effect_source_ids": [
+        "SRC_02",
+        "SRC_07"
+      ],
+      "manager_observation_source_ids": [
+        "SRC_03",
+        "SRC_06"
+      ],
+      "role_recommendation_source_ids": [
+        "SRC_10"
+      ],
+      "source_ids": [
+        "SRC_05",
+        "SRC_02",
+        "SRC_07",
+        "SRC_03",
+        "SRC_06",
+        "SRC_10"
+      ]
+    }
+  ]
+}

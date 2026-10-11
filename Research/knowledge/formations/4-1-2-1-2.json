@@ -1,0 +1,16 @@
+{
+  "formation_code": "4-1-2-1-2",
+  "name": "4-1-2-1-2 Kim Cương Hẹp (Narrow Diamond Central Overload)",
+  "structure": "4 Hậu vệ, 1 CDM, 2 CM (LCM-RCM), 1 CAM, 2 Tiền đạo (LS-RS)",
+  "strengths": [
+    "Hỏa lực 2 tiền đạo bổ trợ cho nhau",
+    "Đột phá vỗ mặt trung lộ bằng bật nhả 1-2 cự ly ngắn"
+  ],
+  "weaknesses": [
+    "Hoàn toàn không có tiền vệ cánh, rất dễ bị đối thủ khoét nách biên"
+  ],
+  "patch": "GAMEPLAY_12TH_2026",
+  "server": "VN_GARENA",
+  "required_profiles": "Cần 2 hậu vệ biên có thể lực dồi dào gánh trọn vẹn hành lang cánh.",
+  "meta_status": "CANDIDATE"
+}

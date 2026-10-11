@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("NotifBeeperDismissFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("1835791"),s=o("FalcoLoggerInternal").create("notif_beeper_dismiss",e),u=s;l.default=u}),98);

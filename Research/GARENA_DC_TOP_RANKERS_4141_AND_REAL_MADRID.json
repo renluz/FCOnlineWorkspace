@@ -1,0 +1,6256 @@
+{
+  "_metadata": {
+    "source": "https://dc.fconline.garena.vn/lineup",
+    "crawled_at": "2026-10-07 22:22:48",
+    "data_as_of": "2026-10-06",
+    "sample_size": 719393
+  },
+  "formations_overview": {
+    "meta": {
+      "asOfDate": "2026-10-06",
+      "sampleSize": 719393
+    },
+    "items": [
+      {
+        "formation": "4-1-2-3",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "10",
+          "13",
+          "15",
+          "23",
+          "25",
+          "27"
+        ],
+        "usagePct": 19.63,
+        "sides": 141244,
+        "winratePct": 42.14
+      },
+      {
+        "formation": "4-2-1-3",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "13",
+          "15",
+          "18",
+          "23",
+          "25",
+          "27"
+        ],
+        "usagePct": 18.52,
+        "sides": 133217,
+        "winratePct": 42.36
+      },
+      {
+        "formation": "4-2-3-1",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "9",
+          "11",
+          "12",
+          "14",
+          "16",
+          "25"
+        ],
+        "usagePct": 12.35,
+        "sides": 88835,
+        "winratePct": 48.39
+      },
+      {
+        "formation": "4-2-4",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "13",
+          "15",
+          "23",
+          "24",
+          "26",
+          "27"
+        ],
+        "usagePct": 8.14,
+        "sides": 58553,
+        "winratePct": 29.77
+      },
+      {
+        "formation": "4-1-4-1",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "10",
+          "12",
+          "13",
+          "15",
+          "16",
+          "25"
+        ],
+        "usagePct": 6.73,
+        "sides": 48407,
+        "winratePct": 46.85
+      },
+      {
+        "formation": "4-2-2-2",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "9",
+          "11",
+          "12",
+          "16",
+          "24",
+          "26"
+        ],
+        "usagePct": 6.27,
+        "sides": 45102,
+        "winratePct": 42.85
+      },
+      {
+        "formation": "4-2-2-1-1",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "9",
+          "11",
+          "12",
+          "16",
+          "18",
+          "25"
+        ],
+        "usagePct": 4.86,
+        "sides": 34978,
+        "winratePct": 45.31
+      },
+      {
+        "formation": "4-1-1-1-3",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "9",
+          "15",
+          "18",
+          "23",
+          "25",
+          "27"
+        ],
+        "usagePct": 3.45,
+        "sides": 24823,
+        "winratePct": 41.75
+      },
+      {
+        "formation": "4-4-2",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "12",
+          "13",
+          "15",
+          "16",
+          "21",
+          "25"
+        ],
+        "usagePct": 2.85,
+        "sides": 20522,
+        "winratePct": 35.32
+      },
+      {
+        "formation": "4-1-1-4",
+        "positions": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "18",
+          "23",
+          "24",
+          "26",
+          "27"
+        ],
+        "usagePct": 2.5,
+        "sides": 18018,
+        "winratePct": 39.89
+      },
+      {
+        "formation": "4-1-2-1-2",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "10",
+          "12",
+          "16",
+          "18",
+          "24",
+          "26"
+        ],
+        "usagePct": 2.21,
+        "sides": 15928,
+        "winratePct": 41.92
+      },
+      {
+        "formation": "4-3-3",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "13",
+          "14",
+          "15",
+          "23",
+          "25",
+          "27"
+        ],
+        "usagePct": 2.1,
+        "sides": 15098,
+        "winratePct": 38.67
+      },
+      {
+        "formation": "4-1-3-2",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "10",
+          "12",
+          "14",
+          "16",
+          "24",
+          "26"
+        ],
+        "usagePct": 1.6,
+        "sides": 11502,
+        "winratePct": 41.39
+      },
+      {
+        "formation": "4-2-1-2-1",
+        "positions": [],
+        "usagePct": 0.69,
+        "sides": 4994,
+        "winratePct": 45.41
+      },
+      {
+        "formation": "4-4-1-1",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "12",
+          "13",
+          "15",
+          "16",
+          "18",
+          "25"
+        ],
+        "usagePct": 0.54,
+        "sides": 3854,
+        "winratePct": 42.01
+      },
+      {
+        "formation": "5-2-3",
+        "positions": [
+          "0",
+          "2",
+          "4",
+          "5",
+          "6",
+          "8",
+          "13",
+          "15",
+          "23",
+          "25",
+          "27"
+        ],
+        "usagePct": 0.49,
+        "sides": 3501,
+        "winratePct": 40.42
+      },
+      {
+        "formation": "4-5-1",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "25"
+        ],
+        "usagePct": 0.45,
+        "sides": 3216,
+        "winratePct": 49
+      },
+      {
+        "formation": "4-1-5",
+        "positions": [],
+        "usagePct": 0.4,
+        "sides": 2906,
+        "winratePct": 32.28
+      },
+      {
+        "formation": "4-1-1-2-2",
+        "positions": [],
+        "usagePct": 0.35,
+        "sides": 2532,
+        "winratePct": 40.88
+      },
+      {
+        "formation": "4-1-2-2-1",
+        "positions": [
+          "0",
+          "3",
+          "4",
+          "6",
+          "7",
+          "10",
+          "13",
+          "15",
+          "17",
+          "19",
+          "21"
+        ],
+        "usagePct": 0.34,
+        "sides": 2451,
+        "winratePct": 42.51
+      }
+    ]
+  },
+  "formation_4141_matchups": {
+    "meta": {
+      "asOfDate": "2026-10-06",
+      "sampleSize": 719393
+    },
+    "items": [
+      {
+        "opponent": "4-2-4",
+        "matches": 4309,
+        "wins": 2764,
+        "draws": 569,
+        "losses": 976,
+        "winratePct": 64.14
+      },
+      {
+        "opponent": "3-4-1-2",
+        "matches": 61,
+        "wins": 38,
+        "draws": 6,
+        "losses": 17,
+        "winratePct": 62.3
+      },
+      {
+        "opponent": "3-4-3",
+        "matches": 82,
+        "wins": 50,
+        "draws": 14,
+        "losses": 18,
+        "winratePct": 60.98
+      },
+      {
+        "opponent": "3-1-4-2",
+        "matches": 30,
+        "wins": 18,
+        "draws": 5,
+        "losses": 7,
+        "winratePct": 60
+      },
+      {
+        "opponent": "3-1-2-4",
+        "matches": 37,
+        "wins": 22,
+        "draws": 5,
+        "losses": 10,
+        "winratePct": 59.46
+      },
+      {
+        "opponent": "3-1-2-1-3",
+        "matches": 37,
+        "wins": 22,
+        "draws": 6,
+        "losses": 9,
+        "winratePct": 59.46
+      },
+      {
+        "opponent": "4-4-2",
+        "matches": 1456,
+        "wins": 834,
+        "draws": 210,
+        "losses": 412,
+        "winratePct": 57.28
+      },
+      {
+        "opponent": "3-2-2-1-2",
+        "matches": 63,
+        "wins": 36,
+        "draws": 6,
+        "losses": 21,
+        "winratePct": 57.14
+      },
+      {
+        "opponent": "4-1-5",
+        "matches": 173,
+        "wins": 93,
+        "draws": 34,
+        "losses": 46,
+        "winratePct": 53.76
+      },
+      {
+        "opponent": "5-2-1-2",
+        "matches": 123,
+        "wins": 66,
+        "draws": 16,
+        "losses": 41,
+        "winratePct": 53.66
+      },
+      {
+        "opponent": "5-1-1-3",
+        "matches": 69,
+        "wins": 37,
+        "draws": 12,
+        "losses": 20,
+        "winratePct": 53.62
+      },
+      {
+        "opponent": "3-2-2-3",
+        "matches": 38,
+        "wins": 20,
+        "draws": 4,
+        "losses": 14,
+        "winratePct": 52.63
+      },
+      {
+        "opponent": "4-3-1-2",
+        "matches": 102,
+        "wins": 52,
+        "draws": 18,
+        "losses": 32,
+        "winratePct": 50.98
+      },
+      {
+        "opponent": "4-2-1-1-2",
+        "matches": 130,
+        "wins": 66,
+        "draws": 20,
+        "losses": 44,
+        "winratePct": 50.77
+      },
+      {
+        "opponent": "4-3-3",
+        "matches": 709,
+        "wins": 355,
+        "draws": 96,
+        "losses": 258,
+        "winratePct": 50.07
+      },
+      {
+        "opponent": "4-1-1-4",
+        "matches": 1028,
+        "wins": 505,
+        "draws": 161,
+        "losses": 362,
+        "winratePct": 49.12
+      },
+      {
+        "opponent": "4-1-1-1-3",
+        "matches": 1604,
+        "wins": 772,
+        "draws": 257,
+        "losses": 575,
+        "winratePct": 48.13
+      },
+      {
+        "opponent": "4-1-3-2",
+        "matches": 780,
+        "wins": 363,
+        "draws": 128,
+        "losses": 289,
+        "winratePct": 46.54
+      },
+      {
+        "opponent": "4-1-2-1-2",
+        "matches": 1002,
+        "wins": 465,
+        "draws": 162,
+        "losses": 375,
+        "winratePct": 46.41
+      },
+      {
+        "opponent": "4-2-2-2",
+        "matches": 3122,
+        "wins": 1448,
+        "draws": 537,
+        "losses": 1137,
+        "winratePct": 46.38
+      }
+    ]
+  },
+  "teamcolors_overview": {
+    "meta": {
+      "asOfDate": "2026-10-06",
+      "sampleSize": 719393
+    },
+    "items": [
+      {
+        "teamColorId": 1018,
+        "name": "Real Madrid",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l243.png",
+        "usagePct": 28.95,
+        "sides": 208273,
+        "winratePct": 41.88
+      },
+      {
+        "teamColorId": 1025,
+        "name": "Milan",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l47.png",
+        "usagePct": 11.37,
+        "sides": 81825,
+        "winratePct": 42.04
+      },
+      {
+        "teamColorId": 1016,
+        "name": "FC Barcelona",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l241.png",
+        "usagePct": 10.99,
+        "sides": 79072,
+        "winratePct": 41.92
+      },
+      {
+        "teamColorId": 1005,
+        "name": "Manchester United",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l11.png",
+        "usagePct": 9.75,
+        "sides": 70155,
+        "winratePct": 41.71
+      },
+      {
+        "teamColorId": 1021,
+        "name": "Juventus",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/dark/medium/d45.png",
+        "usagePct": 7.02,
+        "sides": 50525,
+        "winratePct": 42.65
+      },
+      {
+        "teamColorId": 1010,
+        "name": "FC Bayern München",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l21.png",
+        "usagePct": 6.93,
+        "sides": 49831,
+        "winratePct": 42.78
+      },
+      {
+        "teamColorId": 1003,
+        "name": "Chelsea",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l5.png",
+        "usagePct": 6.73,
+        "sides": 48380,
+        "winratePct": 41.27
+      },
+      {
+        "teamColorId": 1023,
+        "name": "Inter",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l44.png",
+        "usagePct": 4.92,
+        "sides": 35372,
+        "winratePct": 42.71
+      },
+      {
+        "teamColorId": 2027,
+        "name": "Vietnam",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/countries/largeflags/f_192.png",
+        "usagePct": 3.92,
+        "sides": 28181,
+        "winratePct": 40.9
+      },
+      {
+        "teamColorId": 1027,
+        "name": "Paris Saint-Germain",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l73.png",
+        "usagePct": 3.19,
+        "sides": 22974,
+        "winratePct": 41.43
+      },
+      {
+        "teamColorId": 1001,
+        "name": "Liverpool",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l9.png",
+        "usagePct": 2.87,
+        "sides": 20625,
+        "winratePct": 42.37
+      },
+      {
+        "teamColorId": 2003,
+        "name": "Brazil",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/countries/largeflags/f_54.png",
+        "usagePct": 2.86,
+        "sides": 20568,
+        "winratePct": 40.92
+      },
+      {
+        "teamColorId": 2002,
+        "name": "France",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/countries/largeflags/f_18.png",
+        "usagePct": 2.75,
+        "sides": 19796,
+        "winratePct": 41.19
+      },
+      {
+        "teamColorId": 1004,
+        "name": "Arsenal",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l1.png",
+        "usagePct": 2.73,
+        "sides": 19618,
+        "winratePct": 42.04
+      },
+      {
+        "teamColorId": 1000,
+        "name": "Manchester City",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l10.png",
+        "usagePct": 2.57,
+        "sides": 18516,
+        "winratePct": 40.91
+      },
+      {
+        "teamColorId": 2006,
+        "name": "England",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/countries/largeflags/f_14.png",
+        "usagePct": 2.47,
+        "sides": 17744,
+        "winratePct": 41.68
+      },
+      {
+        "teamColorId": 2010,
+        "name": "Spain",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/countries/largeflags/f_45.png",
+        "usagePct": 1.28,
+        "sides": 9218,
+        "winratePct": 39.85
+      },
+      {
+        "teamColorId": 2004,
+        "name": "Germany",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/countries/largeflags/f_21.png",
+        "usagePct": 0.85,
+        "sides": 6084,
+        "winratePct": 40.55
+      },
+      {
+        "teamColorId": 1002,
+        "name": "Tottenham Hotspur",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/crests/light/medium/l18.png",
+        "usagePct": 0.67,
+        "sides": 4789,
+        "winratePct": 42.33
+      },
+      {
+        "teamColorId": 2007,
+        "name": "Portugal",
+        "icon": "https://cdn-fco.garenanow.com/games/fcovn/externalAssets/common/countries/largeflags/f_38.png",
+        "usagePct": 0.64,
+        "sides": 4596,
+        "winratePct": 41.08
+      }
+    ]
+  },
+  "real_madrid_matchups": {
+    "meta": {
+      "asOfDate": "2026-10-06",
+      "sampleSize": 719393
+    },
+    "items": [
+      {
+        "opponent": {
+          "teamColorId": 40062,
+          "name": "Fulham"
+        },
+        "matches": 37,
+        "wins": 23,
+        "draws": 4,
+        "losses": 10,
+        "winratePct": 62.16
+      },
+      {
+        "opponent": {
+          "teamColorId": 40059,
+          "name": "Newcastle United"
+        },
+        "matches": 148,
+        "wins": 73,
+        "draws": 23,
+        "losses": 52,
+        "winratePct": 49.32
+      },
+      {
+        "opponent": {
+          "teamColorId": 40060,
+          "name": "Brighton Hove Albion"
+        },
+        "matches": 51,
+        "wins": 25,
+        "draws": 10,
+        "losses": 16,
+        "winratePct": 49.02
+      },
+      {
+        "opponent": {
+          "teamColorId": 1017,
+          "name": "Atlético Madrid"
+        },
+        "matches": 739,
+        "wins": 340,
+        "draws": 108,
+        "losses": 291,
+        "winratePct": 46.01
+      },
+      {
+        "opponent": {
+          "teamColorId": 40055,
+          "name": "Aston Villa"
+        },
+        "matches": 73,
+        "wins": 33,
+        "draws": 14,
+        "losses": 26,
+        "winratePct": 45.21
+      },
+      {
+        "opponent": {
+          "teamColorId": 1022,
+          "name": "Napoli FC"
+        },
+        "matches": 678,
+        "wins": 306,
+        "draws": 87,
+        "losses": 285,
+        "winratePct": 45.13
+      },
+      {
+        "opponent": {
+          "teamColorId": 2007,
+          "name": "Portugal"
+        },
+        "matches": 1360,
+        "wins": 610,
+        "draws": 216,
+        "losses": 534,
+        "winratePct": 44.85
+      },
+      {
+        "opponent": {
+          "teamColorId": 1008,
+          "name": "Everton"
+        },
+        "matches": 164,
+        "wins": 73,
+        "draws": 20,
+        "losses": 71,
+        "winratePct": 44.51
+      },
+      {
+        "opponent": {
+          "teamColorId": 1031,
+          "name": "Ajax"
+        },
+        "matches": 259,
+        "wins": 115,
+        "draws": 46,
+        "losses": 98,
+        "winratePct": 44.4
+      },
+      {
+        "opponent": {
+          "teamColorId": 1011,
+          "name": "Borussia Dortmund"
+        },
+        "matches": 577,
+        "wins": 256,
+        "draws": 91,
+        "losses": 230,
+        "winratePct": 44.37
+      },
+      {
+        "opponent": {
+          "teamColorId": 2010,
+          "name": "Spain"
+        },
+        "matches": 2736,
+        "wins": 1205,
+        "draws": 434,
+        "losses": 1097,
+        "winratePct": 44.04
+      },
+      {
+        "opponent": {
+          "teamColorId": 40054,
+          "name": "West Ham United"
+        },
+        "matches": 123,
+        "wins": 54,
+        "draws": 20,
+        "losses": 49,
+        "winratePct": 43.9
+      },
+      {
+        "opponent": {
+          "teamColorId": 2004,
+          "name": "Germany"
+        },
+        "matches": 1747,
+        "wins": 764,
+        "draws": 276,
+        "losses": 707,
+        "winratePct": 43.73
+      },
+      {
+        "opponent": {
+          "teamColorId": 2002,
+          "name": "France"
+        },
+        "matches": 5565,
+        "wins": 2414,
+        "draws": 849,
+        "losses": 2302,
+        "winratePct": 43.38
+      },
+      {
+        "opponent": {
+          "teamColorId": 40108,
+          "name": "Stadren"
+        },
+        "matches": 30,
+        "wins": 13,
+        "draws": 6,
+        "losses": 11,
+        "winratePct": 43.33
+      },
+      {
+        "opponent": {
+          "teamColorId": 1000,
+          "name": "Manchester City"
+        },
+        "matches": 5299,
+        "wins": 2292,
+        "draws": 817,
+        "losses": 2190,
+        "winratePct": 43.25
+      },
+      {
+        "opponent": {
+          "teamColorId": 1002,
+          "name": "Tottenham Hotspur"
+        },
+        "matches": 1393,
+        "wins": 602,
+        "draws": 195,
+        "losses": 596,
+        "winratePct": 43.22
+      },
+      {
+        "opponent": {
+          "teamColorId": 40128,
+          "name": "LA Galaxy"
+        },
+        "matches": 35,
+        "wins": 15,
+        "draws": 10,
+        "losses": 10,
+        "winratePct": 42.86
+      },
+      {
+        "opponent": {
+          "teamColorId": 2011,
+          "name": "Argentina"
+        },
+        "matches": 1008,
+        "wins": 431,
+        "draws": 165,
+        "losses": 412,
+        "winratePct": 42.76
+      },
+      {
+        "opponent": {
+          "teamColorId": 1003,
+          "name": "Chelsea"
+        },
+        "matches": 13726,
+        "wins": 5868,
+        "draws": 2157,
+        "losses": 5701,
+        "winratePct": 42.75
+      }
+    ]
+  },
+  "top5_rankers_4141": [
+    {
+      "summary": {
+        "rankNo": 1,
+        "accountId": "892d3dbbb43c7eac0d45c728",
+        "nickname": "HersSilence",
+        "matches": 70,
+        "wins": 70,
+        "winratePct": 100,
+        "elo": 994.5,
+        "divisionName": "Thách đấu"
+      },
+      "detail": {
+        "nickname": "HersSilence",
+        "elo": 994.5,
+        "formation": "4-1-4-1",
+        "matchId": "6ac5235ff4a3ff02de83ad1a",
+        "day": "2026-10-06",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-1-4-1",
+            "display": "4-1-4-1"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 3,
+            "display": "4"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 2,
+            "display": "Chuyền dài"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 4,
+            "display": "Chung"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 268005479,
+            "grade": 11,
+            "name": "Casillas",
+            "image": "playersAction/p268005479.png",
+            "starting": [
+              0,
+              0,
+              0.01999999955296516,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 2,
+            "positionName": "RWB",
+            "spid": 227231281,
+            "grade": 12,
+            "name": "T. Alexander-Arnold",
+            "image": "playersAction/p227231281.png",
+            "starting": [
+              2,
+              2,
+              0.2711813151836395,
+              0.91199117898941
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Không tham gia tấn công",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 852240130,
+            "grade": 8,
+            "name": "Éder Militão",
+            "image": "playersAction/p852240130.png",
+            "starting": [
+              1,
+              2,
+              0.01688311621546745,
+              0.6453655362129211
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 852205452,
+            "grade": 8,
+            "name": "A. Rüdiger",
+            "image": "playersAction/p852205452.png",
+            "starting": [
+              1,
+              2,
+              0.01899999938905239,
+              0.3478696048259735
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 8,
+            "positionName": "LWB",
+            "spid": 253197445,
+            "grade": 12,
+            "name": "D. Alaba",
+            "image": "players/p197445.png",
+            "starting": [
+              2,
+              2,
+              0.2556717693805695,
+              0.084773451089859
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Không tham gia tấn công",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 13,
+            "positionName": "RCM",
+            "spid": 100000250,
+            "grade": 6,
+            "name": "D. Beckham",
+            "image": "playersAction/p100000250.png",
+            "starting": [
+              2,
+              2,
+              0.4975999891757965,
+              0.6889639496803284
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Tấn công cân bằng",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 10,
+            "positionName": "CDM",
+            "spid": 866239053,
+            "grade": 6,
+            "name": "F. Valverde",
+            "image": "playersAction/p866239053.png",
+            "starting": [
+              2,
+              2,
+              0.3300000131130219,
+              0.5
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 12,
+            "positionName": "RM",
+            "spid": 100005589,
+            "grade": 6,
+            "name": "Luís Figo",
+            "image": "playersAction/p100005589.png",
+            "starting": [
+              2,
+              2,
+              0.6649333238601685,
+              0.9099423289299012
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "MIXED_SUPPORT",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 15,
+            "positionName": "LCM",
+            "spid": 854252371,
+            "grade": 6,
+            "name": "J. Bellingham",
+            "image": "playersAction/p854252371.png",
+            "starting": [
+              2,
+              2,
+              0.5,
+              0.3237467110157013
+            ],
+            "instructions": [
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 16,
+            "positionName": "LM",
+            "spid": 100009676,
+            "grade": 6,
+            "name": "S. Eto'o",
+            "image": "playersAction/p100009676.png",
+            "starting": [
+              2,
+              2,
+              0.6529333591461182,
+              0.08361504226922989
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "MIXED_SUPPORT",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 25,
+            "positionName": "ST",
+            "spid": 848020801,
+            "grade": 7,
+            "name": "Cristiano Ronaldo",
+            "image": "playersAction/p848020801.png",
+            "starting": [
+              2,
+              0,
+              0.86870127916336,
+              0.5011348724365234
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "AR",
+                "code": "AR1",
+                "label": "Xẻ nách",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "STAY_CENTRAL",
+                "slot": "SR",
+                "code": "SR2",
+                "label": "Khu vực trung tâm",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "summary": {
+        "rankNo": 2,
+        "accountId": "77670130cf0ee5d22bba18ac",
+        "nickname": "NM1127",
+        "matches": 49,
+        "wins": 49,
+        "winratePct": 100,
+        "elo": 1861.43,
+        "divisionName": "Siêu sao"
+      },
+      "detail": {
+        "nickname": "NM1127",
+        "elo": 1861.43,
+        "formation": "4-1-4-1",
+        "matchId": "6ac3d7380be070fcd3fd9fbc",
+        "day": "2026-10-06",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-1-4-1",
+            "display": "4-1-4-1"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 2,
+            "display": "Chuyền dài"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 6,
+            "display": "7"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 4,
+            "display": "Chung"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 270193105,
+            "grade": 11,
+            "name": "A. Areola",
+            "image": "playersAction/p270193105.png",
+            "starting": [
+              0,
+              0,
+              0.01499999966472387,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 3,
+            "positionName": "RB",
+            "spid": 265235212,
+            "grade": 11,
+            "name": "A. Hakimi",
+            "image": "playersAction/p265235212.png",
+            "starting": [
+              0,
+              2,
+              0.123141489923,
+              0.88694143295288
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 852240130,
+            "grade": 8,
+            "name": "Éder Militão",
+            "image": "playersAction/p852240130.png",
+            "starting": [
+              1,
+              2,
+              0.1179856136441231,
+              0.6405271887779236
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 270205452,
+            "grade": 11,
+            "name": "A. Rüdiger",
+            "image": "playersAction/p270205452.png",
+            "starting": [
+              1,
+              2,
+              0.1111510768532753,
+              0.3656624555587769
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 7,
+            "positionName": "LB",
+            "spid": 268001040,
+            "grade": 11,
+            "name": "Roberto Carlos",
+            "image": "playersAction/p268001040.png",
+            "starting": [
+              0,
+              2,
+              0.1498800963163376,
+              0.1175242513418198
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 10,
+            "positionName": "CDM",
+            "spid": 291231281,
+            "grade": 11,
+            "name": "T. Alexander-Arnold",
+            "image": "playersAction/p291231281.png",
+            "starting": [
+              0,
+              2,
+              0.3182254135608673,
+              0.4925399422645569
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 12,
+            "positionName": "RM",
+            "spid": 100138449,
+            "grade": 5,
+            "name": "Kaká",
+            "image": "playersAction/p100138449.png",
+            "starting": [
+              2,
+              2,
+              0.591966450214386,
+              0.8815339207649231
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chọc khe",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 13,
+            "positionName": "RCM",
+            "spid": 268001397,
+            "grade": 11,
+            "name": "Z. Zidane",
+            "image": "playersAction/p268001397.png",
+            "starting": [
+              2,
+              2,
+              0.56978416442871,
+              0.6363725662231445
+            ],
+            "instructions": [
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 15,
+            "positionName": "LCM",
+            "spid": 854252371,
+            "grade": 6,
+            "name": "J. Bellingham",
+            "image": "playersAction/p854252371.png",
+            "starting": [
+              2,
+              2,
+              0.5743405222892761,
+              0.3759526014328
+            ],
+            "instructions": [
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 16,
+            "positionName": "LM",
+            "spid": 866231747,
+            "grade": 5,
+            "name": "K. Mbappé",
+            "image": "playersAction/p866231747.png",
+            "starting": [
+              2,
+              2,
+              0.58741009235382,
+              0.1236985176801682
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chọc khe",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 25,
+            "positionName": "ST",
+            "spid": 100037576,
+            "grade": 5,
+            "name": "Ronaldo",
+            "image": "playersAction/p100037576.png",
+            "starting": [
+              2,
+              0,
+              1,
+              0.5026239156723022
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "AR",
+                "code": "AR1",
+                "label": "Xẻ nách",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "DRIFT_WIDE",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chạy chỗ",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "summary": {
+        "rankNo": 3,
+        "accountId": "aac6c4700c8eb4a25529e8d2",
+        "nickname": "Fc Choi Choi",
+        "matches": 27,
+        "wins": 27,
+        "winratePct": 100,
+        "elo": 2168.94,
+        "divisionName": "Huyền thoại"
+      },
+      "detail": {
+        "nickname": "Fc Choi Choi",
+        "elo": 2168.94,
+        "formation": "4-1-4-1",
+        "matchId": "6ac4ffbab78a0f7e1c37f54c",
+        "day": "2026-10-06",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-1-4-1",
+            "display": "4-1-4-1"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 0,
+            "display": "Lùi về"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 3,
+            "display": "4"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 2,
+            "display": "Chuyền dài"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 2,
+            "display": "Chuyền dài"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 1,
+            "display": "Dựng xe buýt"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 289192119,
+            "grade": 10,
+            "name": "T. Courtois",
+            "image": "playersAction/p289192119.png",
+            "starting": [
+              0,
+              0,
+              0.01499999966472387,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 3,
+            "positionName": "RB",
+            "spid": 829231281,
+            "grade": 9,
+            "name": "T. Alexander-Arnold",
+            "image": "playersAction/p829231281.png",
+            "starting": [
+              1,
+              2,
+              0.1212000027298927,
+              0.822319746017456
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Không tham gia tấn công",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 863233096,
+            "grade": 8,
+            "name": "D. Dumfries",
+            "image": "playersAction/p863233096.png",
+            "starting": [
+              1,
+              2,
+              0.009999999776482582,
+              0.6448795199394226
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 852205452,
+            "grade": 8,
+            "name": "A. Rüdiger",
+            "image": "playersAction/p852205452.png",
+            "starting": [
+              1,
+              2,
+              0.009999999776482582,
+              0.3697590231895447
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 7,
+            "positionName": "LB",
+            "spid": 825197445,
+            "grade": 9,
+            "name": "D. Alaba",
+            "image": "playersAction/p825197445.png",
+            "starting": [
+              1,
+              2,
+              0.0838666632771492,
+              0.211525484919548
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Không tham gia tấn công",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 10,
+            "positionName": "CDM",
+            "spid": 861045674,
+            "grade": 8,
+            "name": "M. Essien",
+            "image": "playersAction/p861045674.png",
+            "starting": [
+              1,
+              2,
+              0.2565333247184753,
+              0.5055481195449829
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 13,
+            "positionName": "RCM",
+            "spid": 863239053,
+            "grade": 8,
+            "name": "F. Valverde",
+            "image": "playersAction/p863239053.png",
+            "starting": [
+              2,
+              2,
+              0.4625333249568939,
+              0.60872483253479
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 15,
+            "positionName": "LCM",
+            "spid": 863252371,
+            "grade": 8,
+            "name": "J. Bellingham",
+            "image": "playersAction/p863252371.png",
+            "starting": [
+              1,
+              2,
+              0.4539999961853027,
+              0.4052475392818451
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 12,
+            "positionName": "RM",
+            "spid": 814005589,
+            "grade": 10,
+            "name": "Luís Figo",
+            "image": "playersAction/p814005589.png",
+            "starting": [
+              1,
+              2,
+              0.459199994802475,
+              0.7646374702453613
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": null,
+                "code": null,
+                "label": null,
+                "title": null
+              },
+              {
+                "raw": "COME_SHORT",
+                "slot": "SR",
+                "code": "SR2",
+                "label": "Hỗ trợ đồng đội",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 21,
+            "positionName": "CF",
+            "spid": 863020801,
+            "grade": 8,
+            "name": "Cristiano Ronaldo",
+            "image": "playersAction/p863020801.png",
+            "starting": [
+              2,
+              2,
+              0.7962666749954224,
+              0.504962682723999
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "DRIFT_WIDE",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chạy chỗ",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "TARGET_MAN",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Tiền đạo mục tiêu",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 16,
+            "positionName": "LM",
+            "spid": 825173731,
+            "grade": 9,
+            "name": "G. Bale",
+            "image": "playersAction/p825173731.png",
+            "starting": [
+              1,
+              2,
+              0.4618666768074036,
+              0.2442668676376343
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": null,
+                "code": null,
+                "label": null,
+                "title": null
+              },
+              {
+                "raw": "COME_SHORT",
+                "slot": "SR",
+                "code": "SR2",
+                "label": "Hỗ trợ đồng đội",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "summary": {
+        "rankNo": 4,
+        "accountId": "b6bfd5cc09011121bd7b4732",
+        "nickname": "Nam Trần",
+        "matches": 23,
+        "wins": 23,
+        "winratePct": 100,
+        "elo": 1992.55,
+        "divisionName": "Huyền thoại"
+      },
+      "detail": {
+        "nickname": "Nam Trần",
+        "elo": 1992.55,
+        "formation": "4-1-4-1",
+        "matchId": "6ac48f10d394606dd0ac3763",
+        "day": "2026-10-06",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-1-4-1",
+            "display": "4-1-4-1"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 4,
+            "display": "Chung"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 300213407,
+            "grade": 13,
+            "name": "M. Macey",
+            "image": "players/p213407.png",
+            "starting": [
+              0,
+              0,
+              0.01999999955296516,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 2,
+            "positionName": "RWB",
+            "spid": 517251805,
+            "grade": 13,
+            "name": "J. Timber",
+            "image": "players/p251805.png",
+            "starting": [
+              1,
+              2,
+              0.2328537106513977,
+              0.888150691986084
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 100001615,
+            "grade": 6,
+            "name": "L. Thuram",
+            "image": "playersAction/p100001615.png",
+            "starting": [
+              1,
+              2,
+              0.1543165445327759,
+              0.6553643941879272
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 100001109,
+            "grade": 6,
+            "name": "P. Maldini",
+            "image": "playersAction/p100001109.png",
+            "starting": [
+              1,
+              2,
+              0.15011990070343,
+              0.3489576876163483
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 8,
+            "positionName": "LWB",
+            "spid": 100034079,
+            "grade": 7,
+            "name": "A. Cole",
+            "image": "playersAction/p100034079.png",
+            "starting": [
+              2,
+              2,
+              0.2067103683948517,
+              0.1090284734964371
+            ],
+            "instructions": [
+              {
+                "raw": "OVERLAP_RUN",
+                "slot": "SR",
+                "code": "SR2",
+                "label": "Phối hợp chồng cánh",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 10,
+            "positionName": "CDM",
+            "spid": 100001419,
+            "grade": 6,
+            "name": "P. Vieira",
+            "image": "playersAction/p100001419.png",
+            "starting": [
+              1,
+              2,
+              0.3362110257148743,
+              0.4944343864917755
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 13,
+            "positionName": "RCM",
+            "spid": 100013743,
+            "grade": 7,
+            "name": "S. Gerrard",
+            "image": "playersAction/p100013743.png",
+            "starting": [
+              2,
+              2,
+              0.5335731506347656,
+              0.6469132900238037
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Tấn công cân bằng",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 12,
+            "positionName": "RM",
+            "spid": 100230025,
+            "grade": 6,
+            "name": "B. Charlton",
+            "image": "playersAction/p100230025.png",
+            "starting": [
+              2,
+              2,
+              0.6155875325202942,
+              0.8989314436912537
+            ],
+            "instructions": [
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chọc khe",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 15,
+            "positionName": "LCM",
+            "spid": 100004000,
+            "grade": 6,
+            "name": "D. Bergkamp",
+            "image": "playersAction/p100004000.png",
+            "starting": [
+              2,
+              2,
+              0.515467643737793,
+              0.3465808629989624
+            ],
+            "instructions": [
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 16,
+            "positionName": "LM",
+            "spid": 100006975,
+            "grade": 7,
+            "name": "F. Ljungberg",
+            "image": "playersAction/p100006975.png",
+            "starting": [
+              2,
+              2,
+              0.6151947975158691,
+              0.1046732142567635
+            ],
+            "instructions": [
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chọc khe",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 25,
+            "positionName": "ST",
+            "spid": 100001625,
+            "grade": 6,
+            "name": "T. Henry",
+            "image": "playersAction/p100001625.png",
+            "starting": [
+              2,
+              1,
+              0.950839340686798,
+              0.5144283771514893
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "AR",
+                "code": "AR1",
+                "label": "Xẻ nách",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "DRIFT_WIDE",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chạy chỗ",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "summary": {
+        "rankNo": 5,
+        "accountId": "3ca759b5f0e455d9393ea246",
+        "nickname": "UTCxG1APINK",
+        "matches": 22,
+        "wins": 22,
+        "winratePct": 100,
+        "elo": 1076.24,
+        "divisionName": "Thách đấu"
+      },
+      "detail": {
+        "nickname": "UTCxG1APINK",
+        "elo": 1076.24,
+        "formation": "4-1-4-1",
+        "matchId": "6ac523fe0fd969351dd0d8e0",
+        "day": "2026-10-06",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-1-4-1",
+            "display": "4-1-4-1"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 0,
+            "display": "1"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 0,
+            "display": "1"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 1,
+            "display": "Dựng xe buýt"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 268051539,
+            "grade": 11,
+            "name": "E. van der Sar",
+            "image": "playersAction/p268051539.png",
+            "starting": [
+              0,
+              0,
+              0.01499999966472387,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 3,
+            "positionName": "RB",
+            "spid": 268005003,
+            "grade": 11,
+            "name": "Cafu",
+            "image": "playersAction/p268005003.png",
+            "starting": [
+              0,
+              2,
+              0.1074688285589218,
+              0.8816059231758118
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Không tham gia tấn công",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 268001419,
+            "grade": 11,
+            "name": "P. Vieira",
+            "image": "playersAction/p268001419.png",
+            "starting": [
+              1,
+              2,
+              0.08844324201345444,
+              0.6288225650787354
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 268001109,
+            "grade": 11,
+            "name": "P. Maldini",
+            "image": "playersAction/p268001109.png",
+            "starting": [
+              1,
+              2,
+              0.08458670973777771,
+              0.3818323016166687
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 7,
+            "positionName": "LB",
+            "spid": 265232656,
+            "grade": 11,
+            "name": "T. Hernández",
+            "image": "playersAction/p265232656.png",
+            "starting": [
+              0,
+              2,
+              0.08240133523941,
+              0.1521456837654114
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Không tham gia tấn công",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 13,
+            "positionName": "RCM",
+            "spid": 268006235,
+            "grade": 11,
+            "name": "P. Nedvěd",
+            "image": "playersAction/p268006235.png",
+            "starting": [
+              1,
+              2,
+              0.4471011757850647,
+              0.6576917171478271
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 10,
+            "positionName": "CDM",
+            "spid": 268214098,
+            "grade": 11,
+            "name": "F. Rijkaard",
+            "image": "playersAction/p268214098.png",
+            "starting": [
+              1,
+              2,
+              0.3045378625392914,
+              0.4979708790779114
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 12,
+            "positionName": "RM",
+            "spid": 268001075,
+            "grade": 11,
+            "name": "A. Del Piero",
+            "image": "playersAction/p268001075.png",
+            "starting": [
+              0,
+              2,
+              0.45609974861145,
+              0.901032567024231
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chọc khe",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 16,
+            "positionName": "LM",
+            "spid": 866277954,
+            "grade": 5,
+            "name": "K. Yıldız",
+            "image": "playersAction/p866277954.png",
+            "starting": [
+              0,
+              2,
+              0.4522432088851929,
+              0.1260514706373215
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chọc khe",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 21,
+            "positionName": "CF",
+            "spid": 877020801,
+            "grade": 5,
+            "name": "Cristiano Ronaldo",
+            "image": "playersAction/p877020801.png",
+            "starting": [
+              2,
+              2,
+              0.7363414168357849,
+              0.4972342252731323
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "DRIFT_WIDE",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chạy chỗ",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 15,
+            "positionName": "LCM",
+            "spid": 268214100,
+            "grade": 11,
+            "name": "R. Gullit",
+            "image": "playersAction/p268214100.png",
+            "starting": [
+              1,
+              2,
+              0.4490294456481934,
+              0.345305472612381
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "top5_rankers_real_madrid": [
+    {
+      "summary": {
+        "rankNo": 1,
+        "accountId": "77670130cf0ee5d22bba18ac",
+        "nickname": "NM1127",
+        "matches": 114,
+        "wins": 99,
+        "winratePct": 86.84,
+        "elo": 1861.43,
+        "divisionName": "Siêu sao"
+      },
+      "detail": {
+        "nickname": "NM1127",
+        "elo": 1861.43,
+        "formation": "4-2-3-1",
+        "matchId": "6ac3daf40748b25a51ba8295",
+        "day": "2026-10-06",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-2-3-1",
+            "display": "4-2-3-1"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 3,
+            "display": "4"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 6,
+            "display": "7"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 4,
+            "display": "Chung"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 270193105,
+            "grade": 11,
+            "name": "A. Areola",
+            "image": "playersAction/p270193105.png",
+            "starting": [
+              0,
+              0,
+              0.01999999955296516,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 3,
+            "positionName": "RB",
+            "spid": 265235212,
+            "grade": 11,
+            "name": "A. Hakimi",
+            "image": "playersAction/p265235212.png",
+            "starting": [
+              2,
+              2,
+              0.2199999988079071,
+              0.8999999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "OVERLAP_RUN",
+                "slot": "SR",
+                "code": "SR2",
+                "label": "Phối hợp chồng cánh",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 852240130,
+            "grade": 8,
+            "name": "Éder Militão",
+            "image": "playersAction/p852240130.png",
+            "starting": [
+              1,
+              2,
+              0.1500000059604645,
+              0.6499999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 270205452,
+            "grade": 11,
+            "name": "A. Rüdiger",
+            "image": "playersAction/p270205452.png",
+            "starting": [
+              1,
+              2,
+              0.1500000059604645,
+              0.3499999940395355
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 7,
+            "positionName": "LB",
+            "spid": 268001040,
+            "grade": 11,
+            "name": "Roberto Carlos",
+            "image": "playersAction/p268001040.png",
+            "starting": [
+              2,
+              2,
+              0.2199999988079071,
+              0.1000000014901161
+            ],
+            "instructions": [
+              {
+                "raw": "OVERLAP_RUN",
+                "slot": "SR",
+                "code": "SR2",
+                "label": "Phối hợp chồng cánh",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 11,
+            "positionName": "LDM",
+            "spid": 866239053,
+            "grade": 6,
+            "name": "F. Valverde",
+            "image": "playersAction/p866239053.png",
+            "starting": [
+              2,
+              2,
+              0.3499999940395355,
+              0.3499999940395355
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 17,
+            "positionName": "RAM",
+            "spid": 291243812,
+            "grade": 11,
+            "name": "Rodrygo",
+            "image": "playersAction/p291243812.png",
+            "starting": [
+              2,
+              2,
+              0.6700000166893,
+              0.8500000238418579
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 9,
+            "positionName": "RDM",
+            "spid": 283000250,
+            "grade": 11,
+            "name": "D. Beckham",
+            "image": "playersAction/p283000250.png",
+            "starting": [
+              2,
+              2,
+              0.3499999940395355,
+              0.6499999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Tấn công cân bằng",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 18,
+            "positionName": "CAM",
+            "spid": 854252371,
+            "grade": 6,
+            "name": "J. Bellingham",
+            "image": "playersAction/p854252371.png",
+            "starting": [
+              2,
+              2,
+              0.6700000166893,
+              0.5
+            ],
+            "instructions": [
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "DRIFT_WIDE",
+                "slot": "PF",
+                "code": "PF2",
+                "label": "Di chuyển rộng",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 19,
+            "positionName": "LAM",
+            "spid": 866231747,
+            "grade": 5,
+            "name": "K. Mbappé",
+            "image": "playersAction/p866231747.png",
+            "starting": [
+              2,
+              2,
+              0.6700000166893,
+              0.1500000059604645
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 25,
+            "positionName": "ST",
+            "spid": 100037576,
+            "grade": 5,
+            "name": "Ronaldo",
+            "image": "playersAction/p100037576.png",
+            "starting": [
+              2,
+              1,
+              0.97419786453247,
+              0.4981653690338135
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "AR",
+                "code": "AR1",
+                "label": "Xẻ nách",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "DRIFT_WIDE",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chạy chỗ",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "summary": {
+        "rankNo": 2,
+        "accountId": "fff5adfdf2eae0bd1808b331",
+        "nickname": "xRudo",
+        "matches": 34,
+        "wins": 29,
+        "winratePct": 85.29,
+        "elo": 1109.97,
+        "divisionName": "Thách đấu"
+      },
+      "detail": {
+        "nickname": "xRudo",
+        "elo": 1109.97,
+        "formation": "4-1-2-3",
+        "matchId": "6ac122fa779c31778eca2e42",
+        "day": "2026-10-03",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-1-2-3",
+            "display": "4-1-2-3"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 3,
+            "display": "4"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 2,
+            "display": "Chuyền dài"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 2,
+            "display": "Chuyền dài"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 6,
+            "display": "7"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 4,
+            "display": "Chung"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 233192119,
+            "grade": 12,
+            "name": "T. Courtois",
+            "image": "playersAction/p233192119.png",
+            "starting": [
+              0,
+              0,
+              0.01499999966472387,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 3,
+            "positionName": "RB",
+            "spid": 253188377,
+            "grade": 12,
+            "name": "K. Walker",
+            "image": "playersAction/p253188377.png",
+            "starting": [
+              0,
+              2,
+              0.07168830931186676,
+              0.8831387758255
+            ],
+            "instructions": [
+              {
+                "raw": "OVERLAP_RUN",
+                "slot": "SR",
+                "code": "SR2",
+                "label": "Phối hợp chồng cánh",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Không tham gia tấn công",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 270205452,
+            "grade": 11,
+            "name": "A. Rüdiger",
+            "image": "playersAction/p270205452.png",
+            "starting": [
+              1,
+              2,
+              0.045974027365446,
+              0.670698881149292
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 100001109,
+            "grade": 5,
+            "name": "P. Maldini",
+            "image": "playersAction/p100001109.png",
+            "starting": [
+              1,
+              2,
+              0.02337662316858768,
+              0.3421308100223541
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 7,
+            "positionName": "LB",
+            "spid": 265232656,
+            "grade": 11,
+            "name": "T. Hernández",
+            "image": "playersAction/p265232656.png",
+            "starting": [
+              0,
+              2,
+              0.07974025607109,
+              0.1287800371646881
+            ],
+            "instructions": [
+              {
+                "raw": "OVERLAP_RUN",
+                "slot": "SR",
+                "code": "SR2",
+                "label": "Phối hợp chồng cánh",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AR",
+                "code": "AR2",
+                "label": "Không tham gia tấn công",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 10,
+            "positionName": "CDM",
+            "spid": 866239053,
+            "grade": 6,
+            "name": "F. Valverde",
+            "image": "playersAction/p866239053.png",
+            "starting": [
+              2,
+              2,
+              0.2658441662788391,
+              0.5090309977531433
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS1",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 15,
+            "positionName": "LCM",
+            "spid": 283000250,
+            "grade": 11,
+            "name": "D. Beckham",
+            "image": "playersAction/p283000250.png",
+            "starting": [
+              2,
+              2,
+              0.4703896045684814,
+              0.3440828621387482
+            ],
+            "instructions": [
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 23,
+            "positionName": "RW",
+            "spid": 100005589,
+            "grade": 5,
+            "name": "Luís Figo",
+            "image": "playersAction/p100005589.png",
+            "starting": [
+              2,
+              2,
+              0.7402597665786743,
+              0.8898935317993164
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chọc khe",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 13,
+            "positionName": "RCM",
+            "spid": 100214100,
+            "grade": 5,
+            "name": "R. Gullit",
+            "image": "playersAction/p100214100.png",
+            "starting": [
+              2,
+              2,
+              0.507434070110321,
+              0.6610453724861145
+            ],
+            "instructions": [
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "STICK_TO_POSITION",
+                "slot": "PF",
+                "code": "PF",
+                "label": "Duy trì vị trí",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 27,
+            "positionName": "LW",
+            "spid": 100009676,
+            "grade": 5,
+            "name": "S. Eto'o",
+            "image": "playersAction/p100009676.png",
+            "starting": [
+              2,
+              2,
+              0.7694805264472961,
+              0.1209650039672852
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "STAY_WIDE",
+                "slot": "CC",
+                "code": "CC2",
+                "label": "Bám biên",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chọc khe",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 21,
+            "positionName": "CF",
+            "spid": 100037576,
+            "grade": 5,
+            "name": "Ronaldo",
+            "image": "playersAction/p100037576.png",
+            "starting": [
+              2,
+              2,
+              0.8454545736312866,
+              0.5237202644348145
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "AR",
+                "code": "AR1",
+                "label": "Xẻ nách",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "DRIFT_WIDE",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chạy chỗ",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "summary": {
+        "rankNo": 3,
+        "accountId": "c2f2d1a99fbb0fd5379d3534",
+        "nickname": "REDxleanhdahay",
+        "matches": 28,
+        "wins": 23,
+        "winratePct": 82.14,
+        "elo": 2197.31,
+        "divisionName": "Huyền thoại"
+      },
+      "detail": {
+        "nickname": "REDxleanhdahay",
+        "elo": 2197.31,
+        "formation": "4-2-4",
+        "matchId": "6ac481ba0f8dbc18c5eaf381",
+        "day": "2026-10-06",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-2-4",
+            "display": "4-2-4"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 4,
+            "display": "Cùng nhau gây áp lực"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 3,
+            "display": "Chuyền trạng thái nhanh"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 3,
+            "display": "Chuyền trạng thái nhanh"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 7,
+            "display": "Tấn công tổng lực"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 300193105,
+            "grade": 8,
+            "name": "A. Areola",
+            "image": "players/p193105.png",
+            "starting": [
+              0,
+              0,
+              0.01499999966472387,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 3,
+            "positionName": "RB",
+            "spid": 284204963,
+            "grade": 11,
+            "name": "Carvajal",
+            "image": "playersAction/p284204963.png",
+            "starting": [
+              2,
+              2,
+              0.2249999940395355,
+              0.9449999928474426
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 825205452,
+            "grade": 8,
+            "name": "A. Rüdiger",
+            "image": "playersAction/p825205452.png",
+            "starting": [
+              2,
+              2,
+              0.1500000059604645,
+              0.6499999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 854233096,
+            "grade": 6,
+            "name": "D. Dumfries",
+            "image": "playersAction/p854233096.png",
+            "starting": [
+              2,
+              2,
+              0.1500000059604645,
+              0.3499999940395355
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 7,
+            "positionName": "LB",
+            "spid": 253197445,
+            "grade": 12,
+            "name": "D. Alaba",
+            "image": "players/p197445.png",
+            "starting": [
+              2,
+              2,
+              0.2249999940395355,
+              0.05499999970197678
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 15,
+            "positionName": "LCM",
+            "spid": 866239053,
+            "grade": 6,
+            "name": "F. Valverde",
+            "image": "playersAction/p866239053.png",
+            "starting": [
+              2,
+              2,
+              0.512499988079071,
+              0.3499999940395355
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Tấn công cân bằng",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "FREE_ROAM",
+                "slot": "PF",
+                "code": "PF1",
+                "label": "Cầu thủ tự do",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 13,
+            "positionName": "RCM",
+            "spid": 854252371,
+            "grade": 6,
+            "name": "J. Bellingham",
+            "image": "playersAction/p854252371.png",
+            "starting": [
+              2,
+              2,
+              0.512499988079071,
+              0.6499999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Tấn công cân bằng",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "FREE_ROAM",
+                "slot": "PF",
+                "code": "PF1",
+                "label": "Cầu thủ tự do",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 23,
+            "positionName": "RW",
+            "spid": 100138449,
+            "grade": 6,
+            "name": "Kaká",
+            "image": "playersAction/p100138449.png",
+            "starting": [
+              2,
+              2,
+              0.8324999809265137,
+              0.8999999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "CC",
+                "code": "CC",
+                "label": "Cơ hội tạo ra như nhau",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "MIXED_SUPPORT",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 24,
+            "positionName": "RS",
+            "spid": 861001397,
+            "grade": 6,
+            "name": "Z. Zidane",
+            "image": "playersAction/p861001397.png",
+            "starting": [
+              2,
+              2,
+              1,
+              0.6351041793823242
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 27,
+            "positionName": "LW",
+            "spid": 867238794,
+            "grade": 7,
+            "name": "Vini Jr.",
+            "image": "playersAction/p867238794.png",
+            "starting": [
+              2,
+              2,
+              0.8324999809265137,
+              0.1000000014901161
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "CC",
+                "code": "CC",
+                "label": "Cơ hội tạo ra như nhau",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "MIXED_SUPPORT",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 26,
+            "positionName": "LS",
+            "spid": 861037576,
+            "grade": 6,
+            "name": "Ronaldo",
+            "image": "playersAction/p861037576.png",
+            "starting": [
+              2,
+              2,
+              1,
+              0.3648194670677185
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "summary": {
+        "rankNo": 4,
+        "accountId": "b2d54fdd48eb1eba6cce1f45",
+        "nickname": "MLxGìCũngĐược",
+        "matches": 48,
+        "wins": 39,
+        "winratePct": 81.25,
+        "elo": 2890.28,
+        "divisionName": "Huyền thoại"
+      },
+      "detail": {
+        "nickname": "MLxGìCũngĐược",
+        "elo": 2890.28,
+        "formation": "4-2-1-3",
+        "matchId": "6ac51e8c3f2f4917c4730913",
+        "day": "2026-10-06",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-2-1-3",
+            "display": "4-2-1-3"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 1,
+            "display": "Cân bằng"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 3,
+            "display": "Chuyền trạng thái nhanh"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 2,
+            "display": "Chuyền dài"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 5,
+            "display": "6"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 1,
+            "display": "2"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 4,
+            "display": "Chung"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 206192119,
+            "grade": 13,
+            "name": "T. Courtois",
+            "image": "players/p192119.png",
+            "starting": [
+              0,
+              0,
+              0.01499999966472387,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 3,
+            "positionName": "RB",
+            "spid": 253233096,
+            "grade": 12,
+            "name": "D. Dumfries",
+            "image": "players/p233096.png",
+            "starting": [
+              1,
+              2,
+              0.09040767699480055,
+              0.8851373195648193
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 852205452,
+            "grade": 8,
+            "name": "A. Rüdiger",
+            "image": "playersAction/p852205452.png",
+            "starting": [
+              1,
+              2,
+              0.009999999776482582,
+              0.6345214247703552
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 852240130,
+            "grade": 8,
+            "name": "Éder Militão",
+            "image": "playersAction/p852240130.png",
+            "starting": [
+              1,
+              2,
+              0.009999999776482582,
+              0.3458930552005768
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 7,
+            "positionName": "LB",
+            "spid": 253197445,
+            "grade": 12,
+            "name": "D. Alaba",
+            "image": "players/p197445.png",
+            "starting": [
+              1,
+              2,
+              0.09520383924245834,
+              0.1321775764226913
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 9,
+            "positionName": "RDM",
+            "spid": 866239053,
+            "grade": 6,
+            "name": "F. Valverde",
+            "image": "playersAction/p866239053.png",
+            "starting": [
+              2,
+              2,
+              0.3521582782268524,
+              0.6548205614089966
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "GET_FORWARD",
+                "slot": "AS",
+                "code": "AS2",
+                "label": "Tham gia tấn công",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 11,
+            "positionName": "LDM",
+            "spid": 854252371,
+            "grade": 6,
+            "name": "J. Bellingham",
+            "image": "playersAction/p854252371.png",
+            "starting": [
+              1,
+              2,
+              0.3515587449073792,
+              0.3595670461654663
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_DEFENSE",
+                "slot": "DB",
+                "code": "DB",
+                "label": "Phòng thủ trung bình",
+                "title": "Bắt người"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Tấn công cân bằng",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "ALWAYS_COVER_CENTER",
+                "slot": "DP",
+                "code": "DP1",
+                "label": "Tập trung ở trung lộ",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 18,
+            "positionName": "CAM",
+            "spid": 866231747,
+            "grade": 5,
+            "name": "K. Mbappé",
+            "image": "playersAction/p866231747.png",
+            "starting": [
+              2,
+              2,
+              0.6818944811820984,
+              0.4933725595474243
+            ],
+            "instructions": [
+              {
+                "raw": "GET_INTO_THE_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC1",
+                "label": "Xâm nhập vòng cấm",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "FREE_ROAM",
+                "slot": "PF",
+                "code": "PF1",
+                "label": "Cầu thủ tự do",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 23,
+            "positionName": "RW",
+            "spid": 826243812,
+            "grade": 9,
+            "name": "Rodrygo",
+            "image": "playersAction/p826243812.png",
+            "starting": [
+              0,
+              0,
+              0.7874286770820618,
+              0.84925091266632
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "CC",
+                "code": "CC",
+                "label": "Cơ hội tạo ra như nhau",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "MIXED_SUPPORT",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 25,
+            "positionName": "ST",
+            "spid": 861037576,
+            "grade": 6,
+            "name": "Ronaldo",
+            "image": "playersAction/p861037576.png",
+            "starting": [
+              2,
+              1,
+              1,
+              0.4863702654838562
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "GET_IN_BEHIND",
+                "slot": "AR",
+                "code": "AR1",
+                "label": "Xẻ nách",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "DRIFT_WIDE",
+                "slot": "SR",
+                "code": "SR1",
+                "label": "Chạy chỗ",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 27,
+            "positionName": "LW",
+            "spid": 855238794,
+            "grade": 6,
+            "name": "Vini Jr.",
+            "image": "playersAction/p855238794.png",
+            "starting": [
+              2,
+              2,
+              0.7900479435920715,
+              0.1545119136571884
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_ON_EDGE_OF_BOX_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC2",
+                "label": "Chờ ở cánh",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "CC",
+                "code": "CC",
+                "label": "Cơ hội tạo ra như nhau",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "MIXED_SUPPORT",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_NORMAL",
+                "slot": "IN",
+                "code": "IN",
+                "label": "Đánh chặn thông thường",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "summary": {
+        "rankNo": 5,
+        "accountId": "72bf541415b63df4706b549d",
+        "nickname": "xShmily",
+        "matches": 42,
+        "wins": 34,
+        "winratePct": 80.95,
+        "elo": 3432.9,
+        "divisionName": "Huyền thoại"
+      },
+      "detail": {
+        "nickname": "xShmily",
+        "elo": 3432.9,
+        "formation": "4-2-4",
+        "matchId": "6ac3a2c77914c4e901d33a88",
+        "day": "2026-10-05",
+        "tactics": [
+          {
+            "key": "formation",
+            "label": "Sơ đồ",
+            "value": "4-2-4",
+            "display": "4-2-4"
+          },
+          {
+            "key": "defensive_style",
+            "label": "Cách phòng thủ",
+            "value": 4,
+            "display": "Cùng nhau gây áp lực"
+          },
+          {
+            "key": "defensive_width",
+            "label": "Rộng",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "defensive_depth",
+            "label": "Thấp",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "offensive_style_buildup",
+            "label": "Xây dựng lối chơi",
+            "value": 3,
+            "display": "Chuyền trạng thái nhanh"
+          },
+          {
+            "key": "offensive_style_chancecreation",
+            "label": "Tạo cơ hội",
+            "value": 3,
+            "display": "Chuyền trạng thái nhanh"
+          },
+          {
+            "key": "offensive_width",
+            "label": "Rộng",
+            "value": 4,
+            "display": "5"
+          },
+          {
+            "key": "offensive_player_in_box",
+            "label": "Cầu thủ trong vòng cấm",
+            "value": 7,
+            "display": "8"
+          },
+          {
+            "key": "set_piece_corner_kick",
+            "label": "Phạt góc",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "set_piece_freekick",
+            "label": "Đá phạt",
+            "value": 2,
+            "display": "3"
+          },
+          {
+            "key": "teammentality",
+            "label": "Xu hướng",
+            "value": 7,
+            "display": "Tấn công tổng lực"
+          }
+        ],
+        "squad": [
+          {
+            "position": 0,
+            "positionName": "GK",
+            "spid": 206005479,
+            "grade": 13,
+            "name": "Casillas",
+            "image": "players/p5479.png",
+            "starting": [
+              0,
+              0,
+              0.01499999966472387,
+              0.5
+            ],
+            "instructions": []
+          },
+          {
+            "position": 3,
+            "positionName": "RB",
+            "spid": 291231281,
+            "grade": 9,
+            "name": "T. Alexander-Arnold",
+            "image": "playersAction/p291231281.png",
+            "starting": [
+              2,
+              2,
+              0.2249999940395355,
+              0.9449999928474426
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 4,
+            "positionName": "RCB",
+            "spid": 825240130,
+            "grade": 8,
+            "name": "Éder Militão",
+            "image": "playersAction/p825240130.png",
+            "starting": [
+              2,
+              2,
+              0.1500000059604645,
+              0.6499999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 6,
+            "positionName": "LCB",
+            "spid": 825205452,
+            "grade": 8,
+            "name": "A. Rüdiger",
+            "image": "playersAction/p825205452.png",
+            "starting": [
+              2,
+              2,
+              0.1500000059604645,
+              0.3499999940395355
+            ],
+            "instructions": [
+              {
+                "raw": "STAY_BACK_WHILE_ATTACKING",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Giữ vị trí",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 7,
+            "positionName": "LB",
+            "spid": 291261865,
+            "grade": 11,
+            "name": "Miguel Gutiérrez",
+            "image": "playersAction/p291261865.png",
+            "starting": [
+              2,
+              2,
+              0.2249999940395355,
+              0.05499999970197678
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 13,
+            "positionName": "RCM",
+            "spid": 866239053,
+            "grade": 6,
+            "name": "F. Valverde",
+            "image": "playersAction/p866239053.png",
+            "starting": [
+              2,
+              2,
+              0.512499988079071,
+              0.6499999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Tấn công cân bằng",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "FREE_ROAM",
+                "slot": "PF",
+                "code": "PF1",
+                "label": "Cầu thủ tự do",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 15,
+            "positionName": "LCM",
+            "spid": 854252371,
+            "grade": 5,
+            "name": "J. Bellingham",
+            "image": "playersAction/p854252371.png",
+            "starting": [
+              2,
+              2,
+              0.512499988079071,
+              0.3499999940395355
+            ],
+            "instructions": [
+              {
+                "raw": "VARIED_ATTACK",
+                "slot": "AS",
+                "code": "AS",
+                "label": "Tấn công cân bằng",
+                "title": "Hỗ trợ tấn công"
+              },
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "FREE_ROAM",
+                "slot": "PF",
+                "code": "PF1",
+                "label": "Cầu thủ tự do",
+                "title": "Tự do di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              },
+              {
+                "raw": "COVER_WING",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Phòng thủ ở biên",
+                "title": "Pressing"
+              }
+            ]
+          },
+          {
+            "position": 23,
+            "positionName": "RW",
+            "spid": 877005589,
+            "grade": 5,
+            "name": "Luís Figo",
+            "image": "playersAction/p877005589.png",
+            "starting": [
+              2,
+              2,
+              0.8324999809265137,
+              0.8999999761581421
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "CC",
+                "code": "CC",
+                "label": "Cơ hội tạo ra như nhau",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "MIXED_SUPPORT",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 27,
+            "positionName": "LW",
+            "spid": 867238794,
+            "grade": 6,
+            "name": "Vini Jr.",
+            "image": "playersAction/p867238794.png",
+            "starting": [
+              2,
+              2,
+              0.8324999809265137,
+              0.1000000014901161
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK_FOR_CROSS",
+                "slot": "SC",
+                "code": "SC",
+                "label": "Hỗ trợ tạt bóng cân bằng",
+                "title": "Hỗ trợ tạt bóng"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DS",
+                "code": "DS",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Hỗ trợ phòng thủ"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "CC",
+                "code": "CC",
+                "label": "Cơ hội tạo ra như nhau",
+                "title": "Tạo ra cơ hội"
+              },
+              {
+                "raw": "MIXED_SUPPORT",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 26,
+            "positionName": "LS",
+            "spid": 825001397,
+            "grade": 8,
+            "name": "Z. Zidane",
+            "image": "playersAction/p825001397.png",
+            "starting": [
+              2,
+              2,
+              1,
+              0.3648194670677185
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          },
+          {
+            "position": 24,
+            "positionName": "RS",
+            "spid": 861037576,
+            "grade": 6,
+            "name": "Ronaldo",
+            "image": "playersAction/p861037576.png",
+            "starting": [
+              2,
+              2,
+              1,
+              0.6351041793823242
+            ],
+            "instructions": [
+              {
+                "raw": "MIXED_ATTACK",
+                "slot": "AR",
+                "code": "AR",
+                "label": "Tấn công cân bằng",
+                "title": "Tấn công"
+              },
+              {
+                "raw": "MIXED_DEFENSE",
+                "slot": "DP",
+                "code": "DP",
+                "label": "Hỗ trợ phòng thủ cơ bản",
+                "title": "Pressing"
+              },
+              {
+                "raw": "VARIED_WIDTH",
+                "slot": "SR",
+                "code": "SR",
+                "label": "Hỗ trợ xâm nhập cân bằng",
+                "title": "Hỗ trợ di chuyển"
+              },
+              {
+                "raw": "INTERCEPTION_AGGRESSIVE",
+                "slot": "IN",
+                "code": "IN1",
+                "label": "Đánh chặn chủ động",
+                "title": "Đánh chặn"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

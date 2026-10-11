@@ -1,0 +1,16 @@
+{
+  "formation_code": "4-3-1-2",
+  "name": "4-3-1-2 Tam Giác Cơ Động Tuyến Giữa",
+  "structure": "4 Hậu vệ, 3 Tiền vệ trung tâm (LCM-CM-RCM), 1 CAM, 2 Tiền đạo (ST-ST)",
+  "strengths": [
+    "Khối trung tuyến 3 người che chắn cực kỳ chặt chẽ",
+    "Phối hợp trung lộ biến hóa"
+  ],
+  "weaknesses": [
+    "Cần CM có tốc độ và khả năng dạt biên khi cần thiết"
+  ],
+  "patch": "GAMEPLAY_12TH_2026",
+  "server": "GLOBAL_GENERIC",
+  "required_profiles": "3 tiền vệ trung tâm toàn diện cả công lẫn thủ.",
+  "meta_status": "CANDIDATE"
+}

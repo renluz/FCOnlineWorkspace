@@ -1,0 +1,11 @@
+{
+  "source": "INVEN_PUBLIC_TACTICS_AND_DATA_CENTER",
+  "sample_type": "KR_PUBLIC_GLXH",
+  "matchtype": 52,
+  "is_live_data": false,
+  "region_status": "UNAVAILABLE_FROM_VIETNAM",
+  "extracted_at": "2026-09-19T00:12:53.177886",
+  "candidate_count": 44,
+  "cross_referenced_db_total": 41289,
+  "provenance_notice": "Public Korean Super Champions / Champions squads cross-referenced with 41,289 player details DB."
+}

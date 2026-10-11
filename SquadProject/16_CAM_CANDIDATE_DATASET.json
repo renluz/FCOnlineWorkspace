@@ -1,0 +1,220 @@
+{
+  "_metadata": {
+    "project": "FCOnlineKnowledgeWorkspace",
+    "purpose": "Ground truth auditable dataset for CAM 4-1-4-1-0 Moneyball Evaluation",
+    "updated_at": "2026-09-30",
+    "source": "FC INFO Player Search (Nexon Open API) Verified"
+  },
+  "candidates": [
+    {
+      "player_name": "K. Havertz",
+      "season": "CU",
+      "fc_info_id": "825235790",
+      "fc_info_url": "https://fc-info.com/player/825235790",
+      "salary": 27,
+      "weak_foot": 4,
+      "team_color_bonus": 2.0,
+      "raw_stats_base": {
+        "finish": 110,
+        "long_shot": 105,
+        "shot_power": 110,
+        "composure": 108,
+        "short_pass": 116,
+        "vision": 114,
+        "positioning": 118,
+        "balance": 107,
+        "strength": 104,
+        "stamina": 112
+      }
+    },
+    {
+      "player_name": "K. Benzema",
+      "season": "BLD",
+      "fc_info_id": "828165153",
+      "fc_info_url": "https://fc-info.com/player/828165153",
+      "salary": 29,
+      "weak_foot": 5,
+      "team_color_bonus": 3.0,
+      "raw_stats_base": {
+        "finish": 120,
+        "long_shot": 113,
+        "shot_power": 115,
+        "composure": 118,
+        "short_pass": 117,
+        "vision": 118,
+        "positioning": 117,
+        "balance": 117,
+        "strength": 112,
+        "stamina": 115
+      }
+    },
+    {
+      "player_name": "K. Benzema",
+      "season": "CU",
+      "fc_info_id": "825165153",
+      "fc_info_url": "https://fc-info.com/player/825165153",
+      "salary": 30,
+      "weak_foot": 5,
+      "team_color_bonus": 3.0,
+      "raw_stats_base": {
+        "finish": 120,
+        "long_shot": 113,
+        "shot_power": 116,
+        "composure": 118,
+        "short_pass": 117,
+        "vision": 116,
+        "positioning": 119,
+        "balance": 119,
+        "strength": 114,
+        "stamina": 113
+      }
+    },
+    {
+      "player_name": "J. Bellingham",
+      "season": "CU",
+      "fc_info_id": "825252371",
+      "fc_info_url": "https://fc-info.com/player/825252371",
+      "salary": 28,
+      "weak_foot": 5,
+      "team_color_bonus": 3.0,
+      "raw_stats_base": {
+        "finish": 115,
+        "long_shot": 109,
+        "shot_power": 112,
+        "composure": 118,
+        "short_pass": 118,
+        "vision": 114,
+        "positioning": 117,
+        "balance": 116,
+        "strength": 108,
+        "stamina": 120
+      }
+    },
+    {
+      "player_name": "T. Müller",
+      "season": "DC",
+      "fc_info_id": "802189596",
+      "fc_info_url": "https://fc-info.com/player/802189596",
+      "salary": 27,
+      "weak_foot": 5,
+      "team_color_bonus": 2.0,
+      "raw_stats_base": {
+        "finish": 117,
+        "long_shot": 103,
+        "shot_power": 106,
+        "composure": 117,
+        "short_pass": 108,
+        "vision": 115,
+        "positioning": 120,
+        "balance": 113,
+        "strength": 102,
+        "stamina": 109
+      }
+    },
+    {
+      "player_name": "H. Kane",
+      "season": "DC",
+      "fc_info_id": "802202126",
+      "fc_info_url": "https://fc-info.com/player/802202126",
+      "salary": 27,
+      "weak_foot": 5,
+      "team_color_bonus": 2.0,
+      "raw_stats_base": {
+        "finish": 116,
+        "long_shot": 115,
+        "shot_power": 116,
+        "composure": 114,
+        "short_pass": 109,
+        "vision": 112,
+        "positioning": 111,
+        "balance": 112,
+        "strength": 110,
+        "stamina": 111
+      }
+    },
+    {
+      "player_name": "R. Gullit",
+      "season": "CU",
+      "fc_info_id": "825214100",
+      "fc_info_url": "https://fc-info.com/player/825214100",
+      "salary": 30,
+      "weak_foot": 5,
+      "team_color_bonus": 1.0,
+      "raw_stats_base": {
+        "finish": 113,
+        "long_shot": 116,
+        "shot_power": 119,
+        "composure": 115,
+        "short_pass": 111,
+        "vision": 112,
+        "positioning": 114,
+        "balance": 114,
+        "strength": 116,
+        "stamina": 115
+      }
+    },
+    {
+      "player_name": "K. De Bruyne",
+      "season": "CU",
+      "fc_info_id": "825192985",
+      "fc_info_url": "https://fc-info.com/player/825192985",
+      "salary": 29,
+      "weak_foot": 5,
+      "team_color_bonus": 1.0,
+      "raw_stats_base": {
+        "finish": 109,
+        "long_shot": 120,
+        "shot_power": 116,
+        "composure": 118,
+        "short_pass": 117,
+        "vision": 120,
+        "positioning": 114,
+        "balance": 114,
+        "strength": 103,
+        "stamina": 108
+      }
+    },
+    {
+      "player_name": "J. Brandt",
+      "season": "25DP",
+      "fc_info_id": "851212194",
+      "fc_info_url": "https://fc-info.com/player/851212194",
+      "salary": 28,
+      "weak_foot": 5,
+      "team_color_bonus": 1.0,
+      "raw_stats_base": {
+        "finish": 109,
+        "long_shot": 115,
+        "shot_power": 114,
+        "composure": 115,
+        "short_pass": 119,
+        "vision": 119,
+        "positioning": 114,
+        "balance": 115,
+        "strength": 106,
+        "stamina": 117
+      }
+    },
+    {
+      "player_name": "T. Kroos",
+      "season": "DC",
+      "fc_info_id": "802167300",
+      "fc_info_url": "https://fc-info.com/player/802167300",
+      "salary": 27,
+      "weak_foot": 5,
+      "team_color_bonus": 3.0,
+      "raw_stats_base": {
+        "finish": 96,
+        "long_shot": 113,
+        "shot_power": 113,
+        "composure": 117,
+        "short_pass": 117,
+        "vision": 117,
+        "positioning": 108,
+        "balance": 112,
+        "strength": 104,
+        "stamina": 110
+      }
+    }
+  ]
+}

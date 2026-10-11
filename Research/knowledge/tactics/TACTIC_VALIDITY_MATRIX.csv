@@ -1,0 +1,81 @@
+position,group,variant,ui_confirmed,garena_confirmed,nexon_confirmed,community_only,meaning,source,confidence
+ST,AR,AR,TRUE,TRUE,TRUE,FALSE,Hỗ trợ tấn công cân bằng (mặc định),OFFICIAL_GARENA,HIGH
+ST,AR,AR1,TRUE,TRUE,TRUE,FALSE,Xẻ nách / Chạy chỗ phá bẫy việt vị,OFFICIAL_GARENA,HIGH
+ST,AR,AR2,TRUE,TRUE,TRUE,FALSE,Mục tiêu / Tiền đạo cắm làm tường,OFFICIAL_GARENA,HIGH
+ST,AR,AR3,TRUE,TRUE,TRUE,FALSE,Dạt biên / Mở rộng không gian,OFFICIAL_GARENA,HIGH
+ST,DP,DP,TRUE,TRUE,TRUE,FALSE,Hỗ trợ phòng ngự cân bằng (mặc định),OFFICIAL_GARENA,HIGH
+ST,DP,DP1,TRUE,TRUE,TRUE,FALSE,Luôn luôn hỗ trợ phòng thủ (tích cực lùi về),OFFICIAL_GARENA,HIGH
+ST,DP,DP2,TRUE,TRUE,TRUE,FALSE,"Luôn ở trên (không lùi về, chờ bóng phản công)",OFFICIAL_GARENA,HIGH
+ST,IN,IN,TRUE,TRUE,TRUE,FALSE,Đánh chặn thông thường,OFFICIAL_GARENA,HIGH
+ST,IN,IN1,TRUE,TRUE,TRUE,FALSE,Đánh chặn chủ động / Gắt gao,OFFICIAL_GARENA,HIGH
+ST,IN,IN2,TRUE,TRUE,TRUE,FALSE,Đánh chặn thận trọng,OFFICIAL_GARENA,HIGH
+ST,SR,SR,TRUE,TRUE,TRUE,FALSE,Chạy chỗ cân bằng,OFFICIAL_GARENA,HIGH
+ST,SR,SR1,TRUE,TRUE,TRUE,FALSE,Chạy chỗ áp sát hàng thủ (đè mặt mép việt vị),OFFICIAL_GARENA,HIGH
+ST,SR,SR2,TRUE,TRUE,TRUE,FALSE,Đợi bóng / Lùi lại hỗ trợ nhận bóng,OFFICIAL_GARENA,HIGH
+CAM,DS,DS,TRUE,TRUE,TRUE,FALSE,Hỗ trợ phòng thủ cơ bản (mặc định),OFFICIAL_GARENA,HIGH
+CAM,DS,DS1,TRUE,TRUE,TRUE,FALSE,Luôn ở phía trên (chờ bóng phản công),OFFICIAL_GARENA,HIGH
+CAM,DS,DS2,TRUE,TRUE,TRUE,FALSE,Hỗ trợ phòng ngự tích cực,OFFICIAL_GARENA,HIGH
+CAM,IN,IN,TRUE,TRUE,TRUE,FALSE,Đánh chặn thông thường,OFFICIAL_GARENA,HIGH
+CAM,IN,IN1,TRUE,TRUE,TRUE,FALSE,Đánh chặn chủ động,OFFICIAL_GARENA,HIGH
+CAM,IN,IN2,TRUE,TRUE,TRUE,FALSE,Đánh chặn thận trọng,OFFICIAL_GARENA,HIGH
+CAM,PF,PF,TRUE,TRUE,TRUE,FALSE,Kỷ luật vị trí (mặc định),OFFICIAL_GARENA,HIGH
+CAM,PF,PF1,TRUE,TRUE,TRUE,FALSE,Di chuyển tự do (Free Roam),OFFICIAL_GARENA,HIGH
+CAM,PF,PF2,TRUE,TRUE,TRUE,FALSE,Di chuyển rộng (chỉ áp dụng CAM; LAM/RAM KHÔNG sử dụng được),OFFICIAL_GARENA,HIGH
+LAM,PF,PF2,FALSE,EXCLUDED,EXCLUDED,FALSE,INVALID_FOR_LAM: Garena quy định LAM/RAM không sử dụng được PF2,OFFICIAL_GARENA,HIGH
+RAM,PF,PF2,FALSE,EXCLUDED,EXCLUDED,FALSE,INVALID_FOR_RAM: Garena quy định LAM/RAM không sử dụng được PF2,OFFICIAL_GARENA,HIGH
+LAM,CC,CC1,FALSE,FALSE,FALSE,FALSE,"INVALID_FOR_LAM: Nhóm CC chỉ thuộc về LW/RW, không tồn tại trên LAM",OFFICIAL_GARENA,HIGH
+RAM,CC,CC1,FALSE,FALSE,FALSE,FALSE,"INVALID_FOR_RAM: Nhóm CC chỉ thuộc về LW/RW, không tồn tại trên RAM",OFFICIAL_GARENA,HIGH
+CAM,SC,SC,TRUE,TRUE,TRUE,FALSE,Hỗ trợ tạt bóng cân bằng,OFFICIAL_GARENA,HIGH
+CAM,SC,SC1,TRUE,TRUE,TRUE,FALSE,Xâm nhập vòng cấm khi tạt bóng,OFFICIAL_GARENA,HIGH
+CAM,SC,SC2,TRUE,TRUE,TRUE,FALSE,Đợi bóng ở rìa vòng cấm (tuyến 2),OFFICIAL_GARENA,HIGH
+LDM,AS,AS,TRUE,TRUE,TRUE,FALSE,Hỗ trợ tấn công cân bằng (mặc định),OFFICIAL_GARENA,HIGH
+LDM,AS,AS1,TRUE,TRUE,TRUE,FALSE,Ở lại phía sau khi tấn công (Stay Back),OFFICIAL_GARENA,HIGH
+LDM,AS,AS2,TRUE,TRUE,TRUE,FALSE,Tham gia tấn công,OFFICIAL_GARENA,HIGH
+LDM,AS,AS3,TRUE,TRUE,TRUE,FALSE,Vị trí giữa các hậu vệ (chỉ áp dụng cho đội hình 4 hậu vệ),OFFICIAL_GARENA,HIGH
+RDM,AS,AS,TRUE,TRUE,TRUE,FALSE,Hỗ trợ tấn công cân bằng (mặc định),OFFICIAL_GARENA,HIGH
+RDM,AS,AS1,TRUE,TRUE,TRUE,FALSE,Ở lại phía sau khi tấn công (Stay Back),OFFICIAL_GARENA,HIGH
+RDM,AS,AS2,TRUE,TRUE,TRUE,FALSE,Tham gia tấn công,OFFICIAL_GARENA,HIGH
+RDM,AS,AS3,TRUE,TRUE,TRUE,FALSE,Vị trí giữa các hậu vệ (chỉ áp dụng cho đội hình 4 hậu vệ),OFFICIAL_GARENA,HIGH
+LDM,DB,DB,TRUE,TRUE,TRUE,FALSE,Hỗ trợ phòng thủ cân bằng,OFFICIAL_GARENA,HIGH
+LDM,DB,DB1,TRUE,TRUE,TRUE,FALSE,Cắt đường chuyền (Cut Passing Lanes),OFFICIAL_GARENA,HIGH
+LDM,DB,DB2,TRUE,TRUE,TRUE,FALSE,Kèm chặt người (Man Mark),OFFICIAL_GARENA,HIGH
+RDM,DB,DB,TRUE,TRUE,TRUE,FALSE,Hỗ trợ phòng thủ cân bằng,OFFICIAL_GARENA,HIGH
+RDM,DB,DB1,TRUE,TRUE,TRUE,FALSE,Cắt đường chuyền (Cut Passing Lanes),OFFICIAL_GARENA,HIGH
+RDM,DB,DB2,TRUE,TRUE,TRUE,FALSE,Kèm chặt người (Man Mark),OFFICIAL_GARENA,HIGH
+LDM,DP,DP,TRUE,TRUE,TRUE,FALSE,Phòng thủ ở biên (bọc lót khi hậu vệ cánh dâng),OFFICIAL_GARENA,HIGH
+LDM,DP,DP1,TRUE,TRUE,TRUE,FALSE,Tập trung ở trung lộ (bảo vệ trung tâm),OFFICIAL_GARENA,HIGH
+LDM,DP,DP2,FALSE,FALSE,FALSE,FALSE,INVALID_CODE: Nhóm DP trên tiền vệ trụ KHÔNG có DP2,OFFICIAL_GARENA,HIGH
+RDM,DP,DP,TRUE,TRUE,TRUE,FALSE,Phòng thủ ở biên (bọc lót khi hậu vệ cánh dâng),OFFICIAL_GARENA,HIGH
+RDM,DP,DP1,TRUE,TRUE,TRUE,FALSE,Tập trung ở trung lộ (bảo vệ trung tâm),OFFICIAL_GARENA,HIGH
+RDM,DP,DP2,FALSE,FALSE,FALSE,FALSE,INVALID_CODE: Nhóm DP trên tiền vệ trụ KHÔNG có DP2,OFFICIAL_GARENA,HIGH
+LDM,IN,IN,TRUE,TRUE,TRUE,FALSE,Đánh chặn thông thường,OFFICIAL_GARENA,HIGH
+LDM,IN,IN1,TRUE,TRUE,TRUE,FALSE,Đánh chặn chủ động,OFFICIAL_GARENA,HIGH
+LDM,IN,IN2,TRUE,TRUE,TRUE,FALSE,Đánh chặn thận trọng,OFFICIAL_GARENA,HIGH
+RDM,IN,IN,TRUE,TRUE,TRUE,FALSE,Đánh chặn thông thường,OFFICIAL_GARENA,HIGH
+RDM,IN,IN1,TRUE,TRUE,TRUE,FALSE,Đánh chặn chủ động,OFFICIAL_GARENA,HIGH
+RDM,IN,IN2,TRUE,TRUE,TRUE,FALSE,Đánh chặn thận trọng,OFFICIAL_GARENA,HIGH
+LB,AR,AR,TRUE,TRUE,TRUE,FALSE,Tấn công cân bằng (mặc định),OFFICIAL_GARENA,HIGH
+LB,AR,AR1,TRUE,TRUE,TRUE,FALSE,Chồng biên / Tham gia tấn công,OFFICIAL_GARENA,HIGH
+LB,AR,AR2,TRUE,TRUE,TRUE,FALSE,Ở lại phía sau khi tấn công (Stay Back),OFFICIAL_GARENA,HIGH
+RB,AR,AR,TRUE,TRUE,TRUE,FALSE,Tấn công cân bằng (mặc định),OFFICIAL_GARENA,HIGH
+RB,AR,AR1,TRUE,TRUE,TRUE,FALSE,Chồng biên / Tham gia tấn công,OFFICIAL_GARENA,HIGH
+RB,AR,AR2,TRUE,TRUE,TRUE,FALSE,Ở lại phía sau khi tấn công (Stay Back),OFFICIAL_GARENA,HIGH
+LB,IN,IN,TRUE,TRUE,TRUE,FALSE,Đánh chặn thông thường,OFFICIAL_GARENA,HIGH
+LB,IN,IN1,TRUE,TRUE,TRUE,FALSE,Đánh chặn chủ động,OFFICIAL_GARENA,HIGH
+LB,IN,IN2,TRUE,TRUE,TRUE,FALSE,Đánh chặn thận trọng,OFFICIAL_GARENA,HIGH
+RB,IN,IN,TRUE,TRUE,TRUE,FALSE,Đánh chặn thông thường,OFFICIAL_GARENA,HIGH
+RB,IN,IN1,TRUE,TRUE,TRUE,FALSE,Đánh chặn chủ động,OFFICIAL_GARENA,HIGH
+RB,IN,IN2,TRUE,TRUE,TRUE,FALSE,Đánh chặn thận trọng,OFFICIAL_GARENA,HIGH
+LB,SR,SR,TRUE,TRUE,TRUE,FALSE,Hỗ trợ xâm nhập cân bằng (tùy tình hình),OFFICIAL_GARENA,HIGH
+LB,SR,SR1,TRUE,TRUE,TRUE,FALSE,Di chuyển từ cánh vào trung tâm (làm tường hỗ trợ tuyến giữa),OFFICIAL_GARENA,HIGH
+LB,SR,SR2,TRUE,TRUE,TRUE,FALSE,Phối hợp chồng cánh (lên công về thủ dọc biên),OFFICIAL_GARENA,HIGH
+RB,SR,SR,TRUE,TRUE,TRUE,FALSE,Hỗ trợ xâm nhập cân bằng (tùy tình hình),OFFICIAL_GARENA,HIGH
+RB,SR,SR1,TRUE,TRUE,TRUE,FALSE,Di chuyển từ cánh vào trung tâm (làm tường hỗ trợ tuyến giữa),OFFICIAL_GARENA,HIGH
+RB,SR,SR2,TRUE,TRUE,TRUE,FALSE,Phối hợp chồng cánh (lên công về thủ dọc biên),OFFICIAL_GARENA,HIGH
+CB,IN,IN,TRUE,TRUE,TRUE,FALSE,Đánh chặn thông thường,OFFICIAL_GARENA,HIGH
+CB,IN,IN1,TRUE,TRUE,TRUE,FALSE,Đánh chặn chủ động / Dập gắt,OFFICIAL_GARENA,HIGH
+CB,IN,IN2,TRUE,TRUE,TRUE,FALSE,Đánh chặn thận trọng / Thòng bọc lót,OFFICIAL_GARENA,HIGH
+LW,CC,CC3,TRUE,TRUE,TRUE,FALSE,Vai trò tự do (di chuyển xung quanh nhiều hơn gần biên),OFFICIAL_GARENA,HIGH
+RW,CC,CC3,TRUE,TRUE,TRUE,FALSE,Vai trò tự do (di chuyển xung quanh nhiều hơn gần biên),OFFICIAL_GARENA,HIGH
+LW,SR,SR3,TRUE,TRUE,TRUE,FALSE,Tiền đạo mục tiêu (luôn xuất hiện trong vòng cấm gần hậu vệ cuối),OFFICIAL_GARENA,HIGH
+RW,SR,SR3,TRUE,TRUE,TRUE,FALSE,Tiền đạo mục tiêu (luôn xuất hiện trong vòng cấm gần hậu vệ cuối),OFFICIAL_GARENA,HIGH

@@ -1,0 +1,14 @@
+player_name,season,grade,displayed_ovr,database_base_ovr,salary,current_slot,natural_positions,price_min,price_max,buy_price,sell_price,buy_quantity,sell_quantity,market_availability,source,updated_at
+V. Boniface,WS,3,119,117,28,ST,ST,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+G. Zambrotta,WG,1,119,119,30,RB,CF/ST,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+J. Gvardiol,25DP,1,118,118,29,LB,LB/CB,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+T. Rosicky,WG,1,118,118,30,CAM,LM/CM,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+Park Ji Sung,NO.7,1,117,118,29,CAM,CAM/LM,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+F. Schar,25DP,1,114,114,27,CB,CB,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+A. Del Piero,HOT,1,102,97,20,LW,CF,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+R. Gullit,HOT,1,103,98,22,LCM,CM,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+Rodri,19,1,95,92,17,RCM,CDM,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+Sergio Ramos,19,1,94,94,18,RB/CB,CB,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+W. Hennessey,HOT,1,96,91,13,GK,GK,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+Inaki Williams,HOT,1,95,90,16,RW,ST,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41
+P. Aubameyang,LH,1,96,92,18,ST,ST,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,2026-09-19 00:26:41

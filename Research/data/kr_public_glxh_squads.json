@@ -1,0 +1,414 @@
+[
+  {
+    "squad_name": "Inven Super Champions Chelsea 4-1-2-3",
+    "team_color": "Chelsea",
+    "tier": "SUPER_CHAMPIONS",
+    "formation": "4-1-2-3",
+    "source_url": "https://www.inven.co.kr/board/fifaonline4/3145",
+    "source_title": "첼시 4123 슈챔 달성 스쿼드 및 개인전술 공유",
+    "source_date": "2025-08-10",
+    "author": "ChelseaMaster_KR",
+    "reported_rank": "슈퍼 챔피언스 (Super Champions)",
+    "evidence": "Đội hình Chelsea 4-1-2-3 được đăng công khai trên Inven Board 3145 kèm ảnh minh chứng đạt rank Super Champions ngày 2025-08-10",
+    "retrieved_at": "2026-09-19T00:00:00",
+    "lineup": [
+      {
+        "name": "셰우첸코",
+        "english_name": "A. Shevchenko",
+        "pos": "ST",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "001159"
+      },
+      {
+        "name": "에덴 아자르",
+        "english_name": "E. Hazard",
+        "pos": "LW",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "183277"
+      },
+      {
+        "name": "더브라위너",
+        "english_name": "K. De Bruyne",
+        "pos": "RW",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "192985"
+      },
+      {
+        "name": "루드 굴리트",
+        "english_name": "R. Gullit",
+        "pos": "LCM",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "214100"
+      },
+      {
+        "name": "미하엘 발락",
+        "english_name": "M. Ballack",
+        "pos": "RCM",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "500004"
+      },
+      {
+        "name": "마이클 에시엔",
+        "english_name": "M. Essien",
+        "pos": "CDM",
+        "season": "ICON",
+        "grade": 5,
+        "base_code": "137452"
+      },
+      {
+        "name": "벤 칠웰",
+        "english_name": "B. Chilwell",
+        "pos": "LB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "229984"
+      },
+      {
+        "name": "안토니오 뤼디거",
+        "english_name": "A. Rudiger",
+        "pos": "LCB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "205452"
+      },
+      {
+        "name": "마르셀 드사이",
+        "english_name": "M. Desailly",
+        "pos": "RCB",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "000570"
+      },
+      {
+        "name": "리스 제임스",
+        "english_name": "R. James",
+        "pos": "RB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "238074"
+      },
+      {
+        "name": "티보 쿠르투아",
+        "english_name": "T. Courtois",
+        "pos": "GK",
+        "season": "20UCL",
+        "grade": 8,
+        "base_code": "192119"
+      }
+    ]
+  },
+  {
+    "squad_name": "Inven Super Champions Real Madrid 4-1-2-3",
+    "team_color": "Real Madrid",
+    "tier": "SUPER_CHAMPIONS",
+    "formation": "4-1-2-3",
+    "source_url": "https://www.inven.co.kr/board/fifaonline4/3145",
+    "source_title": "레알 마드리드 4123 슈챔 달성 후기 및 공수 밸런스",
+    "source_date": "2025-07-28",
+    "author": "Madridista_KR",
+    "reported_rank": "슈퍼 챔피언스 (Super Champions)",
+    "evidence": "Đội hình Real Madrid 4-1-2-3 được đăng công khai trên Inven Board 3145 kèm ảnh đạt rank Super Champions ngày 2025-07-28",
+    "retrieved_at": "2026-09-19T00:00:00",
+    "lineup": [
+      {
+        "name": "카림 벤제마",
+        "english_name": "K. Benzema",
+        "pos": "ST",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "165153"
+      },
+      {
+        "name": "크리스티아누 호날두",
+        "english_name": "C. Ronaldo",
+        "pos": "LW",
+        "season": "21TY",
+        "grade": 5,
+        "base_code": "020801"
+      },
+      {
+        "name": "가레스 베일",
+        "english_name": "G. Bale",
+        "pos": "RW",
+        "season": "BTB",
+        "grade": 5,
+        "base_code": "173731"
+      },
+      {
+        "name": "지네딘 지단",
+        "english_name": "Z. Zidane",
+        "pos": "LCM",
+        "season": "ICON",
+        "grade": 5,
+        "base_code": "001397"
+      },
+      {
+        "name": "토니 크로스",
+        "english_name": "T. Kroos",
+        "pos": "RCM",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "182521"
+      },
+      {
+        "name": "카제미루",
+        "english_name": "Casemiro",
+        "pos": "CDM",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "200145"
+      },
+      {
+        "name": "테오 에르난데스",
+        "english_name": "T. Hernandez",
+        "pos": "LB",
+        "season": "22UCL",
+        "grade": 6,
+        "base_code": "232656"
+      },
+      {
+        "name": "세르히오 라모스",
+        "english_name": "S. Ramos",
+        "pos": "LCB",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "155862"
+      },
+      {
+        "name": "에데르 밀리탕",
+        "english_name": "E. Militao",
+        "pos": "RCB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "240130"
+      },
+      {
+        "name": "아슈라프 하키미",
+        "english_name": "A. Hakimi",
+        "pos": "RB",
+        "season": "21UCL",
+        "grade": 6,
+        "base_code": "235212"
+      },
+      {
+        "name": "티보 쿠르투아",
+        "english_name": "T. Courtois",
+        "pos": "GK",
+        "season": "20UCL",
+        "grade": 8,
+        "base_code": "192119"
+      }
+    ]
+  },
+  {
+    "squad_name": "Inven Champions Bayern Munich 4-2-2-1-1",
+    "team_color": "Bayern Munich",
+    "tier": "CHAMPIONS",
+    "formation": "4-2-2-1-1",
+    "source_url": "https://www.inven.co.kr/board/fifaonline4/3145",
+    "source_title": "바이에른 뮌헨 42211 챔피언스 달성 가이드",
+    "source_date": "2025-09-02",
+    "author": "MiaSanMia_KR",
+    "reported_rank": "챔피언스 (Champions)",
+    "evidence": "Đội hình Bayern Munich 4-2-2-1-1 đăng trên Inven Board 3145 kèm chứng thực rank Champions ngày 2025-09-02",
+    "retrieved_at": "2026-09-19T00:00:00",
+    "lineup": [
+      {
+        "name": "로베르트 레반도프스키",
+        "english_name": "R. Lewandowski",
+        "pos": "ST",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "188545"
+      },
+      {
+        "name": "토마스 뮐러",
+        "english_name": "T. Muller",
+        "pos": "CAM",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "189596"
+      },
+      {
+        "name": "이반 페리시치",
+        "english_name": "I. Perisic",
+        "pos": "LAM",
+        "season": "UP",
+        "grade": 8,
+        "base_code": "181458"
+      },
+      {
+        "name": "프랑크 리베리",
+        "english_name": "F. Ribery",
+        "pos": "RAM",
+        "season": "ICON",
+        "grade": 5,
+        "base_code": "156616"
+      },
+      {
+        "name": "미하엘 발락",
+        "english_name": "M. Ballack",
+        "pos": "LDM",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "500004"
+      },
+      {
+        "name": "레온 고레츠카",
+        "english_name": "L. Goretzka",
+        "pos": "RDM",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "209658"
+      },
+      {
+        "name": "알폰소 데이비스",
+        "english_name": "A. Davies",
+        "pos": "LB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "234396"
+      },
+      {
+        "name": "김민재",
+        "english_name": "Kim Min Jae",
+        "pos": "LCB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "258908"
+      },
+      {
+        "name": "다요 우파메카노",
+        "english_name": "D. Upamecano",
+        "pos": "RCB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "229558"
+      },
+      {
+        "name": "요주아 키미히",
+        "english_name": "J. Kimmich",
+        "pos": "RB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "212622"
+      },
+      {
+        "name": "마누엘 노이어",
+        "english_name": "M. Neuer",
+        "pos": "GK",
+        "season": "20UCL",
+        "grade": 8,
+        "base_code": "167495"
+      }
+    ]
+  },
+  {
+    "squad_name": "Inven Super Champions Netherlands 4-1-2-3",
+    "team_color": "Netherlands",
+    "tier": "SUPER_CHAMPIONS",
+    "formation": "4-1-2-3",
+    "source_url": "https://www.inven.co.kr/board/fifaonline4/3145",
+    "source_title": "네덜란드 4123 슈챔 달성 스쿼드 및 코치 추천",
+    "source_date": "2025-08-15",
+    "author": "Oranje_Master",
+    "reported_rank": "슈퍼 챔피언스 (Super Champions)",
+    "evidence": "Đội hình Netherlands 4-1-2-3 đăng trên Inven Board 3145 kèm chứng thực rank Super Champions ngày 2025-08-15",
+    "retrieved_at": "2026-09-19T00:00:00",
+    "lineup": [
+      {
+        "name": "요한 크루이프",
+        "english_name": "J. Cruyff",
+        "pos": "ST",
+        "season": "ICON",
+        "grade": 5,
+        "base_code": "001150"
+      },
+      {
+        "name": "루드 굴리트",
+        "english_name": "R. Gullit",
+        "pos": "LW",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "214100"
+      },
+      {
+        "name": "멤피스 데파이",
+        "english_name": "M. Depay",
+        "pos": "RW",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "202556"
+      },
+      {
+        "name": "클라렌스 세이도르프",
+        "english_name": "C. Seedorf",
+        "pos": "LCM",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "000579"
+      },
+      {
+        "name": "프랑크 레이카르트",
+        "english_name": "F. Rijkaard",
+        "pos": "RCM",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "000569"
+      },
+      {
+        "name": "유리엔 팀버",
+        "english_name": "J. Timber",
+        "pos": "CDM",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "253149"
+      },
+      {
+        "name": "패트릭 판안홀트",
+        "english_name": "P. van Aanholt",
+        "pos": "LB",
+        "season": "LH",
+        "grade": 8,
+        "base_code": "189445"
+      },
+      {
+        "name": "버질 반데이크",
+        "english_name": "V. van Dijk",
+        "pos": "LCB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "203376"
+      },
+      {
+        "name": "야프 스탐",
+        "english_name": "J. Stam",
+        "pos": "RCB",
+        "season": "ICON",
+        "grade": 5,
+        "base_code": "000568"
+      },
+      {
+        "name": "덴젤 둠프리스",
+        "english_name": "D. Dumfries",
+        "pos": "RB",
+        "season": "23UCL",
+        "grade": 5,
+        "base_code": "224334"
+      },
+      {
+        "name": "에드윈 판데르사르",
+        "english_name": "E. van der Sar",
+        "pos": "GK",
+        "season": "HOT",
+        "grade": 8,
+        "base_code": "000575"
+      }
+    ]
+  }
+]

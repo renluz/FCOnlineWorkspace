@@ -1,0 +1,133 @@
+{
+  "4-1-2-3": {
+    "name": "4-1-2-3 Inven Super Champions Meta (4123 침투&컷백)",
+    "source_url": "https://www.inven.co.kr/board/fifaonline4/3145",
+    "source_title": "슈챔 달성 감독모드 4123 침투&컷백 전술 및 가이드",
+    "source_date": "2025-06-15",
+    "author": "Inven_FCManager_KR",
+    "reported_rank": "슈퍼 챔피언스 (Super Champions)",
+    "formation": "4-1-2-3",
+    "evidence": "4-1-2-3 xuất hiện trong bài chia sẻ của người chơi Inven_FCManager_KR đạt rank Super Champions ngày 2025-06-15",
+    "retrieved_at": "2026-09-19T00:00:00",
+    "description": "4-1-2-3 xuất hiện trong bài phân tích chiến thuật của người chơi đạt rank Super Champions trên Inven: Phối hợp bóng ngắn, tiền đạo mục tiêu dứt điểm một chạm, tiền đạo cánh nghịch chân ZD góc xa, 2 tiền vệ trung tâm sút xa tuyến hai, 1 CDM cao to đánh chặn.",
+    "team_tactics": {
+      "build_up_speed": 75,
+      "passing": 55,
+      "positioning": "Free (Tự do)",
+      "crossing": 70,
+      "shooting": 75,
+      "defense_pressure": 70,
+      "defense_aggression": 65,
+      "team_width": 55,
+      "defensive_line": "Cover (Bọc lót)"
+    },
+    "key_stat_requirements": {
+      "ALL_OUTFIELD": "Stamina >= 115-120 (Đạt trạng thái '빨간맛' để AI duy trì thể lực hiệp 2)",
+      "ST": "Dứt điểm >= 118, Lực sút >= 115, Thể lực >= 115, Chỉ số ẩn 예감 (Sút xoáy/Finesse Shot), Chân thuận 5/5 hoặc 5/4",
+      "LW_RW": "Nghịch chân (역발) để cắt vào sút xoáy ZD hoặc cutback, Tốc độ >= 120, Khéo léo/Khả năng tạt bóng >= 115",
+      "LCM_RCM": "Thể lực >= 120, Sút xa >= 115, Lực sút >= 115, Sức mạnh/Tranh chấp >= 110",
+      "CDM": "Cắt bóng/Đánh chặn >= 120, Kèm người >= 118, Chiều cao >= 188cm, Chuyền dài >= 115",
+      "CB": "Tốc độ >= 115, Kèm người >= 120, Xoạc bóng/Cắt bóng >= 120, Sức mạnh >= 120",
+      "LB_RB": "Tốc độ >= 120, Thể lực >= 120, Kèm người >= 115, Lương thấp đến trung bình",
+      "GK": "Chiều cao >= 195cm, Phản xạ >= 110"
+    },
+    "recommended_coaches": {
+      "ATTACK": [
+        "능숙한 몸싸움 (Năng lực thể chất / Physical)",
+        "빠른 템포 공격 (Tấn công nhịp độ nhanh)",
+        "침착하게 골 찬스 만들기 (Bình tĩnh tạo cơ hội)"
+      ],
+      "MIDFIELD": [
+        "능숙한 몸싸움",
+        "중거리 슛 향상 (Tăng cường sút xa)",
+        "티키타카 (Tiki-taka)"
+      ],
+      "DEFENSE": [
+        "능숙한 몸싸움",
+        "재정비 (Tái tổ chức nhanh / Quick recovery)"
+      ]
+    }
+  },
+  "4-2-2-1-1": {
+    "name": "4-2-2-1-1 Inven Champions Stable Double-Pivot (42211 투볼란치 수비안정)",
+    "source_url": "https://www.inven.co.kr/board/fifaonline4/3145",
+    "source_title": "감모 챔스 안정적인 42211 투볼란치 수비 전술 후기",
+    "source_date": "2025-08-22",
+    "author": "K_Tactician99",
+    "reported_rank": "챔피언스 (Champions)",
+    "formation": "4-2-2-1-1",
+    "evidence": "4-2-2-1-1 xuất hiện trong bài chia sẻ của HLV K_Tactician99 đạt rank Champions với tỷ lệ thắng 64.5%",
+    "retrieved_at": "2026-09-19T00:00:00",
+    "description": "4-2-2-1-1 xuất hiện trong bài viết của HLV đạt rank Champions: 2 tiền vệ phòng ngự (Double Pivot) tạo lá chắn vững chắc trước vòng cấm, hạn chế phản công trung lộ.",
+    "team_tactics": {
+      "build_up_speed": 65,
+      "passing": 45,
+      "positioning": "Organised (Tổ chức)",
+      "crossing": 60,
+      "shooting": 65,
+      "defense_pressure": 55,
+      "defense_aggression": 50,
+      "team_width": 50,
+      "defensive_line": "Cover (Bọc lót)"
+    },
+    "key_stat_requirements": {
+      "ST": "Làm tường, Đè người (Sức mạnh >= 118), Dứt điểm lạnh lùng",
+      "CAM": "Chuyền ngắn/kiến tạo >= 120, Sút xa >= 118, Thể lực >= 118",
+      "LAM_RAM": "Tốc độ >= 118, Thể lực >= 120, Tạt bóng và xâm nhập vòng cấm",
+      "LDM_RDM": "Thể hình lực sĩ, Thu hồi bóng >= 120, Chuyền dài >= 115"
+    }
+  },
+  "5-2-3": {
+    "name": "5-2-3 Inven Solid Counter-Attack Meta (5백 짠물 수비 역습)",
+    "source_url": "https://www.inven.co.kr/board/fifaonline4/3145",
+    "source_title": "연패 탈출용 5백 짠물 수비 역습 전술 검증",
+    "source_date": "2025-09-10",
+    "author": "Inven_DefenseMaster",
+    "reported_rank": "슈퍼 챌린지 (Super Challenge) / 챔피언스",
+    "formation": "5-2-3",
+    "evidence": "5-2-3 xuất hiện trong bài chia sẻ ngắt chuỗi thua của HLV Inven_DefenseMaster ngày 2025-09-10",
+    "retrieved_at": "2026-09-19T00:00:00",
+    "description": "5-2-3 xuất hiện trong bài viết kiểm chứng phòng ngự: 5 hậu vệ giải phóng 2 wingback dâng cao, bóp nghẹt các đợt tấn công trung lộ khi gặp đối thủ mạnh.",
+    "team_tactics": {
+      "build_up_speed": 85,
+      "passing": 70,
+      "positioning": "Free (Tự do)",
+      "crossing": 75,
+      "shooting": 70,
+      "defense_pressure": 40,
+      "defense_aggression": 65,
+      "team_width": 60,
+      "defensive_line": "Cover (Bọc lót)"
+    },
+    "key_stat_requirements": {
+      "LWB_RWB": "Thể lực >= 125, Tốc độ >= 122, Tạt bóng chuẩn xác",
+      "SW_CB": "Trung vệ thòng có khả năng bọc lót và chuyền dài phát động phản công"
+    }
+  },
+  "4-1-3-2": {
+    "name": "4-1-3-2 Inven Heavy Pressing 2-ST (4132 전방 압박)",
+    "source_url": "https://www.inven.co.kr/board/fifaonline4/3145",
+    "source_title": "4132 투톱 전방 압박 전술로 슈챔 찍은 후기",
+    "source_date": "2025-07-04",
+    "author": "AttackFirst_KR",
+    "reported_rank": "슈퍼 챔피언스 (Super Champions)",
+    "formation": "4-1-3-2",
+    "evidence": "4-1-3-2 xuất hiện trong bài viết của HLV AttackFirst_KR đạt rank Super Champions ngày 2025-07-04",
+    "retrieved_at": "2026-09-19T00:00:00",
+    "description": "4-1-3-2 xuất hiện trong bài viết của người chơi đạt rank Super Champions: 2 tiền đạo liên tục gây áp lực tầm cao, 3 tiền vệ công cung cấp bóng dồn dập.",
+    "team_tactics": {
+      "build_up_speed": 78,
+      "passing": 60,
+      "positioning": "Free (Tự do)",
+      "crossing": 65,
+      "shooting": 80,
+      "defense_pressure": 75,
+      "defense_aggression": 70,
+      "team_width": 55,
+      "defensive_line": "Cover (Bọc lót)"
+    },
+    "key_stat_requirements": {
+      "2_ST": "1 Tiền đạo mục tiêu (Target Man) càn lướt + 1 Tiền đạo tốc độ chạy chỗ luồn lách"
+    }
+  }
+}

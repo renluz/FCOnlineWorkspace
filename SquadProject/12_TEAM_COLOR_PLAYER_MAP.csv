@@ -1,0 +1,26 @@
+player_name,season,upgrade,country,eligible_clubs,related_team_color,special_team_color,verified_source,verified_date,confidence
+Vinícius Jr.,CU,8,Brazil,Real Madrid,Real Madrid 4 cấp,21-22 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Karim Benzema,BLD,8,France,"Lyon,Real Madrid,Al Ittihad",Real Madrid 4 cấp,19-20 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Rodrygo,CU,8,Brazil,"Santos,Real Madrid",Real Madrid 4 cấp,21-22 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Luka Modrić,CU,8,Croatia,"Dinamo Zagreb,Tottenham Hotspur,Real Madrid",Real Madrid 4 cấp,20-21 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Federico Valverde,CU,8,Uruguay,"Peñarol,Deportivo La Coruña,Real Madrid",Real Madrid 4 cấp,22-23 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Casemiro,CU,8,Brazil,"São Paulo,Real Madrid,Porto,Manchester United",Real Madrid 4 cấp,21-22 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Ferland Mendy,CU,8,France,"Le Havre,Lyon,Real Madrid",Real Madrid 4 cấp,23-24 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Aurélien Tchouaméni,CU,8,France,"Bordeaux,Monaco,Real Madrid",Real Madrid 4 cấp,23-24 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Éder Militão,CU,8,Brazil,"São Paulo,Porto,Real Madrid",Real Madrid 4 cấp,19-20 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Dani Carvajal,CU,8,Spain,"Bayer Leverkusen,Real Madrid",Real Madrid 4 cấp,23-24 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Thibaut Courtois,CU,8,Belgium,"Genk,Chelsea,Atlético Madrid,Real Madrid",Real Madrid 4 cấp,23-24 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-04,ABSOLUTE
+Kepa,CU,9,Spain,"Athletic Bilbao,Chelsea,Real Madrid,Bournemouth",Real Madrid 4 cấp,23-24 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+J. Bellingham,CU,8,England,"Birmingham City,Borussia Dortmund,Real Madrid",Real Madrid 4 cấp,23-24 Real Madrid 1 cấp,IN_GAME_CLIENT,2026-10-03,ABSOLUTE
+Koen Casteels,23HW,9,Belgium,"Genk,Hoffenheim,Werder Bremen,VfL Wolfsburg,Al Qadsiah",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+R. Ferdinand,DC,9,England,"West Ham,Leeds United,Manchester United,QPR",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+N. Matić,VTR,12,Serbia,"Chelsea,Benfica,Manchester United,AS Roma,Rennes,Lyon",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+S. Gerrard,UT,8,England,"Liverpool,LA Galaxy",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+M. Desailly,WG,5,France,"Nantes,Marseille,AC Milan,Chelsea",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+J. Koundé,FAC,5,France,"Bordeaux,Sevilla,Barcelona",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+M. Lacroix,25DP,5,France,"Sochaux,VfL Wolfsburg,Crystal Palace",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+Álvaro García,24EP,8,Spain,"Cádiz,Rayo Vallecano",None,None,FCOPLAYERS_DB,2026-10-02,HIGH
+K. Havertz,CU,8,Germany,"Bayer Leverkusen,Chelsea,Arsenal",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+E. Dinkci,24EP,8,Germany,"Werder Bremen,1. FC Heidenheim,SC Freiburg",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+S. McTominay,25TS,5,Scotland,"Manchester United,Napoli",None,None,FCOPLAYERS_DB,2026-09-20,HIGH
+B. Schweinsteiger,HG,9,Germany,"Bayern München,Manchester United,Chicago Fire",None,None,FCOPLAYERS_DB,2026-09-20,HIGH

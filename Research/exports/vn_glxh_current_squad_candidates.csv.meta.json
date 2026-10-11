@@ -1,0 +1,9 @@
+{
+  "source": "OWNED_INVENTORY_SOURCE_OF_TRUTH",
+  "source_file": "data/vn_owned_players.json",
+  "sample_type": "OWNED_PLAYER_DATA",
+  "target_salary_cap": 305,
+  "validation_status": "OWNED_INVENTORY_VALIDATION_PASSED",
+  "extracted_at": "2026-09-19T00:13:57.567758",
+  "provenance_notice": "Strictly scoped to user owned inventory from game screenshot. Zero hypothetical upgrades or season modifications."
+}

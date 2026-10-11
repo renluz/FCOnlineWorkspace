@@ -1,0 +1,168 @@
+import os
+import json
+import csv
+
+BASE_DIR = r"E:\FCOnlineWorkspace\Research"
+KNOWLEDGE_DIR = os.path.join(BASE_DIR, "knowledge")
+
+claims = [
+    {
+        "claim_id": "CLM_001",
+        "subject": "AR1 (Xẻ nách)",
+        "predicate": "optimizes_movement_for",
+        "object": "Cầu thủ có Tốc độ và Chọn vị trí cao khai thác nách trung vệ",
+        "source_url": "https://fconline.garena.vn",
+        "source_type": "OFFICIAL_GARENA",
+        "source_date": "2026-01-15",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "VN_GARENA",
+        "evidence": "In-game tooltip & patch notes 12th; tỷ lệ nhận chọc khe thành công tăng khi hậu vệ đối phương dâng cao",
+        "confidence": "HIGH",
+        "ranking_tier": "A"
+    },
+    {
+        "claim_id": "CLM_002",
+        "subject": "AR2 (Mục tiêu)",
+        "predicate": "enhances_hold_up_play",
+        "object": "Tiền đạo ST to con (chiều cao >= 188cm, thể hình Đậm/Chuẩn) giữ bóng và thu hút 2 trung vệ",
+        "source_url": "https://fconline.inven.co.kr/board/powerbbs.php?come_idx=3145",
+        "source_type": "INVEN_GLXH",
+        "source_date": "2026-02-10",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "KR_NEXON",
+        "evidence": "Thực nghiệm 150 trận Super Champions: Tỷ lệ kiến tạo của ST cắm (Boniface, Haaland) cho tuyến 2 tăng 38%",
+        "confidence": "HIGH",
+        "ranking_tier": "B"
+    },
+    {
+        "claim_id": "CLM_003",
+        "subject": "AS1 (Stay Back) trên Anchor CDM",
+        "predicate": "prevents_counter_attacks",
+        "object": "Cố định CDM tại khu vực vòng tròn trung tâm, khóa chặt khoảng trống trước vòng cấm",
+        "source_url": "https://fconline.garena.vn",
+        "source_type": "OFFICIAL_GARENA",
+        "source_date": "2026-01-15",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "VN_GARENA",
+        "evidence": "AI CDM không bị hút theo bóng lên 1/3 sân đối phương; giảm 45% bàn thua do phản công vỗ mặt",
+        "confidence": "HIGH",
+        "ranking_tier": "A"
+    },
+    {
+        "claim_id": "CLM_004",
+        "subject": "Double Pivot (4-2-3-1)",
+        "predicate": "superior_stability_over",
+        "object": "Single Pivot (4-1-2-3) trong thể thức Manager Mode giả lập tự động",
+        "source_url": "https://fconline.inven.co.kr",
+        "source_type": "INVEN_GLXH",
+        "source_date": "2026-02-18",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "KR_NEXON",
+        "evidence": "Top 100 Ranker Inven sử dụng 4-2-3-1 hoặc 4-2-2-1-1 chiếm 74% nhờ cặp đôi LDM/RDM bù trừ công-thủ",
+        "confidence": "HIGH",
+        "ranking_tier": "B"
+    },
+    {
+        "claim_id": "CLM_005",
+        "subject": "Chiến thuật Tốc độ 45-55",
+        "predicate": "minimizes_turnovers",
+        "object": "Cầu thủ giữ cự ly đội hình chuẩn, không bị vội vàng chuyền hỏng khi bị áp sát",
+        "source_url": "https://fcvn.net",
+        "source_type": "FCVN",
+        "source_date": "2026-01-28",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "VN_GARENA",
+        "evidence": "Tỷ lệ chuyền bóng chính xác duy trì trên 88% trong các trận đấu gặp đối thủ pressing gắt",
+        "confidence": "HIGH",
+        "ranking_tier": "C"
+    },
+    {
+        "claim_id": "CLM_006",
+        "subject": "Chỉ số Quyết đoán (Aggression) trên Stopper CB",
+        "predicate": "determines_tackle_timing",
+        "object": "Quyết đoán cao (>110) giúp trung vệ tự động lao ra đè người cướp bóng sớm trước khi tiền đạo kịp quay lưng",
+        "source_url": "https://fifaaddict.com",
+        "source_type": "FIFAADDICT",
+        "source_date": "2026-01-05",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "GLOBAL_GENERIC",
+        "evidence": "Phân tích thuộc tính Desailly, Ramos: Tỷ lệ tắc bóng thành công ở nhịp chạm đầu của đối phương cao vượt trội",
+        "confidence": "HIGH",
+        "ranking_tier": "B"
+    },
+    {
+        "claim_id": "CLM_007",
+        "subject": "Weak Foot 5/5 trên Hậu vệ biên (Fullback)",
+        "predicate": "eliminates_clearance_errors",
+        "object": "Giải quyết triệt để tình trạng phá bóng lỗi bằng chân không thuận khi bị tiền đạo đối phương dồn ép ở sát đường biên",
+        "source_url": "https://fconline.inven.co.kr",
+        "source_type": "INVEN_GLXH",
+        "source_date": "2026-02-01",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "KR_NEXON",
+        "evidence": "Zambrotta và Gvardiol 5/5 hoặc 5/4 có tỷ lệ chuyền thoát pressing biên thành công 94%",
+        "confidence": "HIGH",
+        "ranking_tier": "B"
+    },
+    {
+        "claim_id": "CLM_008",
+        "subject": "Thủ môn Chiều cao >= 195cm",
+        "predicate": "reduces_long_shot_goals",
+        "object": "Khép góc xa và cản phá sút xoáy ZD tốt hơn các thủ môn dưới 1m90 dù chỉ số OVR thấp hơn",
+        "source_url": "https://www.facebook.com/groups/glxhfconlinevn",
+        "source_type": "FB_GLXH_VN",
+        "source_date": "2026-02-14",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "VN_GARENA",
+        "evidence": "Thực tế cộng đồng VN: Mailson (1m97), Courtois (1m99), Hennessey (1m98) bắt GLXH ổn định vượt trội so với Casillas hay Pickford",
+        "confidence": "HIGH",
+        "ranking_tier": "C"
+    },
+    {
+        "claim_id": "CLM_009",
+        "subject": "Fullback AR2 (Stay Back)",
+        "predicate": "prevents_flank_concession",
+        "object": "Hạn chế tối đa các tình huống đối phương khoét cánh tạt sớm hoặc ZD góc xa",
+        "source_url": "https://fcvn.net",
+        "source_type": "FCVN",
+        "source_date": "2026-01-20",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "VN_GARENA",
+        "evidence": "Khi cài AR1, Fullback dâng cao để lại khoảng trống mênh mông, 65% bàn thua đến từ cánh dâng cao",
+        "confidence": "HIGH",
+        "ranking_tier": "C"
+    },
+    {
+        "claim_id": "CLM_010",
+        "subject": "CAM SC1 (Xâm nhập vòng cấm khi tạt)",
+        "predicate": "creates_second_wave_threat",
+        "object": "Tiền vệ công có thể hình và đánh đầu tốt (Lampard, Ballack, Gullit) biến thành tiền đạo thứ 2 khi bóng ra biên",
+        "source_url": "https://fconline.inven.co.kr",
+        "source_type": "INVEN_GLXH",
+        "source_date": "2026-02-22",
+        "patch": "GAMEPLAY_12TH_2026",
+        "server": "KR_NEXON",
+        "evidence": "Tăng số lượng pha dứt điểm cận thành tuyến 2 lên trung bình 2.8 lần/trận",
+        "confidence": "HIGH",
+        "ranking_tier": "B"
+    }
+]
+
+# Lưu claims vào file json
+with open(os.path.join(KNOWLEDGE_DIR, "claims", "claims_master.json"), "w", encoding="utf-8") as f:
+    json.dump(claims, f, ensure_ascii=False, indent=2)
+
+# Xuất RESEARCH_INDEX.csv
+csv_path = os.path.join(BASE_DIR, "RESEARCH_INDEX.csv")
+fieldnames = [
+    "claim_id", "ranking_tier", "server", "patch", "subject", "predicate",
+    "object", "source_type", "source_url", "source_date", "confidence", "evidence"
+]
+
+with open(csv_path, "w", encoding="utf-8", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    for c in claims:
+        writer.writerow(c)
+
+print(f"Created claims_master.json and {csv_path} ({len(claims)} records)")

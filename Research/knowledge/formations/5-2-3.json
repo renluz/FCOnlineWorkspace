@@ -1,0 +1,16 @@
+{
+  "formation_code": "5-2-3",
+  "name": "5-2-3 Khối Thấp Phản Công Thần Tốc (Low Block Counter)",
+  "structure": "5 Hậu vệ (LWB-LCB-CB-RCB-RWB), 2 Tiền vệ (LCM-RCM hoặc LDM-RDM), 3 Tiền đạo (LW-ST-RW)",
+  "strengths": [
+    "Phòng ngự số đông cực kỳ khó khoan phá trong vòng cấm",
+    "Tận dụng tốc độ 3 tiền đạo phản công chớp nhoáng"
+  ],
+  "weaknesses": [
+    "Tuyến giữa chỉ có 2 người, dễ bị đối phương ép sân và kiểm soát bóng dài hạn"
+  ],
+  "patch": "GAMEPLAY_12TH_2026",
+  "server": "VN_GARENA",
+  "required_profiles": "3 trung vệ không chiến tốt, 2 tiền đạo cánh có tốc độ vượt trội.",
+  "meta_status": "HIGH_RANK_OBSERVED"
+}

@@ -1,0 +1,26 @@
+{
+  "formation_code": "4-2-3-1",
+  "name": "4-2-3-1 Đóng Băng Trung Tuyến (The Balanced Benchmark)",
+  "structure": "4 Hậu vệ (LB-CB-CB-RB), 2 Tiền vệ trụ (LDM-RDM), 3 Tiền vệ công (LAM-CAM-RAM), 1 Tiền đạo cắm (ST)",
+  "roles": {
+    "ST": "Target Man hoặc Complete Forward có khả năng tì đè và dứt điểm đa dạng.",
+    "CAM": "Nhạc trưởng trung lộ, tầm nhìn cao, sút xa tốt.",
+    "LAM_RAM": "Cầu thủ chạy cánh hoặc Inside Forward đảo chân cắt vào trong.",
+    "LDM_RDM": "Cặp bài trùng hoàn hảo: 1 Anchor giữ vị trí + 1 Box-to-Box cơ động.",
+    "LB_RB": "Hậu vệ biên giữ vị trí (AR2 Stay Back) để chống phản công biên."
+  },
+  "strengths": [
+    "Cực kỳ cân bằng giữa công và thủ",
+    "Kiểm soát bóng tuyến giữa áp đảo",
+    "Chống phản công tốt nhờ cặp Double Pivot"
+  ],
+  "weaknesses": [
+    "Nếu ST bị cô lập thì đợt tấn công dễ bế tắc",
+    "Yêu cầu CAM và 2 Wingers có nhãn quan chuyền bóng tốt"
+  ],
+  "high_rank_evidence": "Chiếm trên 45% lựa chọn của Top 100 Inven Super Champions Hàn Quốc và Rank Thách Đấu Garena VN.",
+  "patch": "GAMEPLAY_12TH_2026",
+  "server": "GLOBAL_GENERIC",
+  "required_profiles": "ST to khỏe, CAM kiến tạo, LDM/RDM thể lực >110 và thủ >110.",
+  "meta_status": "CURRENT_BASELINE"
+}

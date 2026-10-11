@@ -1,0 +1,16 @@
+{
+  "formation_code": "4-1-2-3-0",
+  "name": "4-1-2-3-0 Kiểm Soát Không Tiền Đạo Cắm (False 9 Total Football)",
+  "structure": "4 Hậu vệ, 1 CDM, 2 CM, 2 Wingers (LW-RW), 1 CF/CAM lùi sâu không có ST cắm",
+  "strengths": [
+    "Hàng thủ đối phương mất phương hướng do không có tiền đạo để kèm",
+    "Kiểm soát bóng 60-70%"
+  ],
+  "weaknesses": [
+    "Thiếu điểm cắt bóng trong các tình huống tạt cánh bổng"
+  ],
+  "patch": "GAMEPLAY_12TH_2026",
+  "server": "KR_NEXON",
+  "required_profiles": "Toàn bộ tiền vệ và tiền đạo đều phải có kỹ năng chuyền bóng và rê dắt thượng thừa.",
+  "meta_status": "UNTESTED_HYPOTHESIS"
+}

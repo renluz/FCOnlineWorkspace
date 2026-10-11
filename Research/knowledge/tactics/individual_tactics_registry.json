@@ -1,0 +1,356 @@
+{
+  "ST_CF": {
+    "AR": {
+      "name": "Hỗ trợ tấn công (Attacking Runs)",
+      "options": {
+        "AR1": {
+          "ui_label_vn": "Xẻ nách / Chạy chỗ phá bẫy việt vị",
+          "description_official": "Cầu thủ chủ động di chuyển chéo vào khoảng trống giữa trung vệ và hậu vệ cánh đối phương.",
+          "effect_glxh": "Rất hiệu quả khi đối thủ dâng cao; tận dụng tốc độ và chỉ số Chọn vị trí để đón chọc khe QW/ZW.",
+          "patch": "GAMEPLAY_12TH_2026",
+          "source": "OFFICIAL_GARENA",
+          "evidence_tier": "A"
+        },
+        "AR2": {
+          "ui_label_vn": "Mục tiêu / Tiền đạo cắm làm tường",
+          "description_official": "Cầu thủ giữ vị trí trung tâm, quay lưng về phía khung thành để nhận bóng và phân phối cho tuyến 2.",
+          "effect_glxh": "Cực kỳ hợp với tiền đạo to con (Boniface, Haaland); giữ bóng chắc, thu hút trung vệ mở khoảng trống cho CAM/Winger.",
+          "patch": "GAMEPLAY_12TH_2026",
+          "source": "OFFICIAL_GARENA",
+          "evidence_tier": "A"
+        },
+        "AR3": {
+          "ui_label_vn": "Dạt biên / Mở rộng không gian",
+          "description_official": "Cầu thủ dạt hẳn sang cánh để kéo giãn cự ly phòng ngự đối phương.",
+          "effect_glxh": "Hiếm khi dùng trong sơ đồ 1 tiền đạo cắm; thường chỉ dùng cho CF trong hệ thống biến ảo.",
+          "patch": "GAMEPLAY_12TH_2026",
+          "source": "COMMUNITY_OBSERVED",
+          "evidence_tier": "C"
+        }
+      }
+    },
+    "DP": {
+      "name": "Hỗ trợ phòng ngự (Defensive Pressing)",
+      "options": {
+        "DP1": {
+          "ui_label_vn": "Luôn luôn hỗ trợ phòng thủ",
+          "description_official": "Cầu thủ sẽ luôn tích cực lùi về hỗ trợ phòng ngự.",
+          "effect_glxh": "Tiền đạo lùi sâu gây áp lực; làm hao mòn thể lực rất nhanh, chỉ dùng khi cần bảo toàn tỷ số.",
+          "patch": "GAMEPLAY_12TH_2026",
+          "source": "OFFICIAL_GARENA",
+          "evidence_tier": "A"
+        },
+        "DP2": {
+          "ui_label_vn": "Luôn ở trên",
+          "description_official": "Không lui về hỗ trợ phòng ngự mà chờ ở phía trên đón bóng.",
+          "effect_glxh": "Giữ thể lực cho ST, luôn sẵn sàng đón bóng phản công tốc độ cao ở 1/3 sân đối phương.",
+          "patch": "GAMEPLAY_12TH_2026",
+          "source": "OFFICIAL_GARENA",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "IN": {
+      "name": "Đánh chặn (Interceptions)",
+      "options": {
+        "IN1": {
+          "ui_label_vn": "Đánh chặn chủ động / Gắt gao",
+          "effect_glxh": "Áp sát hậu vệ đối phương ngay khi họ có bóng; dễ bị vượt qua nếu đối thủ chuyền nhanh.",
+          "evidence_tier": "A"
+        },
+        "IN2": {
+          "ui_label_vn": "Đánh chặn thận trọng",
+          "effect_glxh": "Giữ cự ly che chắn góc chuyền, tránh bị bắt bài.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "SR": {
+      "name": "Chạy chỗ hỗ trợ (Support Runs)",
+      "options": {
+        "SR1": {
+          "ui_label_vn": "Chạy chỗ áp sát hàng thủ",
+          "effect_glxh": "ST liên tục đứng trên mép việt vị đè mặt trung vệ đối phương.",
+          "evidence_tier": "B"
+        },
+        "SR2": {
+          "ui_label_vn": "Đợi bóng / Lùi lại hỗ trợ",
+          "effect_glxh": "ST chủ động giật lùi 2-3 nhịp nhận bóng phối hợp.",
+          "evidence_tier": "B"
+        }
+      }
+    }
+  },
+  "CAM": {
+    "DS": {
+      "name": "Hỗ trợ phòng thủ (Defensive Support)",
+      "options": {
+        "DS1": {
+          "ui_label_vn": "Luôn hỗ trợ phòng thủ (Come Back on Defense)",
+          "effect_glxh": "CAM tích cực lùi sâu về tạo khối phòng ngự trước vòng cấm khi đối thủ cầm bóng; tốn nhiều thể lực.",
+          "evidence_tier": "A"
+        },
+        "DS2": {
+          "ui_label_vn": "Luôn ở phía trên (Stay Forward)",
+          "effect_glxh": "CAM luôn túc trực ở 1/3 sân đối phương, sẵn sàng chọc khe hoặc đón bóng 2 phản công.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "SC": {
+      "name": "Xâm nhập vòng cấm (Cross Support)",
+      "options": {
+        "SC1": {
+          "ui_label_vn": "Xâm nhập vòng cấm khi tạt bóng",
+          "effect_glxh": "Lao vào điểm mù trung vệ để đánh đầu hoặc đệm bóng cận thành (rất hợp Lampard, Ballack).",
+          "evidence_tier": "A"
+        },
+        "SC2": {
+          "ui_label_vn": "Đợi bóng ở rìa vòng cấm",
+          "effect_glxh": "Dừng lại tuyến 2 đón bóng nảy ra để sút xa ZD/D căng.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "PF": {
+      "name": "Tự do di chuyển (Positioning Freedom)",
+      "options": {
+        "PF1": {
+          "ui_label_vn": "Di chuyển tự do (Free Roam)",
+          "description_official": "Cầu thủ tự do di chuyển tìm khoảng trống.",
+          "effect_glxh": "CAM di chuyển khắp trục ngang tìm bóng; biến hóa nhưng dễ xáo trộn cự ly.",
+          "evidence_tier": "B"
+        },
+        "PF2": {
+          "ui_label_vn": "Di chuyển rộng (Chỉ CAM, LAM/RAM KHÔNG sử dụng được)",
+          "description_official": "CAM dạt rộng sang 2 biên hỗ trợ cánh.",
+          "effect_glxh": "Kéo giãn trung lộ đối phương. LƯU Ý: Garena chính thức xác nhận LAM/RAM không dùng được PF2.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "IN": {
+      "name": "Đánh chặn (Interceptions)",
+      "options": {
+        "IN1": {
+          "ui_label_vn": "Chủ động",
+          "evidence_tier": "A"
+        },
+        "IN2": {
+          "ui_label_vn": "Thận trọng",
+          "evidence_tier": "A"
+        }
+      }
+    }
+  },
+  "LDM_RDM_CDM": {
+    "AS": {
+      "name": "Hỗ trợ tấn công (Attacking Support)",
+      "options": {
+        "AS1": {
+          "ui_label_vn": "Ở lại phía sau khi tấn công (Stay Back)",
+          "effect_glxh": "BẮT BUỘC cho vị trí Anchor; không dâng quá vòng tròn giữa sân, chống phản công cực tốt.",
+          "evidence_tier": "A"
+        },
+        "AS2": {
+          "ui_label_vn": "Tham gia tấn công (Join the Attack)",
+          "effect_glxh": "Dâng lên tiếp ứng tuyến 2; hợp với Ball-Winner hoặc Box-to-Box sút xa tốt.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "DB": {
+      "name": "Hỗ trợ phòng thủ (Defensive Behavior)",
+      "options": {
+        "DB1": {
+          "ui_label_vn": "Cắt đường chuyền (Cut Passing Lanes)",
+          "effect_glxh": "AI ưu tiên đứng chắn các khe chuyền bóng sệt của đối thủ.",
+          "evidence_tier": "A"
+        },
+        "DB2": {
+          "ui_label_vn": "Kèm chặt người (Man Mark)",
+          "effect_glxh": "Bám sát CAM đối phương; dễ bị hút người kéo giãn khoảng trống nếu đối thủ rê bóng dắt.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "DP": {
+      "name": "Định vị trung tuyến (Defensive Position)",
+      "options": {
+        "DP": {
+          "ui_label_vn": "Phòng thủ ở biên (Bọc lót cánh)",
+          "description_official": "Hỗ trợ phòng thủ ở biên khi hậu vệ cánh dâng cao.",
+          "effect_glxh": "Bọc lót khi Fullback dâng cao nhưng để hổng khu vực Zone 14 trước mặt 2 CB.",
+          "evidence_tier": "A"
+        },
+        "DP1": {
+          "ui_label_vn": "Tập trung ở trung lộ (Bảo vệ trung lộ)",
+          "description_official": "Tập trung phòng ngự ở khu vực giữa sân.",
+          "effect_glxh": "BẮT BUỘC cho Anchor CDM trong GLXH để khóa chết Zone 14. LƯU Ý: Không có mã DP2 trên CDM.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "IN": {
+      "name": "Đánh chặn (Interceptions)",
+      "options": {
+        "IN1": {
+          "ui_label_vn": "Đánh chặn chủ động",
+          "effect_glxh": "Lao lên tranh cướp bóng sớm; cần chỉ số Quyết đoán và Thể hình cao.",
+          "evidence_tier": "A"
+        },
+        "IN2": {
+          "ui_label_vn": "Đánh chặn thận trọng",
+          "effect_glxh": "Lùi bước giữ cự ly che chắn.",
+          "evidence_tier": "A"
+        }
+      }
+    }
+  },
+  "LB_RB": {
+    "AR": {
+      "name": "Tấn công biên (Attacking Runs)",
+      "options": {
+        "AR1": {
+          "ui_label_vn": "Chồng biên / Tham gia tấn công (Overlap)",
+          "effect_glxh": "Dâng cao tạo lợi thế quân số ở cánh nhưng để lộ khoảng trống cực lớn sau lưng.",
+          "evidence_tier": "A"
+        },
+        "AR2": {
+          "ui_label_vn": "Ở lại phía sau khi tấn công (Stay Back)",
+          "effect_glxh": "Tạo bức tường 4 hậu vệ kiên cố, vô hiệu hóa các bài phản công cánh tốc độ của đối thủ.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "IN": {
+      "name": "Đánh chặn (Interceptions)",
+      "options": {
+        "IN1": {
+          "ui_label_vn": "Chủ động",
+          "evidence_tier": "A"
+        },
+        "IN2": {
+          "ui_label_vn": "Thận trọng",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "SR": {
+      "name": "Khuynh hướng di chuyển (Support Runs)",
+      "options": {
+        "SR1": {
+          "ui_label_vn": "Bó vào trong (Inverted)",
+          "effect_glxh": "Bó vào giữa như một tiền vệ mỏ neo phụ khi đội nhà cầm bóng.",
+          "evidence_tier": "B"
+        },
+        "SR2": {
+          "ui_label_vn": "Bám biên (Overlap wide)",
+          "effect_glxh": "Luôn mở rộng biên độ đội hình.",
+          "evidence_tier": "B"
+        }
+      }
+    }
+  },
+  "CB": {
+    "IN": {
+      "name": "Đánh chặn (Interceptions)",
+      "options": {
+        "IN1": {
+          "ui_label_vn": "Đánh chặn chủ động / Dập gắt",
+          "effect_glxh": "Trung vệ dập lao lên chặn bóng ngay khi đối thủ chạm bước một (hợp Desailly, Ramos).",
+          "evidence_tier": "A"
+        },
+        "IN2": {
+          "ui_label_vn": "Đánh chặn thận trọng / Thòng bọc lót",
+          "effect_glxh": "Lùi sâu giữ cự ly, bọc lót khi trung vệ dập lỡ trớn (hợp Schär, Van Dijk).",
+          "evidence_tier": "A"
+        }
+      }
+    }
+  },
+  "LW_RW": {
+    "CC": {
+      "name": "Hỗ trợ tạt bóng / Hướng di chuyển (Chance Creation)",
+      "options": {
+        "CC1": {
+          "ui_label_vn": "Cắt vào trong (Cut Inside)",
+          "description_official": "Di chuyển bó vào trung lộ từ cánh.",
+          "effect_glxh": "Tạo góc sút ZD cho tiền đạo cánh đảo chân.",
+          "evidence_tier": "A"
+        },
+        "CC2": {
+          "ui_label_vn": "Bám biên (Stay Wide)",
+          "description_official": "Luôn giữ vị trí sát đường biên dọc.",
+          "effect_glxh": "Mở rộng chiều ngang sân đón bóng tạt.",
+          "evidence_tier": "A"
+        },
+        "CC3": {
+          "ui_label_vn": "Vai trò tự do (Free Role)",
+          "description_official": "Di chuyển linh hoạt không gò bó vị trí.",
+          "effect_glxh": "Tạo đột biến nhưng khó kiểm soát cấu trúc.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "SR": {
+      "name": "Chạy chỗ hỗ trợ (Support Runs)",
+      "options": {
+        "SR1": {
+          "ui_label_vn": "Đột phá / Xâm nhập (Get in Behind)",
+          "evidence_tier": "A"
+        },
+        "SR2": {
+          "ui_label_vn": "Hỗ trợ lùi (Come Short)",
+          "evidence_tier": "A"
+        },
+        "SR3": {
+          "ui_label_vn": "Tiền đạo mục tiêu (Target Man Winger)",
+          "description_official": "Luôn xuất hiện gần hậu vệ cuối đối thủ đón bóng làm tường.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "DS": {
+      "name": "Hỗ trợ phòng thủ (Defensive Support)",
+      "options": {
+        "DS1": {
+          "ui_label_vn": "Luôn hỗ trợ phòng ngự (Come Back on Defense)",
+          "effect_glxh": "Tiền đạo/tiền vệ cánh tích cực lùi sâu về hỗ trợ hậu vệ biên bọc lót cánh; tốn nhiều thể lực.",
+          "evidence_tier": "A"
+        },
+        "DS2": {
+          "ui_label_vn": "Luôn ở phía trên (Stay Forward)",
+          "effect_glxh": "Cầu thủ cánh luôn đứng ở phía trên chờ phản công, không lui về thủ.",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "IN": {
+      "name": "Đánh chặn (Interceptions)",
+      "options": {
+        "IN1": {
+          "ui_label_vn": "Chủ động",
+          "evidence_tier": "A"
+        },
+        "IN2": {
+          "ui_label_vn": "Thận trọng",
+          "evidence_tier": "A"
+        }
+      }
+    },
+    "SC": {
+      "name": "Hỗ trợ tạt bóng (Support on Crosses)",
+      "options": {
+        "SC1": {
+          "ui_label_vn": "Xâm nhập vòng cấm khi tạt bóng",
+          "evidence_tier": "A"
+        },
+        "SC2": {
+          "ui_label_vn": "Đợi bóng ở rìa vòng cấm",
+          "evidence_tier": "A"
+        }
+      }
+    }
+  }
+}

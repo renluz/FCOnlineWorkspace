@@ -1,0 +1,16 @@
+timestamp,spId,player_name,season,grade,price_min,price_max,buy_price,sell_price,buy_quantity,sell_quantity,market_availability,source,price_confidence,source_image
+2026-09-19 00:26:41,null,V. Boniface,WS,3,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,null,G. Zambrotta,WG,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,null,J. Gvardiol,25DP,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,null,T. Rosicky,WG,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,null,Park Ji Sung,NO.7,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,null,F. Schar,25DP,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,216001075,A. Del Piero,HOT,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,216214100,R. Gullit,HOT,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,221231866,Rodri,19,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,221155862,Sergio Ramos,19,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,216170084,W. Hennessey,HOT,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,216216201,Inaki Williams,HOT,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:26:41,234188567,P. Aubameyang,LH,1,null,null,null,null,null,null,UNKNOWN,FCOPLAYERS_PUBLIC_MARKET,null,null
+2026-09-19 00:56:27,null,V. Boniface,null,null,null,null,14900000000,15400000000,7,null,BUY_ORDERS_ONLY,IN_GAME_SCREENSHOT,LOW,boniface_ws_market.png
+2026-09-19 00:56:27,null,V. Boniface,WS,3,null,null,null,900000,14900,null,BUY_ORDERS_ONLY,IN_GAME_SCREENSHOT,HIGH,sample_boniface.png
