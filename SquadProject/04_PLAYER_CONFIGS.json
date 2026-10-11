@@ -1,13 +1,13 @@
 {
   "_metadata": {
     "project": "FCOnlineSquadProject",
-    "updated_at": "2026-10-04",
-    "preset_name": "4-1-2-3-0_WIFI_CURRENT_BASELINE — CU_CORE_REAL_MADRID_11_11",
-    "test_id": "TEST_010_WIFI_BENZEMA_BLD",
-    "formation": "4-1-2-3-0 WiFi",
-    "manager": "Dariusz Banasik",
+    "updated_at": "2026-10-11",
+    "preset_name": "4-1-2-3-0_GAMEDAY_BASELINE",
+    "test_id": "BASELINE_20261011_SYNC",
+    "formation": "4-1-2-3-0",
+    "manager": "Amund Skiri",
     "schema_standard": "GARENA_INVEN_FULL_UI_GRID (LAM/RAM/CAM: 4 lines, CM: 5 lines, CDM: 4 lines, LB/RB: 3 lines, CB: 2 lines, GK: 2 lines)",
-    "notes": "CURRENT BASELINE CHÍNH THỨC 2026-10-03: Real Madrid 11/11 (Real Madrid 4 cấp). Kepa CU +9 đá chính GK thay Casteels 23HW +9. Rodrygo CU +8 RAM, Casemiro CU +8 CDM, Tchouaméni CU +8 LCB Cover, Militão CU +8 RCB Stopper. Bổ sung Special Team Color cho 11 vị trí.",
+    "notes": "Đồng bộ baseline in-game 11/10/2026: Sơ đồ 4-1-2-3-0, tổng lương 300/305. Cập nhật 11 HLV tập luyện theo ảnh game. 3 skill HLV của các HLV mới/đổi đặt PENDING_SCREENSHOT theo nguyên tắc không bịa dữ liệu.",
     "session_notes": "CHỐT TOÀN DIỆN MA TRẬN +5 / +8 VÀ PHÂN BỔ HLV TẬP LUYỆN THỰC CHIẾN 2026-10-04 (Mục tiêu thoát Tinh Anh 3, giảm GA).",
     "patch_rule": "GARENA_PATCH_20260803: Slot +8 là kỹ năng HLV bổ sung (Kỹ năng thứ 4), TUYỆT ĐỐI KHÔNG TRÙNG với 3 kỹ năng của HLV Tập Luyện."
   },
@@ -28,11 +28,11 @@
   "players": [
     {
       "card_spec": {
-        "player_name": "Vinícius Jr.",
-        "season": "CU",
+        "player_name": "K. Mbappé",
+        "season": "UT",
         "grade": 8,
-        "ovr": 138,
-        "salary": 28
+        "ovr": 142,
+        "salary": 29
       },
       "position": "LAM",
       "archetype": "LEFT INSIDE RUNNER / LINE BREAKER",
@@ -110,10 +110,10 @@
     },
     {
       "card_spec": {
-        "player_name": "Karim Benzema",
+        "player_name": "K. Benzema",
         "season": "BLD",
         "grade": 8,
-        "ovr": 138,
+        "ovr": 144,
         "salary": 29
       },
       "position": "CAM",
@@ -159,12 +159,9 @@
         },
         "plus8_skill_coach": {
           "training_coach": {
-            "name": "Ezequiel ★7",
-            "skills": [
-              "Cải thiện chuyền chọc khe",
-              "Di chuyển ngay khi đỡ bước 1",
-              "Chiến thuật chuyền trực tiếp"
-            ]
+            "name": "Antero Maria ★8",
+            "skills": [],
+            "skills_status": "PENDING_SCREENSHOT"
           },
           "additional_plus8_skill": "Khả năng khéo léo",
           "status": "locked_no_duplicate_rule",
@@ -190,14 +187,14 @@
     },
     {
       "card_spec": {
-        "player_name": "Marcos Llorente",
+        "player_name": "Luís Figo",
         "season": "UT",
-        "grade": 9,
-        "ovr": 144,
-        "salary": 28,
+        "grade": 8,
+        "ovr": 142,
+        "salary": 29,
         "physical": "184cm / 74kg / Thể hình Nhỏ / Chân 5-5 / Stamina nền: 119"
       },
-      "position": "RM",
+      "position": "RAM",
       "archetype": "RIGHT DIRECT CROSSER / BOX-TO-BOX WING (184CM / 74KG, STAMINA 119 NỀN, CHÂN 5-5)",
       "innate_traits": [
         "Sút xa (AI)",
@@ -239,12 +236,9 @@
         },
         "plus8_skill_coach": {
           "training_coach": {
-            "name": "Antero Maria (B) ★7",
-            "skills": [
-              "Khả năng khéo léo",
-              "Cải thiện chuyền chọc khe",
-              "Phản ứng ngay khi kêu gọi xâm nhập"
-            ]
+            "name": "Raymond ★8",
+            "skills": [],
+            "skills_status": "PENDING_SCREENSHOT"
           },
           "additional_plus8_skill": "Tổ chức",
           "status": "candidate_provisional_test_config",
@@ -271,9 +265,9 @@
     {
       "card_spec": {
         "player_name": "J. Bellingham",
-        "season": "CU",
+        "season": "GRU",
         "grade": 8,
-        "ovr": 138,
+        "ovr": 143,
         "salary": 28
       },
       "position": "LCM",
@@ -326,12 +320,9 @@
         },
         "plus8_skill_coach": {
           "training_coach": {
-            "name": "Lasse (bộ 1) ★8",
-            "skills": [
-              "Khả năng khéo léo",
-              "Tăng khả năng phòng thủ Pressing",
-              "Tổ chức"
-            ]
+            "name": "Antero Maria ★7",
+            "skills": [],
+            "skills_status": "PENDING_SCREENSHOT"
           },
           "additional_plus8_skill": "Chiến thuật chuyền trực tiếp",
           "status": "locked_no_duplicate_rule",
@@ -357,10 +348,10 @@
     },
     {
       "card_spec": {
-        "player_name": "Federico Valverde",
+        "player_name": "F. Valverde",
         "season": "CU",
         "grade": 8,
-        "ovr": 137,
+        "ovr": 141,
         "salary": 27
       },
       "position": "RCM",
@@ -443,7 +434,7 @@
     },
     {
       "card_spec": {
-        "player_name": "Casemiro",
+        "player_name": "D. Alaba",
         "season": "CU",
         "grade": 8,
         "ovr": 141,
@@ -523,10 +514,10 @@
     },
     {
       "card_spec": {
-        "player_name": "Ferland Mendy",
+        "player_name": "F. Mendy",
         "season": "CU",
         "grade": 8,
-        "ovr": 136,
+        "ovr": 139,
         "salary": 26
       },
       "position": "LB",
@@ -563,8 +554,13 @@
           "status": "client_verified_20260921"
         },
         "plus8_skill_coach": {
-          "status": "PENDING_3_TRAINING_SKILLS_VERIFICATION",
-          "notes": "Chờ rà soát 3 skill của HLV Tập Luyện hiện tại trước khi khóa kỹ năng thứ 4 mốc +8 để tránh trùng."
+          "status": "coach_assigned_skills_pending",
+          "notes": "Chờ rà soát 3 skill của HLV Tập Luyện hiện tại trước khi khóa kỹ năng thứ 4 mốc +8 để tránh trùng.",
+          "training_coach": {
+            "name": "Rodolfo ★7",
+            "skills": [],
+            "skills_status": "PENDING_SCREENSHOT"
+          }
         }
       },
       "target_recommendation_v2": {
@@ -578,11 +574,11 @@
     },
     {
       "card_spec": {
-        "player_name": "Antonio Rüdiger",
+        "player_name": "A. Rüdiger",
         "season": "CU",
         "grade": 8,
-        "ovr": 139,
-        "salary": 27,
+        "ovr": 140,
+        "salary": 26,
         "physical": "190cm / 86kg / Thể hình Sức khỏe / Chân 4-5"
       },
       "position": "LCB",
@@ -616,7 +612,7 @@
         },
         "plus8_skill_coach": {
           "training_coach": {
-            "name": "Lasse (bộ 2) ★8",
+            "name": "Lasse ★8",
             "skills": [
               "Khả năng khéo léo",
               "Tăng khả năng phòng thủ Pressing",
@@ -650,7 +646,7 @@
         "player_name": "Éder Militão",
         "season": "CU",
         "grade": 8,
-        "ovr": 136,
+        "ovr": 140,
         "salary": 27
       },
       "position": "RCB",
@@ -714,10 +710,10 @@
     },
     {
       "card_spec": {
-        "player_name": "Dani Carvajal",
+        "player_name": "Carvajal",
         "season": "CU",
         "grade": 8,
-        "ovr": 136,
+        "ovr": 142,
         "salary": 28
       },
       "position": "RB",
@@ -753,8 +749,13 @@
           "status": "client_verified_20260921"
         },
         "plus8_skill_coach": {
-          "status": "PENDING_3_TRAINING_SKILLS_VERIFICATION",
-          "notes": "Chờ rà soát 3 skill của HLV Tập Luyện hiện tại trước khi khóa kỹ năng thứ 4 mốc +8 để tránh trùng."
+          "status": "coach_assigned_skills_pending",
+          "notes": "Chờ rà soát 3 skill của HLV Tập Luyện hiện tại trước khi khóa kỹ năng thứ 4 mốc +8 để tránh trùng.",
+          "training_coach": {
+            "name": "Lasse ★8",
+            "skills": [],
+            "skills_status": "PENDING_SCREENSHOT"
+          }
         }
       },
       "target_recommendation_v2": {
@@ -768,10 +769,10 @@
     },
     {
       "card_spec": {
-        "player_name": "Thibaut Courtois",
+        "player_name": "T. Courtois",
         "season": "CU",
         "grade": 8,
-        "ovr": 141,
+        "ovr": 140,
         "salary": 24
       },
       "position": "GK",
@@ -807,7 +808,12 @@
         "plus8_skill_coach": {
           "additional_plus8_skill": "Cản phá sút tầm thấp ( Chỉ GK)",
           "status": "client_verified_20261004",
-          "notes": "Khóa kỹ năng thứ 4: Cản phá sút tầm thấp (Chỉ GK) hóa giải triệt để điểm yếu sút chìm của thể hình 200cm; 3 skill HLV Tập Luyện mục tiêu: Cản phá sút, Cản phá sút cự ly gần, Cản phá sút khoảng cách trung bình."
+          "notes": "Khóa kỹ năng thứ 4: Cản phá sút tầm thấp (Chỉ GK) hóa giải triệt để điểm yếu sút chìm của thể hình 200cm; 3 skill HLV Tập Luyện mục tiêu: Cản phá sút, Cản phá sút cự ly gần, Cản phá sút khoảng cách trung bình.",
+          "training_coach": {
+            "name": "Alijoša ★5",
+            "skills": [],
+            "skills_status": "PENDING_SCREENSHOT"
+          }
         }
       },
       "target_recommendation_v2": {
